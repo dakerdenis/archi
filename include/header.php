@@ -1,7 +1,7 @@
-<header class="header_container">
-            <div class="header_wrapper">
+<header class="header__container">
+            <div class="header__wrapper">
                 <!-------IMAGE-------->
-                <div class="header_image">
+                <div class="header__image">
                     <a href="#">
                         <img src="./imgs/logo.png" alt="Archi logo">
                     </a>

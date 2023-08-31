@@ -5,7 +5,8 @@
     .header__wrapper {
         width: 89.8%;
         margin: 0 auto;
-        @include flexSpaceBetween();
+        height: 100%;
+        @include flexSpaceBetween(row);
         .header__image {
             a {
             }
@@ -14,9 +15,21 @@
         }
         .header__navigation {
             ul{
+                width: 560px;
+                @include flexSpaceBetween(row);
                 li{
                     a{
-                        
+                        color: $black;
+                        background-color: $mainWhite;
+                        font-size: $header_nav;
+                        text-decoration: none;
+                        padding: 7px 11px;
+                        font-weight: 700;
+                        border-radius: 10px;
+                        transition: ease-in-out 0.2s;
+                    }
+                    a:hover{
+                        background-color: $yellow;
                     }
                 }
             }

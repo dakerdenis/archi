@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'CenturyGothic';
+    src: url('./fonts/CenturyGothic.ttf') format('ttf'), 
+         url('./fonts/gothicb.ttf') format('ttf'),
+         url('./fonts/GOTHICB0.TTF') format('ttf'),
+         url('./fonts/GOTHIC.TTF') format('ttf') ;
+    /* Add other font properties like font-weight and font-style if needed */
+  }
 * {
     padding: 0;
     margin: 0;
@@ -39,7 +47,7 @@
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    font-family: "Noto Sans", sans-serif;
+    font-family: 'CustomFontName', sans-serif;
   }
   
   body.lock {
@@ -91,9 +99,10 @@
     font-size: inherit;
     font-weight: 400;
   }
+
 /***********COLORS*********************/
 @import './colors';
-/************FONTS********************/
+/************FONT SIZES********************/
 @import './fonts';
 /************MIXINS******************/
 @import './mixins';
@@ -101,6 +110,7 @@
 .main__wrapper{
     min-height: 100vh;
     width: 100%;
+    font-family: 'CustomFontName', sans-serif;
     @import './header';
 
 
