@@ -1,22 +1,30 @@
-.header__container{
+
+.header__container {
     width: 100%;
     height: 100px;
-    .header__wrapper{
+    .header__wrapper {
         width: 89.8%;
         margin: 0 auto;
-
-        display: flex;
-        justify-content: space-between;
-        .header__image{
-            a{}
-            img{}
+        @include flexSpaceBetween();
+        .header__image {
+            a {
+            }
+            img {
+            }
         }
-        .header__navigation{
-
+        .header__navigation {
+            ul{
+                li{
+                    a{
+                        
+                    }
+                }
+            }
         }
-        .header__profile{
-            .header__profile__image{
-                img{}
+        .header__profile {
+            .header__profile__image {
+                img {
+                }
             }
         }
     }
