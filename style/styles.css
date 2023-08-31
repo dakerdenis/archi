@@ -39,7 +39,7 @@ body {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-
+  font-family: "Noto Sans", sans-serif;
 }
 
 body.lock {
@@ -92,12 +92,22 @@ h6 {
   font-weight: 400;
 }
 
-/********************************/
-.container .header {
-  color: rgb(255, 255, 0);
+/***********COLORS*********************/
+/************FONTS********************/
+/************************************/
+.main__wrapper {
+  min-height: 100vh;
+  width: 100%;
 }
-.container .stalker {
-  color: red;
+.main__wrapper .header__container {
+  width: 100%;
+  height: 100px;
+}
+.main__wrapper .header__container .header__wrapper {
+  width: 89.8%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=styles.css.map */

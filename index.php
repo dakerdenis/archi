@@ -8,54 +8,18 @@
 </head>
 <body>
     <div class="main__wrapper">
-        <header class="header_container">
-            <div class="header_wrapper">
-                <!-------IMAGE-------->
-                <div class="header_image">
-                    <a href="#">
-                        <img src="./imgs/logo.png" alt="Archi logo">
-                    </a>
-                </div>
-                <!-----NAVIGATION------>
-                <div class="header__navigation">
-                    <ul>
-                        <li><a href="#">Книга ремонта</a></li>
-                        <li><a href="#">Построй дом!</a></li>
-                        <li><a href="#">B2B</a></li>
-                        <li><a href="#">О проекте</a></li>
-                    </ul>
-                </div>
-
-                <!------->
-                <div class="header__profile">
-                    <div class="header__profile__image">
-                        <img src="./imgs/profile.png" alt="Profile Logo">
-                    </div>
-                </div>
-            </div>
-        </header>
+        <?php include './include/header.php'?>
 
         <div class="main__content">
             
         </div>
 
 
-        <footer class="footer">
-            <div class="footer__wrapper">
-                <div class="footer__image__copy">
-                    <div class="footer__image">
-                        <img src="./imgs/logo_white.png" alt="Archi Logo">
-                    </div>
-                    <div class="footer__copy">
-                        <p>©Copyright  2023</p>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        <?php include './include/footer.php'?>
 
 
     </div>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <script src="./scripts/index.js"></script>
 </body>
 </html>
