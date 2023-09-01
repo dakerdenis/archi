@@ -42,7 +42,7 @@ body {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font-family: "CustomFontName", sans-serif;
+  font-family: "CenturyGothic", sans-serif;
 }
 
 body.lock {
@@ -98,34 +98,77 @@ h6 {
 /***********COLORS*********************/
 /************FONT SIZES********************/
 /************MIXINS******************/
-.main__wrapper {
-  min-height: 100vh;
+.main__page__container {
+  height: calc(100vh - 100px);
   width: 100%;
-  font-family: "CustomFontName", sans-serif;
-  /***********HEADER**************/
-  /***********HEADER**************/
-  /***********HEADER**************/
-  /************************************/
-  /************************************/
-  /************************************/
-  /************MAIN*************/
-  /************MAIN*************/
-  /************MAIN*************/
-  /************************************/
-  /************************************/
-  /************************************/
-  /************FOOTER*************/
-  /************FOOTER*************/
-  /************FOOTER*************/
-  /************************************/
-  /************************************/
-  /************************************/
 }
-.main__wrapper .header__container {
+.main__page__container .advertisement {
+  height: 100%;
+  max-width: 1148px;
+  margin: 0 auto;
+}
+.main__page__container .advertisement .advertisement__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.main__page__container .advertisement .advertisement__wrapper .block {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 6px;
+}
+.main__page__container .advertisement .advertisement__wrapper .block .advertisement__block_small {
+  height: 161.14px;
+  width: 279.26px;
+  border-radius: 17px;
+  background-color: rgb(66, 144, 29);
+  margin-bottom: 9.93px;
+}
+.main__page__container .advertisement .advertisement__wrapper .block .advertisement__block_medium {
+  height: 161.46px;
+  width: 565.67px;
+  border-radius: 17px;
+  background-color: rgb(182, 223, 162);
+  margin-bottom: 9.93px;
+}
+.main__page__container .advertisement .advertisement__wrapper .block .advertisement__block_big {
+  height: 332.22px;
+  width: 565.67px;
+  background-color: rgb(230, 230, 230);
+  border-radius: 17px;
+  margin-bottom: 9.93px;
+}
+.main__page__container .advertisement .advertisement__wrapper .block .block_big {
+  width: 50%;
+}
+.main__page__container .advertisement .advertisement__wrapper .block .block_small {
+  width: 50%;
+  display: flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.main__page__container .survey .container .survey__block {
+  background-color: red;
+}
+
+/***********HEADER**************/
+/***********HEADER**************/
+/***********HEADER**************/
+.header__container {
   width: 100%;
   height: 100px;
 }
-.main__wrapper .header__container .header__wrapper {
+.header__container .header__wrapper {
   width: 89.8%;
   margin: 0 auto;
   height: 100%;
@@ -135,7 +178,7 @@ h6 {
   flex-direction: row;
   flex-wrap: wrap;
 }
-.main__wrapper .header__container .header__wrapper .header__navigation ul {
+.header__container .header__wrapper .header__navigation ul {
   width: 560px;
   display: flex;
   justify-content: space-between;
@@ -143,7 +186,7 @@ h6 {
   flex-direction: row;
   flex-wrap: wrap;
 }
-.main__wrapper .header__container .header__wrapper .header__navigation ul li a {
+.header__container .header__wrapper .header__navigation ul li a {
   color: rgb(0, 0, 0);
   background-color: #ffffff;
   font-size: 16px;
@@ -153,53 +196,33 @@ h6 {
   border-radius: 10px;
   transition: ease-in-out 0.2s;
 }
-.main__wrapper .header__container .header__wrapper .header__navigation ul li a:hover {
+.header__container .header__wrapper .header__navigation ul li a:hover {
   background-color: rgb(255, 255, 0);
 }
-.main__wrapper .main__page__container {
-  min-height: calc(100vh - 100px);
-  width: 100%;
+/************************************/
+/************************************/
+/************************************/
+.main__content {
+  height: calc(100vh - 100px);
 }
-.main__wrapper .main__page__container .advertisement {
-  width: 79.75%;
-  max-width: 1148px;
-  margin: 0 auto;
-}
-.main__wrapper .main__page__container .advertisement .advertisement__wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-.main__wrapper .main__page__container .advertisement .advertisement__wrapper .block {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-bottom: 15px;
-}
-.main__wrapper .main__page__container .advertisement .advertisement__wrapper .block .advertisement__block_small {
-  height: 279.26px;
-  width: 161.14px;
-  border-radius: 17px;
-  background-color: rgb(66, 144, 29);
-}
-.main__wrapper .main__page__container .advertisement .advertisement__wrapper .block .advertisement__block_medium {
-  height: 161.46px;
-  width: 565.67px;
-  border-radius: 17px;
-  background-color: rgb(182, 223, 162);
-}
-.main__wrapper .footer {
+
+/************MAIN*************/
+/************MAIN*************/
+/************MAIN*************/
+/************************************/
+/************************************/
+/************************************/
+/************FOOTER*************/
+/************FOOTER*************/
+/************FOOTER*************/
+.footer {
   width: 100%;
   min-height: 232px;
   background-color: rgb(0, 0, 0);
   border-radius: 13px 13px 0 0;
   padding: 30px 0px;
 }
-.main__wrapper .footer .footer__wrapper {
+.footer .footer__wrapper {
   width: 89.8%;
   margin: 0 auto;
   display: flex;
@@ -208,13 +231,13 @@ h6 {
   flex-direction: row;
   flex-wrap: wrap;
 }
-.main__wrapper .footer .footer__wrapper .footer__image__copy {
+.footer .footer__wrapper .footer__image__copy {
   width: 165px;
 }
-.main__wrapper .footer .footer__wrapper .footer__nav {
+.footer .footer__wrapper .footer__nav {
   width: 80%;
 }
-.main__wrapper .footer .footer__wrapper .footer__nav .footer__nav__wrapper {
+.footer .footer__wrapper .footer__nav .footer__nav__wrapper {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -222,12 +245,16 @@ h6 {
   flex-direction: row;
   flex-wrap: wrap;
 }
-.main__wrapper .footer .footer__wrapper .footer__nav .footer__nav__wrapper .footer__nav__block .footer__nav__element a {
+.footer .footer__wrapper .footer__nav .footer__nav__wrapper .footer__nav__block .footer__nav__element a {
   margin-bottom: 6px;
 }
-.main__wrapper .footer .footer__wrapper .footer__nav .footer__nav__wrapper .footer__nav__block .footer__nav__element a p {
+.footer .footer__wrapper .footer__nav .footer__nav__wrapper .footer__nav__block .footer__nav__element a p {
   color: #ffffff;
   font-size: 18px;
   font-weight: 400;
   line-height: 22.07px;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/************************************/
+/************************************/
+/************************************//*# sourceMappingURL=styles.css.map */

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./style/styles.css">
 </head>
 <body>
-    <div class="main__wrapper">
+
         <?php include './include/header.php' ?>
 
         <div class="main__content">
@@ -15,7 +15,7 @@
             if (isset($_GET['page'])) {
                 switch ($_GET['page']) {
                     case "main":
-                        include './include/main.php';
+                        include './include/mainpage.php';
                         break;
                     case "login":
                         include './include/login.php';
@@ -40,7 +40,7 @@
                         break;
                 }
             } else {
-                include './include/main.php';
+                include './include/mainpage.php';
             }
             ?>
 
@@ -50,7 +50,7 @@
         <?php include './include/footer.php' ?>
 
 
-    </div>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <script src="./scripts/index.js"></script>
 </body>

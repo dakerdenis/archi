@@ -7,12 +7,17 @@
                 <div class="advertisement__block_medium">asdasd</div>
             </div>
             <div class="block">
-                <div class="advertisement__block_big"></div>
-                <div class="advertisement__block_small"></div>
-                <div class="advertisement__block_small"></div>
-                <div class="advertisement__block_small"></div>
-                <div class="advertisement__block_small"></div>
+                <div class="block_big">
+                    <div class="advertisement__block_big"></div>
+                </div>
+                <div class="block_small">
+                    <div class="advertisement__block_small"></div>
+                    <div class="advertisement__block_small"></div>
+                    <div class="advertisement__block_small"></div>
+                    <div class="advertisement__block_small"></div>
+                </div>
             </div>
+
         </div>
     </div>
 
@@ -24,7 +29,7 @@
         </div>
         <div class="container">
             <div class="survey__block">
-asdasd
+                asdasd
             </div>
             <div class="survey__block">
 

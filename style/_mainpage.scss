@@ -1,39 +1,64 @@
+
 .main__page__container {
-    min-height: calc(100vh - 100px);
+    height: calc(100vh - 100px);
     width: 100%;
     .advertisement {
+        height: 100%;
 
-        width: 79.75%;
         max-width: 1148px;
         margin: 0 auto;
-        background-color: red;
+
 
         .advertisement__wrapper {
+            width: 100%;
             display: flex;
             justify-content: space-between;
             align-items: center;
             flex-direction: column;
             flex-wrap: wrap;
+
             .block {
+                width: 100%;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
                 flex-direction: row;
                 flex-wrap: wrap;
-                margin-bottom: 15px;
+                margin-bottom: 6px;
+
+                
                 .advertisement__block_small {
                     height: 161.14px;
                     width:  279.26px;
                     border-radius: 17px;
-                    background-color: rgb(18, 85, 18);
+                    background-color: $mainGreen;
+                    margin-bottom: 9.93px;
                 }
                 .advertisement__block_medium {
                     height: 161.46px;
                     width: 565.67px;
                     border-radius: 17px;
-                    background-color: rgb(157, 233, 157);
+                    background-color: $primaryGreen;
+                    margin-bottom: 9.93px;
                 }
                 .advertisement__block_big {
+                    height: 332.22px;
+                    width: 565.67px;
+                    background-color: $primaryGrey;
+                    border-radius: 17px;
+                    margin-bottom: 9.93px;
+                }
+                .block_big {
+                    width: 50%;
+                }
+                .block_small{
+                    width: 50%;
+                    display: flex;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-direction: row;
+                    flex-wrap: wrap;
                 }
             }
         }
@@ -43,6 +68,7 @@
         }
         .container {
             .survey__block {
+                background-color: red;
             }
         }
     }
