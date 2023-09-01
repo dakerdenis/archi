@@ -157,6 +157,21 @@ h6 {
   flex-direction: row;
   flex-wrap: wrap;
 }
+.main__page__container .advertisement .advertisement__wrapper .block .block__wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 20px 10px;
+  color: #ffffff;
+  font-size: 11px;
+}
+.main__page__container .advertisement .advertisement__wrapper .block .block__wrapper .block__name p {
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
 .main__page__container .survey .container .survey__block {
   background-color: red;
 }

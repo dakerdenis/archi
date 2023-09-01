@@ -2,19 +2,103 @@
     <div class="advertisement">
         <div class="advertisement__wrapper">
             <div class="block">
-                <div class="advertisement__block_small">asdas</div>
-                <div class="advertisement__block_small">asdasd</div>
-                <div class="advertisement__block_medium">asdasd</div>
+                <div class="advertisement__block_small">
+                    <div class="block__wrapper">
+                        <div class="block__name">
+                            <p>Доставка керамогранита</p>
+                        </div>
+                        <div class="block__desc">
+                             Компания «G-Stone» является лидером 
+                             поставках самого качественного и 
+                            олговечного керамогранита.
+                        </div>
+                    </div>
+                </div>
+                <div class="advertisement__block_small">
+                <div class="block__wrapper">
+                        <div class="block__name">
+                            <p>Доставка керамогранита</p>
+                        </div>
+                        <div class="block__desc">
+                             Компания «G-Stone» является лидером 
+                             поставках самого качественного и 
+                            олговечного керамогранита.
+                        </div>
+                    </div>
+                </div>
+                <div class="advertisement__block_medium">
+                <div class="block__wrapper">
+                        <div class="block__name">
+                            <p>Доставка керамогранита</p>
+                        </div>
+                        <div class="block__desc">
+                             Компания «G-Stone» является лидером 
+                             поставках самого качественного и 
+                            олговечного керамогранита.
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="block">
                 <div class="block_big">
-                    <div class="advertisement__block_big"></div>
+                    <div class="advertisement__block_big">
+                    <div class="block__wrapper">
+                        <div class="block__name">
+                            <p>Доставка керамогранита</p>
+                        </div>
+                        <div class="block__desc">
+                             Компания «G-Stone» является лидером 
+                             поставках самого качественного и 
+                            олговечного керамогранита.
+                        </div>
+                    </div>
+                    </div>
                 </div>
                 <div class="block_small">
-                    <div class="advertisement__block_small"></div>
-                    <div class="advertisement__block_small"></div>
-                    <div class="advertisement__block_small"></div>
-                    <div class="advertisement__block_small"></div>
+                    <div class="advertisement__block_small">
+                        <div class="block__wrapper">
+                        <div class="block__name">
+                            <p>Доставка керамогранита</p>
+                        </div>
+                        <div class="block__desc">
+                             Компания «G-Stone» является лидером 
+                             поставках самого качественного и 
+                            олговечного керамогранита.
+                        </div>
+                    </div></div>
+                    <div class="advertisement__block_small">                    
+                        <div class="block__wrapper">
+                        <div class="block__name">
+                            <p>Доставка керамогранита</p>
+                        </div>
+                        <div class="block__desc">
+                             Компания «G-Stone» является лидером 
+                             поставках самого качественного и 
+                            олговечного керамогранита.
+                        </div>
+                    </div></div>
+                    <div class="advertisement__block_small">                   
+                         <div class="block__wrapper">
+                        <div class="block__name">
+                            <p>Доставка керамогранита</p>
+                        </div>
+                        <div class="block__desc">
+                             Компания «G-Stone» является лидером 
+                             поставках самого качественного и 
+                            олговечного керамогранита.
+                        </div>
+                    </div></div>
+                    <div class="advertisement__block_small">                    
+                        <div class="block__wrapper">
+                        <div class="block__name">
+                            <p>Доставка керамогранита</p>
+                        </div>
+                        <div class="block__desc">
+                             Компания «G-Stone» является лидером 
+                             поставках самого качественного и 
+                            олговечного керамогранита.
+                        </div>
+                    </div></div>
                 </div>
             </div>
 

@@ -1,4 +1,5 @@
 
+
 .main__page__container {
     height: calc(100vh - 100px);
     width: 100%;
@@ -60,6 +61,22 @@
                     flex-direction: row;
                     flex-wrap: wrap;
                 }
+                .block__wrapper{
+                    height: 100%;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                    padding: 20px 10px;
+                    color: $mainWhite;
+                    font-size: 11px;
+                    .block__name p{
+                        font-size: 13px;
+                        font-weight: 700;
+                        margin-bottom: 8px;
+                    }
+                }
+
             }
         }
     }
