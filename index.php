@@ -8,14 +8,46 @@
 </head>
 <body>
     <div class="main__wrapper">
-        <?php include './include/header.php'?>
+        <?php include './include/header.php' ?>
 
         <div class="main__content">
-            
+            <?php
+            if (isset($_GET['page'])) {
+                switch ($_GET['page']) {
+                    case "main":
+                        include './include/main.php';
+                        break;
+                    case "login":
+                        include './include/login.php';
+                        break;
+                    case "registration":
+                        include './include/registration.php';
+                        break;
+                    case "profile":
+                        include './include/profile.php';
+                        break;
+                    case "under_construction":
+                        include './include/under_construction.php';
+                        break;
+                    case "search":
+                        include './include/search.php';
+                        break;
+                    case "article":
+                        include './include/search.php';
+                        break;
+                    default:
+                        include './include/main.php';
+                        break;
+                }
+            } else {
+                include './include/main.php';
+            }
+            ?>
+
         </div>
 
 
-        <?php include './include/footer.php'?>
+        <?php include './include/footer.php' ?>
 
 
     </div>

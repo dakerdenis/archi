@@ -1,0 +1,49 @@
+.main__page__container {
+    min-height: calc(100vh - 100px);
+    width: 100%;
+    .advertisement {
+
+        width: 79.75%;
+        max-width: 1148px;
+        margin: 0 auto;
+        background-color: red;
+
+        .advertisement__wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+            .block {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: row;
+                flex-wrap: wrap;
+                margin-bottom: 15px;
+                .advertisement__block_small {
+                    height: 161.14px;
+                    width:  279.26px;
+                    border-radius: 17px;
+                    background-color: rgb(18, 85, 18);
+                }
+                .advertisement__block_medium {
+                    height: 161.46px;
+                    width: 565.67px;
+                    border-radius: 17px;
+                    background-color: rgb(157, 233, 157);
+                }
+                .advertisement__block_big {
+                }
+            }
+        }
+    }
+    .survey {
+        .name {
+        }
+        .container {
+            .survey__block {
+            }
+        }
+    }
+}

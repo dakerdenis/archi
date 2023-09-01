@@ -2,7 +2,7 @@
             <div class="header__wrapper">
                 <!-------IMAGE-------->
                 <div class="header__image">
-                    <a href="#">
+                    <a href="./index.php">
                         <img src="./imgs/logo.png" alt="Archi logo">
                     </a>
                 </div>
