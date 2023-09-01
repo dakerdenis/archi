@@ -3,7 +3,9 @@
         <div class="advertisement__wrapper">
             <div class="block">
                 <div class="advertisement__block_small">
+                <img src="./imgs/1.jpg" alt="">
                     <div class="block__wrapper">
+                        
                         <div class="block__name">
                             <p>Доставка керамогранита</p>
                         </div>
