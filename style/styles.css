@@ -95,9 +95,7 @@ h6 {
   font-weight: 400;
 }
 
-/***********COLORS*********************/
-/************FONT SIZES********************/
-/************MIXINS******************/
+
 /***********HEADER**************/
 /***********HEADER**************/
 /***********HEADER**************/
@@ -136,118 +134,44 @@ h6 {
 .header__container .header__wrapper .header__navigation ul li a:hover {
   background-color: rgb(255, 255, 0);
 }
+
+.header__profile{
+  width: 50px;
+  height: 50px;
+  display: flex;
+
+  cursor: pointer;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 45px;
+  right: 50px;
+  width: 200px;
+  height: 100px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  z-index: 1;
+}
+
+
+
+
+
+
+
 /************************************/
 /************************************/
 /************************************/
 .main__content {
   min-height: calc(100vh - 100px);
-}
-.main__content .main__page__container {
-  min-height: calc(100vh - 100px);
   width: 100%;
 }
-.main__content .main__page__container .advertisement {
-  height: 100%;
-  max-width: 1148px;
-  margin: 0 auto;
-}
-.main__content .main__page__container .advertisement .advertisement__wrapper {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-.main__content .main__page__container .advertisement .advertisement__wrapper .block {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-bottom: 6px;
-}
-.main__content .main__page__container .advertisement .advertisement__wrapper .block .advertisement__block_small {
-  height: 161.14px;
-  width: 279.26px;
-  border-radius: 17px;
-  background-color: rgb(66, 144, 29);
-  margin-bottom: 9.93px;
-}
-.main__content .main__page__container .advertisement .advertisement__wrapper .block .advertisement__block_medium {
-  height: 161.46px;
-  width: 565.67px;
-  border-radius: 17px;
-  background-color: rgb(182, 223, 162);
-  margin-bottom: 9.93px;
-}
-.main__content .main__page__container .advertisement .advertisement__wrapper .block .advertisement__block_big {
-  height: 332.22px;
-  width: 565.67px;
-  background-color: rgb(230, 230, 230);
-  border-radius: 17px;
-  margin-bottom: 9.93px;
-}
-.main__content .main__page__container .advertisement .advertisement__wrapper .block .block_big {
-  width: 50%;
-}
-.main__content .main__page__container .advertisement .advertisement__wrapper .block .block_small {
-  width: 50%;
-  display: flex;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  overflow: hidden;
-}
-.main__content .main__page__container .advertisement .advertisement__wrapper .block .block_small img {
-  position: absolute;
-  z-index: 10;
-}
-.main__content .main__page__container .advertisement .advertisement__wrapper .block .block__wrapper {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding: 20px 10px;
-  color: #ffffff;
-  font-size: 11px;
-}
-.main__content .main__page__container .advertisement .advertisement__wrapper .block .block__wrapper .block__name p {
-  font-size: 13px;
-  font-weight: 700;
-  margin-bottom: 8px;
-  z-index: 20;
-}
-.main__content .main__page__container .advertisement .advertisement__wrapper .block .block__wrapper .block__desc {
-  z-index: 20;
-}
-.main__content .main__page__container .survey {
-  width: 1042px;
-  height: 100%;
-  color: rgb(0, 0, 0);
-  margin: 0 auto;
-  margin-top: 73px;
-}
-.main__content .main__page__container .survey .name {
-  color: rgb(0, 0, 0);
-  font-size: 30px;
-  font-weight: 700;
-  width: 100%;
-  text-align: center;
-}
-.main__content .main__page__container .survey .container {
-  margin-top: 62px;
-}
-/************MAIN*************/
-/************MAIN*************/
-/************MAIN*************/
-/************************************/
-/************************************/
-/************************************/
+
 /************FOOTER*************/
 /************FOOTER*************/
 /************FOOTER*************/
@@ -293,4 +217,3 @@ h6 {
 
 /************************************/
 /************************************/
-/************************************//*# sourceMappingURL=styles.css.map */
