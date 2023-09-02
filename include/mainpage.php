@@ -1,3 +1,7 @@
+<style>
+    <?php include './style/main.css' ?>
+</style>
+
 <div class="main__page__container">
     <div class="advertisement">
         <div class="advertisement__wrapper">
