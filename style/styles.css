@@ -149,15 +149,68 @@ h6 {
 .dropdown {
   display: none;
   position: absolute;
-  top: 45px;
-  right: 50px;
-  width: 200px;
-  height: 100px;
+  top: 22.5px;
+  right: 22.5px;
+  width: 198px;
+  height: 142px;
   background-color: #fff;
-  border: 1px solid #ccc;
+
   z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 3px 8px;
+  border-radius: 17px;
+
+}
+.dropdown_content{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 23.1px;
+}
+.dropdown__languages {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 24px;
+  width: 121px;
+  margin: 0 auto;
+}
+.dropdown__languages a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+}
+.dropdown__languages a img {
+  width: 19px;
+  height: 19px;
+}
+.lang_active{
+  border: 2px solid #FFFF00;
 }
 
+.dropdown__login_block {
+  width: 152px;
+  height: 23px;
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #00000011;
+  box-shadow: 0px 6px 6px -1px #0000001c;
+}
+.dropdown__login_block p {
+  font-size: 14px;
+  color: #000;
+}
+.__login__green{
+  background-color: #B6DFA2;
+}
 
 
 
