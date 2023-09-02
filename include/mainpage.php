@@ -50,47 +50,47 @@
                     </div>
                 </div>
                 <div class="advertisement__blockmedium">
-                        <!---CONTENT BLOCK----->
-                        <div class="advertisement__block__content">
-                            <img src="./imgs/1.jpg" alt="Advertisement">
-                            <div class="advertisement__block__maincontent">
-                                <div class="advertisement__block__text">
-                                    <div class="advertisement__block__name">
-                                        <p>Доставка керамогранита</p>
-                                    </div>
-                                    <div class="advertisement__block__desc">
-                                        <p>
-                                            Компания «G-Stone» является лидером
-                                            в поставках самого качественного и
-                                            долговечного керамогранита.
-                                        </p>
-                                    </div>
+                    <!---CONTENT BLOCK----->
+                    <div class="advertisement__block__content">
+                        <img src="./imgs/1.jpg" alt="Advertisement">
+                        <div class="advertisement__block__maincontent">
+                            <div class="advertisement__block__text">
+                                <div class="advertisement__block__name">
+                                    <p>Доставка керамогранита</p>
+                                </div>
+                                <div class="advertisement__block__desc">
+                                    <p>
+                                        Компания «G-Stone» является лидером
+                                        в поставках самого качественного и
+                                        долговечного керамогранита.
+                                    </p>
                                 </div>
                             </div>
                         </div>
+                    </div>
                 </div>
             </div>
             <!---1---4------>
             <div class="advertisement__block">
                 <div class="advertisement__blockBig">
-                                            <!---CONTENT BLOCK----->
-                                            <div class="advertisement__block__content">
-                            <img src="./imgs/1.jpg" alt="Advertisement">
-                            <div class="advertisement__block__maincontent">
-                                <div class="advertisement__block__text">
-                                    <div class="advertisement__block__name">
-                                        <p>Доставка керамогранита</p>
-                                    </div>
-                                    <div class="advertisement__block__desc">
-                                        <p>
-                                            Компания «G-Stone» является лидером
-                                            в поставках самого качественного и
-                                            долговечного керамогранита.
-                                        </p>
-                                    </div>
+                    <!---CONTENT BLOCK----->
+                    <div class="advertisement__block__content">
+                        <img src="./imgs/1.jpg" alt="Advertisement">
+                        <div class="advertisement__block__maincontent">
+                            <div class="advertisement__block__text">
+                                <div class="advertisement__block__name">
+                                    <p>Доставка керамогранита</p>
+                                </div>
+                                <div class="advertisement__block__desc">
+                                    <p>
+                                        Компания «G-Stone» является лидером
+                                        в поставках самого качественного и
+                                        долговечного керамогранита.
+                                    </p>
                                 </div>
                             </div>
                         </div>
+                    </div>
                 </div>
                 <div class="advertisement__blockBig">
 
@@ -179,18 +179,24 @@
         </div>
     </div>
 
-    <div class="survey">
-        <div class="name">
+    <div class="main_survey">
+        <div class="main_survey_name">
             <p>
                 Опрос
             </p>
         </div>
-        <div class="container">
+        <div class="main_survey_container">
             <div class="survey__block">
                 asdasd
             </div>
             <div class="survey__block">
-
+                <div class="main_survey_desc">
+                    <p>
+                        Какой ролик/ статью
+                        вы хотели бы увидеть
+                        следующей?
+                    </p>
+                </div>
             </div>
         </div>
     </div>
