@@ -1,7 +1,0 @@
-@mixin flexSpaceBetween($direction) {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: $direction;
-    flex-wrap: wrap;
-}
