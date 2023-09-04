@@ -26,10 +26,23 @@
             </div>
             <div class="login__input__gender">
                 <div class="login__input__gender_wrapper">
-                    
-                </div>
+                    <label>
+                        <input type="radio" name="custom-radio" value="option1">
+                        <span class="custom-radio"></span> Мужчина
+                    </label>
+                    <label>
+                        <input type="radio" name="custom-radio" checked value="option2">
+                        <span class="custom-radio"></span> Женщина
+                    </label>
+                </div>  
             </div>
-            <div class="login__input__button">
+            <div class="login__input__checkbox">  
+                    <label>
+                        <input type="radio" name="terms" value="terms1">
+                        <span class="custom-radio"></span> Я согласен с пользовательским соглашением
+                    </label>
+            </div>
+            <div class="login__input__button login__input__button_registration">
                 <button>Регистрация</button>
             </div>
 
