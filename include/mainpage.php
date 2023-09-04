@@ -200,6 +200,11 @@
             </div>
         </div>
     </div>
+    <br><br><br><br><br><br><br><br><br><br>
+        <div style="display: flex; flex-direction: column;">
+            <a style="color: red; margin-bottom: 10px;" href="./index.php?page=under_construction">Находится а разработке страница</a>
+            <a style="color: red; margin-bottom: 10px;" href="./index.php?page=profile">profile</a>
+        </div>
 
 
 </div>

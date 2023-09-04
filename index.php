@@ -33,7 +33,7 @@
                         include './include/search.php';
                         break;
                     case "article":
-                        include './include/search.php';
+                        include './include/article.php';
                         break;
                     default:
                         include './include/main.php';
