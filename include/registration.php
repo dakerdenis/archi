@@ -5,24 +5,34 @@
 
 <div class="login__page__container">
     <div class="login__page__name">
-        <p>ВХОД</p>
+        <p>РЕГИСТРАЦИЯ</p>
     </div>
     <div class="login__page__form">
         <form action="#" method="post">
             <div class="login__input__container">
-                <input type="text" placeholder="Логин">
+                <input type="text" placeholder="ФИО">
+            </div>
+            <div class="login__input__container">
+                <input type="text" placeholder="Номер телефона">
+            </div>
+            <div class="login__input__container">
+                <input type="text" placeholder="Адрес почты">
             </div>
             <div class="login__input__container">
                 <input type="text" placeholder="Пароль">
             </div>
-            <div class="login__input__button">
-                <button>Вход</button>
+            <div class="login__input__container">
+                <input type="text" placeholder="Подтвердите пароль">
+            </div>
+            <div class="login__input__gender">
+                <div class="login__input__gender_wrapper">
+                    
+                </div>
             </div>
             <div class="login__input__button">
-                <a href="#">
-                    <p>Регистрация</p>
-                </a>
+                <button>Регистрация</button>
             </div>
+
         </form>
     </div>
 
