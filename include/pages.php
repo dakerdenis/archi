@@ -13,6 +13,11 @@
                     <div class="__page__element__image__approved">
                         <p>Archi</p>
                     </div>
+                </div>
+                <div class="__page__element__content">
+                    <div class="__page__element__content_name">
+                        <p>Изысканный выбор...</p>
+                    </div>
                     <div class="__page__element__content_tags">
                         <a href="#">
                             <p>#Ремонт</p>
