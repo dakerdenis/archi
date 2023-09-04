@@ -204,7 +204,9 @@
         <div style="display: flex; flex-direction: column;">
             <a style="color: red; margin-bottom: 10px;" href="./index.php?page=under_construction">Находится а разработке страница</a>
             <a style="color: red; margin-bottom: 10px;" href="./index.php?page=profile">profile</a>
-        </div>
+            <a style="color: red; margin-bottom: 10px;" href="./index.php?page=pages">pages</a>
+       
+             </div>
 
 
 </div>

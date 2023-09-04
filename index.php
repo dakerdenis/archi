@@ -32,6 +32,9 @@
                     case "search":
                         include './include/search.php';
                         break;
+                    case "pages":
+                        include './include/pages.php';
+                        break;
                     case "article":
                         include './include/article.php';
                         break;
