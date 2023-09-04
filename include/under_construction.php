@@ -1,5 +1,20 @@
+<style>
+    <?php include './style/main.css' ?>
+    <?php include './style/underconst.css' ?>
+</style>
+
 <div class="under__construction__page">
-<div class="advertisement__block">
+    <div class="underconst__name">
+        <p>НАХОДИТСЯ В РАЗРАБОТКЕ</p>
+    </div>
+    <div class="underconst__desc">
+        <p>А пока советуем почитать наши статьи</p>
+    </div>
+
+
+<div class="under__construction__advertisement">
+    
+    <div class="advertisement__block">
                 <div class="advertisement__blockBig">
                     <!---CONTENT BLOCK----->
                     <div class="advertisement__block__content">
@@ -104,5 +119,6 @@
                     </div>
                 </div>
             </div>
+        </div>
     </div>
 </div>
