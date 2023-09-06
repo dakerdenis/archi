@@ -37,6 +37,11 @@
         </div>
     </div>
     <div class="profile__buisness_section">
-        
+            <div class="profile__buisness_create">
+                <a href="#">
+                    <p>+ создать бизнес</p>
+                </a>
+            </div>
+            <!--//******---------->
     </div>
 </div>
