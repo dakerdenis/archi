@@ -1,0 +1,44 @@
+.profile_page_wrapper {
+    width: 1148px;
+    margin: 0 auto;
+
+}
+.profile__content_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.profile__userdata {
+    width: 50%;
+    display: flex;
+    justify-content:space-between;
+    
+}
+.profile__userdata_image {
+    height: 246px;
+    width: 246px;
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile__userdata__content {
+}
+.profile__userdata__name {
+}
+.profile__userdata__element {
+}
+.profile__userdata__settings {
+}
+.profile__saved {
+    width: 50%;
+}
+.profile__saved_savedpages {
+    width: 90.9%;
+}
+.profile__saved_savedgoods {
+    width: 90.9%;
+}
