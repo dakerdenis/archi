@@ -3,20 +3,23 @@
     margin: 0 auto;
 
 }
+
 .profile__content_wrapper {
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    align-items: center;
+
 
 }
+
 .profile__userdata {
     width: 50%;
     display: flex;
-    justify-content:space-between;
-    
+
+
 }
+
 .profile__userdata_image {
     height: 246px;
     width: 246px;
@@ -24,21 +27,107 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
+
+.profile__userdata_image img {
+    height: 100%;
+}
+
 .profile__userdata__content {
+    height: 246px;
+    width: 246px;
+    margin-left: 27px;
+    padding-top: 10px;
 }
+
 .profile__userdata__name {
+    color: #000;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
+
 .profile__userdata__element {
+    color: #000;
+
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 17px;
 }
+
 .profile__userdata__settings {
+    width: 100%;
 }
+
+.profile__userdata__settings a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 152.897px;
+    height: 29.149px;
+    border-radius: 10px;
+    background: #D9D9D9;
+}
+
+.profile__userdata__settings a p {
+    color: #000;
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 .profile__saved {
     width: 50%;
 }
+
 .profile__saved_savedpages {
     width: 90.9%;
+    height: 64.129px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(217, 217, 217, 0.20);
+    margin-bottom: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.profile__saved_savedpages p {
+    color: #000;
+    text-align: center;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
 .profile__saved_savedgoods {
     width: 90.9%;
+    height: 64.129px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(217, 217, 217, 0.20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile__saved_savedgoods p {
+    color: #000;
+    text-align: center;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }

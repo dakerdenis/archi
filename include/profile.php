@@ -1,8 +1,11 @@
+<style>
+    <?php include './style/profile.css' ?>
+</style>
 <div class="profile_page_wrapper">
     <div class="profile__content_wrapper">
         <div class="profile__userdata">
             <div class="profile__userdata_image">
-                <img src="" alt="">
+                <img src="./imgs/1.jpg" alt="">
             </div>
             <div class="profile__userdata__content">
                 <div class="profile__userdata__name">
