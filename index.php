@@ -39,6 +39,9 @@
                     case "article":
                         include './include/article.php';
                         break;
+                    case "goods":
+                        include './include/goods.php';
+                        break;
                     default:
                         include './include/main.php';
                         break;

@@ -206,7 +206,7 @@
             <a style="color: red; margin-bottom: 10px;" href="./index.php?page=profile">profile</a>
             <a style="color: red; margin-bottom: 10px;" href="./index.php?page=pages">pages</a>
             <a style="color: red; margin-bottom: 10px;" href="./index.php?page=article">article</a>
-       
+            <a style="color: red; margin-bottom: 10px;" href="./index.php?page=goods">goods</a>
              </div>
 
 
