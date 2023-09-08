@@ -199,12 +199,42 @@ input[type="radio"]:checked+.custom-radio {
 /******ADVERTISEMENT*************/
 /******ADVERTISEMENT*************/
 .article__rating {
+    display: flex;
+
     width: 644px;
     height: 210px;
     border-radius: 17px;
-    background: rgba(217, 217, 217, 0.40);
+    background: rgba(217, 217, 217, 0.137);
 
 }
+
+.article__rating__stars {
+    width: 63.3%;
+    height: 100%;
+    border-radius: 17px;
+    background: rgba(217, 217, 217, 0.40);
+}
+
+.article__rating__numbers {
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.article__rating__numbers p {
+    color: #000;
+    font-family: Century Gothic;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
 
 .additional__container {
     width: 24%;
@@ -287,4 +317,3 @@ fieldset {
 }
 
 /****************************************/
-

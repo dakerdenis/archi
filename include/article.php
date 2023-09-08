@@ -135,38 +135,48 @@
             <div class="article__rating">
                 <div class="article__rating__stars">
                      <form>
-                       <fieldset>
-                         <span class="star-cb-group">
-                           <input type="radio" id="rating-5" name="rating" value="5" /><label for="rating-5">5</label>
-                           <input type="radio" id="rating-4" name="rating" value="4" checked="checked" /><label for="rating-4">4</label>
-                           <input type="radio" id="rating-3" name="rating" value="3" /><label for="rating-3">3</label>
-                           <input type="radio" id="rating-2" name="rating" value="2" /><label for="rating-2">2</label>
-                           <input type="radio" id="rating-1" name="rating" value="1" /><label for="rating-1">1</label>
-                           <input type="radio" id="rating-0" name="rating" value="0" class="star-cb-clear" /><label for="rating-0">0</label>
-                         </span>
-                       </fieldset>
+                        <div class="article__rating__stars__container">
+                            <p>Польза статьи</p>
+                             <fieldset>
+                              <span class="star-cb-group">
+                                <input type="radio" id="rating-5" name="rating" value="5" /><label for="rating-5">5</label>
+                                <input type="radio" id="rating-4" name="rating" value="4" checked="checked" /><label for="rating-4">4</label>
+                                <input type="radio" id="rating-3" name="rating" value="3" /><label for="rating-3">3</label>
+                                <input type="radio" id="rating-2" name="rating" value="2" /><label for="rating-2">2</label>
+                                <input type="radio" id="rating-1" name="rating" value="1" /><label for="rating-1">1</label>
+                                <input type="radio" id="rating-0" name="rating" value="0" class="star-cb-clear" /><label for="rating-0">0</label>
+                              </span>
+                            </fieldset>
+                        </div>
 
-                       <fieldset>
-                         <span class="star-cb-group">
-                           <input type="radio" id="rating-52" name="rating2" value="5" /><label for="rating-52">5</label>
-                           <input type="radio" id="rating-42" name="rating2" value="4" checked="checked" /><label for="rating-42">4</label>
-                           <input type="radio" id="rating-32" name="rating2" value="3" /><label for="rating-32">3</label>
-                           <input type="radio" id="rating-22" name="rating2" value="2" /><label for="rating-22">2</label>
-                           <input type="radio" id="rating-12" name="rating2" value="1" /><label for="rating-12">1</label>
-                           <input type="radio" id="rating-02" name="rating2" value="0" class="star-cb-clear" /><label for="rating-02">0</label>
-                         </span>
-                       </fieldset>
+                        <div class="article__rating__stars__container">
+                            <p>Польза статьи</p>
+                            <fieldset>
+                                <span class="star-cb-group">
+                                  <input type="radio" id="rating-52" name="rating2" value="5" /><label for="rating-52">5</label>
+                                  <input type="radio" id="rating-42" name="rating2" value="4" checked="checked" /><label for="rating-42">4</label>
+                                  <input type="radio" id="rating-32" name="rating2" value="3" /><label for="rating-32">3</label>
+                                  <input type="radio" id="rating-22" name="rating2" value="2" /><label for="rating-22">2</label>
+                                  <input type="radio" id="rating-12" name="rating2" value="1" /><label for="rating-12">1</label>
+                                  <input type="radio" id="rating-02" name="rating2" value="0" class="star-cb-clear" /><label for="rating-02">0</label>
+                                </span>
+                            </fieldset>
+                        </div>
 
-                       <fieldset>
-                         <span class="star-cb-group">
-                           <input type="radio" id="rating-53" name="rating3" value="5" /><label for="rating-53">5</label>
-                           <input type="radio" id="rating-43" name="rating3" value="4" checked="checked" /><label for="rating-43">4</label>
-                           <input type="radio" id="rating-33" name="rating3" value="3" /><label for="rating-33">3</label>
-                           <input type="radio" id="rating-23" name="rating3" value="2" /><label for="rating-23">2</label>
-                           <input type="radio" id="rating-13" name="rating3" value="1" /><label for="rating-13">1</label>
-                           <input type="radio" id="rating-03" name="rating3" value="0" class="star-cb-clear" /><label for="rating-03">0</label>
-                         </span>
-                       </fieldset>                       
+                        <div class="article__rating__stars__container">
+                                <p>Польза статьи</p> 
+                                <fieldset>
+                                    <span class="star-cb-group">
+                                      <input type="radio" id="rating-53" name="rating3" value="5" /><label for="rating-53">5</label>
+                                      <input type="radio" id="rating-43" name="rating3" value="4" checked="checked" /><label for="rating-43">4</label>
+                                      <input type="radio" id="rating-33" name="rating3" value="3" /><label for="rating-33">3</label>
+                                      <input type="radio" id="rating-23" name="rating3" value="2" /><label for="rating-23">2</label>
+                                      <input type="radio" id="rating-13" name="rating3" value="1" /><label for="rating-13">1</label>
+                                      <input type="radio" id="rating-03" name="rating3" value="0" class="star-cb-clear" /><label for="rating-03">0</label>
+                                    </span>
+                                </fieldset> 
+                        </div>
+                      
                      </form>
                 </div>
                 <div class="article__rating__numbers">
