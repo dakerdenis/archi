@@ -59,7 +59,7 @@
                     Массивный паркет - это настоящий деревянный пол, состоящий из толстых деревянных досок, которые могут быть разных размеров и формы. Массивный паркет выглядит роскошно и прочно, но требует аккуратного ухода и установки на ровную основу.
                 </p>
 
-                <img src="#" alt="#">
+                <img src="./imgs/1.jpg" alt="#">
 
                 <p>
                     Уникальный дизайн: паркетные полы предлагают множество вариантов дизайна, таких как разные оттенки древесины, различные узоры и мозаики, позволяя создать уникальный внешний вид пола, соответствующий вашему стилю и предпочтениям.
@@ -67,14 +67,35 @@
             </div>
 
             <div class="article__review">
-                <label>
-                    <input type="radio" name="custom-radio" value="option1">
-                    <span class="custom-radio"></span> Мужчина
-                </label>
-                <label>
-                    <input type="radio" name="custom-radio" checked value="option2">
-                    <span class="custom-radio"></span> Женщина
-                </label>
+                <div class="article__review__desc">
+                    <p>
+                        Насколько полезной вы считаете статью о паркете 
+                        для получения знаний и понимания о данном материале?
+                    </p>
+                </div>
+                <div class="article__review__radio">
+                    <label>
+                        <input type="radio" name="custom-radio" value="option1">
+                        <span class="custom-radio"></span>     Очень полезная
+                    </label>
+                    <label>
+                        <input type="radio" name="custom-radio" checked  value="option2">
+                        <span class="custom-radio"></span>     Достаточно полезная
+                    </label>
+                    <label>
+                        <input type="radio" name="custom-radio"  value="option3">
+                        <span class="custom-radio"></span>     Умеренно полезная
+                    </label>
+                    <label>
+                        <input type="radio" name="custom-radio"  value="option4">
+                        <span class="custom-radio"></span>     Мало полезная
+                    </label>
+                    <label>
+                        <input type="radio" name="custom-radio"  value="option5">
+                        <span class="custom-radio"></span>      Не могу сказать
+                    </label>
+                </div>
+
             </div>
             
             <div class="article__addtitional__desc">

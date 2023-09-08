@@ -75,7 +75,8 @@ input[type="radio"]:checked+.custom-radio {
 .article__tags {
     display: flex;
 }
-.article__tags a{
+
+.article__tags a {
     margin-left: 7px;
     color: #000;
 }
@@ -86,18 +87,18 @@ input[type="radio"]:checked+.custom-radio {
     margin-bottom: 10px;
 }
 
-.article__features_element{
+.article__features_element {
     display: flex;
     align-items: center;
     margin-right: 20px;
 
 }
+
 .article__features_element img {
     margin-right: 5px;
 }
-.article__features_rating {
 
-}
+.article__features_rating {}
 
 .article__features_views {}
 
@@ -106,15 +107,92 @@ input[type="radio"]:checked+.custom-radio {
 
 
 
-.article__date {}
+.article__date {
+    display: flex;
+    margin-bottom: 40px;
+}
 
-.article__content {}
+.article__date p {
+    margin-right: 4px;
+}
 
-.article__review {}
+.article__content {
+    width: 100%;
+}
+
+.article__content p {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+
+.article__content img {
+    display: block;
+    max-width: 647px;
+    height: 270px;
+    border-radius: 17px;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+
+.article__review {
+    width: 560px;
+    padding: 22px 41px;
+
+    border-radius: 17px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    margin-bottom: 20px;
+}
+
+.article__review__desc p {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.article__review__desc {
+    margin-bottom: 10px;
+}
+
+.article__review__radio {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.article__review__radio label {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.article__review__radio label span {
+    margin-right: 10px;
+}
 
 .custom-radio {}
 
-.article__addtitional__desc {}
+.article__addtitional__desc {
+    margin-bottom: 20px;
+}
+
+.article__addtitional__desc p {
+    color: #000;
+
+    font-size: 18px;
+    line-height: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
 .article__rating {}
 
