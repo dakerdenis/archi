@@ -44,21 +44,67 @@ input[type="radio"]:checked+.custom-radio {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-bottom: 12px;
 }
 
-.article__verification_tags {}
+.article__verification_tags {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
 
-.article__verification {}
+.article__verification {
+    width: 75px;
+    height: 23px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FF0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-.article__tags {}
+.article__verification p {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
-.article__features {}
+.article__tags {
+    display: flex;
+}
+.article__tags a{
+    margin-left: 7px;
+    color: #000;
+}
 
-.article__features_rating {}
+.article__features {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.article__features_element{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+
+}
+.article__features_element img {
+    margin-right: 5px;
+}
+.article__features_rating {
+
+}
 
 .article__features_views {}
 
 .article__features_time {}
+
+
+
 
 .article__date {}
 

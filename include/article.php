@@ -31,15 +31,15 @@
             </div>
 
             <div class="article__features">
-                <div class="article__features_rating">
+                <div class="article__features_element article__features_rating">
                     <img src="./imgs/Star.svg" alt="">
                     <p>5.00</p>
                 </div>
-                <div class="article__features_views">
+                <div class="article__features_element article__features_views">
                     <img src="./imgs/eye.svg" alt="">
                     <p>1200</p>
                 </div>
-                <div class="article__features_time">
+                <div class="article__features_element article__features_time">
                     <img src="./imgs/clock.svg" alt="">
                     <p>5 минут</p>
                 </div>
