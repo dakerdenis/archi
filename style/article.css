@@ -36,6 +36,7 @@ input[type="radio"]:checked+.custom-radio {
 /*****ARTICLE**************/
 .article__container {
     width: 75%;
+    padding-right: 20px;
 }
 
 .article__name {
@@ -259,7 +260,7 @@ input[type="radio"]:checked+.custom-radio {
 
 .additional__container {
     width: 24%;
-
+    border-left: 1px solid #ccc;
 }
 
 
