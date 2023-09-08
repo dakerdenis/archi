@@ -261,6 +261,38 @@ input[type="radio"]:checked+.custom-radio {
 .additional__container {
     width: 24%;
     border-left: 1px solid #ccc;
+    padding-left: 20px;
+}
+
+.additional__block__articles {
+    max-width: 282px;
+    margin-bottom: 60px;
+}
+
+.additional__block__articles__name p {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.additional__block__articles__name {
+    margin-bottom: 10px;
+}
+
+.additional__block__articles__content {
+
+}
+
+.additional__block__articles__content p {
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 

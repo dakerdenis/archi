@@ -189,7 +189,64 @@
         </div>
         <!--//?--ADDITIONAL CONTAINER -->
         <div class="additional__container">
+            <div class="additional__block__articles">
+                <div class="additional__block__articles__name">
+                    <p>Это важно</p>
+                </div>
+                <div class="additional__block__articles__content">
+                   <a href="#">
+                     <p>Кямран Гулиев покинул пост 
+                      президента Нефтчи</p>
+                   </a>
 
+                   <a href="#">
+                     <p>Кямран Гулиев покинул пост 
+                      президента Нефтчи</p>
+                   </a>
+
+                   <a href="#">
+                     <p>Кямран Гулиев покинул пост 
+                      президента Нефтчи</p>
+                   </a>
+                   <a href="#">
+                     <p>Кямран Гулиев покинул пост 
+                      президента Нефтчи</p>
+                   </a>
+                    
+                   <a href="#">
+                     <p>Кямран Гулиев покинул пост 
+                      президента Нефтчи</p>
+                   </a>
+                </div>
+            </div>
+
+            <div class="additional__block__articles">
+                <div class="additional__block__articles__name">
+                    <p>Это важно</p>
+                </div>
+                <div class="additional__block__articles__content">
+                <a href="#">
+                     <p>Кямран Гулиев покинул пост 
+                      президента Нефтчи</p>
+                   </a>
+                   <a href="#">
+                     <p>Кямран Гулиев покинул пост 
+                      президента Нефтчи</p>
+                   </a>
+                   <a href="#">
+                     <p>Кямран Гулиев покинул пост 
+                      президента Нефтчи</p>
+                   </a>
+                   <a href="#">
+                     <p>Кямран Гулиев покинул пост 
+                      президента Нефтчи</p>
+                   </a>
+                   <a href="#">
+                     <p>Кямран Гулиев покинул пост 
+                      президента Нефтчи</p>
+                   </a>
+                </div>
+            </div>
         </div>
     </div>
     <!---///?---RECOMENDATIONS ARTICLES--->
