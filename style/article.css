@@ -1,0 +1,83 @@
+/* Hide the default radio buttons */
+input[type="radio"] {
+    display: none;
+}
+
+/* Define the custom radio button style */
+.custom-radio {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(217, 217, 217, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    /* Border for the circle */
+    cursor: pointer;
+}
+
+/* When the radio button is checked, change the background color */
+input[type="radio"]:checked+.custom-radio {
+    background-color: rgba(255, 255, 0, 1);
+}
+
+
+.article__main__page {
+    width: 100%;
+}
+
+.article__wrapper {
+    width: 85.5%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*****ARTICLE**************/
+/*****ARTICLE**************/
+.article__container {
+    width: 75%;
+}
+
+.article__name {
+    color: #000;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.article__verification_tags {}
+
+.article__verification {}
+
+.article__tags {}
+
+.article__features {}
+
+.article__features_rating {}
+
+.article__features_views {}
+
+.article__features_time {}
+
+.article__date {}
+
+.article__content {}
+
+.article__review {}
+
+.custom-radio {}
+
+.article__addtitional__desc {}
+
+.article__rating {}
+
+/******ADVERTISEMENT*************/
+/******ADVERTISEMENT*************/
+
+.additional__container {
+    width: 24%;
+
+}
+
+.article__recomendation {}
