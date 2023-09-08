@@ -262,9 +262,6 @@ input[type="radio"]:checked+.custom-radio {
 
 }
 
-.article__recomendation {}
-
-
 
 /*********************************/
 
@@ -338,3 +335,107 @@ fieldset {
 }
 
 /****************************************/
+
+.article__recomendation {
+    min-height: 258px;
+    width: 85.5%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    border-radius: 17px;
+    background: #F0F0F0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 23px 80px;
+    position: relative;
+}
+
+.article__recom__name {
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.article__recom__name p {
+    color: #000;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.swiper {
+    width: 100%;
+    height: calc(258px - 46px);
+
+}
+
+.mySwiper [class^="swiper-button-next"] {
+    color: rgba(250, 250, 250, 0);
+
+    background-image: url('./imgs/arrow_next.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+
+}
+
+.mySwiper [class^="swiper-button-prev"] {
+    color: rgba(250, 250, 250, 0);
+
+    background-image: url('./imgs/arrow_prev.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.swiper-wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {}
+
+
+.swiper__article__recomendation__block {
+    display: block;
+    width: 100%;
+    height: calc(172px + 23px + 10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article__recomendation__image {
+    width: 172px;
+    height: 172px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.article__recomendation__image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.article__recomendation__name p {
+    color: #000;
+
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
