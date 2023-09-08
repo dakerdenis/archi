@@ -23,7 +23,7 @@
         <div class="goods__page__content__wrapper">
             <div class="goods__page__content__wrapper_">
                 <!------------>
-                <a href="#" class="goods__page__element">
+                <a href="./index.php?page=item" class="goods__page__element">
                     <div class="page__element__image">
                         <img src="./imgs/1.jpg" alt="">
                     </div>
@@ -38,7 +38,7 @@
                 </a>
                 <!------------>
                                 <!------------>
-                                <a href="#" class="goods__page__element">
+                                <a href="./index.php?page=item" class="goods__page__element">
                     <div class="page__element__image">
                         <img src="./imgs/1.jpg" alt="">
                     </div>
@@ -53,7 +53,7 @@
                 </a>
                 <!------------>
                                 <!------------>
-                                <a href="#" class="goods__page__element">
+                                <a href="./index.php?page=item" class="goods__page__element">
                     <div class="page__element__image">
                         <img src="./imgs/1.jpg" alt="">
                     </div>
@@ -68,7 +68,7 @@
                 </a>
                 <!------------>
                                 <!------------>
-                                <a href="#" class="goods__page__element">
+                                <a href="./index.php?page=item" class="goods__page__element">
                     <div class="page__element__image">
                         <img src="./imgs/1.jpg" alt="">
                     </div>
@@ -83,7 +83,7 @@
                 </a>
                 <!------------>
                                 <!------------>
-                                <a href="#" class="goods__page__element">
+                                <a href="./index.php?page=item" class="goods__page__element">
                     <div class="page__element__image">
                         <img src="./imgs/1.jpg" alt="">
                     </div>
@@ -98,7 +98,52 @@
                 </a>
                 <!------------>
                                 <!------------>
-                                <a href="#" class="goods__page__element">
+                                <a href="./index.php?page=item" class="goods__page__element">
+                    <div class="page__element__image">
+                        <img src="./imgs/1.jpg" alt="">
+                    </div>
+                    <div class="page__element__content">
+                        <div class="page__element__name">
+                            <p>Товар китай покемон </p>
+                        </div>
+                        <div class="page__element__price">
+                            <p><span>20</span> AZN</p>
+                        </div>
+                    </div>
+                </a>
+                <!------------>
+                                <!------------>
+                                <a href="./index.php?page=item" class="goods__page__element">
+                    <div class="page__element__image">
+                        <img src="./imgs/1.jpg" alt="">
+                    </div>
+                    <div class="page__element__content">
+                        <div class="page__element__name">
+                            <p>Товар китай покемон </p>
+                        </div>
+                        <div class="page__element__price">
+                            <p><span>20</span> AZN</p>
+                        </div>
+                    </div>
+                </a>
+                <!------------>
+                                <!------------>
+                                <a href="./index.php?page=item" class="goods__page__element">
+                    <div class="page__element__image">
+                        <img src="./imgs/1.jpg" alt="">
+                    </div>
+                    <div class="page__element__content">
+                        <div class="page__element__name">
+                            <p>Товар китай покемон </p>
+                        </div>
+                        <div class="page__element__price">
+                            <p><span>20</span> AZN</p>
+                        </div>
+                    </div>
+                </a>
+                <!------------>
+                                <!------------>
+                                <a href="./index.php?page=item" class="goods__page__element">
                     <div class="page__element__image">
                         <img src="./imgs/1.jpg" alt="">
                     </div>

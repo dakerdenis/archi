@@ -40,8 +40,13 @@
                         include './include/article.php';
                         break;
                     case "goods":
-                        include './include/goods.php';
+                            include './include/goods.php';
+                            break;
+                    case "item":
+                        include './include/item.php';
                         break;
+
+                        
                     default:
                         include './include/main.php';
                         break;
