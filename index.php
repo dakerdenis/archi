@@ -10,7 +10,7 @@
 <body>
 
         <?php include './include/header.php' ?>
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
         <div class="main__content">
             <?php
             if (isset($_GET['page'])) {
@@ -55,7 +55,7 @@
 
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
     <script src="./scripts/index.js"></script>
 </body>
 </html>
