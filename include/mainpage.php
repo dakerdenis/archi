@@ -203,10 +203,10 @@
     <br><br><br><br><br><br><br><br><br><br>
         <div style="display: flex; flex-direction: column;">
             <a style="color: red; margin-bottom: 10px;" href="./index.php?page=under_construction">Находится а разработке страница</a>
-            <a style="color: red; margin-bottom: 10px;" href="./index.php?page=profile">profile</a>
-            <a style="color: red; margin-bottom: 10px;" href="./index.php?page=pages">pages</a>
-            <a style="color: red; margin-bottom: 10px;" href="./index.php?page=article">article</a>
-            <a style="color: red; margin-bottom: 10px;" href="./index.php?page=goods">goods</a>
+            <a style="color: red; margin-bottom: 10px;" href="./index.php?page=profile">Профиль</a>
+            <a style="color: red; margin-bottom: 10px;" href="./index.php?page=pages">Статьи ? страницы список</a>
+            <a style="color: red; margin-bottom: 10px;" href="./index.php?page=article">Статья</a>
+            <a style="color: red; margin-bottom: 10px;" href="./index.php?page=goods">Все товары</a>
              </div>
 
 
