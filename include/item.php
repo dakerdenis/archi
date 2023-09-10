@@ -37,12 +37,10 @@
                         <p>Добавлено: 01.04.2023</p>
                     </div>
                     <div class="item__number">
-                        <a href="#">
-                            <p id="phoneNumber"></p>
-                        </a>
+                        <p id="phoneNumber"></p>
                     </div>
                     <div class="item__number__desc">
-                        <p onclick="showFullNumber()">Нажмите что бы увидеть номер</p>
+                        <p id="showFullNumber">Нажмите что бы увидеть номер</p>
                     </div>
                 </div>
             </div>
@@ -300,7 +298,7 @@
     const hiddenPhoneNumber = hideLastSevenDigits(originalPhoneNumber);
     document.getElementById("phoneNumber").textContent = hiddenPhoneNumber;
 
-    function showFullNumber() {
+    document.getElementById("showFullNumber").addEventListener("click", () => {
         document.getElementById("phoneNumber").textContent = originalPhoneNumber;
-    }
+    });
 </script>
