@@ -12,7 +12,7 @@
             <div class="item__content__block">
                 <!---FOTO-->
                 <div class="item__image">
-                    <img src="./imgs/.jpg" alt="" srcset="">
+                    <img src="./imgs/1.jpg" alt="" srcset="">
                 </div>
                 <!-----description of item-->
                 <div class="item__content__desc">
@@ -38,11 +38,11 @@
                     </div>
                     <div class="item__number">
                         <a href="#">
-                            +994 50 750 69 01
+                            <p id="phoneNumber"></p>
                         </a>
                     </div>
                     <div class="item__number__desc">
-                        <p>Нажмите что бы увидеть номер</p>
+                        <p onclick="showFullNumber()">Нажмите что бы увидеть номер</p>
                     </div>
                 </div>
             </div>
@@ -73,114 +73,196 @@
                     </p>
                 </div>
             </div>
+
+            <div class="item__articles">
+                <div class="article__recomendation">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#" class="swiper__article__recomendation__block">
+                                    <div class="article__recomendation__image">
+                                        <img src="./imgs/1.jpg" alt="">
+                                    </div>
+                                    <div class="article__recomendation__name">
+                                        <p>Название статьи</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="swiper__article__recomendation__block">
+                                    <div class="article__recomendation__image">
+                                        <img src="./imgs/1.jpg" alt="">
+                                    </div>
+                                    <div class="article__recomendation__name">
+                                        <p>Название статьи</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="swiper__article__recomendation__block">
+                                    <div class="article__recomendation__image">
+                                        <img src="./imgs/1.jpg" alt="">
+                                    </div>
+                                    <div class="article__recomendation__name">
+                                        <p>Название статьи</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="swiper__article__recomendation__block">
+                                    <div class="article__recomendation__image">
+                                        <img src="./imgs/1.jpg" alt="">
+                                    </div>
+                                    <div class="article__recomendation__name">
+                                        <p>Название статьи</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="swiper__article__recomendation__block">
+                                    <div class="article__recomendation__image">
+                                        <img src="./imgs/1.jpg" alt="">
+                                    </div>
+                                    <div class="article__recomendation__name">
+                                        <p>Название статьи</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="swiper__article__recomendation__block">
+                                    <div class="article__recomendation__image">
+                                        <img src="./imgs/1.jpg" alt="">
+                                    </div>
+                                    <div class="article__recomendation__name">
+                                        <p>Название статьи</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="swiper__article__recomendation__block">
+                                    <div class="article__recomendation__image">
+                                        <img src="./imgs/1.jpg" alt="">
+                                    </div>
+                                    <div class="article__recomendation__name">
+                                        <p>Название статьи</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="swiper__article__recomendation__block">
+                                    <div class="article__recomendation__image">
+                                        <img src="./imgs/1.jpg" alt="">
+                                    </div>
+                                    <div class="article__recomendation__name">
+                                        <p>Название статьи</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="swiper__article__recomendation__block">
+                                    <div class="article__recomendation__image">
+                                        <img src="./imgs/1.jpg" alt="">
+                                    </div>
+                                    <div class="article__recomendation__name">
+                                        <p>Название статьи</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item__reviews">
+                <div class="reviews__wrapper">
+                    <div class="reviews__element">
+                        <div class="reviews__element__score">
+                            <p>5.0</p>
+                        </div>
+                        <div class="reviews__element__desc">
+                            <p>
+                                Мастер по сантехнике отлично справился с
+                                установкой ванной комнаты в нашем доме.
+                                Работа выполнена качественно и в срок.
+                                Опытный и профессиональный мастер, всегда готовый дать полезные советы. Рекомендую!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews__button">
+                    <button>
+                        <p>Все отзывы</p>
+                    </button>
+                </div>
+            </div>
         </div>
 
         <!---ITEM RECOMENDATIONS---->
         <div class="item__recomendation__container">
-
-        </div>
-    </div>
-    <div class="item__articles">
-        <div class="article__recomendation">
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <a href="#" class="swiper__article__recomendation__block">
-                            <div class="article__recomendation__image">
-                                <img src="./imgs/1.jpg" alt="">
-                            </div>
-                            <div class="article__recomendation__name">
-                                <p>Название статьи</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="#" class="swiper__article__recomendation__block">
-                            <div class="article__recomendation__image">
-                                <img src="./imgs/1.jpg" alt="">
-                            </div>
-                            <div class="article__recomendation__name">
-                                <p>Название статьи</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="#" class="swiper__article__recomendation__block">
-                            <div class="article__recomendation__image">
-                                <img src="./imgs/1.jpg" alt="">
-                            </div>
-                            <div class="article__recomendation__name">
-                                <p>Название статьи</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="#" class="swiper__article__recomendation__block">
-                            <div class="article__recomendation__image">
-                                <img src="./imgs/1.jpg" alt="">
-                            </div>
-                            <div class="article__recomendation__name">
-                                <p>Название статьи</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="#" class="swiper__article__recomendation__block">
-                            <div class="article__recomendation__image">
-                                <img src="./imgs/1.jpg" alt="">
-                            </div>
-                            <div class="article__recomendation__name">
-                                <p>Название статьи</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="#" class="swiper__article__recomendation__block">
-                            <div class="article__recomendation__image">
-                                <img src="./imgs/1.jpg" alt="">
-                            </div>
-                            <div class="article__recomendation__name">
-                                <p>Название статьи</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="#" class="swiper__article__recomendation__block">
-                            <div class="article__recomendation__image">
-                                <img src="./imgs/1.jpg" alt="">
-                            </div>
-                            <div class="article__recomendation__name">
-                                <p>Название статьи</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="#" class="swiper__article__recomendation__block">
-                            <div class="article__recomendation__image">
-                                <img src="./imgs/1.jpg" alt="">
-                            </div>
-                            <div class="article__recomendation__name">
-                                <p>Название статьи</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="#" class="swiper__article__recomendation__block">
-                            <div class="article__recomendation__image">
-                                <img src="./imgs/1.jpg" alt="">
-                            </div>
-                            <div class="article__recomendation__name">
-                                <p>Название статьи</p>
-                            </div>
-                        </a>
-                    </div>
+            <div class="additional__block__articles">
+                <div class="additional__block__articles__name">
+                    <p>Это важно</p>
                 </div>
+                <div class="additional__block__articles__content">
+                    <a href="#">
+                        <p>Кямран Гулиев покинул пост
+                            президента Нефтчи</p>
+                    </a>
 
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                    <a href="#">
+                        <p>Кямран Гулиев покинул пост
+                            президента Нефтчи</p>
+                    </a>
+
+                    <a href="#">
+                        <p>Кямран Гулиев покинул пост
+                            президента Нефтчи</p>
+                    </a>
+                    <a href="#">
+                        <p>Кямран Гулиев покинул пост
+                            президента Нефтчи</p>
+                    </a>
+
+                    <a href="#">
+                        <p>Кямран Гулиев покинул пост
+                            президента Нефтчи</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="additional__block__articles">
+                <div class="additional__block__articles__name">
+                    <p>Это важно</p>
+                </div>
+                <div class="additional__block__articles__content">
+                    <a href="#">
+                        <p>Кямран Гулиев покинул пост
+                            президента Нефтчи</p>
+                    </a>
+                    <a href="#">
+                        <p>Кямран Гулиев покинул пост
+                            президента Нефтчи</p>
+                    </a>
+                    <a href="#">
+                        <p>Кямран Гулиев покинул пост
+                            президента Нефтчи</p>
+                    </a>
+                    <a href="#">
+                        <p>Кямран Гулиев покинул пост
+                            президента Нефтчи</p>
+                    </a>
+                    <a href="#">
+                        <p>Кямран Гулиев покинул пост
+                            президента Нефтчи</p>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
+
 
 </div>
 
@@ -199,4 +281,26 @@
             prevEl: ".swiper-button-prev"
         }
     });
+
+
+    //Скрипт номера телефона показать
+
+    function hideLastSevenDigits(phoneNumber) {
+        const digitsToHide = 7;
+        if (phoneNumber.length >= digitsToHide) {
+            const hiddenPart = '-'.repeat(digitsToHide);
+            const visiblePart = phoneNumber.substring(0, phoneNumber.length - digitsToHide);
+            return visiblePart + hiddenPart;
+        } else {
+            return phoneNumber; // Return the original number if it has less than 7 digits
+        }
+    }
+
+    const originalPhoneNumber = "+994 507506901";
+    const hiddenPhoneNumber = hideLastSevenDigits(originalPhoneNumber);
+    document.getElementById("phoneNumber").textContent = hiddenPhoneNumber;
+
+    function showFullNumber() {
+        document.getElementById("phoneNumber").textContent = originalPhoneNumber;
+    }
 </script>

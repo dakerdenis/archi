@@ -1,0 +1,146 @@
+.item__page__wrapper {
+    width: 1148px;
+    margin: 0 auto;
+}
+
+.item__page__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item__block {
+    width: 75%;
+    padding-right: 20px;
+    border-right: 1px solid rgba(0, 0, 0, 0.40);
+}
+
+.item__content__block {
+    display: flex;
+
+}
+
+.item__image {
+    height: 348px;
+    width: 348px;
+    border-radius: 11px;
+    overflow: hidden;
+}
+
+.item__image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.item__content__desc {
+    margin-left: 33px;
+}
+
+.item__name {
+    color: #000;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+
+.item__price {
+    color: #000;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+
+.item__tags {
+    display: flex;
+    margin-bottom: 26px;
+
+}
+
+.item__tags a {
+    margin-left: 4px;
+    color: #000;
+
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.item__date {
+    color: #000;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.item__number {
+    width: 215px;
+    height: 58px;
+    border-radius: 8px;
+    background-color: #d9d9d9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.item__number__desc {}
+
+.item__description {}
+
+.item__description__country {}
+
+.item__description__color {}
+
+.item__description__text {}
+
+.item__articles {}
+
+.article__recomendation {}
+
+.swiper {}
+
+.mySwiper {}
+
+.swiper-wrapper {}
+
+.swiper-slide {}
+
+.swiper__article__recomendation__block {}
+
+.article__recomendation__image {}
+
+.article__recomendation__name {}
+
+.swiper-button-next {}
+
+.swiper-button-prev {}
+
+.item__reviews {}
+
+.reviews__wrapper {}
+
+.reviews__element {}
+
+.reviews__element__score {}
+
+.reviews__element__desc {}
+
+.reviews__button {}
+
+.item__recomendation__container {
+    width: 24%;
+
+}
+
+.additional__block__articles {}
+
+.additional__block__articles__name {}
+
+.additional__block__articles__content {}
