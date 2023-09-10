@@ -47,10 +47,12 @@
             <!-------Item FULL DESCRIPTION---->
             <div class="item__description">
                 <div class="item__description__country">
+                    <p>Производитель:</p>
                     <p>Страна:</p>
                 </div>
                 <div class="item__description__color">
                     <p>Цвет:</p>
+                    <p>Размер:</p>
                 </div>
                 <div class="item__description__text">
                     <p>Преимущества паркетных полов:
@@ -175,7 +177,66 @@
             </div>
 
             <div class="item__reviews">
+                <div class="item__reviews__name">
+                    <p>Отзывы</p>
+                </div>
                 <div class="reviews__wrapper">
+                    <div class="reviews__element">
+                        <div class="reviews__element__score">
+                            <p>5.0</p>
+                        </div>
+                        <div class="reviews__element__desc">
+                            <p>
+                                Мастер по сантехнике отлично справился с
+                                установкой ванной комнаты в нашем доме.
+                                Работа выполнена качественно и в срок.
+                                Опытный и профессиональный мастер, всегда готовый дать полезные советы. Рекомендую!
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="reviews__element">
+                        <div class="reviews__element__score">
+                            <p>5.0</p>
+                        </div>
+                        <div class="reviews__element__desc">
+                            <p>
+                                Мастер по сантехнике отлично справился с
+                                установкой ванной комнаты в нашем доме.
+                                Работа выполнена качественно и в срок.
+                                Опытный и профессиональный мастер, всегда готовый дать полезные советы. Рекомендую!
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="reviews__element">
+                        <div class="reviews__element__score">
+                            <p>5.0</p>
+                        </div>
+                        <div class="reviews__element__desc">
+                            <p>
+                                Мастер по сантехнике отлично справился с
+                                установкой ванной комнаты в нашем доме.
+                                Работа выполнена качественно и в срок.
+                                Опытный и профессиональный мастер, всегда готовый дать полезные советы. Рекомендую!
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="reviews__element">
+                        <div class="reviews__element__score">
+                            <p>5.0</p>
+                        </div>
+                        <div class="reviews__element__desc">
+                            <p>
+                                Мастер по сантехнике отлично справился с
+                                установкой ванной комнаты в нашем доме.
+                                Работа выполнена качественно и в срок.
+                                Опытный и профессиональный мастер, всегда готовый дать полезные советы. Рекомендую!
+                            </p>
+                        </div>
+                    </div>
+
                     <div class="reviews__element">
                         <div class="reviews__element__score">
                             <p>5.0</p>
@@ -281,7 +342,7 @@
     });
 
 
-    //Скрипт номера телефона показать
+    //Скрипт номера телефона 
 
     function hideLastSevenDigits(phoneNumber) {
         const digitsToHide = 7;
@@ -290,7 +351,7 @@
             const visiblePart = phoneNumber.substring(0, phoneNumber.length - digitsToHide);
             return visiblePart + hiddenPart;
         } else {
-            return phoneNumber; // Return the original number if it has less than 7 digits
+            return phoneNumber;
         }
     }
 
