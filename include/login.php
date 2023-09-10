@@ -19,7 +19,9 @@
                 <button>Вход</button>
             </div>
             <div class="login__input__button">
-                <a href="#">Регистрация</a>
+                <a href="#">
+                    <p>Регистрация</p>
+                </a>
             </div>
         </form>
     </div>

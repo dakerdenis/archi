@@ -1,0 +1,27 @@
+.under__construction__page{
+    width: 100%;
+    
+}
+.under__construction__advertisement{
+    width: 1148px;
+    margin: 0 auto;
+    margin-top: 197px;
+    margin-bottom: 200px;
+}
+
+.underconst__name {
+    width: 100%;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 700;
+    margin: 0 auto;
+    margin-top: 200px;
+
+}
+.underconst__desc {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 110px;
+    font-size: 20px;
+}

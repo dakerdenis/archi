@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./style/styles.css">
 </head>
 <body>
 
         <?php include './include/header.php' ?>
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
         <div class="main__content">
             <?php
             if (isset($_GET['page'])) {
@@ -32,9 +33,20 @@
                     case "search":
                         include './include/search.php';
                         break;
-                    case "article":
-                        include './include/search.php';
+                    case "pages":
+                        include './include/pages.php';
                         break;
+                    case "article":
+                        include './include/article.php';
+                        break;
+                    case "goods":
+                            include './include/goods.php';
+                            break;
+                    case "item":
+                        include './include/item.php';
+                        break;
+
+                        
                     default:
                         include './include/main.php';
                         break;
@@ -51,7 +63,7 @@
 
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
     <script src="./scripts/index.js"></script>
 </body>
 </html>
