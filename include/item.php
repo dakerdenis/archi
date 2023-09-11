@@ -73,107 +73,85 @@
                     </p>
                 </div>
             </div>
-
+            <!---ARTICLES SWIPER------------>
             <div class="item__articles">
-                <div class="article__recomendation">
+                <div class="item__articles__container">
                     <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
+                            <!------------------->
                             <div class="swiper-slide">
-                                <a href="#" class="swiper__article__recomendation__block">
-                                    <div class="article__recomendation__image">
+                                <a href="#" class="item__recomendation__block">
+                                    <div class="item__recomendation__image">
                                         <img src="./imgs/1.jpg" alt="">
                                     </div>
-                                    <div class="article__recomendation__name">
+                                    <div class="item__recomendation__name">
                                         <p>Название статьи</p>
                                     </div>
                                 </a>
                             </div>
-                            <div class="swiper-slide">
-                                <a href="#" class="swiper__article__recomendation__block">
-                                    <div class="article__recomendation__image">
+                                                        <!------------------->
+                             <div class="swiper-slide">
+                                <a href="#" class="item__recomendation__block">
+                                    <div class="item__recomendation__image">
                                         <img src="./imgs/1.jpg" alt="">
                                     </div>
-                                    <div class="article__recomendation__name">
+                                    <div class="item__recomendation__name">
                                         <p>Название статьи</p>
                                     </div>
                                 </a>
                             </div>
-                            <div class="swiper-slide">
-                                <a href="#" class="swiper__article__recomendation__block">
-                                    <div class="article__recomendation__image">
+                                                                                    <!------------------->
+                                                                                    <div class="swiper-slide">
+                                <a href="#" class="item__recomendation__block">
+                                    <div class="item__recomendation__image">
                                         <img src="./imgs/1.jpg" alt="">
                                     </div>
-                                    <div class="article__recomendation__name">
+                                    <div class="item__recomendation__name">
                                         <p>Название статьи</p>
                                     </div>
                                 </a>
                             </div>
-                            <div class="swiper-slide">
-                                <a href="#" class="swiper__article__recomendation__block">
-                                    <div class="article__recomendation__image">
+                                                                                    <!------------------->
+                                                                                    <div class="swiper-slide">
+                                <a href="#" class="item__recomendation__block">
+                                    <div class="item__recomendation__image">
                                         <img src="./imgs/1.jpg" alt="">
                                     </div>
-                                    <div class="article__recomendation__name">
+                                    <div class="item__recomendation__name">
                                         <p>Название статьи</p>
                                     </div>
                                 </a>
                             </div>
-                            <div class="swiper-slide">
-                                <a href="#" class="swiper__article__recomendation__block">
-                                    <div class="article__recomendation__image">
+                                                                                    <!------------------->
+                                                                                    <div class="swiper-slide">
+                                <a href="#" class="item__recomendation__block">
+                                    <div class="item__recomendation__image">
                                         <img src="./imgs/1.jpg" alt="">
                                     </div>
-                                    <div class="article__recomendation__name">
+                                    <div class="item__recomendation__name">
                                         <p>Название статьи</p>
                                     </div>
                                 </a>
                             </div>
-                            <div class="swiper-slide">
-                                <a href="#" class="swiper__article__recomendation__block">
-                                    <div class="article__recomendation__image">
+                                                                                    <!------------------->
+                                                                                    <div class="swiper-slide">
+                                <a href="#" class="item__recomendation__block">
+                                    <div class="item__recomendation__image">
                                         <img src="./imgs/1.jpg" alt="">
                                     </div>
-                                    <div class="article__recomendation__name">
+                                    <div class="item__recomendation__name">
                                         <p>Название статьи</p>
                                     </div>
                                 </a>
                             </div>
-                            <div class="swiper-slide">
-                                <a href="#" class="swiper__article__recomendation__block">
-                                    <div class="article__recomendation__image">
-                                        <img src="./imgs/1.jpg" alt="">
-                                    </div>
-                                    <div class="article__recomendation__name">
-                                        <p>Название статьи</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="#" class="swiper__article__recomendation__block">
-                                    <div class="article__recomendation__image">
-                                        <img src="./imgs/1.jpg" alt="">
-                                    </div>
-                                    <div class="article__recomendation__name">
-                                        <p>Название статьи</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="#" class="swiper__article__recomendation__block">
-                                    <div class="article__recomendation__image">
-                                        <img src="./imgs/1.jpg" alt="">
-                                    </div>
-                                    <div class="article__recomendation__name">
-                                        <p>Название статьи</p>
-                                    </div>
-                                </a>
-                            </div>
+
                         </div>
 
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
                     </div>
+                    <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
                 </div>
+
             </div>
 
             <div class="item__reviews">
@@ -332,8 +310,8 @@
 <!-- Initialize Swiper -->
 <script>
     var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 4,
-        spaceBetween: 30,
+        slidesPerView: 5,
+        spaceBetween: 20,
         freeMode: true,
         navigation: {
             nextEl: ".swiper-button-next",
