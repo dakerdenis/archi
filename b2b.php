@@ -27,8 +27,8 @@
                     case "profile":
                         include './include/b2b/profile.php';
                         break;
-                    case "under_construction":
-                        include './include/under_construction.php';
+                    case "company":
+                        include './include/b2b/company.php';
                         break;
                     case "search":
                         include './include/search.php';
