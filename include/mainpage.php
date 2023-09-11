@@ -201,7 +201,8 @@
         </div>
     </div>
     <br><br><br><br><br><br><br><br><br><br>
-        <div style="display: flex; flex-direction: column;">
+        <div style="display: flex; flex-direction: column; width:400px; margin: 0 auto; border-radius: 10px; padding: 20px; box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2)">
+        <a style="color: red; margin-bottom: 10px;" href="./b2b.php">B2B ссылка</a>
             <a style="color: red; margin-bottom: 10px;" href="./index.php?page=under_construction">Находится а разработке страница</a>
             <a style="color: red; margin-bottom: 10px;" href="./index.php?page=profile">Профиль</a>
             <a style="color: red; margin-bottom: 10px;" href="./index.php?page=pages">Статьи ? страницы список</a>
