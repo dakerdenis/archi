@@ -1,5 +1,6 @@
 <style>
     <?php include './style/b2b/mainpage.css' ?>
+    <?php include './style/b2b/company.css' ?>
 </style>
 <div class="company__page">
     <div class="company__page__wrapper">
@@ -41,15 +42,15 @@
 
             <div class="company__fotodesc">
                 <div class="company__foto">
-                    <img src="" alt="">
+                    <img src="./imgs/1.jpg" alt="">
                 </div>
                 <div class="company__desc">
                     <div class="company__desc__name">
                         <p>Название какой-нибудь компании фавыаафыва</p>
                     </div>
                     <div class="company__desc__location">
-                        <p>Страна: Редания</p>
-                        <p>Город: Новиград</p>
+                        <p>Страна: <span>Редания</span></p>
+                        <p>Город: <span>Новиград</span></p>
                     </div>
                     <div class="company__desc__added">
                         <p>Добавлено: 01.01.2023</p>

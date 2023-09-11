@@ -1,0 +1,135 @@
+.company__page {
+    width: 1148px;
+    margin: 0 auto;
+}
+
+.company__page__wrapper {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.company__page__categories {
+    width: 25%;
+    padding-left: 20px;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.company__block {
+    height: 100%;
+    width: 100%;
+    padding-left: 40px;
+}
+
+.company__block__navigation {
+    display: flex;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+
+.company__block__navigation span {
+    margin: 0px 5px;
+    font-weight: 600;
+}
+
+.company__fotodesc {
+    display: flex;
+    width: 100%;
+}
+
+.company__foto {
+    height: 183px;
+    width: 183px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.company__foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.company__desc {
+    margin-left: 36px;
+}
+
+.company__desc__name {
+    color: #000;
+
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 14px;
+}
+
+.company__desc__location {
+    display: flex;
+    justify-content: space-between;
+    width: 340px;
+    color: #000;
+    font-family: Century Gothic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 14px;
+}
+
+.company__desc__location span {
+    font-weight: 700;
+}
+
+.company__desc__added {
+    color: #000;
+
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 14px;
+}
+
+.company__desc__updated {
+    color: #000;
+
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 14px;
+}
+
+.company__desc__contact {}
+
+.company__desc__contactbutton {}
+
+.company__desc__contact-button {}
+
+.company__desc__contact-person {}
+
+.lock_ {}
+
+.company__startdate {}
+
+.company__big__desc {}
+
+.company__category__block {}
+
+.category__block__name {}
+
+.category__block__wrapper {}
+
+.category__block__element {}
+
+.block__element__image {}
+
+.block__element__name {}
+
+.block__element__price {}
