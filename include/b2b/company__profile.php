@@ -46,16 +46,66 @@
                 <p>Описание</p>
             </div>
             <div class="company__profile__desc__text">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat possimus, corrupti vel consequuntur, ducimus distinctio, excepturi ratione consectetur saepe quasi eos iure sed earum sequi voluptatum nesciunt quibusdam accusamus ipsa?</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat possimus, corrupti vel consequuntur, ducimus distinctio, excepturi ratione consectetur saepe quasi eos iure sed earum sequi voluptatum nesciunt quibusdam accusamus ipsa?</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat possimus, corrupti vel consequuntur, ducimus distinctio, excepturi ratione consectetur saepe quasi eos iure sed earum sequi voluptatum nesciunt quibusdam accusamus ipsa?</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat possimus, corrupti vel consequuntur, ducimus distinctio, excepturi ratione consectetur saepe quasi eos iure sed earum sequi voluptatum nesciunt quibusdam accusamus ipsa?</p>
-            
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat possimus, corrupti vel consequuntur, ducimus distinctio, excepturi ratione consectetur saepe quasi eos iure sed earum sequi voluptatum nesciunt quibusdam accusamus ipsa?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat possimus, corrupti vel consequuntur, ducimus distinctio, excepturi ratione consectetur saepe quasi eos iure sed earum sequi voluptatum nesciunt quibusdam accusamus ipsa?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat possimus, corrupti vel consequuntur, ducimus distinctio, excepturi ratione consectetur saepe quasi eos iure sed earum sequi voluptatum nesciunt quibusdam accusamus ipsa?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat possimus, corrupti vel consequuntur, ducimus distinctio, excepturi ratione consectetur saepe quasi eos iure sed earum sequi voluptatum nesciunt quibusdam accusamus ipsa?</p>
+
             </div>
         </div>
         <!------------->
         <div class="company__profile__settings">
+            <div class="profile__settings__wrapper">
+                <div class="profile__settings__element">
+                    <a href="#">
+                        <p>Редактировать профиль</p>
+                    </a>
+                </div>
 
+                <div class="profile__settings__element">
+                    <a href="#">
+                        <p>Техническая поддержка</p>
+                    </a>
+                </div>
+
+                <div class="profile__settings__element">
+                    <a href="#">
+                        <p>Получить Консультацию</p>
+                    </a>
+                </div>
+
+                <div class="profile__settings__name">
+                    <p>Дополнительные услуги</p>
+                </div>
+                <div class="profile__settings__element">
+                    <a href="#">
+                        <p>Логистика</p>
+                    </a>
+                </div>
+                <div class="profile__settings__element">
+                    <a href="#">
+                        <p>Сертификация</p>
+                    </a>
+                </div>
+                <div class="profile__settings__element">
+                    <a href="#">
+                        <p>Организация переговоров</p>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
+    <div class="company__profile__categories">
+        <div class="profile__categories__nameadd">
+            <div class="profile__categories__name">
+                <p>Ваши Категории</p>
+            </div>
+            <div class="profile__categories__add">
+                <a href="#">
+                    <p>Добавить категорию</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
 </div>
