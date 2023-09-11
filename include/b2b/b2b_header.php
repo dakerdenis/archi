@@ -1,18 +1,19 @@
 <header class="header__container">
     <div class="header__wrapper">
         <!-------IMAGE-------->
-        <div class="header__image">
+        <div class="header__image header__image_b2b">
             <a href="./index.php">
-                <img src="./imgs/logo.png" alt="Archi logo">
+                <p>B2B</p>
             </a>
         </div>
         <!-----NAVIGATION------>
         <div class="header__navigation">
             <ul>
-                <li><a href="#">Книга ремонта</a></li>
-                <li><a href="#">Построй дом!</a></li>
-                <li><a href="#">B2B</a></li>
-                <li><a href="#">О проекте</a></li>
+                <li><a href="#">Внешний рынок</a></li>
+                <li>
+                    <img src="./imgs/logo.png" alt="">
+                </li>
+                <li><a href="#">Внутренний рыноке</a></li>
             </ul>
         </div>
         <!-----navigation MOBILE----->
@@ -39,10 +40,10 @@
                         </a>
                     </div>
 
-                        <a href="./index.php?page=login" class="dropdown__login_block __login__green">
+                        <a href="./b2b.php?page=login" class="dropdown__login_block __login__green">
                             <p>Вход</p>
                         </a>
-                        <a href="./index.php?page=registration" class="dropdown__login_block">
+                        <a href="./b2b.php?page=registration" class="dropdown__login_block">
                             <p>Регистрация</p>
                         </a>
                 </div>
@@ -71,13 +72,13 @@
                         </div>
 
                         <div class="burger__menu__login">
-                            <a href="#">
+                            <a href="./b2b.php?page=login">
                                 <p>Вход</p>
                             </a>
                         </div>
 
                         <div class="burger__menu__registration">
-                            <a href="#">
+                            <a href="./b2b.php?page=registration">
                                 <p>Регистрация</p>
                             </a>
                         </div>

@@ -9,23 +9,23 @@
 </head>
 <body>
 
-        <?php include './include/b2b_header.php' ?>
+        <?php include './include/b2b/b2b_header.php' ?>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
         <div class="main__content">
             <?php
             if (isset($_GET['page'])) {
                 switch ($_GET['page']) {
                     case "main":
-                        include './include/mainpage.php';
+                        include './include/b2b/mainpage.php';
                         break;
                     case "login":
-                        include './include/login.php';
+                        include './include/b2b/login.php';
                         break;
                     case "registration":
-                        include './include/registration.php';
+                        include './include/b2b/registration.php';
                         break;
                     case "profile":
-                        include './include/profile.php';
+                        include './include/b2b/profile.php';
                         break;
                     case "under_construction":
                         include './include/under_construction.php';
@@ -48,7 +48,7 @@
 
 
                     default:
-                        include './include/main.php';
+                        include './include/mainpage.php';
                         break;
                 }
             } else {

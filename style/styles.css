@@ -120,6 +120,18 @@ h6 {
   flex-wrap: wrap;
 }
 
+.header__image_b2b {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000;
+}
+
+.header__image_b2b a{
+  color: #000;
+}
 .header__container .header__wrapper .header__navigation ul {
   width: 560px;
   display: flex;

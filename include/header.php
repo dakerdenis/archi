@@ -2,7 +2,7 @@
     <div class="header__wrapper">
         <!-------IMAGE-------->
         <div class="header__image">
-            <a href="./index.php">
+            <a href="./b2b.php">
                 <img src="./imgs/logo.png" alt="Archi logo">
             </a>
         </div>
