@@ -30,8 +30,8 @@
                     case "company":
                         include './include/b2b/company.php';
                         break;
-                    case "search":
-                        include './include/search.php';
+                    case "company_category":
+                        include './include/b2b/company_category.php';
                         break;
                     case "pages":
                         include './include/pages.php';
