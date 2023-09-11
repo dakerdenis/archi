@@ -1,33 +1,32 @@
 <style>
-    <?php include './style/b2b/mainpage.css' ?>
-    <?php include './style/b2b/company.css' ?>
+    <?php include './style/b2b/mainpage.css' ?><?php include './style/b2b/company.css' ?>
 </style>
 <div class="company__page">
     <div class="company__page__wrapper">
         <div class="company__page__categories">
-                <div class="b2b__categories__name">
-                    <p>Категории</p>
-                </div>
-                <div class="b2b__categories__list">
-                    <a href="#">
-                        <p>Категория</p>
-                    </a>
-                    <a href="#">
-                        <p>Категория</p>
-                    </a>
-                    <a href="#">
-                        <p>Категория</p>
-                    </a>
-                    <a href="#">
-                        <p>Категория</p>
-                    </a>
-                    <a href="#">
-                        <p>Категория</p>
-                    </a>
-                    <a href="#">
-                        <p>Категория</p>
-                    </a>
-                </div>
+            <div class="b2b__categories__name">
+                <p>Категории</p>
+            </div>
+            <div class="b2b__categories__list">
+                <a href="#">
+                    <p>Категория</p>
+                </a>
+                <a href="#">
+                    <p>Категория</p>
+                </a>
+                <a href="#">
+                    <p>Категория</p>
+                </a>
+                <a href="#">
+                    <p>Категория</p>
+                </a>
+                <a href="#">
+                    <p>Категория</p>
+                </a>
+                <a href="#">
+                    <p>Категория</p>
+                </a>
+            </div>
         </div>
         <div class="company__block">
             <div class="company__block__navigation">
@@ -60,18 +59,18 @@
                     </div>
                     <div class="company__desc__contact">
                         <div class="company__desc__contactbutton">
-                            <div class="company__desc__contact-button">
-                                <a href="#">
-                                    <p>Контакты</p>
+                            <div class="company__desc__contact-button company__active">
+                                <a class="" href="#">
+                                    <p id="showedContacts">Контакты</p>
                                 </a>
-                                <p>Нажмите для отображения</p>
+                                <p id="show__contacts">Нажмите для отображения</p>
                             </div>
 
                             <div class="company__desc__contact-person">
-                                <a href="#">
-                                    <p>Представитель</p>
+                                <a class="" href="#">
+                                    <p id="showedRepresentative">Представитель</p>
                                 </a>
-                                <p>Нажмите для отображения</p>
+                                <p id="show_representative">Нажмите для отображения</p>
                             </div>
 
 
@@ -90,31 +89,92 @@
             </div>
 
             <div class="company__big__desc">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, tempora voluptate sequi assumenda, earum ut ipsam, doloribus nobis error ducimus sit omnis perspiciatis at cupiditate esse qui dolore temporibus voluptatem.</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, tempora voluptate sequi assumenda, earum ut ipsam, doloribus nobis error ducimus sit omnis perspiciatis at cupiditate esse qui dolore temporibus voluptatem.</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, tempora voluptate sequi assumenda, earum ut ipsam, doloribus nobis error ducimus sit omnis perspiciatis at cupiditate esse qui dolore temporibus voluptatem.</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, tempora voluptate sequi assumenda, earum ut ipsam, doloribus nobis error ducimus sit omnis perspiciatis at cupiditate esse qui dolore temporibus voluptatem.</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, tempora voluptate sequi assumenda, earum ut ipsam, doloribus nobis error ducimus sit omnis perspiciatis at cupiditate esse qui dolore temporibus voluptatem.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, tempora voluptate sequi assumenda, earum ut ipsam, doloribus nobis error ducimus sit omnis perspiciatis at cupiditate esse qui dolore temporibus voluptatem.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, tempora voluptate sequi assumenda, earum ut ipsam, doloribus nobis error ducimus sit omnis perspiciatis at cupiditate esse qui dolore temporibus voluptatem.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, tempora voluptate sequi assumenda, earum ut ipsam, doloribus nobis error ducimus sit omnis perspiciatis at cupiditate esse qui dolore temporibus voluptatem.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, tempora voluptate sequi assumenda, earum ut ipsam, doloribus nobis error ducimus sit omnis perspiciatis at cupiditate esse qui dolore temporibus voluptatem.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, tempora voluptate sequi assumenda, earum ut ipsam, doloribus nobis error ducimus sit omnis perspiciatis at cupiditate esse qui dolore temporibus voluptatem.</p>
             </div>
 
             <div class="company__category__block">
                 <div class="category__block__name">
-                    <p>Название категории (n)</p>
+                    <a href="#">
+                        Название категории (n)
+                    </a>
                 </div>
                 <div class="category__block__wrapper">
                     <div class="category__block__element">
                         <div class="block__element__image">
-                            <img src="./imgs/.jpg" alt="">
+                            <img src="./imgs/1.jpg" alt="">
                         </div>
                         <div class="block__element__name">
                             <p>Пол цемент яма</p>
                         </div>
-                         <div class="block__element__price">
+                        <div class="block__element__price">
                             <p>20 AZN</p>
-                         </div>
+                        </div>
+                    </div>
+
+                    <div class="category__block__element">
+                        <div class="block__element__image">
+                            <img src="./imgs/1.jpg" alt="">
+                        </div>
+                        <div class="block__element__name">
+                            <p>Пол цемент яма</p>
+                        </div>
+                        <div class="block__element__price">
+                            <p>20 AZN</p>
+                        </div>
+                    </div>
+
+                    <div class="category__block__element">
+                        <div class="block__element__image">
+                            <img src="./imgs/1.jpg" alt="">
+                        </div>
+                        <div class="block__element__name">
+                            <p>Пол цемент яма</p>
+                        </div>
+                        <div class="block__element__price">
+                            <p>20 AZN</p>
+                        </div>
+                    </div>
+
+                    <div class="category__block__element">
+                        <div class="block__element__image">
+                            <img src="./imgs/1.jpg" alt="">
+                        </div>
+                        <div class="block__element__name">
+                            <p>Пол цемент яма</p>
+                        </div>
+                        <div class="block__element__price">
+                            <p>20 AZN</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<script>
+    //Скрипт показать контакты
+    const number = '+994 50 750 69 01';
+    const number2 = '+994 55 327 52 69';
+    $(document).ready(() => {
+        $('#show__contacts').click(() => {
+            $('#showedContacts').text(number);
+            $('#showedContacts').css({
+                "font-size": "14px",
+                "font-weight": "400"
+            });
+        });
+        $('#show_representative').click(() => {
+            $('#showedRepresentative').text(number2);
+            $('#showedRepresentative').css({
+                "font-size": "14px",
+                "font-weight": "400"
+            });
+        });
+
+    });
+</script>

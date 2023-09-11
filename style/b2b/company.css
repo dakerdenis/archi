@@ -106,9 +106,7 @@
     margin-bottom: 14px;
 }
 
-.company__desc__contact {
-
-}
+.company__desc__contact {}
 
 .company__desc__contactbutton {
     display: flex;
@@ -116,11 +114,12 @@
 
 }
 
-.company__desc__contact-button{
+.company__desc__contact-button {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .company__desc__contact-button a {
     display: flex;
     align-items: center;
@@ -129,36 +128,43 @@
     height: 31px;
     flex-shrink: 0;
     border-radius: 5px;
-    background: #B6DFA2;
+    background: #D9D9D9;
     margin-bottom: 6px;
 }
+
 .company__desc__contact-button p {
     color: #000;
-font-size: 8px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
 }
-.company__desc__contact-person{
+
+.company__desc__contact-person {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-left: 26px;
     margin-right: 6px;
 }
+
 .company__desc__contact-person p {
     color: #000;
-font-size: 8px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
 }
-.company__desc__contact-button a p{
+
+.company__desc__contact-button a p {
     color: #000;
-font-size: 15px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
 }
 
 .company__desc__contact-person a {
@@ -172,12 +178,14 @@ line-height: normal;
     background: #D9D9D9;
     margin-bottom: 6px;
 }
+
 .company__desc__contact-person a p {
     color: #000;
     font-size: 15px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+
 }
 
 .lock_ {
@@ -185,48 +193,122 @@ line-height: normal;
     height: 20px;
     margin-top: 3px;
 }
+
 .lock_ img {
     width: 20px;
-    height: 20px; 
+    height: 20px;
 }
+
+/**! *************************/
+/**! *************************/
+/**! *************************/
+/**! классы которые меняют стиль кнопки со скрытыми номерами телефонов **/
+.company__active a {
+    background-color: #B6DFA2;
+}
+
+.opened_number {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/**! *************************/
+/**! *************************/
+/**! *************************/
+/**! *************************/
 .company__startdate {
     margin-top: 45px;
     color: #000;
-font-family: Century Gothic;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-display: flex;
-margin-bottom: 10px;
+    font-family: Century Gothic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    margin-bottom: 10px;
 
 }
-.company__startdate p:nth-child(1){
+
+.company__startdate p:nth-child(1) {
     font-weight: 700;
     margin-right: 5px;
 }
 
 .company__big__desc {
     color: #000;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 22.07px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.07px;
 }
+
 .company__big__desc p {
     margin-bottom: 10px;
 }
 
-.company__category__block {}
+.company__category__block {
+    width: 100%;
+    margin-top: 25px;
 
-.category__block__name {}
+}
 
-.category__block__wrapper {}
+.category__block__name a{
+    color: #000;
 
-.category__block__element {}
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 
-.block__element__image {}
+.category__block__wrapper {
+    margin-top: 26px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 
-.block__element__name {}
+.category__block__element {
+    height: 264px;
+    width: 190px;
+    border-radius: 11px;
+background: #EDEDED;
+position: relative;
+}
 
-.block__element__price {}
+.block__element__image {
+    border-radius: 11px 11px 0px 0px;
+    height: 190px;
+    width: 190px;
+    overflow: hidden;
+}
+.block__element__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.block__element__name {
+    color: #000;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 10px;
+margin-left: 15px;
+}
+
+.block__element__price {
+    color: #000;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+position: absolute;
+right: 15px;
+bottom: 6px;
+}
