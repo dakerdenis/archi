@@ -46,6 +46,7 @@
                         <a href="./b2b.php?page=registration" class="dropdown__login_block">
                             <p>Регистрация</p>
                         </a>
+                        <a style="color:red" href="./b2b.php?page=company__profile">Профиль компании</a>
                 </div>
             </div>
         </div>
