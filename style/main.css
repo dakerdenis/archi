@@ -149,3 +149,14 @@
     font-size: 18px;
     line-height: 22px;
 }
+@media only screen and (max-width: 768px) {
+    .main_survey{
+        width: 100%;
+    }
+    .main_survey_container{
+        flex-direction: column;
+    }
+    .survey__block{
+        width: 100%;
+    }
+}

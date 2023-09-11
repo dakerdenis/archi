@@ -156,32 +156,45 @@
     border-radius: 17px;
 background: #F1F1F1;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+display: flex;
+align-items: center;
+justify-content: center;
 
 }
 .item__articles__container{
     width: 85%;
-    margin: 0 auto;
+
     height: 100%;
     position: relative;
+
 }
 .swiper-wrapper{
+
 }
 .item__recomendation__block{
+    margin-top: 25px;
     display: block;
     width: 116.75px;
     height: calc(116.75px  + 15.86px + 7.2px);
-    background-color: green;
+
 }
 .item__recomendation__image{
     width: 116.75px;
     height: 116.75px;
     border-radius: 5px;
-
+    overflow: hidden;
 }
 .item__recomendation__image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+.item__recomendation__name{
+    color: #000;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
 .item__articles__container [class^="swiper-button-next"] {
     position: absolute;

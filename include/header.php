@@ -15,6 +15,10 @@
                 <li><a href="#">О проекте</a></li>
             </ul>
         </div>
+        <!-----navigation MOBILE----->
+        <div class="header__navigation__mobile">
+            <p>Книга ремонта</p>
+        </div>
 
         <!---PROFILE&LANG---->
         <div class="header__profile">
@@ -44,5 +48,26 @@
                 </div>
             </div>
         </div>
+        <!-----burger button and menu----->
+        <div class="header__burger_menu">
+            <div class="burger-menu">
+                <div class="burger-icon" id="burger-icon">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <div class="menu" id="menu">
+                    <!-- Your menu content goes here -->
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        
     </div>
 </header>
