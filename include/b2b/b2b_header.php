@@ -2,7 +2,7 @@
     <div class="header__wrapper">
         <!-------IMAGE-------->
         <div class="header__image header__image_b2b">
-            <a href="./index.php">
+            <a href="./b2b.php">
                 <p>B2B</p>
             </a>
         </div>

@@ -48,11 +48,11 @@
 
 
                     default:
-                        include './include/mainpage.php';
+                        include './include/b2b/mainpage.php';
                         break;
                 }
             } else {
-                include './include/mainpage.php';
+                include './include/b2b/mainpage.php';
             }
             ?>
 
