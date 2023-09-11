@@ -85,7 +85,7 @@
             </div>
 
             <div class="company__startdate">
-                <p>Дата основания:</p>
+                <p>Дата основания: </p>
                 <p>01.02.2023</p>
             </div>
 

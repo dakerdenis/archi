@@ -106,19 +106,116 @@
     margin-bottom: 14px;
 }
 
-.company__desc__contact {}
+.company__desc__contact {
 
-.company__desc__contactbutton {}
+}
 
-.company__desc__contact-button {}
+.company__desc__contactbutton {
+    display: flex;
+    width: 350px;
 
-.company__desc__contact-person {}
+}
 
-.lock_ {}
+.company__desc__contact-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.company__desc__contact-button a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 141px;
+    height: 31px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #B6DFA2;
+    margin-bottom: 6px;
+}
+.company__desc__contact-button p {
+    color: #000;
+font-size: 8px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.company__desc__contact-person{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 26px;
+    margin-right: 6px;
+}
+.company__desc__contact-person p {
+    color: #000;
+font-size: 8px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.company__desc__contact-button a p{
+    color: #000;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
 
-.company__startdate {}
+.company__desc__contact-person a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 141px;
+    height: 31px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #D9D9D9;
+    margin-bottom: 6px;
+}
+.company__desc__contact-person a p {
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 
-.company__big__desc {}
+.lock_ {
+    width: 20px;
+    height: 20px;
+    margin-top: 3px;
+}
+.lock_ img {
+    width: 20px;
+    height: 20px; 
+}
+.company__startdate {
+    margin-top: 45px;
+    color: #000;
+font-family: Century Gothic;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+margin-bottom: 10px;
+
+}
+.company__startdate p:nth-child(1){
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.company__big__desc {
+    color: #000;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 22.07px;
+}
+.company__big__desc p {
+    margin-bottom: 10px;
+}
 
 .company__category__block {}
 
