@@ -10,8 +10,15 @@
         <div class="company__profile__desc">
             <!----FOTO AND DESCRIPTION------>
             <div class="company__profile__desc__wrapper">
-                <div class="profile__desc__foto">
-                    <img src="./imgs/.jpg" alt="" srcset="">
+                <div class="profile__desc__fotoviews">
+                    <div class="profile__desc__foto">
+                        <img src="./imgs/1.jpg" alt="" srcset="">
+                    </div>
+
+                    <div class="profile__desc__views">
+                        <img src="./imgs/eye.svg" alt="" srcset="">
+                        <p>1200</p>
+                    </div>
                 </div>
                 <div class="profile__desc">
                     <div class="profile__desc__name">
@@ -104,6 +111,11 @@
                 <a href="#">
                     <p>Добавить категорию</p>
                 </a>
+            </div>
+        </div>
+        <div class="profile__categories__wrapper">
+            <div class="profile__categories__blockN">
+
             </div>
         </div>
     </div>

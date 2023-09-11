@@ -1,0 +1,147 @@
+.company__profile__container {
+    width: 1148px;
+    margin: 0 auto;
+
+}
+
+.company__profile__name {
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.company__profile__wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/**? *******************/
+/**? *******************/
+.company__profile__desc {
+    width: 70%;
+    padding-right: 50px;
+}
+
+.company__profile__desc__wrapper {
+    display: flex;
+    margin-top: 23px;
+}
+
+.profile__desc__fotoviews {
+    width: 219px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.profile__desc__foto {
+    height: 219px;
+    width: 219px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.profile__desc__foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile__desc__views {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.profile__desc__views img {
+    margin-right: 5px;
+}
+
+.profile__desc__views p {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.profile__desc {
+    margin-left: 54px;
+}
+
+.profile__desc__name {
+    color: #000;
+
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 11px;
+}
+
+.profile__desc__location {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.profile__desc__location p {
+    color: #000;
+
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.profile__desc__location span {
+    color: #000;
+
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.profile__desc__date {}
+
+.profile__desc__date__more {}
+
+.profile__desc__contacts {}
+
+.profile__desc__contacts__all {}
+
+.profile__desc__contacts__represent {}
+
+.company__profile__desc__name {}
+
+.company__profile__desc__text {}
+
+/**? *******************/
+/**? *******************/
+.company__profile__settings {
+    width: 25%;
+    padding-left: 14.5;
+}
+
+.profile__settings__wrapper {}
+
+.profile__settings__element {}
+
+.profile__settings__name {}
+
+.company__profile__categories {}
+
+.profile__categories__nameadd {}
+
+.profile__categories__name {}
+
+.profile__categories__add {}
+
+.profile__categories__wrapper {}
+
+.profile__categories__blockN {}
