@@ -1,3 +1,5 @@
+<!-- Link Swiper's CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 <style>
     <?php include './style/b2b/company__profile.css' ?>
 </style>
@@ -126,7 +128,106 @@
                     </a>
                 </div>
                 <div class="categoriesN__wrapper">
+                <div class="categoriesN__swiper__container">
+                        <div class="swiper mySwiper1">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <a href="#" class="swiper__categoriesN__block">
+                                            <div class="categoriesN__image">
+                                                <img src="./imgs/1.jpg" alt="">
+                                            </div>
+                                            <div class="categoriesN__swiper__name">
+                                                <p>Название статьи</p>
+                                            </div>
+                                            <div class="categoriesN__swiper__price">
+                                                <p>20 AZN</p>
+                                            </div>
+                                        </a>
+                                    </div>
 
+
+                                    <div class="swiper-slide">
+                                        <a href="#" class="swiper__categoriesN__block">
+                                            <div class="categoriesN__image">
+                                                <img src="./imgs/1.jpg" alt="">
+                                            </div>
+                                            <div class="categoriesN__swiper__name">
+                                                <p>Название статьи</p>
+                                            </div>
+                                            <div class="categoriesN__swiper__price">
+                                                <p>20 AZN</p>
+                                            </div>
+                                        </a>
+                                    </div>
+
+
+                                    <div class="swiper-slide">
+                                        <a href="#" class="swiper__categoriesN__block">
+                                            <div class="categoriesN__image">
+                                                <img src="./imgs/1.jpg" alt="">
+                                            </div>
+                                            <div class="categoriesN__swiper__name">
+                                                <p>Название статьи</p>
+                                            </div>
+                                            <div class="categoriesN__swiper__price">
+                                                <p>20 AZN</p>
+                                            </div>
+                                        </a>
+                                    </div>
+
+
+                                    <div class="swiper-slide">
+                                        <a href="#" class="swiper__categoriesN__block">
+                                            <div class="categoriesN__image">
+                                                <img src="./imgs/1.jpg" alt="">
+                                            </div>
+                                            <div class="categoriesN__swiper__name">
+                                                <p>Название статьи</p>
+                                            </div>
+                                            <div class="categoriesN__swiper__price">
+                                                <p>20 AZN</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="swiper__categoriesN__block">
+                                            <div class="categoriesN__image">
+                                                <img src="./imgs/1.jpg" alt="">
+                                            </div>
+                                            <div class="categoriesN__swiper__name">
+                                                <p>Название статьи</p>
+                                            </div>
+                                            <div class="categoriesN__swiper__price">
+                                                <p>20 AZN</p>
+                                            </div>
+                                        </a>
+                                    </div>
+
+
+                                    <div class="swiper-slide">
+                                        <a href="#" class="swiper__categoriesN__block">
+                                            <div class="categoriesN__image">
+                                                <img src="./imgs/1.jpg" alt="">
+                                            </div>
+                                            <div class="categoriesN__swiper__name">
+                                                <p>Название статьи</p>
+                                            </div>
+                                            <div class="categoriesN__swiper__price">
+                                                <p>20 AZN</p>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    
+                                </div>
+
+                        </div>
+                        
+                        <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                    </div>
+
+                    
                 </div>
                 <div class="categoriesN__wrapper_showall">
                     <a href="#">
@@ -135,6 +236,24 @@
                 </div>
             </div>
         </div>
+
     </div>
 
 </div>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper1", {
+        slidesPerView: 5,
+        spaceBetween: 35,
+        freeMode: true,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev"
+        }
+    });
+
+</script>

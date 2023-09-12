@@ -10,9 +10,11 @@
         <div class="header__navigation">
             <ul>
                 <li><a href="#">Внешний рынок</a></li>
-                <li>
-                    <img src="./imgs/logo.png" alt="">
-                </li>
+
+                    <a href="./index.php">
+                        <img src="./imgs/logo.png" alt="">
+                    </a>
+
                 <li><a href="#">Внутренний рыноке</a></li>
             </ul>
         </div>

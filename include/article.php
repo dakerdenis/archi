@@ -1,8 +1,9 @@
+<!-- Link Swiper's CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 <style>
     <?php include './style/article.css' ?>
 </style>
-<!-- Link Swiper's CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
 
 <div class="article__main__page">
     <!---//--85.5%--->

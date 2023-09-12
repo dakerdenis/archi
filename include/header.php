@@ -11,7 +11,7 @@
             <ul>
                 <li><a href="#">Книга ремонта</a></li>
                 <li><a href="#">Построй дом!</a></li>
-                <li><a href="#">B2B</a></li>
+                <li><a href="./b2b.php">B2B</a></li>
                 <li><a href="#">О проекте</a></li>
             </ul>
         </div>
