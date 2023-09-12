@@ -83,21 +83,20 @@
                         </div>
 
                         <div class="burger__navigation__wrapper">
-                            <div class="burger__navigation__element">
-                                <a href="#">
-                                    <p>Книга ремонта</p>
-                                </a>
-                                <a href="#">
-                                    <p>Построй дом!</p>
-                                </a>
-                                <a href="#">
-                                    <p>B2B</p>
-                                </a>
-                                <a href="#">
-                                    <p>О проекте</p>
-                                </a>
-                            </div>
+                            <a class="burger__navigation__activea" href="#">
+                                <p>Книга ремонта</p>
+                            </a>
+                            <a class="" href="#">
+                                <p>Построй дом!</p>
+                            </a>
+                            <a class="" href="#">
+                                <p>B2B</p>
+                            </a>
+                            <a class="" href="#">
+                                <p>О проекте</p>
+                            </a>
                         </div>
+                        
                     </div>
                 </div>
             </div>

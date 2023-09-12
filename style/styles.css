@@ -500,7 +500,21 @@ h6 {
     line-height: normal;
   }
 
-  .burger__navigation__wrapper {}
+  .burger__navigation__wrapper {
+    margin-top: 27px;
 
-  .burger__navigation__element {}
+  }
+  .burger__navigation__wrapper a {
+    display: block;
+    color: #000;
+font-size: 10.5px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 15px;
+  }
+  .burger__navigation__activea{
+    text-decoration: underline;
+  }
+
 }
