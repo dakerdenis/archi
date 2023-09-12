@@ -35,6 +35,9 @@
                         <p><span>Добавлено:</span> 01.01.2023</p>
                         <p><span>Обновлено:</span> 15.08.2023</p>
                     </div>
+                    <div class="profile__desc__contacts__name">
+                        <p>Контакты</p>
+                    </div>
                     <div class="profile__desc__contacts">
                         <div class="profile__desc__contacts__all">
                             <p>Общие</p>
