@@ -243,15 +243,60 @@
 .company__profile__categories {
     width: 100%;
     border-radius: 17px;
-background: rgba(217, 217, 217, 0.25);
+    background: rgba(217, 217, 217, 0.25);
 }
 
-.profile__categories__nameadd {}
+.profile__categories__nameadd {
+    width: 100%;
+    border-radius: 17px 17px 0px 0px;
+    background-color: #D9D9D9;
+    padding: 0px 28px 0px 74px;
+    height: 79px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-.profile__categories__name {}
+.profile__categories__name {
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 
-.profile__categories__add {}
+.profile__categories__add a {
+    width: 227px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #B6DFA2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-.profile__categories__wrapper {}
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 
-.profile__categories__blockN {}
+.profile__categories__wrapper {
+    width: 100%;
+    margin-top: 34px;
+}
+.profile__categories__blockN {
+    width: 100%;
+}
+.categoriesN__name {
+    display: flex;
+    width: calc(100% - 147px);
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.categoriesN__wrapper {
+}
+.categoriesN__wrapper_showall {
+}

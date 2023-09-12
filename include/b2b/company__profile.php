@@ -112,13 +112,27 @@
             </div>
             <div class="profile__categories__add">
                 <a href="#">
-                    <p>Добавить категорию</p>
+                    <p>+ Добавить категорию</p>
                 </a>
             </div>
         </div>
+
         <div class="profile__categories__wrapper">
             <div class="profile__categories__blockN">
+                <div class="categoriesN__name">
+                    <p>Название категории (n)</p>
+                    <a href="#">
+                        <p>Редактировать категорию</p>
+                    </a>
+                </div>
+                <div class="categoriesN__wrapper">
 
+                </div>
+                <div class="categoriesN__wrapper_showall">
+                    <a href="#">
+                        <p>Отобразить всё</p>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
