@@ -129,9 +129,10 @@ h6 {
   color: #000;
 }
 
-.header__image_b2b a{
+.header__image_b2b a {
   color: #000;
 }
+
 .header__container .header__wrapper .header__navigation ul {
   width: 560px;
   display: flex;
@@ -303,12 +304,28 @@ h6 {
   line-height: 22.07px;
 }
 
+.footer__copy {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 38px;
+}
+
+/*********************************/
+
 .header__navigation__mobile {
   display: none;
   visibility: hidden;
 }
 
 .header__burger_menu {
+  display: none;
+  visibility: hidden;
+}
+
+.footer__numbers__mobile-only {
   display: none;
   visibility: hidden;
 }
@@ -504,17 +521,49 @@ h6 {
     margin-top: 27px;
 
   }
+
   .burger__navigation__wrapper a {
     display: block;
     color: #000;
-font-size: 10.5px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-bottom: 15px;
+    font-size: 10.5px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 15px;
   }
-  .burger__navigation__activea{
+
+  .burger__navigation__activea {
     text-decoration: underline;
   }
 
+
+
+  /************************/
+  .footer__numbers__mobile-only  {
+    display: block;
+    visibility: visible;
+
+
+  }
+  .footer__numbers__mobile-only p{
+    color: #FFF;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .footer__nav__element a  {
+    color: #FFF;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .footer__copy{
+    color: #FFF;
+font-size: 9px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
 }

@@ -280,6 +280,9 @@
 
     .survey__block:nth-child(1) {
         margin-bottom: 36px;
+        width: 90%;
+        height: 100%;
+        padding: 25px 20px;
     }
 
     .main_survey_desc {
@@ -328,7 +331,11 @@
         position: relative;
         height: calc(219px + 5.5px);
     }
+    .advertisement__blockBig:nth-child(2) .advertisement__blockSmall img{
+        height: 100%;
+        width: 100%;
 
+    }
     .advertisement__blockBig:nth-child(2) .advertisement__blockSmall:nth-child(1) {
         width: 165px;
         height: 84px;

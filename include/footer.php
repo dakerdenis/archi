@@ -8,6 +8,11 @@
                     <div class="footer__copy">
                         <p>©Copyright  2023</p>
                     </div>
+
+                    <div class="footer__numbers__mobile-only">
+                        <p>+994 77 555 55 55</p>
+                        <p>+994 77 555 55 55</p>
+                    </div>
                 </div>
                 <!------NAVIGATION------>
                 <div class="footer__nav">
