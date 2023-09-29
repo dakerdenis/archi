@@ -185,9 +185,25 @@
                 Опрос
             </p>
         </div>
+
         <div class="main_survey_container">
             <div class="survey__block">
-                asdasd
+                <div class="survey__block__radio__container">
+                    <div class="custom-radio">
+                      <input type="radio" id="radio1" name="radio-group">
+                      <label for="radio1">Option 1</label>
+                    </div>
+
+                    <div class="custom-radio">
+                      <input type="radio" id="radio2" checked name="radio-group">
+                      <label for="radio2">Option 2</label>
+                    </div>
+
+                    <div class="custom-radio">
+                      <input type="radio" id="radio3" name="radio-group">
+                      <label for="radio3">Option 3</label>
+                    </div>
+                </div>
             </div>
             <div class="survey__block">
                 <div class="main_survey_desc">

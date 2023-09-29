@@ -161,7 +161,78 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+
+    padding: 48px 30px;
 }
+.survey__block__radio__container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+
+.custom-radio {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    transition: background-color 0.3s; /* Add a smooth transition */
+  }
+  
+  .custom-radio input[type="radio"] {
+    display: none;
+  }
+  
+  .custom-radio label {
+    cursor: pointer;
+    padding-left: 30px; /* Space for the custom radio circle */
+    position: relative;
+  }
+  
+  .custom-radio label::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    margin-right: 10px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  /* Change background color when radio button is checked */
+  .custom-radio input[type="radio"]:checked + label::before {
+    background-color: #000;
+    border-color: #fff;
+  }
+  
+  /* Change background color of .custom-radio when radio button is checked */
+  .custom-radio input[type="radio"]:checked + label {
+    background-color: #000; /* Change background color */
+    color: #fff; /* Change text color */
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .main_survey_desc p {
     max-width: 200px;
@@ -190,17 +261,18 @@
         border: 1px solid rgba(194, 194, 194, 0.40);
         background: #FAFAFA;
     }
-    .survey__block:nth-child(1){
+
+    .survey__block:nth-child(1) {
         margin-bottom: 36px;
     }
 
-    .main_survey_desc{
+    .main_survey_desc {
         color: #000;
-text-align: center;
-font-family: Century Gothic;
-font-size: 10px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+        text-align: center;
+        font-family: Century Gothic;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
     }
 }

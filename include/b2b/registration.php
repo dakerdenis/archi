@@ -24,13 +24,13 @@
             <div class="login__input__container">
                 <input type="text" placeholder="*дополнительный E-mail адрес">
             </div>
-            <div class="login__input__checkbox">  
+            <!-- <div class="login__input__checkbox">  
                 <label class="custom-checkbox">
                      <input type="checkbox" class="hidden-checkbox">
                      <span class="checkmark"></span>
                 </label>
                 <p>Я согласен с <a href="#">пользовательским соглашением</a></p>
-            </div>
+            </div> -->
             <div class="login__input__button login__input__button_registration">
                 <button>Регистрация</button>
             </div>
