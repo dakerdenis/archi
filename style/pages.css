@@ -68,7 +68,11 @@
     line-height: 17px;
     letter-spacing: 0em;
     text-align: left;
+    color: #000;
 
+}
+.__page__element__content_name a {
+    color: #000;
 }
 .__page__element__content_tags {
     display: flex;
