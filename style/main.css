@@ -269,8 +269,8 @@
     }
 
     .survey__block {
-        height: 121.989px;
-        width: 231.626px;
+        height: initial;
+        width: 90%;
         flex-shrink: 0;
 
         border-radius: 17px;
