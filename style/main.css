@@ -322,7 +322,20 @@
         margin: 0 auto;
 
     }
-
+.advertisement__block__name p{
+    color: #FFF;
+font-size: 8px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.advertisement__block__desc p {
+    color: #FFF;
+font-size: 6px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
 
     .advertisement__blockBig:nth-child(2){
 
