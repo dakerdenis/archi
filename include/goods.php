@@ -46,13 +46,44 @@
                 <p>Фильтр</p>
             </div>
             <div class="goods__page__filtr__categories">
-                <p>Производитель</p>
-                <p>Цена</p>
-                <p>Материал</p>
-                <p>Категория</p>
-                <p>Размер</p>
-                <p>Год производства</p>
+                <div class="goods__filtr__price">
+                    <div class="goods__filtr__price__name">
+                        <p>Цена</p>
+                    </div>
+                    <div class="goods__filtr__price__input">
+                        <p>от</p>
+                        <input type="number">
+                        <p>до</p>
+                        <input type="number">
+                    </div>
+                </div>
+
+                <div class="goods__filtr__size">
+                    <div class="goods__filtr__size__name">
+                        <p>Размер</p>
+                    </div>
+                    <div class="goods__filtr__size__input">
+                        <p>ш</p>
+                        <input type="number">
+                        <p>дл</p>
+                        <input type="number">
+                        <p>в</p>
+                        <input type="number">
+                    </div>
+                </div>
+                <div class="goods__filtr__element">
+                    <a href="#">
+                        <p>Материал</p>
+                    </a>
+                </div>
+                <div class="goods__filtr__element">
+                    <a href="#">
+                        <p>Год производства</p>
+                    </a>
+                </div>
+                
             </div>
+
         </div>
         <!---//?---CONTENT WRAPPER---->
         <div class="goods__page__content__wrapper">
