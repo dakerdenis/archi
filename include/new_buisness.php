@@ -99,6 +99,10 @@
                     <div class="new_buisness__input__name">
                         <p>Добавление медиафайлов</p>
                     </div>
+                    <div class="new_buisness__input__wrapper">
+                        
+                    </div>
+
                 </div>
                 <!----Добавление сертификатов---->
                 <div class="new_buisness__input__container">
