@@ -45,6 +45,9 @@
                     case "item":
                         include './include/item.php';
                         break;
+                        case "new_buisness":
+                            include './include/new_buisness.php';
+                            break;
 
                         
                     default:
