@@ -54,6 +54,10 @@
                     include './include/new_item.php';
                     break;
 
+                    case "my_article":
+                        include './include/my_article_list.php';
+                        break;
+
 
                 default:
                     include './include/main.php';

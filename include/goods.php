@@ -2,8 +2,43 @@
 <style>
     <?php include './style/goods.css' ?>
 </style>
+<div class="goods__page__categories">
+    <div class="goods__page__categories__container">
+        <div class="element">
+            <a href="#">Стены</a>
+        </div>
+        <div class="element">
+            <a href="#">Пол</a>
+        </div>
+        <div class="element">
+            <a href="#">Потолок</a>
+        </div>
+        <div class="element element_active">
+            <a href="#">Сантехника\Электрика</a>
+        </div>
+        <div class="element">
+            <a href="#">Отопление\вентиляция</a>
+        </div>
+        <div class="element">
+            <a href="#">Двери\Окна</a>
+        </div>
+        <div class="element">
+            <a href="#">Крыша\Фасад</a>
+        </div>
+        <div class="element">
+            <a href="#">Мебель</a>
+        </div>
+        <div class="element">
+            <a href="#">Строительные материалы</a>
+        </div>
+        <div class="element">
+            <a href="#">Ландшафт</a>
+        </div>
+    </div>
+</div>
 
 <div class="goods__page__container">
+
     <div class="goods__page__wrapper">
         <!---//?---FILTR---->
         <div class="goods__page__filtr">
