@@ -1,0 +1,78 @@
+.new_buisness__page {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.new_buisness__page__container {
+    width: 637px;
+    margin: 0 auto;
+}
+
+.new_buisness__name {
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.new_buisness__form {
+    margin-top: 58px;
+}
+
+.new_buisness__form__wrapper {
+    width: 100%;
+
+}
+
+.new_buisness__input__container {
+    width: 100%;
+
+    margin-bottom: 32px;
+}
+
+.new_buisness__input__wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.new_buisness__input__wrapper input{
+    width: 100%;
+    border-radius: 11px;
+background: rgba(217, 217, 217, 0.20);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+height: 46px;
+padding: 10px 36px;
+
+color: #000;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.new_buisness__input__wrapper input::placeholder{
+    color: #858282;
+}
+
+.new_buisness__double-input input{
+    width: 308px;
+}
+.new_buisness__input__name {
+    color: #000;
+    padding-left: 20px;
+    padding-bottom: 10px;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .new_buisness__page__container {
+        width: 283, 69px;
+        margin: 0 auto;
+    }
+}
