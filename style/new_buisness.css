@@ -1,0 +1,264 @@
+.new_buisness__page {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.new_buisness__page__container {
+    width: 637px;
+    margin: 0 auto;
+}
+
+.new_buisness__name {
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.new_buisness__form {
+    margin-top: 58px;
+}
+
+.new_buisness__form__wrapper {
+    width: 100%;
+
+}
+
+.new_buisness__input__container {
+    width: 100%;
+
+    margin-bottom: 32px;
+}
+
+.new_buisness__input__wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.new_buisness__input__wrapper input {
+    width: 100%;
+    border-radius: 11px;
+    background: rgba(217, 217, 217, 0.20);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    height: 46px;
+    padding: 10px 36px;
+
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.new_buisness__input__wrapper input::placeholder {
+    color: #858282;
+}
+
+.new_buisness__double-input input {
+    width: 308px;
+    cursor: pointer;
+}
+
+.new_buisness__input__name {
+    color: #000;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/****************************/
+.custom-dropdown {
+    position: relative;
+}
+
+.dropdown-list {
+    position: absolute;
+    top: 88%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border-top: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.dropdown-list {
+    cursor: pointer;
+    border-radius: 0 0 10px 10px;
+    background: rgb(248, 248, 248);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    border-top: none;
+    z-index: 200;
+}
+
+.dropdown-list li {
+    padding: 10px 10px;
+
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.dropdown-list li:hover {
+    background-color: #f0f0f0;
+
+}
+
+/***********/
+.custom-dropdown .dropdown-input {
+    padding-right: 30px;
+    /* Space for the arrow */
+}
+
+/* Add this CSS for the arrow */
+.custom-dropdown .arrow {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 5px 0 5px;
+    border-color: #000 transparent transparent transparent;
+    /* Arrow color */
+    transition: transform 0.3s ease;
+}
+
+/* Rotate the arrow when the list is open */
+.custom-dropdown.open .arrow {
+    transform: translateY(-50%) rotate(180deg);
+}
+
+/*******************************************/
+
+.custom-datepicker {
+    position: relative;
+    display: inline-block;
+}
+
+.datepicker-input {
+    padding: 10px;
+    font-size: 16px;
+
+    border-radius: 5px;
+}
+
+.datepicker-popup {
+    position: absolute;
+    top: 90%;
+    left: 0;
+    border-radius: 11px;
+    background: rgb(248, 248, 248);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    border-top: none;
+    list-style: none;
+    display: none;
+    width: 100%;
+}
+
+.datepicker-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.year-select,
+.month-select {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.datepicker-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    padding: 10px;
+}
+
+.datepicker-days div {
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.datepicker-popup.open {
+    display: block;
+}
+
+/**********************************/
+/* Hide the up and down arrows for number inputs */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .new_buisness__page__container {
+        width: 283px;
+        margin: 0 auto;
+    }
+
+    .new_buisness__name {
+        color: #000;
+        text-align: center;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .new_buisness__input__wrapper input {
+        height: 20px;
+        color: #858282;
+        font-family: Gilroy;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+
+        border-radius: 3px;
+        background: rgba(217, 217, 217, 0.20);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+        padding: 6px 16px;
+
+    }
+
+    .new_buisness__double-input input {
+        width: 137px;
+    }
+
+    .custom-dropdown .arrow {
+        border-width: 2px 2px 0 2px;
+    }
+
+    .new_buisness__input__name {
+        color: #000;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding-left: 0;
+    }
+    .new_buisness__input__container{
+        margin-bottom: 14px;
+    }
+    .new_buisness__form{
+        margin-top: 10px;
+    }
+}
