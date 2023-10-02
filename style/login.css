@@ -318,4 +318,10 @@ input[type="number"]::-webkit-outer-spin-button {
     .custom-checkbox{
         padding-left: 15px;
     }
+    .login__input__gender {
+        margin-top: 44px;
+    }
+    .login__input__gender_wrapper label{
+        width: 51px;
+    }
 }
