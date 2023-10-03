@@ -50,54 +50,17 @@
         </div>
         <!-----burger button and menu----->
         <div class="header__burger_menu">
-            <div class="burger-menu">
-                <div class="burger-icon" id="burger-icon">
-                    <div class="bar"></div>
-                    <div class="bar"></div>
-                    <div class="bar"></div>
-                </div>
-                <div class="menu" id="menu">
-                    <div class="burger__menu__container">
-                        <div class="burger__menu__language">
-                            <a href="#">
-                                <p>AZ</p>
-                            </a>
-                            <a href="#">
-                                <p>RU</p>
-                            </a>
-                            <a href="#">
-                                <p>ENG</p>
-                            </a>
-                        </div>
-
-                        <div class="burger__menu__login">
-                            <a href="#">
-                                <p>Вход</p>
-                            </a>
-                        </div>
-
-                        <div class="burger__menu__registration">
-                            <a href="#">
-                                <p>Регистрация</p>
-                            </a>
-                        </div>
-
-                        <div class="burger__navigation__wrapper">
-                            <a class="burger__navigation__activea" href="#">
-                                <p>Книга ремонта</p>
-                            </a>
-                            <a class="" href="#">
-                                <p>Построй дом!</p>
-                            </a>
-                            <a class="" href="#">
-                                <p>B2B</p>
-                            </a>
-                            <a class="" href="#">
-                                <p>О проекте</p>
-                            </a>
-                        </div>
-                        
+            <div class="menu-container">
+                <div class="burger-menu">
+                    <div class="burger-icon">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
                     </div>
+                </div>
+
+                <div class="burger__menu__content">
+                    
                 </div>
             </div>
         </div>

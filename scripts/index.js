@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     const burgerIcon = document.getElementById("burger-icon");
     const menu = document.getElementById("menu");
 
@@ -21,17 +21,21 @@ document.addEventListener("DOMContentLoaded", function() {
         menu.classList.remove("open");
         burgerIcon.style.transform = "rotate(0deg)";
         document.body.style.overflow = "auto"; // Enable scrolling when menu is closed
+        burgerIcon.style.display = "block";
         document.removeEventListener("click", closeMenuOutside);
     }
 
     // Function to close the menu when clicked outside
     function closeMenuOutside(event) {
-        if (!menu.contains(event.target) && !burgerIcon.contains(event.target)) {
+        if (!menu.contains(event.target) && event.target !== burgerIcon) {
             closeMenu();
         }
     }
 
-    burgerIcon.addEventListener("click", function(event) {
+    burgerIcon.addEventListener("click", function (event) {
+        // Prevent the click event from propagating to the document
+        event.stopPropagation();
+
         menu.classList.toggle("open");
         if (menu.classList.contains("open")) {
             burgerIcon.style.transform = "rotate(90deg)";
@@ -43,6 +47,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
+
 
 
 
