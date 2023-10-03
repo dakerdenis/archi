@@ -395,7 +395,6 @@ h6 {
     visibility: visible;
     width: 40px;
     height: 40px;
-    background-color: red;
   }
   .menu-container{
     position: relative;
@@ -424,6 +423,21 @@ h6 {
     border-radius: 3px;
     background-color: #000;
     height: 3px;
+  }
+
+  .burger__menu__content{
+    position: absolute;
+    width:190px;
+    height: 270px;
+    background-color: rgb(45, 118, 182);
+    /*left: -124px;*/
+    right: -225px;
+    
+  }
+
+  .open__burger__menu{
+    right: initial;
+    left: -124px;
   }
   /************************/
   .footer{

@@ -51,7 +51,7 @@
         <!-----burger button and menu----->
         <div class="header__burger_menu">
             <div class="menu-container">
-                <div class="burger-menu">
+                <div class="burger-menu" id="burger-menu">
                     <div class="burger-icon">
                         <div class="bar"></div>
                         <div class="bar"></div>
@@ -59,8 +59,8 @@
                     </div>
                 </div>
 
-                <div class="burger__menu__content">
-                    
+                <div class="burger__menu__content" id="burger-menu-content">
+                        <a href="./index.php?page=pages">asdasd</a>
                 </div>
             </div>
         </div>
