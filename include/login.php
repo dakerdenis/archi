@@ -17,7 +17,7 @@
             <div class="login__input__password">
                 <button id="openPopup">Забыли пароль?</button>
             </div>
-            
+
 
 
             <div class="login__input__button">
@@ -31,50 +31,40 @@
             </div>
         </form>
         <div id="popup" class="popup">
-                <div class="popup-content">
-                    <span class="close" id="closePopup">&times;</span>
-                    <form class="popup__container">
-                        <div class="popup__name">
-                            <p>ВОССТАНОВЛЕНИЕ ПАРОЛЯ</p>
-                        </div>
-                        <div class="popup__input__container">
-                            <input type="text" placeholder="Введите эмейл или номер телефона">
-                        </div>
-                        <div class="popup__reset">
-                            <button>Восстановить</button>
-                        </div>
-                    </form>
+            <div class="popup-content">
+                <span class="close" id="closePopup">&times;</span>
+                <div id="preloader" class="preloader">
+                    <div class="preloader__container">
+                        <div id="loader"></div>
+                    </div>
                 </div>
+                <form id="resetPassword" class="popup__container">
+                    <div id="popup__name" class="popup__name">
+                        <p>ВОССТАНОВЛЕНИЕ ПАРОЛЯ</p>
+                    </div>
+                    <div id="popup__input__container" class="popup__input__container">
+                        <input type="text" placeholder="Введите эмейл или номер телефона">
+                    </div>
+                    <div class="popup__reset">
+                        <button id="sendEmail">Восстановить</button>
+                    </div>
+
+                    <div id="congratulations" class="hidden">
+                        <div class="congratulations__container">
+                            <div class="congratulations__container__img">
+                                <img src="./imgs/ready.png" alt="">
+                            </div>
+                            <div class="congratulations__container__text">
+                                <p>Код восстановления отправлен на почту!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+
             </div>
+        </div>
     </div>
-    <script>
-        document.getElementById('loginForm').addEventListener("submit", (event) => {
-            event.preventDefault();
-        })
-        var popup = document.getElementById("popup");
-        var openPopupButton = document.getElementById("openPopup");
-        var closePopupButton = document.getElementById("closePopup");
-
-
-        openPopupButton.addEventListener("click", function() {
-            popup.style.display = "block";
-            document.addEventListener("click", closePopupOutside);
-        });
-
-
-        function closePopupOutside(event) {
-            if (event.target === popup) {
-                popup.style.display = "none";
-                document.removeEventListener("click", closePopupOutside);
-            }
-        }
-
-        closePopupButton.addEventListener("click", function() {
-            popup.style.display = "none";
-            document.removeEventListener("click", closePopupOutside);
-        });
-    </script>
-
 
 
 
@@ -195,3 +185,54 @@
         </div>
     </div>
 </div>
+
+<script>
+        document.getElementById('resetPassword').addEventListener("submit", (event) => {
+            event.preventDefault();
+        })
+        document.getElementById('loginForm').addEventListener("submit", (event) => {
+            event.preventDefault();
+        })
+        // Get the popup and button elements (same as before)
+        var popup = document.getElementById("popup");
+        var openPopupButton = document.getElementById("openPopup");
+        var closePopupButton = document.getElementById("closePopup");
+        var sendEmailButton = document.getElementById("sendEmail");
+        var preloader = document.getElementById("preloader");
+        var congratulations = document.getElementById("congratulations");
+
+        // Show the popup when the button is clicked (same as before)
+        openPopupButton.addEventListener("click", function() {
+            popup.style.display = "block";
+            document.addEventListener("click", closePopupOutside);
+        });
+
+        // Function to close the popup when clicking outside of it (same as before)
+        function closePopupOutside(event) {
+            if (event.target === popup) {
+                popup.style.display = "none";
+                document.removeEventListener("click", closePopupOutside);
+            }
+        }
+
+        // Close the popup when the close button is clicked (same as before)
+        closePopupButton.addEventListener("click", function() {
+            popup.style.display = "none";
+            document.removeEventListener("click", closePopupOutside);
+        });
+
+        // Send Email button click event
+        sendEmailButton.addEventListener("click", function() {
+            // Hide the current content and show the preloader
+            sendEmailButton.style.display = "none";
+            document.getElementById("popup__name").style.display="none";
+            document.getElementById("popup__input__container").style.display="none";
+            preloader.style.display = "block";
+
+            // Simulate sending email with a 2-second delay
+            setTimeout(function() {
+                preloader.style.display = "none";
+                congratulations.style.display = "block";
+            }, 2000);
+        });
+    </script>

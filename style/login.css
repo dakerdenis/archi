@@ -293,6 +293,7 @@ background: #EDEDED;
     font-size: 30px;
     cursor: pointer;
 }
+
 .popup__container {
     width: 100%;
     height: 100%;
@@ -345,6 +346,119 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 }
+.preloader {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+.preloader__container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#loader {
+    display: block;
+    position: relative;
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+    border: 4px solid transparent;
+    border-top-color: #B6DFA2;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+#loader:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 4px solid transparent;
+    border-top-color: #27B24A;
+    -webkit-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;
+}
+#loader:after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 4px solid transparent;
+    border-top-color: #27b24a62;
+    -webkit-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+}
+@-webkit-keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+#congratulations{
+    width: 100%;
+    height: 100%;
+
+}
+.congratulations__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.congratulations__container__img{
+    height: 83px;
+    width: 83px;
+
+}
+.congratulations__container__img img{
+    height: 83px;
+    width: 83px;
+}
+.congratulations__container__text{
+    color: #000;
+text-align: center;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 550px;
+}
+.hidden {
+    display: none;
+}
+
+
 @media only screen and (max-width: 768px) {
     .login__page__name {
         margin-bottom: 11px;
