@@ -25,3 +25,35 @@
     margin-top: 110px;
     font-size: 20px;
 }
+
+@media only screen and (max-width: 768px) {
+    .underconst__name{
+        color: #000;
+text-align: center;
+
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 0;
+    }
+    .underconst__desc{
+        color: #000;
+text-align: center;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 11px;
+
+    }
+    .under__construction__advertisement {
+
+        width: 338px;
+        margin-top: 50px;
+    }
+    .advertisement__block:nth-child(1){
+        display: block;
+        visibility: visible;
+    }
+}
