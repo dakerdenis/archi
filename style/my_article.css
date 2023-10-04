@@ -260,7 +260,7 @@
         height: 30px;
         flex-shrink: 0;
         border-radius: 3px;
-background: #EDEDED;
+        background: #EDEDED;
     }
 
     .my__article__list__show-more p {

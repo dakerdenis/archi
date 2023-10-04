@@ -245,3 +245,32 @@ line-height: normal;
     font-weight: 400;
     line-height: normal;
 }
+
+@media only screen and (max-width: 768px) {
+    .goods__page__container{
+        width: 100%;
+    }
+    .goods__page__categories{
+        display: none;
+        visibility: hidden;
+    }
+    .goods__page__filtr{
+        display: none;
+        visibility: hidden;
+    }
+    .goods__page__content__wrapper{
+        width: 90%;
+        margin: 0 auto;
+        border-left: none;
+
+    }
+    .goods__page__element{
+        margin: 5px 6px ;
+        height: 129px;
+        width: 146px;
+    }
+    .page__element__image{
+        height: 77px;
+        width: 100%;
+    }
+}
