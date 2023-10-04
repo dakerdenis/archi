@@ -1,26 +1,30 @@
 .pages__page__container {
     width: 100%;
 }
+
 .pages__page_wrapper {
     width: 1168px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
 }
+
 .pages__page_element {
-    
+
     width: 272px;
     height: 240.69px;
     background-color: rgba(196, 196, 196, 1);
     border-radius: 17px;
     margin: 25px 10px;
 }
+
 .pages__page__element__wrapper {
     width: 100%;
     height: 100%;
     overflow: hidden;
     border-radius: 17px;
 }
+
 .__page__element__image {
     height: 143.41px;
     width: 100%;
@@ -28,13 +32,15 @@
     overflow: hidden;
     border-radius: 17px 17px 0px 0px;
 }
+
 .__page__element__image img {
     position: absolute;
     width: 100%;
     z-index: 10;
     object-fit: cover;
 }
-.__page__element__image__approved{
+
+.__page__element__image__approved {
     position: absolute;
     width: 36px;
     height: 17px;
@@ -49,6 +55,7 @@
     border-radius: 8px;
     z-index: 20;
 }
+
 .__page__element__image__approved p {
     font-size: 11px;
     font-weight: 400;
@@ -62,6 +69,7 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
 .__page__element__content_name {
     font-size: 14px;
     font-weight: 700;
@@ -71,22 +79,27 @@
     color: #000;
 
 }
+
 .__page__element__content_name a {
     color: #000;
 }
+
 .__page__element__content_tags {
     display: flex;
     align-items: center;
 }
-.__page__element__content_tags a{
+
+.__page__element__content_tags a {
     display: block;
     margin-right: 5px;
     color: #000;
 }
+
 .__page__element__content_additional {
     display: flex;
     align-items: center;
 }
+
 .__content_additional_element {
     display: flex;
     align-items: center;
@@ -94,11 +107,125 @@
     margin-right: 5px;
     font-size: 11px;
 }
-.__content_additional_element img{
+
+.__content_additional_element img {
 
 
     margin-right: 5px;
 }
+
 .__page__element__content_date {
     font-size: 11px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .pages__page_wrapper {
+        width: 310px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .pages__page_element {
+        width: 147px;
+        height: 147px;
+        margin: 10px 0px;
+        border-radius: 5px;
+    }
+
+    .__page__element__image {
+        height: 77.456px;
+        width: 146.914px;
+    }
+
+    .__page__element__content_name a {
+        color: #000;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .__page__element__content {
+        height: 68px;
+        padding: 6px;
+        position: relative;
+        justify-content: initial;
+    }
+
+    .__page__element__content_tags {
+        margin-top: 7px;
+    }
+
+    .__page__element__content_tags p {
+        color: #000;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .__page__element__content_date {
+        color: #000;
+
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .__page__element__content_additional .__content_additional_element:nth-child(1) {
+        display: none;
+        visibility: hidden;
+    }
+
+    .__page__element__content_additional .__content_additional_element:nth-child(3) {
+        display: none;
+        visibility: hidden;
+    }
+
+    .__page__element__content_additional .__content_additional_element:nth-child(2) {
+        position: absolute;
+        right: -30px;
+        bottom: 15px;
+    }
+
+    .__content_additional_element img {
+        height: 6px;
+        width: 12px;
+    }
+
+    .__content_additional_element p {
+        color: #000;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .__page__element__content_date {
+        position: absolute;
+        bottom: 14px;
+    }
+
+    .__page__element__image__approved {
+        width: 25px;
+        height: 11px;
+        flex-shrink: 0;
+        border-radius: 2px;
+        background: #FF0;
+        left: 7px;
+        bottom: 6px;
+    }
+
+    .__page__element__image__approved p {
+        color: #000;
+        text-align: center;
+        font-size: 6px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
 }
