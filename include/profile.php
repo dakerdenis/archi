@@ -28,6 +28,11 @@
             </div>
         </div>
         <div class="profile__saved">
+        <div class="profile__saved_savedpages">
+                <a href="./index.php?page=my_article">
+                    <p>Мои статьи</p>
+                </a>
+            </div>
             <div class="profile__saved_savedpages">
                 <p>Сохранённые статьи</p>
             </div>
@@ -42,6 +47,6 @@
                     <p>+ создать бизнес</p>
                 </a>
             </div>
-            <!--//******---------->
+            <!------------>
     </div>
 </div>

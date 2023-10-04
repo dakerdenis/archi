@@ -227,5 +227,10 @@
         font-weight: 400;
         line-height: normal;
     }
-
+    .__page__element__image{
+        border-radius: 5px 5px 0px 0px;
+    }
+    .pages__page__element__wrapper{
+        border-radius: 5px;
+    }
 }
