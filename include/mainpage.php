@@ -227,6 +227,8 @@
             <a style="color: red; margin-bottom: 10px;" href="./index.php?page=new_item">Добавление Товара</a>
             <br>
             <a style="color: red; margin-bottom: 10px;" href="./index.php?page=my_article">Мои статьи</a>
+            <br>
+            <a style="color: red; margin-bottom: 10px;" href="./index.php?page=change_status">Смена статуса</a>
              </div>
 
 

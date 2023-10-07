@@ -54,9 +54,13 @@
                     include './include/new_item.php';
                     break;
 
-                    case "my_article":
-                        include './include/my_article_list.php';
-                        break;
+                case "my_article":
+                    include './include/my_article_list.php';
+                    break;
+
+                case "change_status":
+                    include './include/my_article_list.php';
+                    break;
 
 
                 default:
