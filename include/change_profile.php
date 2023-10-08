@@ -23,25 +23,24 @@
             </div>
         </div>
         <div class="profile__saved">
-            <div class="profile__saved_savedpages">
-                <a href="./index.php?page=my_article">
-                    <p>Мои статьи</p>
-                </a>
+            <div class="cahnge__profile__container">
+                <div class="cahnge__profile__input">
+                    <input type="text" placeholder="Изменить имя">
+                </div>
+                <div class="cahnge__profile__input">
+                    <input type="text" placeholder="Изменить email">
+                </div>
+                <div class="cahnge__profile__input">
+                    <input type="number" placeholder="Изменить номер телефона">
+                </div>
             </div>
-            <div class="profile__saved_savedpages">
-                <p>Сохранённые статьи</p>
-            </div>
-            <div class="profile__saved_savedgoods">
-                <p>Здесь будут ваши сохранённые товары</p>
+
+            <div class="cahnge__profile__save">
+                <button>
+                    <p>Сохранить изменения</p>
+                </button>
             </div>
         </div>
     </div>
-    <div class="profile__buisness_section">
-        <div class="profile__buisness_create">
-            <a href="#">
-                <p>+ создать бизнес</p>
-            </a>
-        </div>
-        <!------------>
-    </div>
+
 </div>

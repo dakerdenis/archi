@@ -1,3 +1,14 @@
+/* Hide the up and down arrows for number input */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield; /* Firefox */
+}
+
 .profile_page_wrapper {
     width: 1148px;
     margin: 0 auto;
