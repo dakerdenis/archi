@@ -1,3 +1,7 @@
+<style>
+    <?php include './style/change__status.css' ?>
+</style>
+
 <div class="change__status__main">
     <div class="change__status__name">
         <p>Смена Статуса</p>
@@ -7,7 +11,7 @@
             <!------>
             <div class="change__status__element">
                 <div class="change__status__element__wrapper">
-                    <div class="change__status__element__image">
+                    <div class="change__status__element__image change__status__element__image1">
                         <img src="./imgs/change_status.svg" alt="">
                     </div>
 
@@ -29,16 +33,11 @@
                     </div>
                 </div>
 
-                <div class="change__status__element__change">
-                    <button>
-                        Сменить статус
-                    </button>
-                </div>
             </div>
             <!------>
             <div class="change__status__element">
                 <div class="change__status__element__wrapper">
-                    <div class="change__status__element__image">
+                    <div class="change__status__element__image change__status__element__image2">
                         <img src="./imgs/change_status.svg" alt="">
                     </div>
 
@@ -69,7 +68,7 @@
             <!------>
             <div class="change__status__element">
                 <div class="change__status__element__wrapper">
-                    <div class="change__status__element__image">
+                    <div class="change__status__element__image change__status__element__image3">
                         <img src="./imgs/change_status.svg" alt="">
                     </div>
 
@@ -103,7 +102,7 @@
             <!------>
             <div class="change__status__element">
                 <div class="change__status__element__wrapper">
-                    <div class="change__status__element__image">
+                    <div class="change__status__element__image change__status__element__image4">
                         <img src="./imgs/change_status.svg" alt="">
                     </div>
 
@@ -134,11 +133,6 @@
                     </button>
                 </div>
             </div>
-
-
-
-
-
 
         </div>
     </div>
