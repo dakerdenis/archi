@@ -59,7 +59,7 @@
                     break;
 
                 case "change_status":
-                    include './include/my_article_list.php';
+                    include './include/change_status.php';
                     break;
 
 
