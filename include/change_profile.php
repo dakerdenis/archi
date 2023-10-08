@@ -5,8 +5,14 @@
     <div class="profile__content_wrapper">
         <div class="profile__userdata">
             <div class="profile__userdata_image">
-                <img src="./imgs/1.jpg" alt="">
+                <div class="prfile__userdata_image__block">
+                    <img src="./imgs/1.jpg" alt="">
+                </div>
+                <a href="#">
+                    <p>Изменить фото профиля</p>
+                </a>
             </div>
+
             <div class="profile__userdata__content">
                 <div class="profile__userdata__name">
                     <p>Ахмедджановзаде Ахмед</p>
