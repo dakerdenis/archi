@@ -20,15 +20,10 @@
                 <div class="profile__userdata__element">
                     <p>+994 00 000 00 00</p>
                 </div>
-                <div class="profile__userdata__settings">
-                    <a href="./index.php?page=change_profile">
-                        <p>Редактировать профиль</p>
-                    </a>
-                </div>
             </div>
         </div>
         <div class="profile__saved">
-        <div class="profile__saved_savedpages">
+            <div class="profile__saved_savedpages">
                 <a href="./index.php?page=my_article">
                     <p>Мои статьи</p>
                 </a>
@@ -42,11 +37,11 @@
         </div>
     </div>
     <div class="profile__buisness_section">
-            <div class="profile__buisness_create">
-                <a href="#">
-                    <p>+ создать бизнес</p>
-                </a>
-            </div>
-            <!------------>
+        <div class="profile__buisness_create">
+            <a href="#">
+                <p>+ создать бизнес</p>
+            </a>
+        </div>
+        <!------------>
     </div>
 </div>

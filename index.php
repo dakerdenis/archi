@@ -62,6 +62,10 @@
                     include './include/change_status.php';
                     break;
 
+                case "change_profile":
+                    include './include/change_profile.php';
+                    break;
+
 
                 default:
                     include './include/main.php';
