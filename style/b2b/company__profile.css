@@ -69,6 +69,16 @@
     line-height: normal;
 }
 
+.profile__desc__social{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile__desc__social__element a {
+    margin: 0px 4.5px;
+}
+
 .profile__desc {
     margin-left: 54px;
 }
@@ -239,6 +249,19 @@
     margin-top: 50px;
     margin-bottom: 33px;
 }
+/*************PROFILE SERTIFICATES******************/
+/*************PROFILE SERTIFICATES******************/
+
+
+
+
+
+
+
+/*************PROFILE SERTIFICATES******************/
+/*************PROFILE SERTIFICATES******************/
+
+
 
 .company__profile__categories {
     width: 100%;

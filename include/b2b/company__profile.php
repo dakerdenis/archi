@@ -21,6 +21,27 @@
                         <img src="./imgs/eye.svg" alt="" srcset="">
                         <p>1200</p>
                     </div>
+
+                    <div class="profile__desc__social">
+                        <div class="profile__desc__social__element">
+                            <a href="#">
+                                <img src="./imgs/wp1.svg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="./imgs/inst1.svg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="./imgs/face1.svg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="./imgs/link1.svg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="./imgs/globe1.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="profile__desc">
                     <div class="profile__desc__name">
@@ -76,34 +97,58 @@
 
                 <div class="profile__settings__element">
                     <a href="#">
-                        <p>Техническая поддержка</p>
+                        <p>Статус аккаунта </p>
                     </a>
                 </div>
 
+                <div class="profile__settings__element">
+                    <a href="#">
+                        <p> Техническая поддержка</p>
+                    </a>
+                </div>
                 <div class="profile__settings__element">
                     <a href="#">
                         <p>Получить Консультацию</p>
                     </a>
                 </div>
+                <div class="profile__settings__element">
+                    <a href="#">
+                        <p>Дополнительные услуги</p>
+                    </a>
+                </div>
 
-                <div class="profile__settings__name">
-                    <p>Дополнительные услуги</p>
+                <div class="profile__settings__sertificates">
+                    <div class="profile__sertificates__appbar">
+                        <div class="appbar__add">
+                            <a href="#">+</a>
+                        </div>  
+                    </div>
+
+
+                    <div class="profile__sertificates__slider">
+
+                        <div class="profile__sertificates__swiper_wrapper">
+                            <div class="swiper mySwiper0">
+                                <div class="swiper-wrapper">
+
+
+                                    <div class="swiper-slide">
+                                        block
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+
+                            <div class="swiper-button-next0"></div>
+                            <div class="swiper-button-prev0"></div>
+                        </div>
+
+
+                    </div>
                 </div>
-                <div class="profile__settings__element">
-                    <a href="#">
-                        <p>Логистика</p>
-                    </a>
-                </div>
-                <div class="profile__settings__element">
-                    <a href="#">
-                        <p>Сертификация</p>
-                    </a>
-                </div>
-                <div class="profile__settings__element">
-                    <a href="#">
-                        <p>Организация переговоров</p>
-                    </a>
-                </div>
+
             </div>
         </div>
     </div>
@@ -128,106 +173,106 @@
                     </a>
                 </div>
                 <div class="categoriesN__wrapper">
-                <div class="categoriesN__swiper__container">
+                    <div class="categoriesN__swiper__container">
                         <div class="swiper mySwiper1">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <a href="#" class="swiper__categoriesN__block">
-                                            <div class="categoriesN__image">
-                                                <img src="./imgs/1.jpg" alt="">
-                                            </div>
-                                            <div class="categoriesN__swiper__name">
-                                                <p>Название статьи</p>
-                                            </div>
-                                            <div class="categoriesN__swiper__price">
-                                                <p>20 AZN</p>
-                                            </div>
-                                        </a>
-                                    </div>
-
-
-                                    <div class="swiper-slide">
-                                        <a href="#" class="swiper__categoriesN__block">
-                                            <div class="categoriesN__image">
-                                                <img src="./imgs/1.jpg" alt="">
-                                            </div>
-                                            <div class="categoriesN__swiper__name">
-                                                <p>Название статьи</p>
-                                            </div>
-                                            <div class="categoriesN__swiper__price">
-                                                <p>20 AZN</p>
-                                            </div>
-                                        </a>
-                                    </div>
-
-
-                                    <div class="swiper-slide">
-                                        <a href="#" class="swiper__categoriesN__block">
-                                            <div class="categoriesN__image">
-                                                <img src="./imgs/1.jpg" alt="">
-                                            </div>
-                                            <div class="categoriesN__swiper__name">
-                                                <p>Название статьи</p>
-                                            </div>
-                                            <div class="categoriesN__swiper__price">
-                                                <p>20 AZN</p>
-                                            </div>
-                                        </a>
-                                    </div>
-
-
-                                    <div class="swiper-slide">
-                                        <a href="#" class="swiper__categoriesN__block">
-                                            <div class="categoriesN__image">
-                                                <img src="./imgs/1.jpg" alt="">
-                                            </div>
-                                            <div class="categoriesN__swiper__name">
-                                                <p>Название статьи</p>
-                                            </div>
-                                            <div class="categoriesN__swiper__price">
-                                                <p>20 AZN</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <a href="#" class="swiper__categoriesN__block">
-                                            <div class="categoriesN__image">
-                                                <img src="./imgs/1.jpg" alt="">
-                                            </div>
-                                            <div class="categoriesN__swiper__name">
-                                                <p>Название статьи</p>
-                                            </div>
-                                            <div class="categoriesN__swiper__price">
-                                                <p>20 AZN</p>
-                                            </div>
-                                        </a>
-                                    </div>
-
-
-                                    <div class="swiper-slide">
-                                        <a href="#" class="swiper__categoriesN__block">
-                                            <div class="categoriesN__image">
-                                                <img src="./imgs/1.jpg" alt="">
-                                            </div>
-                                            <div class="categoriesN__swiper__name">
-                                                <p>Название статьи</p>
-                                            </div>
-                                            <div class="categoriesN__swiper__price">
-                                                <p>20 AZN</p>
-                                            </div>
-                                        </a>
-                                    </div>
-
-                                    
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#" class="swiper__categoriesN__block">
+                                        <div class="categoriesN__image">
+                                            <img src="./imgs/1.jpg" alt="">
+                                        </div>
+                                        <div class="categoriesN__swiper__name">
+                                            <p>Название статьи</p>
+                                        </div>
+                                        <div class="categoriesN__swiper__price">
+                                            <p>20 AZN</p>
+                                        </div>
+                                    </a>
                                 </div>
 
+
+                                <div class="swiper-slide">
+                                    <a href="#" class="swiper__categoriesN__block">
+                                        <div class="categoriesN__image">
+                                            <img src="./imgs/1.jpg" alt="">
+                                        </div>
+                                        <div class="categoriesN__swiper__name">
+                                            <p>Название статьи</p>
+                                        </div>
+                                        <div class="categoriesN__swiper__price">
+                                            <p>20 AZN</p>
+                                        </div>
+                                    </a>
+                                </div>
+
+
+                                <div class="swiper-slide">
+                                    <a href="#" class="swiper__categoriesN__block">
+                                        <div class="categoriesN__image">
+                                            <img src="./imgs/1.jpg" alt="">
+                                        </div>
+                                        <div class="categoriesN__swiper__name">
+                                            <p>Название статьи</p>
+                                        </div>
+                                        <div class="categoriesN__swiper__price">
+                                            <p>20 AZN</p>
+                                        </div>
+                                    </a>
+                                </div>
+
+
+                                <div class="swiper-slide">
+                                    <a href="#" class="swiper__categoriesN__block">
+                                        <div class="categoriesN__image">
+                                            <img src="./imgs/1.jpg" alt="">
+                                        </div>
+                                        <div class="categoriesN__swiper__name">
+                                            <p>Название статьи</p>
+                                        </div>
+                                        <div class="categoriesN__swiper__price">
+                                            <p>20 AZN</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#" class="swiper__categoriesN__block">
+                                        <div class="categoriesN__image">
+                                            <img src="./imgs/1.jpg" alt="">
+                                        </div>
+                                        <div class="categoriesN__swiper__name">
+                                            <p>Название статьи</p>
+                                        </div>
+                                        <div class="categoriesN__swiper__price">
+                                            <p>20 AZN</p>
+                                        </div>
+                                    </a>
+                                </div>
+
+
+                                <div class="swiper-slide">
+                                    <a href="#" class="swiper__categoriesN__block">
+                                        <div class="categoriesN__image">
+                                            <img src="./imgs/1.jpg" alt="">
+                                        </div>
+                                        <div class="categoriesN__swiper__name">
+                                            <p>Название статьи</p>
+                                        </div>
+                                        <div class="categoriesN__swiper__price">
+                                            <p>20 AZN</p>
+                                        </div>
+                                    </a>
+                                </div>
+
+
+                            </div>
+
                         </div>
-                        
+
                         <div class="swiper-button-next"></div>
-                                <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-prev"></div>
                     </div>
 
-                    
+
                 </div>
                 <div class="categoriesN__wrapper_showall">
                     <a href="#">
@@ -256,4 +301,15 @@
         }
     });
 
+
+
+    var swiper = new Swiper(".mySwiper0", {
+        slidesPerView: 5,
+        spaceBetween: 35,
+        freeMode: true,
+        navigation: {
+            nextEl: ".swiper-button-next0",
+            prevEl: ".swiper-button-prev0"
+        }
+    });
 </script>
