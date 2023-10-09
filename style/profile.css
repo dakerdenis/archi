@@ -43,25 +43,28 @@ input[type="number"] {
 
     position: relative;
 }
-.prfile__userdata_image__block{
+
+.prfile__userdata_image__block {
     width: 100%;
     height: 100%;
     overflow: hidden;
     border-radius: 17px;
 }
+
 .profile__userdata_image a {
     display: block;
     position: absolute;
     bottom: -30px;
 
     color: #000;
-text-align: center;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-text-decoration-line: underline;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
 }
+
 .profile__userdata_image img {
     height: 100%;
     object-fit: cover;
@@ -416,5 +419,67 @@ text-decoration-line: underline;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
+    }
+
+
+    .cahnge__profile__input {
+        border-radius: 3px;
+        background: rgba(217, 217, 217, 0.20);
+        width: 100%;
+        height: 39px;
+        flex-shrink: 0;
+    }
+
+    .cahnge__profile__input input {
+        border-radius: 3px;
+        background: rgba(217, 217, 217, 0.20);
+        width: 100%;
+        height: 39px;
+        flex-shrink: 0;
+
+        color: #858282;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .profile__userdata_image a {
+        color: #000;
+        text-align: center;
+        width: 200px;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration-line: underline;
+
+        left: -31px;
+        bottom: -23px;
+    }
+
+    .cahnge__profile__container {
+        margin-top: 30px;
+    }
+
+    .cahnge__profile__save button {
+        width: 161px;
+        height: 39px;
+        flex-shrink: 0;
+        border-radius: 3px;
+        background: #B6DFA2;
+
+
+        color: #000;
+        text-align: center;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .cahnge__profile__save{
+        align-items: center;
+        justify-content: center;
+        margin-top: 22px;
     }
 }

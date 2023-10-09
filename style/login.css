@@ -550,7 +550,9 @@ input[type="number"]::-webkit-outer-spin-button {
     .login__input__checkbox label {
         height: 18px;
     }
-
+    .login__input__checkbox {
+        margin-top: 24px;
+    }
     .custom-checkbox {
         padding-left: 25px;
     }
