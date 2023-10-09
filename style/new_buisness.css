@@ -315,7 +315,7 @@ input[type="number"]::-webkit-outer-spin-button {
         border-radius: 3px;
         background: rgba(217, 217, 217, 0.20);
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
-        margin-bottom: 6px;
+        margin-bottom: 9px;
     }
 
     .custom-file-label {
@@ -346,5 +346,25 @@ line-height: normal;
 
     .datepicker-popup{
         width: initial;
+    }
+
+
+    .new_buisness__double-input__mobile{
+        flex-direction: column;
+
+
+    }
+
+    .new_buisness__double-input__mobile #dropdown2 {
+        margin-top: 10px;
+    }
+
+    .new_buisness__double-input input{
+        width: 283.891px;
+height: 32.999px;
+flex-shrink: 0;
+    }
+    .company__name__input{
+        margin-top: 15px;
     }
 }

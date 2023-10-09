@@ -16,7 +16,7 @@
                 </div>
                 <!----Категории подкатегории---->
                 <div class="new_buisness__input__container">
-                    <div class="new_buisness__input__wrapper new_buisness__double-input">
+                    <div class="new_buisness__input__wrapper new_buisness__double-input new_buisness__double-input__mobile">
                         <div class="custom-dropdown" id="dropdown1">
                             <input type="text" class=" dropdown-input" placeholder="Выбор категорий" readonly>
                             <div class="arrow"></div>
@@ -43,7 +43,7 @@
                     <div class="new_buisness__input__name">
                         <p>Производитель</p>
                     </div>
-                    <div class="new_buisness__input__wrapper new_buisness__double-input">
+                    <div class="new_buisness__input__wrapper new_buisness__double-input new_buisness__double-input__mobile">
                         <div class="custom-dropdown" id="dropdown3">
                             <input type="text" class=" dropdown-input" placeholder="Страна" readonly>
                             <div class="arrow"></div>
@@ -53,7 +53,7 @@
                                 <li data-value="Туркменистан">Туркменистан</li>
                             </ul>
                         </div>
-                        <input type="text" placeholder="Название компании">
+                        <input type="text" class="company__name__input" placeholder="Название компании">
                     </div>                    
                 </div>
                 
@@ -63,8 +63,23 @@
                     <div class="new_buisness__input__name">
                         <p>Добавление медиафайлов</p>
                     </div>
-                    <div class="new_buisness__input__wrapper">
+                    <div class="new_buisness__input__wrapper new_buisness__input__wrapper_upload">
+                        <div class="new__buisness__upload_input">
+                            <input type="file" id="fileInput" class="custom-file-input" onchange="displayFileName(this)" />
+                            <label for="fileInput" class="custom-file-label">Загрузить Фотографии</label>
 
+                        </div>
+                        <div id="selectedFileName" class="selected-file-name"></div>
+                    </div>
+
+
+                    <div class="new_buisness__input__wrapper new_buisness__input__wrapper_upload">
+                        <div class="new__buisness__upload_input">
+                            <input type="file" id="fileInput1" class="custom-file-input" onchange="displayFileName(this)" />
+                            <label for="fileInput1" class="custom-file-label">Загрузить Сертификаты</label>
+
+                        </div>
+                        <div id="selectedFileName1" class="selected-file-name"></div>
                     </div>
 
                 </div>
