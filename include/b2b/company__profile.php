@@ -119,9 +119,12 @@
 
                 <div class="profile__settings__sertificates">
                     <div class="profile__sertificates__appbar">
+                        <div class="appbar__name">
+                            <p>Сертификаты</p>
+                        </div>
                         <div class="appbar__add">
                             <a href="#">+</a>
-                        </div>  
+                        </div>
                     </div>
 
 
@@ -133,16 +136,33 @@
 
 
                                     <div class="swiper-slide">
-                                        block
+                                        <div class="swiper__sertificate__container">
+                                            <div class="certificate__image">
+                                                <img src="./imgs/test_cert.jpg" alt="">
+                                            </div>
+                                            <div class="certificate__name">
+                                                <p>Название сертификата 1</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                    <div class="swiper__sertificate__container">
+                                            <div class="certificate__image">
+                                                <img src="./imgs/test_cert.jpg" alt="">
+                                            </div>
+                                            <div class="certificate__name">
+                                                <p>Название сертификата 2</p>
+                                            </div>
+                                        </div>
                                     </div>
 
 
                                 </div>
-
+                                <div class="swiper-button-next0 "></div>
+                                <div class="swiper-button-prev0 "></div>
                             </div>
 
-                            <div class="swiper-button-next0"></div>
-                            <div class="swiper-button-prev0"></div>
+
                         </div>
 
 
@@ -268,8 +288,8 @@
 
                         </div>
 
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next1"></div>
+                        <div class="swiper-button-prev1"></div>
                     </div>
 
 
@@ -286,30 +306,32 @@
 
 </div>
 
-<!-- Swiper JS -->
+
+<!-- Initialize Swiper -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
 
 <!-- Initialize Swiper -->
 <script>
-    var swiper = new Swiper(".mySwiper1", {
-        slidesPerView: 5,
-        spaceBetween: 35,
-        freeMode: true,
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev"
-        }
-    });
+// Swiper 1
+var swiper1 = new Swiper(".mySwiper1", {
+    slidesPerView: 5,
+    spaceBetween: 35,
+    freeMode: true,
+    navigation: {
+        nextEl: ".swiper-button-next1",
+        prevEl: ".swiper-button-prev1"
+    }
+});
 
-
-
-    var swiper = new Swiper(".mySwiper0", {
-        slidesPerView: 5,
-        spaceBetween: 35,
-        freeMode: true,
-        navigation: {
-            nextEl: ".swiper-button-next0",
-            prevEl: ".swiper-button-prev0"
-        }
-    });
+// Swiper 2
+var swiper2 = new Swiper(".mySwiper0", {
+    slidesPerView: 1,
+    spaceBetween: 35,
+    freeMode: false,
+    navigation: {
+        nextEl: ".swiper-button-next0",
+        prevEl: ".swiper-button-prev0"
+    }
+});
 </script>
