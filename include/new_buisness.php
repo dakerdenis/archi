@@ -100,7 +100,9 @@
                         <p>Добавление медиафайлов</p>
                     </div>
                     <div class="new_buisness__input__wrapper">
-                        
+                        <div class="new__buisness__upload_input">
+                            input
+                        </div>
                     </div>
 
                 </div>
