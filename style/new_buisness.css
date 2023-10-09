@@ -212,15 +212,17 @@ input[type="number"]::-webkit-outer-spin-button {
     width: 100%;
     display: none;
 }
-.custom-file-label{
+
+.custom-file-label {
     color: #858282;
     width: 100%;
     cursor: pointer;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
+
 .new_buisness__input__wrapper_upload {
     width: 637px;
     height: 46px;
@@ -236,27 +238,17 @@ line-height: normal;
 
     margin-bottom: 25px;
 }
-.new__buisness__upload_input{
+
+.new__buisness__upload_input {
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
 }
-.selected-file-name{
+
+.selected-file-name {
     width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media only screen and (max-width: 768px) {
     .new_buisness__page__container {
@@ -311,5 +303,48 @@ line-height: normal;
 
     .new_buisness__form {
         margin-top: 10px;
+    }
+
+
+    .new_buisness__input__wrapper_upload {
+        width: 283.891px;
+        height: 32px;
+        flex-shrink: 0;
+
+
+        border-radius: 3px;
+        background: rgba(217, 217, 217, 0.20);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+        margin-bottom: 6px;
+    }
+
+    .custom-file-label {
+        color: #858282;
+        width: 140px;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .selected-file-name {
+        max-width: 100px;
+        overflow: hidden;
+        color: #858282;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .dropdown-list li{
+        color: #999696;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    }
+
+    .datepicker-popup{
+        width: initial;
     }
 }
