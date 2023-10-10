@@ -592,19 +592,38 @@ fieldset {
     .article__rating{
         width: 300px;
         height: 100px;
-        padding: 13px;
     }
     .article__rating__stars{
-        padding: 0;
+        padding: 13px;
+    }
+    .article__rating__stars__container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
     .article__rating__stars__container p{
+        display: block;
         color: #000;
         font-size: 8px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
+        width: 100px;
+    }
+    .star-cb-group{
+        width: 104px;
     }
     .article__rating__stars__container fieldset{
         transform: scale(0.5);
+    }
+    .star-cb-group>input+label{
+            width: initial;
+    }
+    .article__rating__numbers p{
+        color: #000;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
     }
 }
