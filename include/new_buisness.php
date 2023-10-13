@@ -124,7 +124,11 @@
 
                 </div>
 
-
+                <div class="add_buisness__button">
+                    <button>
+                        <p>Добавить</p>
+                    </button>
+                </div>
             </div>
         </form>
     </div>
@@ -258,6 +262,9 @@
             }
         });
     });
+
+
+
 
 
     function displayFileName(input) {
