@@ -304,14 +304,59 @@ line-height: normal;
     display: none;
     background-color: #f1f1f1;
     min-width: 160px;
-    overflow-y: auto;
+    border-radius: 4px;
     max-height: 200px;
     z-index: 1;
+    padding: 10px 0px;
   }
-  
-  .dropdown-content2 a {
-    width: 100%;
+  .dropdown__articles__wrapper{
+    width: 98%;
+    
+    overflow-y: auto;
+    max-height: 180px;
+  }
+/* For webkit-based browsers (Chrome, Safari) */
+.dropdown__articles__wrapper::-webkit-scrollbar {
+    width: 3px; /* Adjust the width as per your preference */
+}
 
+.dropdown__articles__wrapper::-webkit-scrollbar-thumb {
+    background-color: #C4C4C4;/* Color of the scroll thumb */
+    border-radius: 4px; /* Rounded corners for the thumb */
+}
+
+.dropdown__articles__wrapper::-webkit-scrollbar-track {
+    background-color: rgba(217, 217, 217, 0.20); /* Color of the track */
+    border-radius: 4px;
+}
+
+
+
+
+
+  .dropdown-content2 a {
+    width: 95%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding:  0px 32px;
+
+  }
+  .dropdown__link_name{
+    color: #000;
+
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 5px;
+  }
+  .dropdown__link_tags{
+    color: #000;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
   }
   
   .dropdown2 a:hover {background-color: #ddd;}

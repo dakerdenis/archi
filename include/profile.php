@@ -41,11 +41,53 @@
                 <div id="myDropdown2" class="dropdown-content2">
                     <div class="dropdown__articles__wrapper">
                         <a href="./index.php?page=article">
-                            <div class="dropdown__link_name">
-                                <p>Название статьи</p>
+                            <div class="article__container">
+                                <div class="dropdown__link_name">
+                                    <p>Название статьи</p>
+                                </div>
+                                <div class="dropdown__link_tags">
+                                    <p>#ремонт #пол #паркет</p>
+                                </div>
                             </div>
-                            <div class="dropdown__link_tags">
-                                <p>#ремонт #пол #паркет</p>
+                        </a>
+                        <a href="./index.php?page=article">
+                            <div class="article__container">
+                                <div class="dropdown__link_name">
+                                    <p>Название статьи</p>
+                                </div>
+                                <div class="dropdown__link_tags">
+                                    <p>#ремонт #пол #паркет</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./index.php?page=article">
+                            <div class="article__container">
+                                <div class="dropdown__link_name">
+                                    <p>Название статьи</p>
+                                </div>
+                                <div class="dropdown__link_tags">
+                                    <p>#ремонт #пол #паркет</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./index.php?page=article">
+                            <div class="article__container">
+                                <div class="dropdown__link_name">
+                                    <p>Название статьи</p>
+                                </div>
+                                <div class="dropdown__link_tags">
+                                    <p>#ремонт #пол #паркет</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./index.php?page=article">
+                            <div class="article__container">
+                                <div class="dropdown__link_name">
+                                    <p>Название статьи</p>
+                                </div>
+                                <div class="dropdown__link_tags">
+                                    <p>#ремонт #пол #паркет</p>
+                                </div>
                             </div>
                         </a>
                     </div>
