@@ -143,6 +143,7 @@ input[type="number"] {
     align-items: center;
     justify-content: center;
 }
+
 .profile__saved_savedpages a {
     width: 100%;
     height: 100%;
@@ -278,29 +279,31 @@ input[type="number"] {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-}/************************************************************/
+}
+
+/************************************************************/
 .dropbtn2 {
     width: 520.524px;
     height: 64.129px;
     flex-shrink: 0;
     border-radius: 10px;
-background: rgba(217, 217, 217, 0.20);
+    background: rgba(217, 217, 217, 0.20);
 
-color: #000;
-text-align: center;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-  }
-  
-  
-  .dropdown2 {
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.dropdown2 {
     position: relative;
     display: inline-block;
-  }
-  
-  .dropdown-content2 {
+}
+
+.dropdown-content2 {
     display: none;
     background-color: #f1f1f1;
     min-width: 160px;
@@ -308,25 +311,31 @@ line-height: normal;
     max-height: 200px;
     z-index: 1;
     padding: 10px 0px;
-  }
-  .dropdown__articles__wrapper{
+}
+
+.dropdown__articles__wrapper {
     width: 98%;
-    
+
     overflow-y: auto;
     max-height: 180px;
-  }
+}
+
 /* For webkit-based browsers (Chrome, Safari) */
 .dropdown__articles__wrapper::-webkit-scrollbar {
-    width: 3px; /* Adjust the width as per your preference */
+    width: 3px;
+    /* Adjust the width as per your preference */
 }
 
 .dropdown__articles__wrapper::-webkit-scrollbar-thumb {
-    background-color: #C4C4C4;/* Color of the scroll thumb */
-    border-radius: 4px; /* Rounded corners for the thumb */
+    background-color: #C4C4C4;
+    /* Color of the scroll thumb */
+    border-radius: 4px;
+    /* Rounded corners for the thumb */
 }
 
 .dropdown__articles__wrapper::-webkit-scrollbar-track {
-    background-color: rgba(217, 217, 217, 0.20); /* Color of the track */
+    background-color: rgba(217, 217, 217, 0.20);
+    /* Color of the track */
     border-radius: 4px;
 }
 
@@ -334,34 +343,149 @@ line-height: normal;
 
 
 
-  .dropdown-content2 a {
+.dropdown-content2 a {
     width: 95%;
     height: 60px;
     display: flex;
     align-items: center;
-    padding:  0px 32px;
+    padding: 0px 32px;
 
-  }
-  .dropdown__link_name{
+}
+
+.dropdown__link_name {
     color: #000;
 
-font-size: 15px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-bottom: 5px;
-  }
-  .dropdown__link_tags{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+.dropdown__link_tags {
     color: #000;
-font-size: 11px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-  }
-  
-  .dropdown2 a:hover {background-color: #ddd;}
-  
-  .show2 {display: block;}
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.dropdown2 a:hover {
+    background-color: #ddd;
+}
+
+.show2 {
+    display: block;
+}
+
+/************************************************************/
+
+.dropbtn3 {
+    width: 520.524px;
+    height: 64.129px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(217, 217, 217, 0.20);
+
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.dropdown3 {
+    margin-top: 23px;
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropbtn3_desc {
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.dropdown-content3 {
+    display: none;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    border-radius: 4px;
+    max-height: 200px;
+    z-index: 1;
+    padding: 10px 0px;
+}
+
+.dropdown__articles__wrapper {
+    width: 98%;
+
+    overflow-y: auto;
+    max-height: 180px;
+}
+
+/* For webkit-based browsers (Chrome, Safari) */
+.dropdown__articles__wrapper::-webkit-scrollbar {
+    width: 3px;
+    /* Adjust the width as per your preference */
+}
+
+.dropdown__articles__wrapper::-webkit-scrollbar-thumb {
+    background-color: #C4C4C4;
+    /* Color of the scroll thumb */
+    border-radius: 4px;
+    /* Rounded corners for the thumb */
+}
+
+.dropdown__articles__wrapper::-webkit-scrollbar-track {
+    background-color: rgba(217, 217, 217, 0.20);
+    /* Color of the track */
+    border-radius: 4px;
+}
+
+
+
+
+
+.dropdown-content3 a {
+    width: 95%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0px 32px;
+
+}
+
+.dropdown__link_name {
+    color: #000;
+
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+.dropdown__link_tags {
+    color: #000;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.dropdown3 a:hover {
+    background-color: #ddd;
+}
+
+.show3 {
+    display: block;
+}
 
 @media only screen and (max-width: 768px) {
     .profile_page_wrapper {
@@ -370,7 +494,7 @@ line-height: normal;
 
     .profile__content_wrapper {
         flex-direction: column;
-        width: 336px;
+        width: 310px;
         margin: 0 auto;
     }
 
@@ -569,7 +693,8 @@ line-height: normal;
         font-weight: 700;
         line-height: normal;
     }
-    .cahnge__profile__save{
+
+    .cahnge__profile__save {
         align-items: center;
         justify-content: center;
         margin-top: 22px;

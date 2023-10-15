@@ -95,8 +95,64 @@
             </div>
 
 
-            <div class="profile__saved_savedgoods">
-                <p>Здесь будут ваши сохранённые товары</p>
+            <div class="dropdown3">
+                <button onclick="open_list2()" class="dropbtn3">
+                    <p class="dropbtn3_desc">Здесь будут ваши сохранённые товары</p>
+                </button>
+                <div id="myDropdown3" class="dropdown-content3">
+                    <div class="dropdown__articles__wrapper">
+                        <a href="./index.php?page=article">
+                            <div class="article__container">
+                                <div class="dropdown__link_name">
+                                    <p>Название товара</p>
+                                </div>
+                                <div class="dropdown__link_tags">
+                                    <p>#ремонт #пол #паркет</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./index.php?page=article">
+                            <div class="article__container">
+                                <div class="dropdown__link_name">
+                                    <p>Название товара</p>
+                                </div>
+                                <div class="dropdown__link_tags">
+                                    <p>#ремонт #пол #паркет</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./index.php?page=article">
+                            <div class="article__container">
+                                <div class="dropdown__link_name">
+                                    <p>Название товара</p>
+                                </div>
+                                <div class="dropdown__link_tags">
+                                    <p>#ремонт #пол #паркет</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./index.php?page=article">
+                            <div class="article__container">
+                                <div class="dropdown__link_name">
+                                    <p>Название товара</p>
+                                </div>
+                                <div class="dropdown__link_tags">
+                                    <p>#ремонт #пол #паркет</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./index.php?page=article">
+                            <div class="article__container">
+                                <div class="dropdown__link_name">
+                                    <p>Название товара</p>
+                                </div>
+                                <div class="dropdown__link_tags">
+                                    <p>#ремонт #пол #паркет</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -112,10 +168,12 @@
 
 
 <script>
-    /* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
     function open_list() {
         document.getElementById("myDropdown2").classList.toggle("show2");
+        console.log('clicked');
+    }
+    function open_list2() {
+        document.getElementById("myDropdown3").classList.toggle("show3");
         console.log('clicked');
     }
 </script>
