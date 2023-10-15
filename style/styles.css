@@ -184,6 +184,44 @@ h6 {
 
 }
 
+.dropdown_loggedin {
+  width: 198px;
+  height: 199px;
+  flex-shrink: 0;
+}
+
+.dropdown__profile__image {
+  margin-top: 30px;
+  margin-bottom: 17px;
+  width: 100%;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown__profile__image a {
+  display: block;
+  width: 41px;
+  height: 41px;
+
+}
+
+.dropdown__profile__image img {
+  height: 100%;
+}
+
+.profile__name {
+  width: 80%;
+  margin: 0 auto;
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 .dropdown_content {
   width: 100%;
   height: 100%;
@@ -241,7 +279,9 @@ h6 {
 .__login__green {
   background-color: #B6DFA2;
 }
+
 /***************IF USER LOGGED IN*************************/
+
 
 
 
