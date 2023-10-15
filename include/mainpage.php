@@ -226,6 +226,7 @@
             <a style="color: red; margin-bottom: 10px;" href="./index.php?page=new_buisness">Добавление бизнеса</a>
             <a style="color: red; margin-bottom: 10px;" href="./index.php?page=new_item">Добавление Товара</a>
             <a style="color: red; margin-bottom: 10px;" href="./index.php?page=new_article">Новая статья</a>
+            <a style="color: red; margin-bottom: 10px;" href="./index.php?page=edit_article">Редактировать статью</a>
             <br>
             <a style="color: red; margin-bottom: 10px;" href="./index.php?page=my_article">Мои статьи</a>
             <br>

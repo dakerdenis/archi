@@ -11,7 +11,7 @@
     <div class="article__wrapper">
         <!--//?--ARTICLE CONTAINER -->
         <div class="article__container">
-            <div class="new__article__name">
+            <div class="new__article__desc">
                 <p>Новая статья</p>
             </div>
             <form action="#" class="new__article__form">

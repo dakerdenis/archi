@@ -50,6 +50,9 @@
                 case "new_article":
                     include './include/new_article.php';
                     break;
+                case "edit_article":
+                    include './include/edit_article.php';
+                    break;
                 case "new_buisness":
                     include './include/new_buisness.php';
                     break;
