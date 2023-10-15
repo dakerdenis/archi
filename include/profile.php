@@ -28,25 +28,52 @@
             </div>
         </div>
         <div class="profile__saved">
-        <div class="profile__saved_savedpages">
+            <div class="profile__saved_savedpages">
                 <a href="./index.php?page=my_article">
                     <p>Мои статьи</p>
                 </a>
+
             </div>
-            <div class="profile__saved_savedpages">
-                <p>Сохранённые статьи</p>
+            <div class="dropdown2">
+                <button onclick="open_list()" class="dropbtn2">
+                    <p>Сохранёные статьи</p>
+                </button>
+                <div id="myDropdown2" class="dropdown-content2">
+                    <div class="dropdown__articles__wrapper">
+                        <a href="./index.php?page=article">
+                            <div class="dropdown__link_name">
+                                <p>Название статьи</p>
+                            </div>
+                            <div class="dropdown__link_tags">
+                                <p>#ремонт #пол #паркет</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
+
+
             <div class="profile__saved_savedgoods">
                 <p>Здесь будут ваши сохранённые товары</p>
             </div>
         </div>
     </div>
     <div class="profile__buisness_section">
-            <div class="profile__buisness_create">
-                <a href="#">
-                    <p>+ создать бизнес</p>
-                </a>
-            </div>
-            <!------------>
+        <div class="profile__buisness_create">
+            <a href="#">
+                <p>+ создать бизнес</p>
+            </a>
+        </div>
+        <!------------>
     </div>
 </div>
+
+
+<script>
+    /* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+    function open_list() {
+        document.getElementById("myDropdown2").classList.toggle("show2");
+        console.log('clicked');
+    }
+</script>
