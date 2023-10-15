@@ -225,11 +225,14 @@
             <a style="color: red; margin-bottom: 10px;" href="./index.php?page=goods">Все товары</a>
             <a style="color: red; margin-bottom: 10px;" href="./index.php?page=new_buisness">Добавление бизнеса</a>
             <a style="color: red; margin-bottom: 10px;" href="./index.php?page=new_item">Добавление Товара</a>
+            <a style="color: red; margin-bottom: 10px;" href="./index.php?page=new_article">Новая статья</a>
             <br>
             <a style="color: red; margin-bottom: 10px;" href="./index.php?page=my_article">Мои статьи</a>
             <br>
             <a style="color: red; margin-bottom: 10px;" href="./index.php?page=change_status">Смена статуса</a>
             <a style="color: red; margin-bottom: 10px;" href="./index.php?login=yes">Пользователь вошёл</a>
+
+            
              </div>
 
 

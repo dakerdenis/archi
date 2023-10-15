@@ -12,7 +12,7 @@
            <input type="text" placeholder="Введите название статьи...">
         </div>
         <div class="my__article__addnew">
-            <a href="#">
+            <a href="./index.php?page=new_article">
                 <p>+ Добавить Статью</p>
             </a>
         </div>

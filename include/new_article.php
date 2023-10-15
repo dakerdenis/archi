@@ -2,6 +2,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 <style>
     <?php include './style/article.css' ?>
+    <?php include './style/new_article.css' ?>
 </style>
 
 
@@ -219,21 +220,21 @@
                 <div class="additional__block__articles__name">
                     <p>Товары из статьи</p>
                 </div>
-                <div class="additional__block__articles__content additional__articles__goods">
+                <div class="additional__block__articles__content new__article__add__aditional">
                     <a href="#">
-                        <p>Дубовый Джентльмен</p>
+                        <p>Добавить товар из статьи</p>
                     </a>
                     <a href="#">
-                        <p>Дубовый Джентльмен</p>
+                        <p>Добавить товар из статьи</p>
                     </a>
                     <a href="#">
-                        <p>Дубовый Джентльмен</p>
+                        <p>Добавить товар из статьи</p>
                     </a>
                     <a href="#">
-                        <p>Дубовый Джентльмен</p>
+                        <p>Добавить товар из статьи</p>
                     </a>
                     <a href="#">
-                        <p>Дубовый Джентльмен</p>
+                        <p>Добавить товар из статьи</p>
                     </a>
                 </div>
             </div>
