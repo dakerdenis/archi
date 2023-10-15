@@ -550,9 +550,11 @@ input[type="number"]::-webkit-outer-spin-button {
     .login__input__checkbox label {
         height: 18px;
     }
+
     .login__input__checkbox {
         margin-top: 24px;
     }
+
     .custom-checkbox {
         padding-left: 25px;
     }
@@ -591,6 +593,7 @@ input[type="number"]::-webkit-outer-spin-button {
 
 
     }
+
     .login__input__button a p {
         color: #000;
         text-align: center;
@@ -600,7 +603,98 @@ input[type="number"]::-webkit-outer-spin-button {
         font-weight: 600;
         line-height: normal;
     }
-    .login__input__container{
+
+    .login__input__container {
         margin-bottom: 20px;
+    }
+
+    .login__input__password button {
+        color: #000;
+        text-align: center;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-decoration-line: underline;
+    }
+
+    .popup-content {
+        width: 316px;
+        height: 157.809px;
+        flex-shrink: 0;
+
+        padding: 20px 15px;
+    }
+
+    .popup__container {
+        padding: 0;
+    }
+
+    .popup__name {
+        color: #000;
+        text-align: center;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .popup__input__container {
+        width: 243.703px;
+        height: 22.199px;
+
+        margin: 0 auto;
+    }
+
+    .popup__input__container input {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        flex-shrink: 0;
+        border-radius: 11px;
+        background: #FFF;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+        color: #858282;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .popup__reset button {
+        width: 96.715px;
+        height: 22.682px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        background: #DCD9D9;
+        color: #000;
+        text-align: center;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .congratulations__container__img {
+        height: 47px;
+        width: 47px;
+    }
+
+    .congratulations__container__img img {
+        height: 47px;
+        width: 47px;
+    }
+
+    .congratulations__container__text {
+        color: #000;
+        text-align: center;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .congratulations__container__text{
+        width: 240px;
+        margin: 0 auto;
     }
 }

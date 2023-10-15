@@ -36,7 +36,7 @@
             </div>
             <div class="dropdown2">
                 <button onclick="open_list()" class="dropbtn2">
-                    <p>Сохранёные статьи</p>
+                    <p class="dropbtn2_desc">Сохранёные статьи</p>
                 </button>
                 <div id="myDropdown2" class="dropdown-content2">
                     <div class="dropdown__articles__wrapper">

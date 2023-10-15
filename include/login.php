@@ -25,7 +25,7 @@
             </div>
 
             <div class="login__input__button">
-                <a href="#">
+                <a href="./index.php?page=registration">
                     <p>Регистрация</p>
                 </a>
             </div>
