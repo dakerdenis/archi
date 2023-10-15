@@ -12,7 +12,7 @@
         <!--//?--ARTICLE CONTAINER -->
         <div class="article__container">
             <div class="new__article__name">
-                <p>Новая статья</p>
+                <p>Редактирование статьи</p>
             </div>
             <form action="#" class="new__article__form">
                 <div class="new__article__container">
@@ -29,8 +29,8 @@
 
 
                     <!---SUBMIT--->
-                    <div class="new__article___submit">
-                        <button>+ Добавить статью</button>
+                    <div class="new__article___submit edit__article___submit">
+                        <button>Сохранить изменения</button>
                     </div>
 
                 </div>
