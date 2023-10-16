@@ -30,14 +30,37 @@
                 </a>
             </div>
         </div>
-        <div class="b2b__mobile__filter">
 
-        </div>
         <!------------->
         <div class="b2b__main__search">
             <div class="main__search__name">
                 <a class="active__link" href="#"><p>Поиск</p></a>
             </div>
+            <!------ONLY MOBILE------->
+            <div class="b2b__mobile__filter">
+                <div class="b2b__mobile__filter__button">
+                    <button>
+                        <img src="./imgs/filter.png" alt="">
+                    </button>
+                </div>
+                <div class="b2b__mobile__filter__sort-element">
+                    <a href="#">
+                        <p>Год производства</p>
+                    </a>
+                </div>
+                <div class="b2b__mobile__filter__sort-element">
+                    <a href="#">
+                        <p>Дерево</p>
+                    </a>
+                </div>
+                <div class="b2b__mobile__filter__sort-element">
+                    <a href="#">
+                        <p>Электрика</p>
+                    </a>
+                </div>
+            </div>
+
+            
             <div class="main__search__wrapper">
             <div class="main__search__element">
                     <div class="search__element__logo">
