@@ -23,6 +23,10 @@
             <p>Ахмедзаде
                 Ахмедджан</p>
         </div>
-
+        <div class="profile__logout">
+                <a href="#">
+                    <p>Выйти</p>
+                </a>
+        </div>
     </div>
 </div>

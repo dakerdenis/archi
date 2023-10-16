@@ -11,22 +11,22 @@
             </div>
             <div class="b2b__categories__list">
                 <a href="#">
-                    <p>Категория</p>
+                    <p>Aktivləşdirilmiş kömür</p>
                 </a>
                 <a href="#">
                     <p>Категория</p>
                 </a>
                 <a href="#">
-                    <p>Категория</p>
+                    <p>Сьолы сьулья</p>
                 </a>
                 <a href="#">
                     <p>Отопление / Вентиляция</p>
                 </a>
                 <a href="#">
-                    <p>Категория</p>
+                    <p>Kor olmaq üçün su</p>
                 </a>
                 <a href="#">
-                    <p>Категория</p>
+                    <p>GöranBoy next door</p>
                 </a>
             </div>
         </div>
@@ -34,10 +34,6 @@
         <div class="b2b__main__search">
             <div class="main__search__name">
                 <a class="active__link" href="#"><p>Поиск</p></a>
-                <span>></span>
-                <a  class="active__link" href="#"><p>Название компании</p></a>
-                <span>></span>
-                <a class="" href="#"><p>Название категории</p></a>
             </div>
             <div class="main__search__wrapper">
             <div class="main__search__element">
