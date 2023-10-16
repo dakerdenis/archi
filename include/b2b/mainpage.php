@@ -30,6 +30,9 @@
                 </a>
             </div>
         </div>
+        <div class="b2b__mobile__filter">
+            
+        </div>
         <!------------->
         <div class="b2b__main__search">
             <div class="main__search__name">
