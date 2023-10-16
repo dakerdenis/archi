@@ -89,8 +89,64 @@
                                     </div>
                                 </a>
                             </div>
+                            <!------------------->
+                            <div class="swiper-slide">
+                                <a href="#" class="item__recomendation__block">
+                                    <div class="item__recomendation__image">
+                                        <img src="./imgs/1.jpg" alt="">
+                                    </div>
+                                    <div class="item__recomendation__name">
+                                        <p>Название статьи</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <!------------------->
+                            <div class="swiper-slide">
+                                <a href="#" class="item__recomendation__block">
+                                    <div class="item__recomendation__image">
+                                        <img src="./imgs/1.jpg" alt="">
+                                    </div>
+                                    <div class="item__recomendation__name">
+                                        <p>Название статьи</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <!------------------->
+                            <div class="swiper-slide">
+                                <a href="#" class="item__recomendation__block">
+                                    <div class="item__recomendation__image">
+                                        <img src="./imgs/1.jpg" alt="">
+                                    </div>
+                                    <div class="item__recomendation__name">
+                                        <p>Название статьи</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <!------------------->
+                            <div class="swiper-slide">
+                                <a href="#" class="item__recomendation__block">
+                                    <div class="item__recomendation__image">
+                                        <img src="./imgs/1.jpg" alt="">
+                                    </div>
+                                    <div class="item__recomendation__name">
+                                        <p>Название статьи</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <!------------------->
+                            <div class="swiper-slide">
+                                <a href="#" class="item__recomendation__block">
+                                    <div class="item__recomendation__image">
+                                        <img src="./imgs/1.jpg" alt="">
+                                    </div>
+                                    <div class="item__recomendation__name">
+                                        <p>Название статьи</p>
+                                    </div>
+                                </a>
+                            </div>
+
                                                         <!------------------->
-                             <div class="swiper-slide">
+                                                        <div class="swiper-slide">
                                 <a href="#" class="item__recomendation__block">
                                     <div class="item__recomendation__image">
                                         <img src="./imgs/1.jpg" alt="">
@@ -100,8 +156,8 @@
                                     </div>
                                 </a>
                             </div>
-                                                                                    <!------------------->
-                                                                                    <div class="swiper-slide">
+                                                        <!------------------->
+                                                        <div class="swiper-slide">
                                 <a href="#" class="item__recomendation__block">
                                     <div class="item__recomendation__image">
                                         <img src="./imgs/1.jpg" alt="">
@@ -111,30 +167,8 @@
                                     </div>
                                 </a>
                             </div>
-                                                                                    <!------------------->
-                                                                                    <div class="swiper-slide">
-                                <a href="#" class="item__recomendation__block">
-                                    <div class="item__recomendation__image">
-                                        <img src="./imgs/1.jpg" alt="">
-                                    </div>
-                                    <div class="item__recomendation__name">
-                                        <p>Название статьи</p>
-                                    </div>
-                                </a>
-                            </div>
-                                                                                    <!------------------->
-                                                                                    <div class="swiper-slide">
-                                <a href="#" class="item__recomendation__block">
-                                    <div class="item__recomendation__image">
-                                        <img src="./imgs/1.jpg" alt="">
-                                    </div>
-                                    <div class="item__recomendation__name">
-                                        <p>Название статьи</p>
-                                    </div>
-                                </a>
-                            </div>
-                                                                                    <!------------------->
-                                                                                    <div class="swiper-slide">
+                                                        <!------------------->
+                                                        <div class="swiper-slide">
                                 <a href="#" class="item__recomendation__block">
                                     <div class="item__recomendation__image">
                                         <img src="./imgs/1.jpg" alt="">
@@ -149,91 +183,9 @@
 
                     </div>
                     <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-prev"></div>
                 </div>
 
-            </div>
-
-            <div class="item__reviews">
-                <div class="item__reviews__name">
-                    <p>Отзывы</p>
-                </div>
-                <div class="reviews__wrapper">
-                    <div class="reviews__element">
-                        <div class="reviews__element__score">
-                            <p>5.0</p>
-                        </div>
-                        <div class="reviews__element__desc">
-                            <p>
-                                Мастер по сантехнике отлично справился с
-                                установкой ванной комнаты в нашем доме.
-                                Работа выполнена качественно и в срок.
-                                Опытный и профессиональный мастер, всегда готовый дать полезные советы. Рекомендую!
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="reviews__element">
-                        <div class="reviews__element__score">
-                            <p>5.0</p>
-                        </div>
-                        <div class="reviews__element__desc">
-                            <p>
-                                Мастер по сантехнике отлично справился с
-                                установкой ванной комнаты в нашем доме.
-                                Работа выполнена качественно и в срок.
-                                Опытный и профессиональный мастер, всегда готовый дать полезные советы. Рекомендую!
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="reviews__element">
-                        <div class="reviews__element__score">
-                            <p>5.0</p>
-                        </div>
-                        <div class="reviews__element__desc">
-                            <p>
-                                Мастер по сантехнике отлично справился с
-                                установкой ванной комнаты в нашем доме.
-                                Работа выполнена качественно и в срок.
-                                Опытный и профессиональный мастер, всегда готовый дать полезные советы. Рекомендую!
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="reviews__element">
-                        <div class="reviews__element__score">
-                            <p>5.0</p>
-                        </div>
-                        <div class="reviews__element__desc">
-                            <p>
-                                Мастер по сантехнике отлично справился с
-                                установкой ванной комнаты в нашем доме.
-                                Работа выполнена качественно и в срок.
-                                Опытный и профессиональный мастер, всегда готовый дать полезные советы. Рекомендую!
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="reviews__element">
-                        <div class="reviews__element__score">
-                            <p>5.0</p>
-                        </div>
-                        <div class="reviews__element__desc">
-                            <p>
-                                Мастер по сантехнике отлично справился с
-                                установкой ванной комнаты в нашем доме.
-                                Работа выполнена качественно и в срок.
-                                Опытный и профессиональный мастер, всегда готовый дать полезные советы. Рекомендую!
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="reviews__button">
-                    <button>
-                        <p>Все отзывы</p>
-                    </button>
-                </div>
             </div>
         </div>
 
