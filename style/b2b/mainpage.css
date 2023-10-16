@@ -205,8 +205,35 @@
     display: none;
     visibility: hidden;
 }
-
+.mobile__b2b__filter__block{
+    display: none;
+}
 @media only screen and (max-width: 768px) {
+    .b2b__main__search{
+        position: relative;
+    }
+
+
+    .mobile__b2b__filter__block {
+        display: block;
+        width: 100%;
+        height: 80vh;
+        background-color: red;
+        position: absolute;
+        top: 0;
+        z-index: 200;
+        padding: 18px;
+    }
+    .mobile__b2b__filter__container {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    .mobile__b2b__filter__close {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }
     .main__search__name{
         display: none;
         visibility: hidden;

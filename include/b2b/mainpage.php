@@ -39,7 +39,7 @@
             <!------ONLY MOBILE------->
             <div class="b2b__mobile__filter">
                 <div class="b2b__mobile__filter__button">
-                    <button>
+                    <button id="open__filtr">
                         <img src="./imgs/filter.png" alt="">
                     </button>
                 </div>
@@ -59,8 +59,18 @@
                     </a>
                 </div>
             </div>
+            <!------>
+            <div class="mobile__b2b__filter__block">
+                <div class="mobile__b2b__filter__container">
+                    <div class="mobile__b2b__filter__close">
+                        X
+                    </div>
 
-            
+                </div>
+            </div>
+
+
+
             <div class="main__search__wrapper">
             <div class="main__search__element">
                     <div class="search__element__logo">
@@ -68,7 +78,7 @@
                     </div>
                     <div class="search__element__desc">
                         <div class="search__element__desc__name">
-                            <p>Nazvaniye Kompanii asdzx zxıəşəqüö çş lı</p>
+                            <p>Nazvaniye Kompanii asdzx zxıəşəqüö 1</p>
                         </div>
                         <div class="search__element__desc__location">
                             <div>
@@ -430,3 +440,7 @@
         </div>
     </div>
 </div>
+
+<script>
+
+</script>
