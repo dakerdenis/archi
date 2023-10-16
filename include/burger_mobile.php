@@ -9,15 +9,14 @@
                             <p>ENG</p>
                         </a>
                     </div>
-                    <div class="burger__mobile__profile__image">
-                        <img src="./imgs/profile_burger.svg" alt="">
+                    <div class="burger__menu__login">
+                        <a href="./index.php?page=login">
+                            <p>Вход</p>
+                        </a>
                     </div>
-                    <div class="burger__mobile__profile__name">
-                        <p>Ахмед Ахмедджанзаде</p>
-                    </div>
-                    <div class="burger__mobile__profile__logout">
-                        <a href="#">
-                            <p>Выйти</p>
+                    <div class="burger__menu__registration">
+                        <a href="./index.php?page=registration">
+                            <p>Регистрация</p>
                         </a>
                     </div>
                     <div class="burger__menu__links">
