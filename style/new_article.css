@@ -51,6 +51,7 @@
 .new__article__name{
     margin-top: 10px;
     margin-bottom: 10px;
+    width: 100%;
 }
 .new__article__name input {
     color: #000;
@@ -58,6 +59,7 @@ font-size: 25px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+width: 100%;
 }
 
 .new___article__tags{

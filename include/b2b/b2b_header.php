@@ -9,13 +9,13 @@
         <!-----NAVIGATION------>
         <div class="header__navigation">
             <ul>
-                <li><a href="#">Внешний рынок</a></li>
+                <li><a class="b2b__active__link" href="#">Внешний рынок</a></li>
 
                     <a href="./index.php">
                         <img src="./imgs/logo.png" alt="">
                     </a>
 
-                <li><a href="#">Внутренний рыноке</a></li>
+                <li><a class="" href="#">Внутренний рыноке</a></li>
             </ul>
         </div>
         <!-----navigation MOBILE----->

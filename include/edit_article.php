@@ -17,7 +17,7 @@
                 <div class="new__article__container">
                     <!---NAME------>
                     <div class="new__article__name">
-                        <input type="text" placeholder="Введите название статьи...">
+                        <input type="text" placeholder="Введите название статьи..." value="Длинное название статьи на каком то языке">
                     </div>
 
                     <div class="new___article__tags">

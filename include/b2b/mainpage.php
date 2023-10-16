@@ -20,7 +20,7 @@
                     <p>Категория</p>
                 </a>
                 <a href="#">
-                    <p>Категория</p>
+                    <p>Отопление / Вентиляция</p>
                 </a>
                 <a href="#">
                     <p>Категория</p>
@@ -33,7 +33,11 @@
         <!------------->
         <div class="b2b__main__search">
             <div class="main__search__name">
-                <p>Поиск</p>
+                <a class="active__link" href="#"><p>Поиск</p></a>
+                <span>></span>
+                <a  class="active__link" href="#"><p>Название компании</p></a>
+                <span>></span>
+                <a class="" href="#"><p>Название категории</p></a>
             </div>
             <div class="main__search__wrapper">
             <div class="main__search__element">
