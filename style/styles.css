@@ -219,21 +219,24 @@ h6 {
   font-weight: 400;
   line-height: normal;
 }
-.profile__logout{
+
+.profile__logout {
   width: 100%;
 }
+
 .profile__logout a {
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 11px;
-border: 0.3px solid rgba(0, 0, 0, 0.20);
-background: #E3E3E3;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
-width: 151.8px;
-height: 23.1px;
-flex-shrink: 0;
+  border: 0.3px solid rgba(0, 0, 0, 0.20);
+  background: #E3E3E3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+  width: 151.8px;
+  height: 23.1px;
+  flex-shrink: 0;
 }
+
 .profile__logout a p {
   color: #000;
   text-align: center;
@@ -242,6 +245,7 @@ flex-shrink: 0;
   font-weight: 400;
   line-height: normal;
 }
+
 .dropdown_content {
   width: 100%;
   height: 100%;
@@ -301,7 +305,7 @@ flex-shrink: 0;
 }
 
 /***************IF USER LOGGED IN*************************/
-.burger__mobile__profile__image{
+.burger__mobile__profile__image {
   width: 100%;
   display: flex;
   align-items: center;
@@ -309,23 +313,49 @@ flex-shrink: 0;
   height: 32px;
   margin-top: 15px;
 }
-.burger__mobile__profile__image img{
+
+.burger__mobile__profile__image img {
   width: 40px;
   height: 40px;
 }
+
 .burger__mobile__profile__name {
   width: 100%;
   text-align: center;
   color: #000;
+  text-align: center;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.burger__mobile__profile__logout{
+  height: 23.891px;
+}
+.burger__mobile__profile__logout a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 127px;
+height: 23.891px;
+flex-shrink: 0;
+border-radius: 5px;
+border: 0.3px solid rgba(0, 0, 0, 0.20);
+background: #E3E3E3;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+}
+
+.burger__mobile__profile__logout a p {
+  color: #000;
 text-align: center;
-font-size: 8px;
+font-size: 10.5px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
-
-
-
 
 /************************************/
 /************************************/
@@ -416,9 +446,10 @@ line-height: normal;
 
 
 
-.b2b__active__link{
+.b2b__active__link {
   background-color: rgba(255, 255, 0, 1);
 }
+
 /************************************/
 @media only screen and (max-width: 768px) {
   html {
