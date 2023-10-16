@@ -181,6 +181,27 @@
     line-height: normal;
 }
 
+.search__element__desc__location div {
+    display: flex;
+    align-items: center;
+}
+
+.search__element__desc__location div p:first-child {
+    margin-right: 5px;
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.search__element__desc__location div p:nth-child(2) {
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 @media only screen and (max-width: 768px) {
     .b2b__main__categories {
         display: none;
@@ -200,5 +221,85 @@
         border-radius: 5px;
         background: rgba(217, 217, 217, 0.20);
         padding: 15px;
+    }
+
+    .search__element__desc {
+        margin-left: 15px;
+    }
+
+    .search__element__logo {
+        width: 62px;
+        height: 62px;
+        margin-left: 0;
+    }
+
+    .b2b__main__page {
+        width: 100%;
+    }
+
+    .search__element__desc__name {
+        color: #000;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 8px;
+    }
+
+    .search__element__desc__location {
+        width: 80%;
+    }
+
+    .search__element__desc__location div p:first-child {
+        color: #000;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .search__element__desc__location div p:nth-child(2) {
+        color: #000;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+
+
+
+
+    .search__element__info {
+        width: 71px;
+        height: 17.653px;
+        flex-shrink: 0;
+    }
+
+    .search__element__info p {
+        color: #000;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .search__element__desc__tags {
+        width: 180px;
+    }
+
+    .search__element__desc__tags a {
+        color: #000;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .search__element__info{
+        right: 15px;
+        bottom: 12px;
+    }
+    .main__search__element{
+        margin-bottom: 13px;
     }
 }

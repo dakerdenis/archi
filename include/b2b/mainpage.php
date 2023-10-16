@@ -31,7 +31,7 @@
             </div>
         </div>
         <div class="b2b__mobile__filter">
-            
+
         </div>
         <!------------->
         <div class="b2b__main__search">
@@ -48,8 +48,14 @@
                             <p>Nazvaniye Kompanii asdzx zxıəşəqüö çş lı</p>
                         </div>
                         <div class="search__element__desc__location">
-                            <p>Страна: Россия</p>
-                            <p>Город: Нижневартовск</p>
+                            <div>
+                                <p>Страна: </p>
+                                <p>Россия</p>
+                            </div>
+                            <div>
+                                <p>Город: </p>
+                                <p>Нижневартовск</p>
+                            </div>
                         </div>
                         <div class="search__element__desc__tags">
                             <a href="#">
@@ -79,6 +85,13 @@
                     </div>
                 </div>
 
+
+
+
+
+
+
+
                 <div class="main__search__element">
                     <div class="search__element__logo">
                         <img src="./imgs/6.png" alt="">
@@ -88,8 +101,14 @@
                             <p>Nazvaniye Kompanii asdzx zxıəşəqüö çş lı</p>
                         </div>
                         <div class="search__element__desc__location">
-                            <p>Страна: Россия</p>
-                            <p>Город: Нижневартовск</p>
+                            <div>
+                                <p>Страна: </p>
+                                <p>Россия</p>
+                            </div>
+                            <div>
+                                <p>Город: </p>
+                                <p>Нижневартовск</p>
+                            </div>
                         </div>
                         <div class="search__element__desc__tags">
                             <a href="#">
@@ -119,6 +138,14 @@
                     </div>
                 </div>
 
+
+
+
+
+
+
+
+
                 <div class="main__search__element">
                     <div class="search__element__logo">
                         <img src="./imgs/6.png" alt="">
@@ -128,8 +155,14 @@
                             <p>Nazvaniye Kompanii asdzx zxıəşəqüö çş lı</p>
                         </div>
                         <div class="search__element__desc__location">
-                            <p>Страна: Россия</p>
-                            <p>Город: Нижневартовск</p>
+                            <div>
+                                <p>Страна: </p>
+                                <p>Россия</p>
+                            </div>
+                            <div>
+                                <p>Город: </p>
+                                <p>Нижневартовск</p>
+                            </div>
                         </div>
                         <div class="search__element__desc__tags">
                             <a href="#">
@@ -159,6 +192,10 @@
                     </div>
                 </div>
 
+
+
+
+
                 <div class="main__search__element">
                     <div class="search__element__logo">
                         <img src="./imgs/6.png" alt="">
@@ -168,8 +205,14 @@
                             <p>Nazvaniye Kompanii asdzx zxıəşəqüö çş lı</p>
                         </div>
                         <div class="search__element__desc__location">
-                            <p>Страна: Россия</p>
-                            <p>Город: Нижневартовск</p>
+                            <div>
+                                <p>Страна: </p>
+                                <p>Россия</p>
+                            </div>
+                            <div>
+                                <p>Город: </p>
+                                <p>Нижневартовск</p>
+                            </div>
                         </div>
                         <div class="search__element__desc__tags">
                             <a href="#">
@@ -198,6 +241,13 @@
                         </a>
                     </div>
                 </div>
+
+
+
+
+
+
+
                 <div class="main__search__element">
                     <div class="search__element__logo">
                         <img src="./imgs/6.png" alt="">
@@ -207,8 +257,14 @@
                             <p>Nazvaniye Kompanii asdzx zxıəşəqüö çş lı</p>
                         </div>
                         <div class="search__element__desc__location">
-                            <p>Страна: Россия</p>
-                            <p>Город: Нижневартовск</p>
+                            <div>
+                                <p>Страна: </p>
+                                <p>Россия</p>
+                            </div>
+                            <div>
+                                <p>Город: </p>
+                                <p>Нижневартовск</p>
+                            </div>
                         </div>
                         <div class="search__element__desc__tags">
                             <a href="#">
@@ -237,6 +293,115 @@
                         </a>
                     </div>
                 </div>
+
+
+
+
+
+
+
+
+                <div class="main__search__element">
+                    <div class="search__element__logo">
+                        <img src="./imgs/6.png" alt="">
+                    </div>
+                    <div class="search__element__desc">
+                        <div class="search__element__desc__name">
+                            <p>Nazvaniye Kompanii asdzx zxıəşəqüö çş lı</p>
+                        </div>
+                        <div class="search__element__desc__location">
+                            <div>
+                                <p>Страна: </p>
+                                <p>Россия</p>
+                            </div>
+                            <div>
+                                <p>Город: </p>
+                                <p>Нижневартовск</p>
+                            </div>
+                        </div>
+                        <div class="search__element__desc__tags">
+                            <a href="#">
+                                <p>#Ремонт</p>
+                            </a>
+                            <a href="#">
+                                <p>#пол</p>
+                            </a>
+                            <a href="#">
+                                <p>#ведро</p>
+                            </a>
+                            <a href="#">
+                                <p>#Ремонт</p>
+                            </a>
+                            <a href="#">
+                                <p>#Машина</p>
+                            </a>
+                            <a href="#">
+                                <p>#Сталкер</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="search__element__info">
+                        <a href="./b2b.php?page=company">
+                            <p>Подробнее</p>
+                        </a>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+                <div class="main__search__element">
+                    <div class="search__element__logo">
+                        <img src="./imgs/6.png" alt="">
+                    </div>
+                    <div class="search__element__desc">
+                        <div class="search__element__desc__name">
+                            <p>Nazvaniye Kompanii asdzx zxıəşəqüö çş lı</p>
+                        </div>
+                        <div class="search__element__desc__location">
+                            <div>
+                                <p>Страна: </p>
+                                <p>Россия</p>
+                            </div>
+                            <div>
+                                <p>Город: </p>
+                                <p>Нижневартовск</p>
+                            </div>
+                        </div>
+                        <div class="search__element__desc__tags">
+                            <a href="#">
+                                <p>#Ремонт</p>
+                            </a>
+                            <a href="#">
+                                <p>#пол</p>
+                            </a>
+                            <a href="#">
+                                <p>#ведро</p>
+                            </a>
+                            <a href="#">
+                                <p>#Ремонт</p>
+                            </a>
+                            <a href="#">
+                                <p>#Машина</p>
+                            </a>
+                            <a href="#">
+                                <p>#Сталкер</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="search__element__info">
+                        <a href="./b2b.php?page=company">
+                            <p>Подробнее</p>
+                        </a>
+                    </div>
+                </div>
+
+
+
+
                 
             </div>
         </div>
