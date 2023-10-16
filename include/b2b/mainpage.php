@@ -60,14 +60,34 @@
                 </div>
             </div>
             <!------>
-            <div class="mobile__b2b__filter__block">
+            <div id="mobile__filtr__block" class="mobile__b2b__filter__block">
                 <div class="mobile__b2b__filter__container">
-                    <div class="mobile__b2b__filter__close">
+                    <button id="close__mobile__filtr" class="mobile__b2b__filter__close">
                         X
-                    </div>
+                    </button>
 
+                    <div class="mobile__b2b__filter__name">
+                        Расширенный поиск 
+                    </div>
+                    <div class="mobile__b2b__filter__category">
+                        <p>Категория</p>
+                    </div>
                 </div>
             </div>
+            <script>
+                const open__mobile__filtr = document.getElementById('open__filtr');
+                const mobile__filtr__block =document.getElementById('mobile__filtr__block');
+                const close__mobile__filtr =document.getElementById('close__mobile__filtr');
+
+                open__mobile__filtr.addEventListener('click', function(event){
+                    mobile__filtr__block.classList.add('mobile__filtr__block_opened');
+                });
+
+                close__mobile__filtr.addEventListener('click', function(event){
+                    mobile__filtr__block.classList.remove('mobile__filtr__block_opened');
+                });
+
+            </script>
 
 
 
