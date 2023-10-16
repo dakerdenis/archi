@@ -65,7 +65,28 @@
                         тут происхоит добавление контента
                     </div>
 
-
+                    <div class="additional__block__articles__mobile">
+                        <div class="additional__block__mobile__name">
+                            <p>Товары из статьи</p>
+                        </div>
+                        <div class="additional__block__mobile">
+                        <a href="#">
+                        <p>Добавить товар из статьи</p>
+                    </a>
+                    <a href="#">
+                        <p>Добавить товар из статьи</p>
+                    </a>
+                    <a href="#">
+                        <p>Добавить товар из статьи</p>
+                    </a>
+                    <a href="#">
+                        <p>Добавить товар из статьи</p>
+                    </a>
+                    <a href="#">
+                        <p>Добавить товар из статьи</p>
+                    </a>
+                        </div>
+                    </div>
 
                     <!---SUBMIT--->
                     <div class="new__article___submit">
