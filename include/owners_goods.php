@@ -22,7 +22,7 @@
 
 <div class="goods__page__container">
     <div class="goods__owner__addgoods">
-        <a href="#">
+        <a href="./index.php?page=new_item">
             <p> + Добавить товар </p>
         </a>
     </div>

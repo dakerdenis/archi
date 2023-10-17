@@ -76,7 +76,15 @@
                         <input type="email" placeholder="e-mail адрес">
                     </div>
                 </div>
-                <!----Контакты преставителя компании---->
+                <!----VOEN---->
+                <div class="new_buisness__input__container">
+                    <div class="new_buisness__input__name">
+                        <p>VÖEN</p>
+                    </div>
+                    <div class="new_buisness__input__wrapper ">
+                        <input type="email" placeholder="введите VÖEN">
+                    </div>
+                </div>
                 <!---Контакты представитея - ФИО  ---->
                 <div class="new_buisness__input__container">
                     <div class="new_buisness__input__name">
