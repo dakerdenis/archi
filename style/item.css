@@ -213,34 +213,50 @@ line-height: normal;
 
 
 
-.photo-container {
+
+
+.new__photo__container{
+    width: 348px;
+    height: 390px;
+}
+.new__photo__container .swiper{
+    width: 100%;
+    height: 100%;
+}
+.new__photo__container .swiper-wrapper{
+    width: 100%;
+}
+.new__photo__container .swiper-slide{
+    display: initial;
+}
+.new__photo__block{
+    width: 100%;
+    height: 348px;
+    background-color: blanchedalmond;
+    border-radius: 11px;
     overflow: hidden;
-    position: relative;
-    width: 300px;
-    height: 350px;
 }
-
-.photos {
-    height: 300px;
-    width: 100%;
-    display: flex;
-    overflow: auto;
-    scroll-snap-type: x mandatory;
-}
-.pagination{
-    width: 100%;
-    height: 50px;
-    display: flex;
-    justify-content: space-evenly;
-}
-.photos img {
-    flex: 0 0 100%;
-    scroll-snap-align: start;
-}
-
-
-
-
+/* This targets the entire pagination container */
+.swiper-pagination {
+    margin-top: 10px;
+  }
+  
+/* This targets individual pagination bullets */
+.swiper-pagination-bullet {
+    width: 25px; /* Change the width of each bullet */
+    height: 25px; /* Change the height of each bullet */
+    background-color: #D9D9D9; /* Change the bullet color */
+    margin: 5px; /* Add spacing between bullets */
+    border-radius: 50%; /* Make the bullets circular */
+    border: 0.5px solid #0000007e;
+  }
+  
+  /* You can also customize the active bullet */
+  .swiper-pagination-bullet-active {
+    background-color: rgba(217, 217, 217, 0.8); /* Change the active bullet color */
+        border: 0.5px solid #00000034;
+  }
+  
 
 
 

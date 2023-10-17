@@ -1,7 +1,9 @@
-<style>
-    <?php include './style/article.css' ?><?php include './style/item.css' ?>
-</style>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+<style>
+    <?php include './style/article.css' ?>
+    <?php include './style/item.css' ?>
+</style>
+
 
 
 <div class="item__page__wrapper">
@@ -11,8 +13,37 @@
             <!----Item FOTO AND DESCRIPTION SMALL--->
             <div class="item__content__block">
                 <!---FOTO-->
-                <div class="item__image">
-                    <img src="./imgs/1.jpg" alt="" srcset="">
+                <div class="new__photo__container">
+                    <div class="swiper mySwiper2">
+                        <div class="swiper-wrapper">
+                          <div data-hash="slide1" class="swiper-slide">
+                            <div class="new__photo__block">
+                                <img src="../imgs/1.jpg" alt="">
+                            </div>
+                          </div>
+                          <div data-hash="slide2" class="swiper-slide">
+                            <div class="new__photo__block">
+                            <img src="../imgs/1.jpg" alt="">
+                            </div>
+                          </div>
+                          <div data-hash="slide3" class="swiper-slide">
+                            <div class="new__photo__block">
+                            <img src="../imgs/1.jpg" alt="">
+                            </div>
+                          </div>
+                          <div data-hash="slide4" class="swiper-slide">
+                            <div class="new__photo__block">
+                            <img src="../imgs/1.jpg" alt="">
+                            </div>
+                          </div>
+                          <div data-hash="slide5" class="swiper-slide">
+                            <div class="new__photo__block">
+                            <img src="../imgs/1.jpg" alt="">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>                
                 </div>
                 <!-----description of item-->
                 <div class="item__content__desc">
@@ -57,7 +88,11 @@
             <div class="item__description">
 
 
-            
+
+
+                <script>
+
+  </script>
 
 
 
@@ -283,7 +318,17 @@
         navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev"
-        }
+        }   
+    });
+    var swiper2 = new Swiper(".mySwiper2", {
+      spaceBetween: 30,
+      hashNavigation: {
+        watchState: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
     });
 
 
