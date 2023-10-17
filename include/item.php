@@ -18,27 +18,27 @@
                         <div class="swiper-wrapper">
                           <div data-hash="slide1" class="swiper-slide">
                             <div class="new__photo__block">
-                                <img src="../imgs/1.jpg" alt="">
+                                <img src="./imgs/1.jpg" alt="">
                             </div>
                           </div>
                           <div data-hash="slide2" class="swiper-slide">
                             <div class="new__photo__block">
-                            <img src="../imgs/1.jpg" alt="">
+                            <img src="./imgs/1.jpg" alt="">
                             </div>
                           </div>
                           <div data-hash="slide3" class="swiper-slide">
                             <div class="new__photo__block">
-                            <img src="../imgs/1.jpg" alt="">
+                            <img src="./imgs/1.jpg" alt="">
                             </div>
                           </div>
                           <div data-hash="slide4" class="swiper-slide">
                             <div class="new__photo__block">
-                            <img src="../imgs/1.jpg" alt="">
+                            <img src="./imgs/1.jpg" alt="">
                             </div>
                           </div>
                           <div data-hash="slide5" class="swiper-slide">
                             <div class="new__photo__block">
-                            <img src="../imgs/1.jpg" alt="">
+                            <img src="./imgs/1.jpg" alt="">
                             </div>
                           </div>
                         </div>
@@ -87,24 +87,33 @@
             <!-------Item FULL DESCRIPTION---->
             <div class="item__description">
 
-
-
-
-                <script>
-
-  </script>
-
-
-
                 <div class="item__description__country">
-                    <p>Производитель:</p>
-                    <p>Страна:</p>
+                    <p>Производитель: PArket House Oxenfurt</p>
+                    <p>Страна: Redaniya</p>
                 </div>
                 <div class="item__description__color">
-                    <p>Цвет:</p>
-                    <p>Размер:</p>
+                    <p>Цвет: Серо-буро малиновый</p>
+                    <p>Размер: 1488х228х69</p>
                 </div>
-                <div class="item__description__text">
+
+                <div class="item__certificates">
+                    <div class="item__certificates__name">
+                        <p>Сертификаты</p>
+                    </div>
+                    <div class="item__certificates__container">
+                        <!-------->
+                        <div class="item__certificates__element">
+                            <div class="item__certificates__image">
+                                <img src="./imgs/test_cert.jpg" alt="">
+                            </div>
+                            <div class="item__certificates__desc">
+                                <p>Certificate name</p>
+                            </div>
+                        </div>
+                        <!-------->
+                    </div>
+                </div>
+                <!-- <div class="item__description__text">
                     <p>Преимущества паркетных полов:
                         Изысканный внешний вид: паркетные полы придают интерьеру шик и элегантность, добавляя в помещение теплоту и уют.
                     </p>
@@ -121,7 +130,7 @@
                         Экологическая чистота: паркетные полы изготовлены из натурального дерева, что делает их экологически чистым
                         и безопасным выбором для вашего дома/
                     </p>
-                </div>
+                </div> -->
             </div>
             <!---ARTICLES SWIPER------------>
             <div class="item__articles">
