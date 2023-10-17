@@ -1,0 +1,109 @@
+.edit__item__wrapper {
+    width: 634px;
+    margin: 0 auto;
+}
+.edit__item__container {
+    width: 100%;
+
+}
+.edit__item__name {
+    color: #000;
+text-align: center;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.edit__item__category {
+    margin-top: 30px;
+    color: #000;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.edit__item__tags {
+    color: #000;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 16px;
+}
+.edit__item__size {
+    color: #000;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 16px;
+}
+.edit__item__country_company {
+    margin-top: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.edit__item__fotography {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.edit__item__fotography__name{
+    color: #000;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 10px;
+}
+.edit__items__sertificates__name{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+.edit__items__sertificates {
+}
+.edit__items__delete__save {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.edit__items__delete__save a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.edit__items__delete__save a p{
+    color: #000;
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.edit__items__delete {
+    width: 225px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #DFA2A2;
+}
+.edit__items__save {
+    width: 225px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #B6DFA2;
+}

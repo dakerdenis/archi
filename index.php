@@ -74,7 +74,9 @@
                 case "change_profile":
                     include './include/change_profile.php';
                     break;
-
+                    case "edit_item":
+                        include './include/edit_item.php';
+                        break;
 
                 default:
                     include './include/main.php';
