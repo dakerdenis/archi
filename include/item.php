@@ -280,7 +280,7 @@
 
         <!---ITEM RECOMENDATIONS---->
         <div class="item__recomendation__container">
-            <div class="additional__block__articles">
+            <div class="additional__block__articles additional__block__articles_onlypc">
                 <div class="additional__block__articles__name">
                     <p>Это важно</p>
                 </div>
@@ -345,14 +345,53 @@
 
 <!-- Initialize Swiper -->
 <script>
-    var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 5,
-        freeMode: true,
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev"
-        }   
+// JavaScript
+var swiper;
+
+function initSwiper() {
+  if (window.innerWidth < 768) {
+    if (swiper) {
+      swiper.destroy();
+    }
+    swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      freeMode: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+      }
     });
+  } else {
+    if (swiper) {
+      swiper.destroy();
+    }
+    swiper = new Swiper(".mySwiper", {
+      slidesPerView: 5,
+      freeMode: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+      }
+    });
+  }
+}
+
+// Initialize Swiper on page load
+initSwiper();
+
+// Update Swiper configuration when the window is resized
+window.addEventListener("resize", function () {
+  initSwiper();
+});
+
+
+
+
+
+
+
+
+
 
     var swiper2 = new Swiper(".mySwiper2", {
       spaceBetween: 30,
