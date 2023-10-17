@@ -37,6 +37,7 @@
 }
 
 .item__name {
+    width: 290px;
     color: #000;
     font-size: 25px;
     font-style: normal;
@@ -45,19 +46,11 @@
     margin-bottom: 8px;
 }
 
-.item__price {
-    color: #000;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-bottom: 25px;
-}
-
 .item__tags {
     display: flex;
+    width: 317px;
     margin-bottom: 26px;
-
+    flex-wrap: wrap;
 }
 
 .item__tags a {
@@ -72,12 +65,11 @@
 
 .item__date {
     color: #000;
-
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-bottom: 28px;
+    margin-bottom: 20px;
 }
 
 .item__number {
@@ -221,91 +213,51 @@ line-height: normal;
 
 
 
-.item__reviews {
-    width: 100%;
-    margin-top: 66px;
-    margin-bottom: 60px;
+.photo-container {
+    overflow: hidden;
+    position: relative;
+    width: 300px;
+    height: 350px;
 }
 
-.item__reviews__name {
-    color: #000;
-
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-bottom: 36PX;
-}
-
-.reviews__wrapper {
+.photos {
+    height: 300px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
 }
-
-.reviews__element {
-    width: 402px;
-    height: 109px;
-    border-radius: 17px;
-    background: rgba(206, 206, 206, 0.30);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    display: flex;
-    margin-bottom: 37px;
-    padding: 15px 9.5px;
-}
-
-.reviews__element__score {
-    width: 79.419px;
-    height: 79.419px;
-    flex-shrink: 0;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 8.5px;
-    background-color: #D9D9D9;
-}
-
-.reviews__element__score p {
-    color: #000;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.reviews__element__desc {
-    color: #000;
-    font-family: Century Gothic;
-    font-size: 9px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-
-    width: 245px;
-    height: 71px;
-}
-
-.reviews__button {
+.pagination{
     width: 100%;
-    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.photos img {
+    flex: 0 0 100%;
+    scroll-snap-align: start;
 }
 
-.reviews__button button {
-    width: 189.432px;
-    height: 48.269px;
-    flex-shrink: 0;
-    border-radius: 11px;
-}
 
-.reviews__button button p {
-    color: #000;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .item__recomendation__container {
     width: 24%;

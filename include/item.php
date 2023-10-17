@@ -19,15 +19,24 @@
                     <div class="item__name">
                         <p>Название товара 229 üəöğşç</p>
                     </div>
-                    <div class="item__price">
-                        <p>25.00 AZN</p>
-                    </div>
                     <div class="item__tags">
                         <a href="#">
                             <p>#Ремонт</p>
                         </a>
                         <a href="#">
                             <p>#Пол</p>
+                        </a>
+                        <a href="#">
+                            <p>#Паркет</p>
+                        </a>
+                        <a href="#">
+                            <p>#Паркет</p>
+                        </a>
+                        <a href="#">
+                            <p>#Паркет</p>
+                        </a>
+                        <a href="#">
+                            <p>#Паркет</p>
                         </a>
                         <a href="#">
                             <p>#Паркет</p>
@@ -46,6 +55,12 @@
             </div>
             <!-------Item FULL DESCRIPTION---->
             <div class="item__description">
+
+
+            
+
+
+
                 <div class="item__description__country">
                     <p>Производитель:</p>
                     <p>Страна:</p>
@@ -292,4 +307,9 @@
     document.getElementById("showFullNumber").addEventListener("click", () => {
         document.getElementById("phoneNumber").textContent = originalPhoneNumber;
     });
+
+
+
+
+
 </script>
