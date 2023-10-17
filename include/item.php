@@ -104,7 +104,33 @@
                         <!-------->
                         <div class="item__certificates__element">
                             <div class="item__certificates__image">
-                                <img src="./imgs/test_cert.jpg" alt="">
+                                <div class="item__certificates__image__container">
+                                    <img src="./imgs/test_cert.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="item__certificates__desc">
+                                <p>Certificate name</p>
+                            </div>
+                        </div>
+                        <!-------->
+                                                <!-------->
+                                                <div class="item__certificates__element">
+                            <div class="item__certificates__image">
+                                <div class="item__certificates__image__container">
+                                    <img src="./imgs/test_cert.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="item__certificates__desc">
+                                <p>Certificate name</p>
+                            </div>
+                        </div>
+                        <!-------->
+                                                <!-------->
+                                                <div class="item__certificates__element">
+                            <div class="item__certificates__image">
+                                <div class="item__certificates__image__container">
+                                    <img src="./imgs/test_cert.jpg" alt="">
+                                </div>
                             </div>
                             <div class="item__certificates__desc">
                                 <p>Certificate name</p>
@@ -133,7 +159,11 @@
                 </div> -->
             </div>
             <!---ARTICLES SWIPER------------>
+            <div class="item__articles__name">
+                    <p>Это может быть вам интересно</p>
+                </div>
             <div class="item__articles">
+
                 <div class="item__articles__container">
                     <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
@@ -282,29 +312,24 @@
             </div>
 
             <div class="additional__block__articles">
-                <div class="additional__block__articles__name">
-                    <p>Это важно</p>
+                <div class="additional__block__articles__name additional__block__articles__name__about">
+                    <p>Статьи о товаре</p>
                 </div>
-                <div class="additional__block__articles__content">
+                <div class="additional__block__articles__content additional__block__articles__content_about">
                     <a href="#">
-                        <p>Кямран Гулиев покинул пост
-                            президента Нефтчи</p>
+                        <p>Классические узоры или современные тренды</p>
                     </a>
                     <a href="#">
-                        <p>Кямран Гулиев покинул пост
-                            президента Нефтчи</p>
+                        <p>Почему паркетный пол — отличное вложение в ваш дом</p>
                     </a>
                     <a href="#">
-                        <p>Кямран Гулиев покинул пост
-                            президента Нефтчи</p>
+                        <p>Секреты ухода за паркетным полом</p>
                     </a>
                     <a href="#">
-                        <p>Кямран Гулиев покинул пост
-                            президента Нефтчи</p>
+                        <p>Выбор правильного дерева для паркета: 5 советов</p>
                     </a>
                     <a href="#">
-                        <p>Кямран Гулиев покинул пост
-                            президента Нефтчи</p>
+                        <p>Паркет в Интерьере</p>
                     </a>
                 </div>
             </div>
@@ -322,13 +347,13 @@
 <script>
     var swiper = new Swiper(".mySwiper", {
         slidesPerView: 5,
-        spaceBetween: 20,
         freeMode: true,
         navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev"
         }   
     });
+
     var swiper2 = new Swiper(".mySwiper2", {
       spaceBetween: 30,
       hashNavigation: {
