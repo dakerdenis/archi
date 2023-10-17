@@ -41,6 +41,9 @@
                 case "article":
                     include './include/article.php';
                     break;
+                case "owners_goods":
+                    include './include/owners_goods.php';
+                    break;
                 case "goods":
                     include './include/goods.php';
                     break;

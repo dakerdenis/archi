@@ -232,7 +232,10 @@
             <br>
             <a style="color: red; margin-bottom: 10px;" href="./index.php?page=change_status">Смена статуса</a>
             <a style="color: red; margin-bottom: 10px;" href="./index.php?login=yes">Пользователь вошёл</a>
+            <br>
+            <a style="color: red; margin-bottom: 10px;" href="./index.php?page=owners_goods">Список товаров владельца ?</a>
 
+            
             
              </div>
 
