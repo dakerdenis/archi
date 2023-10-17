@@ -48,7 +48,7 @@
                 <!-----description of item-->
                 <div class="item__content__desc">
                     <div class="item__name">
-                        <p>Название товара 229 üəöğşç</p>
+                        <p>Название товара длинное очень</p>
                     </div>
                     <div class="item__tags">
                         <a href="#">

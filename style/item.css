@@ -218,13 +218,14 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-.item__articles__name{
+
+.item__articles__name {
     color: #000;
-font-size: 25px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-bottom: 10px;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
 }
 
 .item__articles .swiper {
@@ -355,19 +356,21 @@ margin-bottom: 10px;
     justify-content: center;
     align-items: center;
 }
+
 .item__certificates__image__container img {
 
     height: 100%;
     object-fit: cover;
 }
+
 .item__certificates__desc {
     margin-top: 13px;
     width: 111px;
     color: #000;
-font-size: 12px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 
@@ -399,19 +402,140 @@ line-height: normal;
 .additional__block__articles__content {}
 
 
-.additional__block__articles__name__about{
+.additional__block__articles__name__about {
     color: #000;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-decoration-line: underline;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
 }
-.additional__block__articles__content_about a p{
+
+.additional__block__articles__content_about a p {
     color: #000;
 
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .item__page__wrapper {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .item__page__container {
+        flex-direction: column;
+    }
+
+    .item__block {
+        width: 100%;
+        padding: 0;
+        border-right: 0px;
+    }
+
+    .new__photo__container {
+        width: 129px;
+        height: 140px;
+    }
+
+    .new__photo__block {
+        height: 115px;
+        width: 129px;
+    }
+
+    /* This targets the entire pagination container */
+    .swiper-pagination {
+        margin-top: 9.5px;
+        width: 77px;
+    }
+
+    /* This targets individual pagination bullets */
+    .swiper-pagination-bullet {
+        width: 10.1px;
+        /* Change the width of each bullet */
+        height: 10.1px;
+        /* Change the height of each bullet */
+        background-color: #D9D9D9;
+        /* Change the bullet color */
+        /* Add spacing between bullets */
+        border-radius: 50%;
+        /* Make the bullets circular */
+        border: 0.5px solid #0000007e;
+    }
+
+    /* You can also customize the active bullet */
+    .swiper-pagination-bullet-active {
+        background-color: rgba(217, 217, 217, 0.8);
+        /* Change the active bullet color */
+        border: 0.5px solid #00000034;
+    }
+
+    .item__content__desc {
+        margin-left: 21px;
+    }
+
+    .item__name {
+        color: #000;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .item__tags {
+        width: 146px;
+        margin-bottom: 8px;
+    }
+
+    .item__tags p {
+        color: #000;
+        font-size: 9px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .item__date {
+        color: #000;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 7px;
+
+    }
+
+    .item__number {
+        width: 94.665px;
+        height: 25.585px;
+        border-radius: 5px;
+        background: #D9D9D9;
+        margin-bottom: 4px;
+    }
+
+    .item__number p {
+        color: #000;
+        text-align: center;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: initial;
+        height: initial;
+    }
+
+    .item__number__desc p {
+        color: #000;
+        font-size: 5.5px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .item__description{
+        margin-top: 20px;
+    }
 }
