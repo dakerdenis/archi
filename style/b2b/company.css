@@ -637,12 +637,15 @@
         width: 50%;
         max-height: 48px;
     }
-    .company__certificates__swiper .swiper{
+
+    .company__certificates__swiper .swiper {
         height: initial;
     }
-    .company__certificates__swiper .swiper-slide{
+
+    .company__certificates__swiper .swiper-slide {
         height: initial;
     }
+
     .company__certificates__swiper .swiper-slide p {
         color: #000;
         text-align: center;
@@ -653,18 +656,92 @@
         margin-top: 0;
     }
 
-    .company__certificates__swiper {
-
-    }
+    .company__certificates__swiper {}
 
     .company__certificates__swiper [class^="swiper-button-next"] {
         position: absolute;
         right: -5px;
         transform: scale(0.7);
     }
+
     .company__certificates__swiper [class^="swiper-button-prev"] {
         position: absolute;
         left: -5px;
         transform: scale(0.7);
+    }
+
+    .b2b__company__description__date {
+        color: #000;
+
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 5px;
+    }
+.b2b__company__description__date span{
+    color: #000;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+    .b2b__company__description__content {
+        color: #000;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .b2b__company__categories__name{
+        color: #000;
+font-size: 11px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    }
+    .b2b__company__categories__element{
+        height: 103px;
+        width: 87.23px;
+    }
+    .element__wrapper{
+        width: 100%;
+        height: 100%;
+    }
+    .element__image{
+        width: 100%;
+        height: 61px;
+    }
+    .element__content{
+        width: 100%;
+        height: calc(100% - 61px);
+        padding: 2px 4.3px;
+    }
+    .element__name{
+        color: #000;
+font-size: 8px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+height: 19px;
+margin-bottom: 2px;
+    }
+    .element__size{
+        color: #000;
+font-size: 7px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+    .element__material{
+        color: #000;
+font-size: 7px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+    .b2b__company__categories__wrapper .b2b__company__categories__element:nth-child(4){
+        display: none;
+        visibility: hidden;
     }
 }

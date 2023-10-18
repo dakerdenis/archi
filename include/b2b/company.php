@@ -312,6 +312,11 @@
 
 
                           </div>
+                          <div class="b2b__company__all__category__mobile">
+                                <a href="#">
+                                    <p>Отобразить</p>
+                                </a>
+                          </div>
                       </div>
 
 
