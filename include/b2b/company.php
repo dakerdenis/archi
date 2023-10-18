@@ -203,10 +203,12 @@
                             <p>Название категории (n)</p>
                         </div>
                         <div class="b2b__company__categories__wrapper">
-                            <div class="b2b__company__categories__element">
+
+
+                            <a href="#" class="b2b__company__categories__element">
                                 <div class="element__wrapper">
                                     <div class="element__image">
-                                        <img src="../imgs/2.jpg" alt="">
+                                        <img src="./imgs/1.jpg" alt="">
                                     </div>
                                     <div class="element__content">
                                         <div class="element__name">
@@ -220,7 +222,244 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
+
+                            <a href="#" class="b2b__company__categories__element">
+                                <div class="element__wrapper">
+                                    <div class="element__image">
+                                        <img src="./imgs/1.jpg" alt="">
+                                    </div>
+                                    <div class="element__content">
+                                        <div class="element__name">
+                                            <p>Пол ламинат</p>
+                                        </div>
+                                        <div class="element__size">
+                                            <p>220 х 60 х 22</p>
+                                        </div>
+                                        <div class="element__material">
+                                            <p>материал</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+
+                            <a href="#" class="b2b__company__categories__element">
+                                <div class="element__wrapper">
+                                    <div class="element__image">
+                                        <img src="./imgs/1.jpg" alt="">
+                                    </div>
+                                    <div class="element__content">
+                                        <div class="element__name">
+                                            <p>Пол ламинат</p>
+                                        </div>
+                                        <div class="element__size">
+                                            <p>220 х 60 х 22</p>
+                                        </div>
+                                        <div class="element__material">
+                                            <p>материал</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="#" class="b2b__company__categories__element">
+                                <div class="element__wrapper">
+                                    <div class="element__image">
+                                        <img src="./imgs/1.jpg" alt="">
+                                    </div>
+                                    <div class="element__content">
+                                        <div class="element__name">
+                                            <p>Пол ламинат</p>
+                                        </div>
+                                        <div class="element__size">
+                                            <p>220 х 60 х 22</p>
+                                        </div>
+                                        <div class="element__material">
+                                            <p>материал</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+
+                        </div>
+                    </div>
+
+
+                    <div class="b2b__company__categories">
+                        <div class="b2b__company__categories__name">
+                            <p>Название категории (n)</p>
+                        </div>
+                        <div class="b2b__company__categories__wrapper">
+
+
+                            <a href="#" class="b2b__company__categories__element">
+                                <div class="element__wrapper">
+                                    <div class="element__image">
+                                        <img src="./imgs/1.jpg" alt="">
+                                    </div>
+                                    <div class="element__content">
+                                        <div class="element__name">
+                                            <p>Пол ламинат</p>
+                                        </div>
+                                        <div class="element__size">
+                                            <p>220 х 60 х 22</p>
+                                        </div>
+                                        <div class="element__material">
+                                            <p>материал</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="#" class="b2b__company__categories__element">
+                                <div class="element__wrapper">
+                                    <div class="element__image">
+                                        <img src="./imgs/1.jpg" alt="">
+                                    </div>
+                                    <div class="element__content">
+                                        <div class="element__name">
+                                            <p>Пол ламинат</p>
+                                        </div>
+                                        <div class="element__size">
+                                            <p>220 х 60 х 22</p>
+                                        </div>
+                                        <div class="element__material">
+                                            <p>материал</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+
+                            <a href="#" class="b2b__company__categories__element">
+                                <div class="element__wrapper">
+                                    <div class="element__image">
+                                        <img src="./imgs/1.jpg" alt="">
+                                    </div>
+                                    <div class="element__content">
+                                        <div class="element__name">
+                                            <p>Пол ламинат</p>
+                                        </div>
+                                        <div class="element__size">
+                                            <p>220 х 60 х 22</p>
+                                        </div>
+                                        <div class="element__material">
+                                            <p>материал</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="#" class="b2b__company__categories__element">
+                                <div class="element__wrapper">
+                                    <div class="element__image">
+                                        <img src="./imgs/1.jpg" alt="">
+                                    </div>
+                                    <div class="element__content">
+                                        <div class="element__name">
+                                            <p>Пол ламинат</p>
+                                        </div>
+                                        <div class="element__size">
+                                            <p>220 х 60 х 22</p>
+                                        </div>
+                                        <div class="element__material">
+                                            <p>материал</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+
+                        </div>
+                    </div>
+
+                    <div class="b2b__company__categories">
+                        <div class="b2b__company__categories__name">
+                            <p>Название категории (n)</p>
+                        </div>
+                        <div class="b2b__company__categories__wrapper">
+
+
+                            <a href="#" class="b2b__company__categories__element">
+                                <div class="element__wrapper">
+                                    <div class="element__image">
+                                        <img src="./imgs/1.jpg" alt="">
+                                    </div>
+                                    <div class="element__content">
+                                        <div class="element__name">
+                                            <p>Пол ламинат</p>
+                                        </div>
+                                        <div class="element__size">
+                                            <p>220 х 60 х 22</p>
+                                        </div>
+                                        <div class="element__material">
+                                            <p>материал</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="#" class="b2b__company__categories__element">
+                                <div class="element__wrapper">
+                                    <div class="element__image">
+                                        <img src="./imgs/1.jpg" alt="">
+                                    </div>
+                                    <div class="element__content">
+                                        <div class="element__name">
+                                            <p>Пол ламинат</p>
+                                        </div>
+                                        <div class="element__size">
+                                            <p>220 х 60 х 22</p>
+                                        </div>
+                                        <div class="element__material">
+                                            <p>материал</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+
+                            <a href="#" class="b2b__company__categories__element">
+                                <div class="element__wrapper">
+                                    <div class="element__image">
+                                        <img src="./imgs/1.jpg" alt="">
+                                    </div>
+                                    <div class="element__content">
+                                        <div class="element__name">
+                                            <p>Пол ламинат</p>
+                                        </div>
+                                        <div class="element__size">
+                                            <p>220 х 60 х 22</p>
+                                        </div>
+                                        <div class="element__material">
+                                            <p>материал</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="#" class="b2b__company__categories__element">
+                                <div class="element__wrapper">
+                                    <div class="element__image">
+                                        <img src="./imgs/1.jpg" alt="">
+                                    </div>
+                                    <div class="element__content">
+                                        <div class="element__name">
+                                            <p>Пол ламинат</p>
+                                        </div>
+                                        <div class="element__size">
+                                            <p>220 х 60 х 22</p>
+                                        </div>
+                                        <div class="element__material">
+                                            <p>материал</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+
                         </div>
                     </div>
 
