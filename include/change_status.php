@@ -60,7 +60,7 @@
                 </div>
 
                 <div class="change__status__element__change">
-                    <button>
+                    <button id="openPopup">
                         Сменить статус
                     </button>
                 </div>
@@ -94,7 +94,7 @@
                 </div>
 
                 <div class="change__status__element__change">
-                    <button>
+                    <button id="openPopup">
                         Сменить статус
                     </button>
                 </div>
@@ -128,12 +128,47 @@
                 </div>
 
                 <div class="change__status__element__change">
-                    <button>
+                    <button id="openPopup">
                         Сменить статус
                     </button>
                 </div>
             </div>
 
         </div>
+
+        <div id="popupContainer" class="popup">
+            <div id="popupContent">
+                <p>This is your popup content.</p>
+            </div>
+        </div>
+
+
     </div>
 </div>
+
+
+<script>
+const openButton = document.getElementById('openPopup');
+const popup = document.getElementById('popupContainer');
+
+openButton.addEventListener('click', () => {
+    popup.style.display = 'block';
+    document.body.style.overflow = 'hidden'; // Disable scrolling on the body
+});
+
+document.addEventListener('click', (event) => {
+    if (event.target !== openButton && !popup.contains(event.target)) {
+        popup.style.display = 'none';
+        document.body.style.overflow = 'auto'; // Enable scrolling on the body
+    }
+});
+
+// Close the popup when the popup container is clicked
+popup.addEventListener('click', (event) => {
+    if (event.target === popup) {
+        popup.style.display = 'none';
+        document.body.style.overflow = 'auto'; // Enable scrolling on the body
+    }
+});
+
+</script>
