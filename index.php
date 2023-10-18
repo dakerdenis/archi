@@ -20,6 +20,11 @@
                 case "main":
                     include './include/mainpage.php';
                     break;
+                case "company__profile":
+                    include './include/company__profile.php';
+                    break;
+
+                    
                 case "login":
                     include './include/login.php';
                     break;

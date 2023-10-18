@@ -235,8 +235,9 @@
             <a style="color: red; margin-bottom: 10px;" href="./index.php?login=yes">Пользователь вошёл</a>
             <br>
             <a style="color: red; margin-bottom: 10px;" href="./index.php?page=owners_goods">Список товаров владельца ?</a>
-
+            <br>
             
+            <a style="color: red; margin-bottom: 10px;" href="./b2b.php?page=company__profile">B2B - Company Profile</a>
             
              </div>
 

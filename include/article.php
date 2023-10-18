@@ -338,9 +338,10 @@
                 </div>
             </div>
 
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
         </div>
+        
+        <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
     </div>
 </div>
 
@@ -349,12 +350,41 @@
 
 <!-- Initialize Swiper -->
 <script>
-    var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 5,
-        freeMode: true,
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev"
-        }
+var swiper;
+
+function initSwiper() {
+  if (window.innerWidth < 768) {
+    if (swiper) {
+      swiper.destroy();
+    }
+    swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      freeMode: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+      }
     });
+  } else {
+    if (swiper) {
+      swiper.destroy();
+    }
+    swiper = new Swiper(".mySwiper", {
+      slidesPerView: 5,
+      freeMode: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+      }
+    });
+  }
+}
+
+// Initialize Swiper on page load
+initSwiper();
+
+// Update Swiper configuration when the window is resized
+window.addEventListener("resize", function () {
+  initSwiper();
+});
 </script>
