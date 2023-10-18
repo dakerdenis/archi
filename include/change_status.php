@@ -147,7 +147,6 @@
                         <div class="popup__price__image__number__wrapper">
                             <div class="popup__price__image">
 
-                                <img src="" alt="">
                             </div>
                             <div class="popup__price__number">
                                 <p>20 AZN</p>

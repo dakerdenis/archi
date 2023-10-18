@@ -377,6 +377,7 @@
         background: #EDEDED;
 
     }
+
     .change__status__element__change button {
         color: #000;
         text-align: center;
@@ -384,5 +385,75 @@
         font-style: normal;
         font-weight: 600;
         line-height: normal;
+    }
+
+    #popupContent {
+        width: 316px;
+        height: 387px;
+        padding: 11px 10px;
+    }
+
+    .popup__wrapper {
+        flex-direction: column;
+
+    }
+
+    .popup__element {
+        height: 93px;
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .popup__element__name p {
+        color: #000;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .popup__price__number p {
+        color: #000;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .popup__price__image p {
+        color: #000;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .popup__price__image img {
+        height: 38px;
+        width: 64px;
+    }
+
+    .popup__buy {
+        width: 82px;
+        height: 25px;
+        flex-shrink: 0;
+    }
+    .popup__price__image__number__wrapper{
+        flex-direction: row;
+    }
+    .popup__buy a{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .popup__buy a p {
+        color: #000;
+text-align: center;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
     }
 }
