@@ -1,5 +1,7 @@
 <style>
+    /*******FIRST !!!!!!!!!!!!!***************/
     <?php include './style/b2b/mainpage.css' ?>
+    /*******SECONG !!!!!!!!!!!!!***************/
     <?php include './style/b2b/company.css' ?>
 </style>
 
@@ -33,7 +35,7 @@
         </div>
 
         <!------------->
-        <div class="b2b__main__search">
+        <div class="b2b__main__search b2b__main__search__company">
             <div class="main__search__name">
                 <a class="active__link" href="./b2b.php">
                     <p>Поиск</p>
@@ -81,19 +83,7 @@
                     </div>
                 </div>
             </div>
-            <script>
-                const open__mobile__filtr = document.getElementById('open__filtr');
-                const mobile__filtr__block = document.getElementById('mobile__filtr__block');
-                const close__mobile__filtr = document.getElementById('close__mobile__filtr');
 
-                open__mobile__filtr.addEventListener('click', function(event) {
-                    mobile__filtr__block.classList.add('mobile__filtr__block_opened');
-                });
-
-                close__mobile__filtr.addEventListener('click', function(event) {
-                    mobile__filtr__block.classList.remove('mobile__filtr__block_opened');
-                });
-            </script>
 
 
 
@@ -103,24 +93,34 @@
                         <!------LOGO SOCIAL ---------->
                         <div class="b2b__company__logo_social">
                             <div class="b2b__company__logo">
-                                <img src="" alt="">
+                                <img src="./imgs/logo__company.png" alt="">
                             </div>
                             <div class="b2b__company__social">
                                 <div class="b2b__company__social__wrapper">
                                     <div class="b2b__company__social__element">
-                                        <img src="" alt="#" srcset="#">
+                                        <a href="#">
+                                            <img src="./imgs/wp1.svg" alt="">
+                                        </a>
                                     </div>
                                     <div class="b2b__company__social__element">
-                                        <img src="" alt="#" srcset="#">
+                                        <a href="#">
+                                            <img src="./imgs/inst1.svg" alt="">
+                                        </a>
                                     </div>
                                     <div class="b2b__company__social__element">
-                                        <img src="" alt="#" srcset="#">
+                                        <a href="#">
+                                            <img src="./imgs/face1.svg" alt="">
+                                        </a>
                                     </div>
                                     <div class="b2b__company__social__element">
-                                        <img src="" alt="#" srcset="#">
+                                        <a href="#">
+                                            <img src="./imgs/link1.svg" alt="">
+                                        </a>
                                     </div>
                                     <div class="b2b__company__social__element">
-                                        <img src="" alt="#" srcset="#">
+                                        <a href="#">
+                                            <img src="./imgs/globe1.svg" alt="">
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -200,6 +200,26 @@
                         <div class="b2b__company__categories__name">
                             <p>Название категории (n)</p>
                         </div>
+                        <div class="b2b__company__categories__wrapper">
+                            <div class="b2b__company__categories__element">
+                                <div class="element__wrapper">
+                                    <div class="element__image">
+                                        <img src="../imgs/2.jpg" alt="">
+                                    </div>
+                                    <div class="element__content">
+                                        <div class="element__name">
+                                            <p>Пол ламинат</p>
+                                        </div>
+                                        <div class="element__size">
+                                            <p>220 х 60 х 22</p>
+                                        </div>
+                                        <div class="element__material">
+                                            <p>материал</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
 
@@ -213,8 +233,19 @@
         </div>
     </div>
 </div>
-
 <script>
+    const open__mobile__filtr = document.getElementById('open__filtr');
+    const mobile__filtr__block = document.getElementById('mobile__filtr__block');
+    const close__mobile__filtr = document.getElementById('close__mobile__filtr');
+
+    open__mobile__filtr.addEventListener('click', function(event) {
+        mobile__filtr__block.classList.add('mobile__filtr__block_opened');
+    });
+
+    close__mobile__filtr.addEventListener('click', function(event) {
+        mobile__filtr__block.classList.remove('mobile__filtr__block_opened');
+    });
+
     //Скрипт показать контакты
     const number = '+994 50 750 69 01';
     const number2 = '+994 55 327 52 69';

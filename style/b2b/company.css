@@ -1,3 +1,123 @@
+.b2b__main__search__company{
+
+    padding-left: 47.5px;
+}
+.b2b__main__search{
+    width: initial;
+}
+.b2b__company__page {
+    background-color: rgba(255, 0, 0, 0.185);
+    width: 875px;
+}
+
+
+.b2b__company__wrapper {
+    width: 100%;
+}
+.b2b__company__container__main {
+    width: 100%;
+    display: flex;
+
+}
+.b2b__company__logo_social {
+    width: 183px;
+    display: flex;
+    flex-direction: column;
+}
+.b2b__company__logo {
+    width: 183px;
+    height: 183px;
+    border-radius: 5px;
+}
+.b2b__company__social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: royalblue;
+    margin-top: 15px;
+
+}
+.b2b__company__social__wrapper {
+    width: 136px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.b2b__company__social__element {
+    width: 20px;
+    height: 20px;
+}
+.b2b__company__social__element img {
+    width: 20px;
+    height: 20px;
+}
+.b2b__company__desc {
+    margin-left: 36px;
+}
+.b2b__company__desc_wrapper {
+}
+.b2b__company__name {
+}
+.b2b__company__country_wrapper {
+}
+.b2b__company__city {
+}
+.b2b__company__added {
+}
+.b2b__company__updated {
+}
+.company__desc__contact {
+}
+.company__desc__contactbutton {
+}
+.company__desc__contact-button {
+}
+.company__active {
+}
+.company__desc__contact-person {
+}
+.lock_ {
+}
+.b2b__company__certificates {
+}
+.company__certificates__wrapper {
+}
+.company__certificates__name {
+}
+.company__certificates__swiper {
+}
+.b2b__company__description {
+}
+.b2b__company__description__date {
+}
+.b2b__company__description__content {
+}
+.b2b__company__categories {
+}
+.b2b__company__categories__name {
+}
+.b2b__company__categories__wrapper {
+}
+.b2b__company__categories__element {
+}
+.element__wrapper {
+}
+.element__image {
+}
+.element__content {
+}
+.element__name {
+}
+.element__size {
+}
+.element__material {
+}
+
+
+
+
+
 /*********HIDE NUMBER PHONE***********************/ 
 
 .company__desc__contact {}
