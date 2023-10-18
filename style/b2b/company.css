@@ -195,6 +195,9 @@
     font-weight: 700;
     line-height: normal;
 }
+.b2b__company__categories__name a {
+    color: #000;
+}
 
 .b2b__company__categories__wrapper {
     display: flex;
@@ -202,7 +205,35 @@
     justify-content: space-between;
     width: 100%;
 }
-
+.b2b__company__categories__wrapper__all .b2b__company__categories__element{
+    margin-bottom: 19.5px;
+}
+.b2b__company__category__all{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.b2b__company__category__all a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 191px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #EDEDED;
+}
+.b2b__company__category__all a p {
+    color: #000;
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
 .b2b__company__categories__element {
 
     display: block;
@@ -246,6 +277,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-bottom: 7px;
 }
 
 .element__size {
@@ -254,6 +286,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-bottom: 5px;
 }
 
 .element__material {
@@ -446,7 +479,7 @@
 }
 @media only screen and (max-width: 768px) {
     .b2b__company__page {
-        width: 336px;
+        width: 320px;
     }
 
     .b2b__company__container__main {
@@ -727,7 +760,7 @@ font-size: 8px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-height: 19px;
+height: 17px;
 margin-bottom: 2px;
     }
     .element__size{
@@ -736,6 +769,7 @@ font-size: 7px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+margin-bottom: 0;
     }
     .element__material{
         color: #000;
@@ -743,10 +777,15 @@ font-size: 7px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+margin-bottom: 0;
     }
     .b2b__company__categories__wrapper .b2b__company__categories__element:nth-child(4){
         display: none;
         visibility: hidden;
+    }
+    .b2b__company__categories__wrapper__all .b2b__company__categories__element:nth-child(4){
+        display: block;
+        visibility: visible;
     }
     .b2b__company__all__category__mobile{
         display: block;

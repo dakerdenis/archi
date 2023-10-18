@@ -228,7 +228,9 @@
 
                       <div class="b2b__company__categories">
                           <div class="b2b__company__categories__name">
-                              <p>Название категории (n)</p>
+                            <a href="./b2b.php?page=company_category">
+                             <p>Название категории (n)</p>
+                            </a>
                           </div>
                           <div class="b2b__company__categories__wrapper">
 
@@ -322,7 +324,9 @@
 
                       <div class="b2b__company__categories">
                           <div class="b2b__company__categories__name">
-                              <p>Название категории (n)</p>
+                          <a href="./b2b.php?page=company_category">
+                             <p>Название категории (n)</p>
+                            </a>
                           </div>
                           <div class="b2b__company__categories__wrapper">
 
@@ -415,7 +419,9 @@
 
                       <div class="b2b__company__categories">
                           <div class="b2b__company__categories__name">
-                              <p>Название категории (n)</p>
+                          <a href="./b2b.php?page=company_category">
+                             <p>Название категории (n)</p>
+                            </a>
                           </div>
                           <div class="b2b__company__categories__wrapper">
 
