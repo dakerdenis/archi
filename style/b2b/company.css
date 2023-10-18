@@ -440,7 +440,10 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+.b2b__company__all__category__mobile{
+    display: none;
+    visibility: hidden;
+}
 @media only screen and (max-width: 768px) {
     .b2b__company__page {
         width: 336px;
@@ -454,6 +457,7 @@
     .b2b__company__logo_social {
         width: 120px;
         height: initial;
+        position: relative;
     }
 
     .b2b__company__logo {
@@ -743,5 +747,39 @@ line-height: normal;
     .b2b__company__categories__wrapper .b2b__company__categories__element:nth-child(4){
         display: none;
         visibility: hidden;
+    }
+    .b2b__company__all__category__mobile{
+        display: block;
+        visibility: visible;
+        width: 100%;
+        text-align: right;
+        margin-top: 16px;
+    }
+    .b2b__company__all__category__mobile a p{
+        color: #000;
+font-size: 8px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+    }
+    .b2b__main__search__company{
+        padding-left: 0px;
+    }
+    .b2b__company__social{
+        position: absolute;
+        bottom: -40px;
+        left: 110px;
+    }
+    .b2b__company__certificates{
+        margin-top: 30px;
+    }
+    .b2b__company__social__element{
+        width: 17px;
+        height: 17px;
+    }
+    .b2b__company__social__element img{
+        width: 17px;
+        height: 17px;
     }
 }

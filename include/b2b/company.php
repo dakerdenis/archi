@@ -314,7 +314,7 @@
                           </div>
                           <div class="b2b__company__all__category__mobile">
                                 <a href="#">
-                                    <p>Отобразить</p>
+                                    <p>Отобразить все</p>
                                 </a>
                           </div>
                       </div>
@@ -406,6 +406,11 @@
 
 
                           </div>
+                          <div class="b2b__company__all__category__mobile">
+                                <a href="#">
+                                    <p>Отобразить все</p>
+                                </a>
+                          </div>
                       </div>
 
                       <div class="b2b__company__categories">
@@ -493,6 +498,11 @@
                               </a>
 
 
+                          </div>
+                          <div class="b2b__company__all__category__mobile">
+                                <a href="#">
+                                    <p>Отобразить все</p>
+                                </a>
                           </div>
                       </div>
 
