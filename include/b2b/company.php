@@ -1,327 +1,214 @@
 <style>
-    <?php include './style/b2b/mainpage.css' ?><?php include './style/b2b/company.css' ?>
+    <?php include './style/b2b/mainpage.css' ?>
+    <?php include './style/b2b/company.css' ?>
 </style>
-<div class="company__page">
-    <div class="company__page__wrapper">
-        <div class="company__page__categories">
+
+<div class="b2b__main__page">
+    <div class="b2b__main__wrapper">
+        <!----->
+        <div class="b2b__main__categories">
             <div class="b2b__categories__name">
                 <p>Категории</p>
             </div>
             <div class="b2b__categories__list">
                 <a href="#">
-                    <p>Категория</p>
+                    <p>Aktivləşdirilmiş kömür</p>
                 </a>
                 <a href="#">
                     <p>Категория</p>
                 </a>
                 <a href="#">
-                    <p>Категория</p>
+                    <p>Сьолы сьулья</p>
                 </a>
                 <a href="#">
-                    <p>Категория</p>
+                    <p>Отопление / Вентиляция</p>
                 </a>
                 <a href="#">
-                    <p>Категория</p>
+                    <p>Kor olmaq üçün su</p>
                 </a>
                 <a href="#">
-                    <p>Категория</p>
+                    <p>GöranBoy next door</p>
                 </a>
             </div>
         </div>
-        <div class="company__block">
-            <div class="company__block__navigation">
-                <a href="./b2b.php">
-                    Поиск
+
+        <!------------->
+        <div class="b2b__main__search">
+            <div class="main__search__name">
+                <a class="active__link" href="./b2b.php">
+                    <p>Поиск</p>
                 </a>
-                <span>
-                    >
-                </span>
-                <p>Название компании</p>
+                <span>></span>
+                <a href="#">
+                    <p>Название компании</p>
+                </a>
             </div>
-
-            <div class="company__fotodesc">
-                <div class="company__foto">
-                    <img src="./imgs/1.jpg" alt="">
+            <!------ONLY MOBILE------->
+            <div class="b2b__mobile__filter">
+                <div class="b2b__mobile__filter__button">
+                    <button id="open__filtr">
+                        <img src="./imgs/filter.png" alt="">
+                    </button>
                 </div>
-                <div class="company__desc">
-                    <div class="company__desc__name">
-                        <p>Название какой-нибудь компании фавыаафыва</p>
-                    </div>
-                    <div class="company__desc__location">
-                        <p>Страна: <span>Редания</span></p>
-                        <p>Город: <span>Новиград</span></p>
-                    </div>
-                    <div class="company__desc__added">
-                        <p>Добавлено: 01.01.2023</p>
-                    </div>
-                    <div class="company__desc__updated">
-                        <p>Обновлено: 15.08.2023</p>
-                    </div>
-                    <div class="company__desc__contact">
-                        <div class="company__desc__contactbutton">
-                            <div class="company__desc__contact-button company__active">
-                                <a class="" href="#">
-                                    <p id="showedContacts">Контакты</p>
-                                </a>
-                                <p id="show__contacts">Нажмите для отображения</p>
-                            </div>
-
-                            <div class="company__desc__contact-person">
-                                <a class="" href="#">
-                                    <p id="showedRepresentative">Представитель</p>
-                                </a>
-                                <p id="show_representative">Нажмите для отображения</p>
-                            </div>
-
-
-                            <div class="lock_">
-                                <img src="./imgs/lock.png" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="company__startdate">
-                <p>Дата основания: </p>
-                <p>01.02.2023</p>
-            </div>
-
-            <div class="company__big__desc">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, tempora voluptate sequi assumenda, earum ut ipsam, doloribus nobis error ducimus sit omnis perspiciatis at cupiditate esse qui dolore temporibus voluptatem.</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, tempora voluptate sequi assumenda, earum ut ipsam, doloribus nobis error ducimus sit omnis perspiciatis at cupiditate esse qui dolore temporibus voluptatem.</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, tempora voluptate sequi assumenda, earum ut ipsam, doloribus nobis error ducimus sit omnis perspiciatis at cupiditate esse qui dolore temporibus voluptatem.</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, tempora voluptate sequi assumenda, earum ut ipsam, doloribus nobis error ducimus sit omnis perspiciatis at cupiditate esse qui dolore temporibus voluptatem.</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, tempora voluptate sequi assumenda, earum ut ipsam, doloribus nobis error ducimus sit omnis perspiciatis at cupiditate esse qui dolore temporibus voluptatem.</p>
-            </div>
-
-            <div class="company__category__block">
-                <div class="category__block__name">
-                    <a href="./b2b.php?page=company_category">
-                        Название категории (n)
-                    </a>
-                </div>
-                <div class="category__block__wrapper">
-                    <div class="category__block__element">
-                        <div class="block__element__image">
-                            <img src="./imgs/1.jpg" alt="">
-                        </div>
-                        <div class="block__element__name">
-                            <p>Пол цемент яма</p>
-                        </div>
-                        <div class="block__element__price">
-                            <p>20 AZN</p>
-                        </div>
-                    </div>
-
-                    <div class="category__block__element">
-                        <div class="block__element__image">
-                            <img src="./imgs/1.jpg" alt="">
-                        </div>
-                        <div class="block__element__name">
-                            <p>Пол цемент яма</p>
-                        </div>
-                        <div class="block__element__price">
-                            <p>20 AZN</p>
-                        </div>
-                    </div>
-
-                    <div class="category__block__element">
-                        <div class="block__element__image">
-                            <img src="./imgs/1.jpg" alt="">
-                        </div>
-                        <div class="block__element__name">
-                            <p>Пол цемент яма</p>
-                        </div>
-                        <div class="block__element__price">
-                            <p>20 AZN</p>
-                        </div>
-                    </div>
-
-                    <div class="category__block__element">
-                        <div class="block__element__image">
-                            <img src="./imgs/1.jpg" alt="">
-                        </div>
-                        <div class="block__element__name">
-                            <p>Пол цемент яма</p>
-                        </div>
-                        <div class="block__element__price">
-                            <p>20 AZN</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="company__category__block">
-                <div class="category__block__name">
+                <div class="b2b__mobile__filter__sort-element">
                     <a href="#">
-                        Название категории (n)
+                        <p>Год производства</p>
                     </a>
                 </div>
-                <div class="category__block__wrapper">
-                    <div class="category__block__element">
-                        <div class="block__element__image">
-                            <img src="./imgs/1.jpg" alt="">
-                        </div>
-                        <div class="block__element__name">
-                            <p>Пол цемент яма</p>
-                        </div>
-                        <div class="block__element__price">
-                            <p>20 AZN</p>
-                        </div>
-                    </div>
+                <div class="b2b__mobile__filter__sort-element">
+                    <a href="#">
+                        <p>Дерево</p>
+                    </a>
+                </div>
+                <div class="b2b__mobile__filter__sort-element">
+                    <a href="#">
+                        <p>Электрика</p>
+                    </a>
+                </div>
+            </div>
+            <!------>
+            <div id="mobile__filtr__block" class="mobile__b2b__filter__block">
+                <div class="mobile__b2b__filter__container">
+                    <button id="close__mobile__filtr" class="mobile__b2b__filter__close">
+                        X
+                    </button>
 
-                    <div class="category__block__element">
-                        <div class="block__element__image">
-                            <img src="./imgs/1.jpg" alt="">
-                        </div>
-                        <div class="block__element__name">
-                            <p>Пол цемент яма</p>
-                        </div>
-                        <div class="block__element__price">
-                            <p>20 AZN</p>
-                        </div>
+                    <div class="mobile__b2b__filter__name">
+                        Расширенный поиск
                     </div>
-
-                    <div class="category__block__element">
-                        <div class="block__element__image">
-                            <img src="./imgs/1.jpg" alt="">
-                        </div>
-                        <div class="block__element__name">
-                            <p>Пол цемент яма</p>
-                        </div>
-                        <div class="block__element__price">
-                            <p>20 AZN</p>
-                        </div>
-                    </div>
-
-                    <div class="category__block__element">
-                        <div class="block__element__image">
-                            <img src="./imgs/1.jpg" alt="">
-                        </div>
-                        <div class="block__element__name">
-                            <p>Пол цемент яма</p>
-                        </div>
-                        <div class="block__element__price">
-                            <p>20 AZN</p>
-                        </div>
+                    <div class="mobile__b2b__filter__category">
+                        <p>Категория</p>
                     </div>
                 </div>
             </div>
+            <script>
+                const open__mobile__filtr = document.getElementById('open__filtr');
+                const mobile__filtr__block = document.getElementById('mobile__filtr__block');
+                const close__mobile__filtr = document.getElementById('close__mobile__filtr');
 
-            <div class="company__category__block">
-                <div class="category__block__name">
-                    <a href="#">
-                        Название категории (n)
-                    </a>
+                open__mobile__filtr.addEventListener('click', function(event) {
+                    mobile__filtr__block.classList.add('mobile__filtr__block_opened');
+                });
+
+                close__mobile__filtr.addEventListener('click', function(event) {
+                    mobile__filtr__block.classList.remove('mobile__filtr__block_opened');
+                });
+            </script>
+
+
+
+            <div class="main__search__wrapper b2b__company__page">
+                <div class="b2b__company__wrapper">
+                    <div class="b2b__company__container__main">
+                        <!------LOGO SOCIAL ---------->
+                        <div class="b2b__company__logo_social">
+                            <div class="b2b__company__logo">
+                                <img src="" alt="">
+                            </div>
+                            <div class="b2b__company__social">
+                                <div class="b2b__company__social__wrapper">
+                                    <div class="b2b__company__social__element">
+                                        <img src="" alt="#" srcset="#">
+                                    </div>
+                                    <div class="b2b__company__social__element">
+                                        <img src="" alt="#" srcset="#">
+                                    </div>
+                                    <div class="b2b__company__social__element">
+                                        <img src="" alt="#" srcset="#">
+                                    </div>
+                                    <div class="b2b__company__social__element">
+                                        <img src="" alt="#" srcset="#">
+                                    </div>
+                                    <div class="b2b__company__social__element">
+                                        <img src="" alt="#" srcset="#">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!----COMPANY DESCRIPTION------>
+                        <div class="b2b__company__desc">
+                            <div class="b2b__company__desc_wrapper">
+                                <div class="b2b__company__name">
+                                    <p>Название компании</p>
+                                </div>
+                                <div class="b2b__company__country_wrapper">
+                                    <div class="b2b__company__city">
+                                        <p>Страна:</p>
+                                        <p>Узбекистан</p>
+                                    </div>
+                                    <div class="b2b__company__city">
+                                        <p>Город:</p>
+                                        <p>Усть-Новоколамск</p>
+                                    </div>
+                                </div>
+                                <div class="b2b__company__added">
+                                    <p>Добавлено: 01.01.2023</p>
+                                </div>
+                                <div class="b2b__company__updated">
+                                    <p>Добавлено: 01.01.2023</p>
+                                </div>
+                                <div class="company__desc__contact">
+                                    <div class="company__desc__contactbutton">
+                                        <div class="company__desc__contact-button company__active">
+                                            <a class="" href="#">
+                                                <p id="showedContacts">Контакты</p>
+                                            </a>
+                                            <p id="show__contacts">Нажмите для отображения</p>
+                                        </div>
+
+                                        <div class="company__desc__contact-person">
+                                            <a class="" href="#">
+                                                <p id="showedRepresentative">Представитель</p>
+                                            </a>
+                                            <p id="show_representative">Нажмите для отображения</p>
+                                        </div>
+
+
+                                        <div class="lock_">
+                                            <img src="./imgs/lock.png" alt="">
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!----COMPANY CERTIFICATES------>
+                        <div class="b2b__company__certificates">
+                            <div class="company__certificates__wrapper">
+                                <div class="company__certificates__name">
+                                    <p>Сертификаты</p>
+                                </div>
+                                <div class="company__certificates__swiper">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="b2b__company__description">
+                        <div class="b2b__company__description__date">
+                            <p>Дата основания: 01.02.2023</p>
+                        </div>
+                        <div class="b2b__company__description__content">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore impedit recusandae dolores iusto velit illo esse numquam, at minus asperiores aut totam necessitatibus eveniet laborum quam. Ex amet deleniti unde?</p>
+                        </div>
+                    </div>
+
+                    <div class="b2b__company__categories">
+                        <div class="b2b__company__categories__name">
+                            <p>Название категории (n)</p>
+                        </div>
+                    </div>
+
+
+
+
                 </div>
-                <div class="category__block__wrapper">
-                    <div class="category__block__element">
-                        <div class="block__element__image">
-                            <img src="./imgs/1.jpg" alt="">
-                        </div>
-                        <div class="block__element__name">
-                            <p>Пол цемент яма</p>
-                        </div>
-                        <div class="block__element__price">
-                            <p>20 AZN</p>
-                        </div>
-                    </div>
 
-                    <div class="category__block__element">
-                        <div class="block__element__image">
-                            <img src="./imgs/1.jpg" alt="">
-                        </div>
-                        <div class="block__element__name">
-                            <p>Пол цемент яма</p>
-                        </div>
-                        <div class="block__element__price">
-                            <p>20 AZN</p>
-                        </div>
-                    </div>
 
-                    <div class="category__block__element">
-                        <div class="block__element__image">
-                            <img src="./imgs/1.jpg" alt="">
-                        </div>
-                        <div class="block__element__name">
-                            <p>Пол цемент яма</p>
-                        </div>
-                        <div class="block__element__price">
-                            <p>20 AZN</p>
-                        </div>
-                    </div>
 
-                    <div class="category__block__element">
-                        <div class="block__element__image">
-                            <img src="./imgs/1.jpg" alt="">
-                        </div>
-                        <div class="block__element__name">
-                            <p>Пол цемент яма</p>
-                        </div>
-                        <div class="block__element__price">
-                            <p>20 AZN</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="company__category__block">
-                <div class="category__block__name">
-                    <a href="#">
-                        Название категории (n)
-                    </a>
-                </div>
-                <div class="category__block__wrapper">
-                    <div class="category__block__element">
-                        <div class="block__element__image">
-                            <img src="./imgs/1.jpg" alt="">
-                        </div>
-                        <div class="block__element__name">
-                            <p>Пол цемент яма</p>
-                        </div>
-                        <div class="block__element__price">
-                            <p>20 AZN</p>
-                        </div>
-                    </div>
-
-                    <div class="category__block__element">
-                        <div class="block__element__image">
-                            <img src="./imgs/1.jpg" alt="">
-                        </div>
-                        <div class="block__element__name">
-                            <p>Пол цемент яма</p>
-                        </div>
-                        <div class="block__element__price">
-                            <p>20 AZN</p>
-                        </div>
-                    </div>
-
-                    <div class="category__block__element">
-                        <div class="block__element__image">
-                            <img src="./imgs/1.jpg" alt="">
-                        </div>
-                        <div class="block__element__name">
-                            <p>Пол цемент яма</p>
-                        </div>
-                        <div class="block__element__price">
-                            <p>20 AZN</p>
-                        </div>
-                    </div>
-
-                    <div class="category__block__element">
-                        <div class="block__element__image">
-                            <img src="./imgs/1.jpg" alt="">
-                        </div>
-                        <div class="block__element__name">
-                            <p>Пол цемент яма</p>
-                        </div>
-                        <div class="block__element__price">
-                            <p>20 AZN</p>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>

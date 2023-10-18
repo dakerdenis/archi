@@ -30,7 +30,6 @@
                 </a>
             </div>
         </form>
-        
         <div id="popup" class="popup">
             <div class="popup-content">
                 <span class="close" id="closePopup">&times;</span>

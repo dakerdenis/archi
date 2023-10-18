@@ -693,7 +693,8 @@ input[type="number"]::-webkit-outer-spin-button {
         font-weight: 700;
         line-height: normal;
     }
-    .congratulations__container__text{
+
+    .congratulations__container__text {
         width: 240px;
         margin: 0 auto;
     }

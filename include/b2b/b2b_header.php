@@ -2,30 +2,32 @@
     <div class="header__wrapper">
         <!-------IMAGE-------->
         <div class="header__image">
-            <a href="./index.php">
-                <img src="./imgs/logo.png" alt="Archi logo">
+            <a href="./b2b.php">
+                <img src="./imgs/B2B.svg" alt="Archi logo">
             </a>
         </div>
         <!-----NAVIGATION------>
         <div class="header__navigation">
-            <ul>
-                <li><a href="./index.php?page=pages" style="
-                <?php if (isset($_GET['page'])) {
-                    if ($_GET['page'] == "pages") {
-                        echo "background-color: #FFFF00;";
-                    }
-                } ?>
-                ">Статьи</a></li>
-                <li><a href="./index.php?page=goods" style="
-                <?php if (isset($_GET['page'])) {
-                    if ($_GET['page'] == "goods") {
-                        echo "background-color: #FFFF00;";
-                    }
-                } ?>
-                ">Построй дом!</a></li>
-                <li><a href="./b2b.php">B2B</a></li>
-                <li><a href="#">О проекте</a></li>
-            </ul>
+            <div class="b2b__header__navigation">
+                <div class="b2b__link">
+                    <a href="#">
+                        <p>Внешний рынок</p>
+                    </a>
+                </div>
+
+                <div class="b2b__logo__archi">
+                    <a href="./index.php">
+                        <img src="./imgs/logo.png" alt="">
+                    </a>
+                </div>
+
+
+                <div class="b2b__link">
+                    <a href="#">
+                        <p>Внутренний рынок </p>
+                    </a>
+                </div>
+            </div>
         </div>
         <!-----navigation MOBILE----->
         <div class="header__navigation__mobile">
