@@ -60,7 +60,7 @@
                 </div>
 
                 <div class="change__status__element__change">
-                    <button id="openPopup">
+                    <button id="openPopup" class="openPopupButton">
                         Сменить статус
                     </button>
                 </div>
@@ -94,7 +94,7 @@
                 </div>
 
                 <div class="change__status__element__change">
-                    <button id="openPopup">
+                    <button id="openPopup" class="openPopupButton">
                         Сменить статус
                     </button>
                 </div>
@@ -128,7 +128,7 @@
                 </div>
 
                 <div class="change__status__element__change">
-                    <button id="openPopup">
+                    <button id="openPopup" class="openPopupButton">
                         Сменить статус
                     </button>
                 </div>
@@ -138,7 +138,71 @@
 
         <div id="popupContainer" class="popup">
             <div id="popupContent">
-                <p>This is your popup content.</p>
+                <div class="popup__wrapper">
+                    <div class="popup__element">
+                        <div class="popup__element__name">
+                            <p>1 месяц</p>
+                        </div>
+
+                        <div class="popup__price__image__number__wrapper">
+                            <div class="popup__price__image">
+
+                                <img src="" alt="">
+                            </div>
+                            <div class="popup__price__number">
+                                <p>20 AZN</p>
+                            </div>
+                        </div>
+
+                        <div class="popup__buy">
+                            <a href="#">
+                                <p>Приобрести</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="popup__element">
+                        <div class="popup__element__name">
+                            <p>6 месяцев</p>
+                        </div>
+
+                        <div class="popup__price__image__number__wrapper">
+                            <div class="popup__price__image">
+                                <p>120 AZN</p>
+                                <img src="./imgs/crest.svg" alt="">
+                            </div>
+                            <div class="popup__price__number">
+                                <p>100 AZN</p>
+                            </div>
+                        </div>
+
+                        <div class="popup__buy">
+                            <a href="#">
+                                <p>Приобрести</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="popup__element">
+                        <div class="popup__element__name">
+                            <p>12 месяцев</p>
+                        </div>
+
+                        <div class="popup__price__image__number__wrapper">
+                            <div class="popup__price__image">
+                                <p>240 AZN</p>
+                                <img src="./imgs/crest.svg" alt="">
+                            </div>
+                            <div class="popup__price__number">
+                                <p>200 AZN</p>
+                            </div>
+                        </div>
+
+                        <div class="popup__buy">
+                            <a href="#">
+                                <p>Приобрести</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -148,27 +212,26 @@
 
 
 <script>
-const openButton = document.getElementById('openPopup');
+const openButtons = document.querySelectorAll('.openPopupButton');
 const popup = document.getElementById('popupContainer');
 
-openButton.addEventListener('click', () => {
-    popup.style.display = 'block';
-    document.body.style.overflow = 'hidden'; // Disable scrolling on the body
+openButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        popup.style.display = 'block';
+        document.body.style.overflow = 'hidden'; // Disable scrolling on the body
+    });
 });
 
 document.addEventListener('click', (event) => {
-    if (event.target !== openButton && !popup.contains(event.target)) {
-        popup.style.display = 'none';
-        document.body.style.overflow = 'auto'; // Enable scrolling on the body
+    if (event.target === popup) {
+        closePopup();
     }
 });
 
-// Close the popup when the popup container is clicked
-popup.addEventListener('click', (event) => {
-    if (event.target === popup) {
-        popup.style.display = 'none';
-        document.body.style.overflow = 'auto'; // Enable scrolling on the body
-    }
-});
+function closePopup() {
+    popup.style.display = 'none';
+    document.body.style.overflow = 'auto'; // Enable scrolling on the body
+}
+
 
 </script>
