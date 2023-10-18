@@ -821,4 +821,19 @@ text-decoration-line: underline;
         width: 17px;
         height: 17px;
     }
+    .b2b__company__category__all a{
+        width: 118px;
+        height: 30px;
+        flex-shrink: 0;
+        border-radius: 3px;
+background: #EDEDED;
+    }
+    .b2b__company__category__all a p {
+        color: #000;
+text-align: center;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
 }

@@ -43,7 +43,7 @@
                         include './include/goods.php';
                         break;
                     case "item":
-                        include './include/item.php';
+                        include './include/b2b/item.php';
                         break;
 
 

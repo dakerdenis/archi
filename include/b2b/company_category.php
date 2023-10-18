@@ -102,7 +102,7 @@
                           <div class="b2b__company__categories__wrapper b2b__company__categories__wrapper__all">
 
 
-                              <a href="#" class="b2b__company__categories__element">
+                              <a href="./b2b.php?page=item" class="b2b__company__categories__element">
                                   <div class="element__wrapper">
                                       <div class="element__image">
                                           <img src="./imgs/1.jpg" alt="">
@@ -121,46 +121,7 @@
                                   </div>
                               </a>
 
-                              <a href="#" class="b2b__company__categories__element">
-                                  <div class="element__wrapper">
-                                      <div class="element__image">
-                                          <img src="./imgs/1.jpg" alt="">
-                                      </div>
-                                      <div class="element__content">
-                                          <div class="element__name">
-                                              <p>Пол ламинат</p>
-                                          </div>
-                                          <div class="element__size">
-                                              <p>220 х 60 х 22</p>
-                                          </div>
-                                          <div class="element__material">
-                                              <p>материал</p>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </a>
-
-
-                              <a href="#" class="b2b__company__categories__element">
-                                  <div class="element__wrapper">
-                                      <div class="element__image">
-                                          <img src="./imgs/1.jpg" alt="">
-                                      </div>
-                                      <div class="element__content">
-                                          <div class="element__name">
-                                              <p>Пол ламинат</p>
-                                          </div>
-                                          <div class="element__size">
-                                              <p>220 х 60 х 22</p>
-                                          </div>
-                                          <div class="element__material">
-                                              <p>материал</p>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </a>
-
-                              <a href="#" class="b2b__company__categories__element">
+                              <a href="./b2b.php?page=item" class="b2b__company__categories__element">
                                   <div class="element__wrapper">
                                       <div class="element__image">
                                           <img src="./imgs/1.jpg" alt="">
@@ -180,8 +141,47 @@
                               </a>
 
 
+                              <a href="./b2b.php?page=item" class="b2b__company__categories__element">
+                                  <div class="element__wrapper">
+                                      <div class="element__image">
+                                          <img src="./imgs/1.jpg" alt="">
+                                      </div>
+                                      <div class="element__content">
+                                          <div class="element__name">
+                                              <p>Пол ламинат</p>
+                                          </div>
+                                          <div class="element__size">
+                                              <p>220 х 60 х 22</p>
+                                          </div>
+                                          <div class="element__material">
+                                              <p>материал</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </a>
+
+                              <a href="./b2b.php?page=item" class="b2b__company__categories__element">
+                                  <div class="element__wrapper">
+                                      <div class="element__image">
+                                          <img src="./imgs/1.jpg" alt="">
+                                      </div>
+                                      <div class="element__content">
+                                          <div class="element__name">
+                                              <p>Пол ламинат</p>
+                                          </div>
+                                          <div class="element__size">
+                                              <p>220 х 60 х 22</p>
+                                          </div>
+                                          <div class="element__material">
+                                              <p>материал</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </a>
+
+
                               
-                              <a href="#" class="b2b__company__categories__element">
+                              <a href="./b2b.php?page=item" class="b2b__company__categories__element">
                                   <div class="element__wrapper">
                                       <div class="element__image">
                                           <img src="./imgs/1.jpg" alt="">
@@ -201,7 +201,7 @@
                               </a>
 
                               
-                              <a href="#" class="b2b__company__categories__element">
+                              <a href="./b2b.php?page=item" class="b2b__company__categories__element">
                                   <div class="element__wrapper">
                                       <div class="element__image">
                                           <img src="./imgs/1.jpg" alt="">
@@ -221,7 +221,7 @@
                               </a>
 
                               
-                              <a href="#" class="b2b__company__categories__element">
+                              <a href="./b2b.php?page=item" class="b2b__company__categories__element">
                                   <div class="element__wrapper">
                                       <div class="element__image">
                                           <img src="./imgs/1.jpg" alt="">
@@ -240,7 +240,7 @@
                                   </div>
                               </a>
                               
-                              <a href="#" class="b2b__company__categories__element">
+                              <a href="./b2b.php?page=item" class="b2b__company__categories__element">
                                   <div class="element__wrapper">
                                       <div class="element__image">
                                           <img src="./imgs/1.jpg" alt="">
@@ -259,7 +259,7 @@
                                   </div>
                               </a>
                               
-                              <a href="#" class="b2b__company__categories__element">
+                              <a href="./b2b.php?page=item" class="b2b__company__categories__element">
                                   <div class="element__wrapper">
                                       <div class="element__image">
                                           <img src="./imgs/1.jpg" alt="">
@@ -278,7 +278,7 @@
                                   </div>
                               </a>
                               
-                              <a href="#" class="b2b__company__categories__element">
+                              <a href="./b2b.php?page=item" class="b2b__company__categories__element">
                                   <div class="element__wrapper">
                                       <div class="element__image">
                                           <img src="./imgs/1.jpg" alt="">
@@ -297,7 +297,7 @@
                                   </div>
                               </a>
                               
-                              <a href="#" class="b2b__company__categories__element">
+                              <a href="./b2b.php?page=item" class="b2b__company__categories__element">
                                   <div class="element__wrapper">
                                       <div class="element__image">
                                           <img src="./imgs/1.jpg" alt="">
@@ -316,7 +316,7 @@
                                   </div>
                               </a>
                               
-                              <a href="#" class="b2b__company__categories__element">
+                              <a href="./b2b.php?page=item" class="b2b__company__categories__element">
                                   <div class="element__wrapper">
                                       <div class="element__image">
                                           <img src="./imgs/1.jpg" alt="">
@@ -335,7 +335,7 @@
                                   </div>
                               </a>
                               
-                              <a href="#" class="b2b__company__categories__element">
+                              <a href="./b2b.php?page=item" class="b2b__company__categories__element">
                                   <div class="element__wrapper">
                                       <div class="element__image">
                                           <img src="./imgs/1.jpg" alt="">
