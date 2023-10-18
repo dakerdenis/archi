@@ -402,6 +402,20 @@
         height: 93px;
         width: 100%;
         flex-direction: row;
+        padding: 0px 10px;
+        position: relative;
+    }
+
+    .popup__element__name {
+        position: absolute;
+    }
+
+    .popup__element:nth-child(2) {
+        height: 110px;
+    }
+
+    .popup__element:nth-child(2) {
+        height: 120px;
     }
 
     .popup__element__name p {
@@ -410,6 +424,7 @@
         font-style: normal;
         font-weight: 500;
         line-height: normal;
+        text-decoration: none;
     }
 
     .popup__price__number p {
@@ -429,8 +444,10 @@
     }
 
     .popup__price__image img {
-        height: 38px;
-        width: 64px;
+        height: 28px;
+        width: 54px;
+        top: -8%;
+        left: 5px;
     }
 
     .popup__buy {
@@ -438,22 +455,91 @@
         height: 25px;
         flex-shrink: 0;
     }
-    .popup__price__image__number__wrapper{
-        flex-direction: row;
+
+    .popup__price__image__number__wrapper {
+        flex-direction: column;
+        height: initial;
+        width: initial;
+        position: absolute;
+
     }
-    .popup__buy a{
+
+    .popup__price__image {
+        height: initial;
+    }
+
+    .popup__price__number {
+        height: initial;
+        padding-top: 18px;
+    }
+
+    .popup__buy a {
         width: 100%;
         height: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
+
     .popup__buy a p {
         color: #000;
-text-align: center;
-font-size: 10px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+        text-align: center;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .popup__element:nth-child(2) {
+        border-left: none;
+        border-right: none;
+        border-top: 1px solid #c4c4c4;
+        border-bottom: 1px solid #c4c4c4;
+    }
+
+    .popup__element__name {
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .popup__element__name p:after {
+        content: " -";
+
+    }
+
+    .popup__element:nth-child(1) .popup__price__image__number__wrapper {
+        top: 20px;
+        left: 93px;
+    }
+
+    .popup__element:nth-child(2) .popup__price__image__number__wrapper {
+        top: 50px;
+        left: 111px;
+    }
+
+    .popup__element:nth-child(3) .popup__price__image__number__wrapper {
+        top: 39px;
+        left: 118px;
+    }
+
+
+
+
+    .popup__element:nth-child(1) .popup__buy {
+        position: absolute;
+        right: 0;
+        bottom: 33px;
+    }
+
+    .popup__element:nth-child(2) .popup__buy {
+        position: absolute;
+        right: 0;
+        bottom: 47px;
+    }
+
+    .popup__element:nth-child(3) .popup__buy {
+        position: absolute;
+        right: 0;
+        bottom: 32px;
     }
 }
