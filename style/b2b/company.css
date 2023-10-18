@@ -6,7 +6,7 @@
     width: initial;
 }
 .b2b__company__page {
-    background-color: rgba(255, 0, 0, 0.185);
+
     width: 875px;
 }
 
@@ -17,7 +17,7 @@
 .b2b__company__container__main {
     width: 100%;
     display: flex;
-
+    justify-content: space-between;
 }
 .b2b__company__logo_social {
     width: 183px;
@@ -58,16 +58,39 @@
 .b2b__company__desc_wrapper {
 }
 .b2b__company__name {
+    color: #000;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
 .b2b__company__country_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 14px;
 }
 .b2b__company__city {
+    display: flex;
+    align-items: center;
+    color: #000;
+
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.b2b__company__city p:nth-child(1){
+    font-weight: 700;
 }
 .b2b__company__added {
+    margin-top: 13px;
 }
 .b2b__company__updated {
+    margin-top: 13px;
 }
 .company__desc__contact {
+    margin-top: 13px;
 }
 .company__desc__contactbutton {
 }
@@ -79,21 +102,62 @@
 }
 .lock_ {
 }
+
+
+
 .b2b__company__certificates {
+
+    width: 240px;
+    width: 223px;
+    border-radius: 10px;
+    background: #d9d9d980;
 }
 .company__certificates__wrapper {
+    width: 100%;
+    height: 100%;
 }
 .company__certificates__name {
+    height: 43px;
+    background-color: #D9D9D9;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    align-items: center;
+    padding-left: 14px;
 }
 .company__certificates__swiper {
+    height: calc(100% - 43px);
 }
 .b2b__company__description {
+
+    margin-top: 32px;
 }
 .b2b__company__description__date {
+    margin-bottom: 20px;
+    color: #000;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.b2b__company__description__date span {
+    color: #000;
+
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
 .b2b__company__description__content {
+    color: #000;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 .b2b__company__categories {
+    margin-top: 64px;
 }
 .b2b__company__categories__name {
 }

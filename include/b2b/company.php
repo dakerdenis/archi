@@ -131,6 +131,7 @@
                                 <div class="b2b__company__name">
                                     <p>Название компании</p>
                                 </div>
+
                                 <div class="b2b__company__country_wrapper">
                                     <div class="b2b__company__city">
                                         <p>Страна:</p>
@@ -141,6 +142,7 @@
                                         <p>Усть-Новоколамск</p>
                                     </div>
                                 </div>
+
                                 <div class="b2b__company__added">
                                     <p>Добавлено: 01.01.2023</p>
                                 </div>
@@ -189,7 +191,7 @@
 
                     <div class="b2b__company__description">
                         <div class="b2b__company__description__date">
-                            <p>Дата основания: 01.02.2023</p>
+                            <p><span>Дата основания:</span> 01.02.2023</p>
                         </div>
                         <div class="b2b__company__description__content">
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore impedit recusandae dolores iusto velit illo esse numquam, at minus asperiores aut totam necessitatibus eveniet laborum quam. Ex amet deleniti unde?</p>
