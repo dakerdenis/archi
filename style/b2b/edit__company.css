@@ -1,0 +1,60 @@
+.edit__company__form {
+    width: 100%;
+    margin-top: 56px;
+    margin-bottom: 10vh;
+}
+
+.edit__company__wrapper {
+    width: 100%;
+
+}
+
+.edit__company__input {
+    width: 100%;
+    height: 88.337px;
+    margin-bottom: 24px;
+}
+.edit__company__wrapper .edit__company__input:last-child{
+    margin-bottom: 109px;
+}
+.edit__company__input input{
+    padding: 30px 40px;
+    width: 100%;
+    height: 88.337px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(217, 217, 217, 0.20);;
+    color: #858282;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.edit__company__submit {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.edit__company__submit button {
+    width: 248px;
+height: 56px;
+flex-shrink: 0;
+border-radius: 11px;
+background: rgba(69, 198, 9, 0.50);
+
+
+
+}
+
+.edit__company__submit button p {
+    color: #000;
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}

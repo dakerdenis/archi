@@ -204,7 +204,7 @@
 .company__profile__settings {
     width: 25%;
     padding-left: 14.5px;
-    min-height: 100vh;
+    
     border-left: 1px solid rgba(0, 0, 0, 0.2);
 }
 
@@ -393,6 +393,7 @@ line-height: normal;
     width: 100%;
     border-radius: 17px;
     background: rgba(217, 217, 217, 0.25);
+    margin-top: 30px;
 }
 
 .profile__categories__nameadd {

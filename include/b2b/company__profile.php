@@ -90,7 +90,7 @@
         <div class="company__profile__settings">
             <div class="profile__settings__wrapper">
                 <div class="profile__settings__element">
-                    <a href="#">
+                    <a href="./b2b.php?page=edit__company">
                         <p>Редактировать профиль</p>
                     </a>
                 </div>
