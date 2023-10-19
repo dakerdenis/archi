@@ -26,24 +26,10 @@
                         <p>1200</p>
                     </div>
 
-                    <div class="profile__desc__social">
-                        <div class="profile__desc__social__element">
-                            <a href="#">
-                                <img src="./imgs/wp1.svg" alt="">
-                            </a>
-                            <a href="#">
-                                <img src="./imgs/inst1.svg" alt="">
-                            </a>
-                            <a href="#">
-                                <img src="./imgs/face1.svg" alt="">
-                            </a>
-                            <a href="#">
-                                <img src="./imgs/link1.svg" alt="">
-                            </a>
-                            <a href="#">
-                                <img src="./imgs/globe1.svg" alt="">
-                            </a>
-                        </div>
+                    <div class="profile__desc__change__foto">
+                        <a href="#">
+                            <p>Изменить лого бизнеса</p>
+                        </a>
                     </div>
 
                 </div>

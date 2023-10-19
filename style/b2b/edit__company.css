@@ -3,7 +3,10 @@
     margin-top: 56px;
     margin-bottom: 10vh;
 }
-
+.profile__desc__social{
+    display: none;
+    visibility: hidden;
+}
 .edit__company__wrapper {
     width: 100%;
 
@@ -30,7 +33,16 @@
     font-weight: 700;
     line-height: normal;
 }
-
+.profile__desc__change__foto a p{
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    margin-top: 31px;
+}
 .edit__company__submit {
     width: 100%;
     display: flex;
@@ -57,4 +69,26 @@ font-size: 20px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .company__profile__container{
+        width: 336px;
+    }
+    .company__profile__name{
+        display: none;
+    }
 }
