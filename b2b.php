@@ -36,6 +36,9 @@
                     case "company__profile":
                         include './include/b2b/company__profile.php';
                         break;
+                    case "owners__goods":
+                        include './include/b2b/owners__goods.php';
+                        break;
                     case "article":
                         include './include/article.php';
                         break;

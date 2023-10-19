@@ -42,11 +42,11 @@
           <div class="b2b__main__search b2b__main__search__company">
               <div class="main__search__name">
                   <a class="active__link" href="./b2b.php">
-                      <p>Поиск</p>
+                      <p>Личный Кабинет</p>
                   </a>
                   <span>></span>
                   <a class="active__link"  href="./b2b.php?page=company">
-                      <p>Название компании</p>
+                      <p>Мои Товары</p>
                   </a>
                   <span>></span>
                   <a href="./b2b.php?page=company_category">
