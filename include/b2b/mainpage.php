@@ -1,6 +1,6 @@
 <style>
-    <?php include './style/b2b/mainpage.css' ?>
     <?php include './style/new_buisness.css' ?>
+    <?php include './style/b2b/mainpage.css' ?>
 </style>
 
 <div class="b2b__main__page">
@@ -80,15 +80,33 @@
                         <div class="mobile__filter__category">
                             <p>Категория</p>
                         </div>
-                        <div class="custom-dropdown" id="dropdown1">
-                            <input type="text" class=" dropdown-input" placeholder="Выбор категорий" readonly>
-                            <div class="arrow"></div>
-                            <ul class="dropdown-list">
-                                <li data-value="Электрика">Электрика </li>
-                                <li data-value="Сантехника">Сантехника</li>
-                                <li data-value="Мебель">Мебель</li>
-                            </ul>
+
+                        <div class="mobile__filter__dropdown">
+                            <div class="custom-dropdown" id="dropdown1">
+                                <input type="text" class=" dropdown-input" placeholder="Выбрать категорию" readonly>
+                                <div class="arrow"></div>
+                                <ul class="dropdown-list">
+                                    <li data-value="Электрика">Электрика </li>
+                                    <li data-value="Сантехника">Сантехника</li>
+                                    <li data-value="Мебель">Мебель</li>
+                                </ul>
+                            </div>
                         </div>
+                        <div class="mobile__filter__category">
+                            <p>Категория</p>
+                        </div>
+                        <div class="mobile__filter__dropdown">
+                            <div class="custom-dropdown" id="dropdown1">
+                                <input type="text" class=" dropdown-input" placeholder="Выбрать подкатегорию" readonly>
+                                <div class="arrow"></div>
+                                <ul class="dropdown-list">
+                                    <li data-value="Электрика">Электрика </li>
+                                    <li data-value="Сантехника">Сантехника</li>
+                                    <li data-value="Мебель">Мебель</li>
+                                </ul>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
