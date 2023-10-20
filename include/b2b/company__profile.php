@@ -90,7 +90,7 @@
         <div class="company__profile__settings">
             <div class="profile__settings__wrapper">
                 <div class="profile__settings__element">
-                    <a href="./b2b.php?page=edit__company">
+                    <a href="./b2b.php?page=edit__company.php">
                         <p>Редактировать профиль</p>
                     </a>
                 </div>
@@ -130,42 +130,6 @@
 
                     <div class="profile__sertificates__slider">
 
-                        <div class="profile__sertificates__swiper_wrapper">
-                            <div class="swiper mySwiper0">
-                                <div class="swiper-wrapper">
-
-
-                                    <div class="swiper-slide">
-                                        <div class="swiper__sertificate__container">
-                                            <div class="certificate__image">
-                                                <img src="./imgs/test_cert.jpg" alt="">
-                                            </div>
-                                            <div class="certificate__name">
-                                                <p>Название сертификата 1</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                    <div class="swiper__sertificate__container">
-                                            <div class="certificate__image">
-                                                <img src="./imgs/test_cert.jpg" alt="">
-                                            </div>
-                                            <div class="certificate__name">
-                                                <p>Название сертификата 2</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                </div>
-                                <div class="swiper-button-next0 "></div>
-                                <div class="swiper-button-prev0 "></div>
-                            </div>
-
-
-                        </div>
-
-
                     </div>
                 </div>
 
@@ -177,11 +141,6 @@
             <div class="profile__categories__name">
                 <p>Ваши Категории</p>
             </div>
-            <div class="profile__categories__add">
-                <a href="#">
-                    <p>+ Добавить категорию</p>
-                </a>
-            </div>
         </div>
 
         <div class="profile__categories__wrapper">
@@ -192,114 +151,64 @@
                         <p>Редактировать категорию</p>
                     </a>
                 </div>
-                <div class="categoriesN__wrapper">
-                    <div class="categoriesN__swiper__container">
-                        <div class="swiper mySwiper1">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <a href="#" class="swiper__categoriesN__block">
-                                        <div class="categoriesN__image">
-                                            <img src="./imgs/1.jpg" alt="">
-                                        </div>
-                                        <div class="categoriesN__swiper__name">
-                                            <p>Название статьи</p>
-                                        </div>
-                                        <div class="categoriesN__swiper__price">
-                                            <p>20 AZN</p>
-                                        </div>
-                                    </a>
-                                </div>
 
-
-                                <div class="swiper-slide">
-                                    <a href="#" class="swiper__categoriesN__block">
-                                        <div class="categoriesN__image">
-                                            <img src="./imgs/1.jpg" alt="">
-                                        </div>
-                                        <div class="categoriesN__swiper__name">
-                                            <p>Название статьи</p>
-                                        </div>
-                                        <div class="categoriesN__swiper__price">
-                                            <p>20 AZN</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-
-                                <div class="swiper-slide">
-                                    <a href="#" class="swiper__categoriesN__block">
-                                        <div class="categoriesN__image">
-                                            <img src="./imgs/1.jpg" alt="">
-                                        </div>
-                                        <div class="categoriesN__swiper__name">
-                                            <p>Название статьи</p>
-                                        </div>
-                                        <div class="categoriesN__swiper__price">
-                                            <p>20 AZN</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-
-                                <div class="swiper-slide">
-                                    <a href="#" class="swiper__categoriesN__block">
-                                        <div class="categoriesN__image">
-                                            <img src="./imgs/1.jpg" alt="">
-                                        </div>
-                                        <div class="categoriesN__swiper__name">
-                                            <p>Название статьи</p>
-                                        </div>
-                                        <div class="categoriesN__swiper__price">
-                                            <p>20 AZN</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <a href="#" class="swiper__categoriesN__block">
-                                        <div class="categoriesN__image">
-                                            <img src="./imgs/1.jpg" alt="">
-                                        </div>
-                                        <div class="categoriesN__swiper__name">
-                                            <p>Название статьи</p>
-                                        </div>
-                                        <div class="categoriesN__swiper__price">
-                                            <p>20 AZN</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-
-                                <div class="swiper-slide">
-                                    <a href="#" class="swiper__categoriesN__block">
-                                        <div class="categoriesN__image">
-                                            <img src="./imgs/1.jpg" alt="">
-                                        </div>
-                                        <div class="categoriesN__swiper__name">
-                                            <p>Название статьи</p>
-                                        </div>
-                                        <div class="categoriesN__swiper__price">
-                                            <p>20 AZN</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-
+                <div  class="categoriesN__wrapper">
+                    <div style="position: relative; width: 90%; margin:0 auto;" class="categories__swiper__container">
+                          <!-- Swiper -->
+                            <div class="swiper mySwiper1">
+                              <div class="swiper-wrapper">
+                                <div class="swiper-slide">Slide 1</div>
+                                <div class="swiper-slide">Slide 2</div>
+                                <div class="swiper-slide">Slide 3</div>
+                                <div class="swiper-slide">Slide 4</div>
+                                <div class="swiper-slide">Slide 5</div>
+                                <div class="swiper-slide">Slide 6</div>
+                                <div class="swiper-slide">Slide 7</div>
+                                <div class="swiper-slide">Slide 8</div>
+                                <div class="swiper-slide">Slide 9</div>
+                              </div>
+                              <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
                             </div>
 
-                        </div>
 
-                        <div class="swiper-button-next1"></div>
-                        <div class="swiper-button-prev1"></div>
                     </div>
-
-
                 </div>
+
+
+                <div  class="categoriesN__wrapper">
+                    <div style="position: relative; width: 90%; margin:0 auto;" class="categories__swiper__container">
+                          <!-- Swiper -->
+                            <div class="swiper mySwiper2">
+                              <div style="width: 80%; margin: 0 auto;" class="swiper-wrapper">
+                                <div class="swiper-slide">Slide 1</div>
+                                <div class="swiper-slide">Slide 2</div>
+                                <div class="swiper-slide">Slide 3</div>
+                                <div class="swiper-slide">Slide 4</div>
+                                <div class="swiper-slide">Slide 5</div>
+                                <div class="swiper-slide">Slide 6</div>
+                                <div class="swiper-slide">Slide 7</div>
+                                <div class="swiper-slide">Slide 8</div>
+                                <div class="swiper-slide">Slide 9</div>
+                              </div>
+                              <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            </div>
+
+
+                    </div>
+                </div>
+
                 <div class="categoriesN__wrapper_showall">
                     <a href="#">
                         <p>Отобразить всё</p>
                     </a>
                 </div>
             </div>
+
+
+
+            
         </div>
 
     </div>
@@ -316,22 +225,58 @@
 // Swiper 1
 var swiper1 = new Swiper(".mySwiper1", {
     slidesPerView: 5,
-    spaceBetween: 35,
     freeMode: true,
     navigation: {
-        nextEl: ".swiper-button-next1",
-        prevEl: ".swiper-button-prev1"
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+    }
+});
+// Swiper 1
+var swiper2 = new Swiper(".mySwiper2", {
+    slidesPerView: 5,
+    freeMode: true,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
     }
 });
 
-// Swiper 2
-var swiper2 = new Swiper(".mySwiper0", {
-    slidesPerView: 1,
-    spaceBetween: 35,
-    freeMode: false,
-    navigation: {
-        nextEl: ".swiper-button-next0",
-        prevEl: ".swiper-button-prev0"
-    }
-});
+      // JavaScript
+      var swiper;
+
+      function initSwiper() {
+          if (window.innerWidth < 768) {
+              if (swiper) {
+                  swiper.destroy();
+              }
+              swiper = new Swiper(".mySwiper", {
+                  slidesPerView: 2,
+                  freeMode: true,
+                  navigation: {
+                      nextEl: ".swiper-button-next",
+                      prevEl: ".swiper-button-prev"
+                  }
+              });
+          } else {
+              if (swiper) {
+                  swiper.destroy();
+              }
+              swiper = new Swiper(".mySwiper", {
+                  slidesPerView: 1,
+                  freeMode: true,
+                  navigation: {
+                      nextEl: ".swiper-button-next",
+                      prevEl: ".swiper-button-prev"
+                  }
+              });
+          }
+      }
+
+      // Initialize Swiper on page load
+      initSwiper();
+
+      // Update Swiper configuration when the window is resized
+      window.addEventListener("resize", function() {
+          initSwiper();
+      });
 </script>
