@@ -1,5 +1,6 @@
 <style>
     <?php include './style/b2b/mainpage.css' ?>
+    <?php include './style/new_buisness.css' ?>
 </style>
 
 <div class="b2b__main__page">
@@ -72,11 +73,22 @@
                         X
                     </button>
 
-                    <div class="mobile__filter__name">
-                        Расширенный поиск
-                    </div>
-                    <div class="mobile__filter__category">
-                        <p>Категория</p>
+                    <div class="__mobile__filter__content__">
+                        <div class="mobile__filter__name">
+                            Расширенный поиск
+                        </div>
+                        <div class="mobile__filter__category">
+                            <p>Категория</p>
+                        </div>
+                        <div class="custom-dropdown" id="dropdown1">
+                            <input type="text" class=" dropdown-input" placeholder="Выбор категорий" readonly>
+                            <div class="arrow"></div>
+                            <ul class="dropdown-list">
+                                <li data-value="Электрика">Электрика </li>
+                                <li data-value="Сантехника">Сантехника</li>
+                                <li data-value="Мебель">Мебель</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -471,5 +483,34 @@
 </div>
 
 <script>
+    $(document).ready(function() {
+        // Add a click event handler for all custom-dropdowns
+        $(".custom-dropdown").each(function() {
+            const $dropdown = $(this);
+            const $input = $dropdown.find(".dropdown-input");
+            const $list = $dropdown.find(".dropdown-list");
 
+            $input.click(function() {
+                $dropdown.toggleClass("open"); // Add or remove the 'open' class
+                $list.toggle();
+            });
+
+            $list.find("li").click(function() {
+                const selectedCity = $(this).attr("data-value");
+                $input.val(selectedCity);
+                $input.prop("readonly", true);
+                $list.hide();
+                $dropdown.removeClass("open"); // Remove 'open' class when the list is closed
+            });
+
+            // Close the dropdown when clicking outside
+            $(document).click(function(event) {
+                if (!$(event.target).closest(".custom-dropdown").is($dropdown)) {
+                    $input.prop("readonly", true);
+                    $list.hide();
+                    $dropdown.removeClass("open"); // Remove 'open' class when the list is closed
+                }
+            });
+        });
+    });
 </script>

@@ -524,11 +524,12 @@ h6 {
   .mobile__filter__block {
     width: 100%;
     height: 80vh;
-    background-color: red;
+    background-color: #fff;
     position: absolute;
     top: 0;
     z-index: 200;
     padding: 18px;
+    border-top: 1px solid #e3e3e3;
 }
 .mobile__filtr__block_opened{
     display: block;
@@ -539,17 +540,21 @@ h6 {
     position: relative;
 }
 .mobile__filter__close {
-    position: absolute;
+
     left: 5px;
     top: 5px;
     width: 30px;
     height: 30px;
-    background-color: #06F;
     font-size: 20px;
 }
 .main__search__name{
     display: none;
     visibility: hidden;
+}
+.__mobile__filter__content__{
+  width: 100%;
+  height: 100%;
+  padding-left: 20px;
 }
 .__mobile__filter{
     visibility: visible;
@@ -592,6 +597,23 @@ text-align: center;
 font-size: 9px;
 font-style: normal;
 font-weight: 400;
+line-height: normal;
+}
+
+.mobile__filter__name{
+  margin-top: 15px;
+  color: #000;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.mobile__filter__category{
+  margin-top: 24px;
+  color: #000;
+font-size: 11px;
+font-style: normal;
+font-weight: 700;
 line-height: normal;
 }
 
