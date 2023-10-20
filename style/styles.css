@@ -132,6 +132,7 @@ h6 {
 
 .header__image_b2b a {
   color: #000;
+  overflow: visible;
 }
 
 .header__container .header__wrapper .header__navigation ul {
@@ -497,6 +498,10 @@ h6 {
   height: 38.61px;
 
 }
+.header__image_b2b a {
+  color: #000;
+  overflow: visible;
+}
 
 /************************************/
 @media only screen and (max-width: 768px) {
@@ -781,4 +786,9 @@ h6 {
   .footer .footer__wrapper .footer__nav {
     width: 220px;
   }
+  .header__image_b2b a {
+    color: #000;
+    overflow: visible;
+  }
+  
 }

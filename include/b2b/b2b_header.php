@@ -1,7 +1,7 @@
 <header class="header__container">
     <div class="header__wrapper">
         <!-------IMAGE-------->
-        <div class="header__image">
+        <div class="header__image header__image_b2b">
             <a href="./b2b.php">
                 <img src="./imgs/B2B.svg" alt="Archi logo">
             </a>

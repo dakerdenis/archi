@@ -3,10 +3,12 @@
     margin-top: 56px;
     margin-bottom: 10vh;
 }
-.profile__desc__social{
+
+.profile__desc__social {
     display: none;
     visibility: hidden;
 }
+
 .edit__company__wrapper {
     width: 100%;
 
@@ -17,23 +19,27 @@
     height: 88.337px;
     margin-bottom: 24px;
 }
-.edit__company__wrapper .edit__company__input:last-child{
+
+.edit__company__wrapper .edit__company__input:last-child {
     margin-bottom: 109px;
 }
-.edit__company__input input{
+
+.edit__company__input input {
     padding: 30px 40px;
     width: 100%;
     height: 88.337px;
     flex-shrink: 0;
     border-radius: 10px;
-    background: rgba(217, 217, 217, 0.20);;
+    background: rgba(217, 217, 217, 0.20);
+    ;
     color: #858282;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
-.profile__desc__change__foto a p{
+
+.profile__desc__change__foto a p {
     color: #000;
     text-align: center;
     font-size: 18px;
@@ -43,6 +49,7 @@
     text-decoration-line: underline;
     margin-top: 31px;
 }
+
 .edit__company__submit {
     width: 100%;
     display: flex;
@@ -53,10 +60,10 @@
 
 .edit__company__submit button {
     width: 248px;
-height: 56px;
-flex-shrink: 0;
-border-radius: 11px;
-background: rgba(69, 198, 9, 0.50);
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 11px;
+    background: rgba(69, 198, 9, 0.50);
 
 
 
@@ -64,16 +71,12 @@ background: rgba(69, 198, 9, 0.50);
 
 .edit__company__submit button p {
     color: #000;
-text-align: center;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
-
-
-
-
 
 
 
@@ -85,10 +88,219 @@ line-height: normal;
 
 
 @media only screen and (max-width: 768px) {
-    .company__profile__container{
+    .company__profile__container {
         width: 336px;
     }
-    .company__profile__name{
+
+    .company__profile__name {
         display: none;
+    }
+
+    .profile__desc__views {
+        display: none;
+        visibility: hidden;
+    }
+
+    .profile__desc__fotoviews {
+        width: 120px;
+    }
+
+    .profile__desc__foto {
+        width: 120px;
+        height: 120px;
+    }
+
+    .profile__desc {
+        margin-left: 13px;
+    }
+
+    .profile__desc__name {
+        color: #000;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .profile__desc__location {
+        width: initial;
+        justify-content: initial;
+    }
+
+    .profile__desc__location p {
+        font-size: 9px;
+    }
+
+    .profile__desc__location p:first-child {
+        margin-right: 5px;
+    }
+
+    .profile__desc__location span {
+        font-size: 9px;
+    }
+
+    .profile__desc__date {
+        font-size: 8px;
+        margin-top: 7px;
+    }
+
+    .profile__desc__date__more {
+        width: initial;
+        justify-content: initial;
+    }
+
+    .profile__desc__date__more p:first-child {
+        margin-right: 5px;
+    }
+
+    .profile__desc__date__more p {
+        margin-top: 7px;
+    }
+
+    .profile__desc__date__more p {
+        font-size: 8px;
+    }
+
+    .profile__desc__contacts__name {
+        margin-top: 5px;
+        font-size: 9px;
+    }
+
+    .profile__desc__contacts {
+        margin-top: 5px;
+    }
+
+    .profile__desc__contacts__all {
+        font-size: 7.5px;
+        position: relative;
+        width: 180px;
+        height: 20px;
+    }
+
+    .profile__desc__contacts__all p:nth-child(3) {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+
+    .company__profile__desc {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .profile__desc__contacts p {
+        width: initial;
+    }
+
+    .company__profile__desc__wrapper {
+        margin: 0 auto;
+    }
+
+    .profile__desc__contacts__all p:nth-child(3) {}
+
+
+    .profile__desc__contacts__represent {
+        font-size: 7.5px;
+        position: relative;
+        width: 180px;
+        height: 20px;
+    }
+
+    .profile__desc__contacts__represent p:nth-child(3) {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+
+    .company__profile__desc {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .profile__desc__contacts p {
+        width: initial;
+    }
+
+    .company__profile__desc__wrapper {
+        margin: 0 auto;
+    }
+
+    .profile__desc__contacts__represent p:nth-child(3) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .profile__desc__change__foto a p {
+        color: #000;
+        text-align: center;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration-line: underline;
+        margin-top: 7px;
+        width: 110%;
+        transform: translateX(-5px);
+    }
+
+
+
+
+
+
+    .edit__company__input input {
+        height: 39px;
+        width: 100%;
+        padding: 12px;
+
+        color: #858282;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .edit__company__input {
+        height: 39px;
+        margin-bottom: 11px;
+    }
+
+    .edit__company__wrapper .edit__company__input:last-child {
+        margin-bottom: 40px;
+    }
+
+    .edit__company__submit button {
+        width: 161px;
+        height: 39px;
+        flex-shrink: 0;
+        border-radius: 3px;
+        background: #B6DFA2;
+    }
+
+    .edit__company__submit button p {
+        color: #000;
+        text-align: center;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
     }
 }
