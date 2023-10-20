@@ -34,65 +34,74 @@
         <!------------->
         <div class="b2b__main__search">
             <div class="main__search__name">
-                <a class="active__link" href="#"><p>Поиск</p></a>
+                <a class="active__link" href="#">
+                    <p>Поиск</p>
+                </a>
             </div>
             <!------ONLY MOBILE------->
-            <div class="b2b__mobile__filter">
-                <div class="b2b__mobile__filter__button">
+            <!------ONLY MOBILE------->
+            <!------ONLY MOBILE------->
+            <!------ONLY MOBILE------->
+            <!------ONLY MOBILE------->
+            <div class="__mobile__filter">
+                <div class="__mobile__filter__button">
                     <button id="open__filtr">
                         <img src="./imgs/filter.png" alt="">
                     </button>
                 </div>
-                <div class="b2b__mobile__filter__sort-element">
+                <div class="__mobile__filter__sort-element">
                     <a href="#">
                         <p>Год производства</p>
                     </a>
                 </div>
-                <div class="b2b__mobile__filter__sort-element">
+                <div class="__mobile__filter__sort-element">
                     <a href="#">
                         <p>Дерево</p>
                     </a>
                 </div>
-                <div class="b2b__mobile__filter__sort-element">
+                <div class="__mobile__filter__sort-element">
                     <a href="#">
                         <p>Электрика</p>
                     </a>
                 </div>
             </div>
             <!------>
-            <div id="mobile__filtr__block" class="mobile__b2b__filter__block">
-                <div class="mobile__b2b__filter__container">
-                    <button id="close__mobile__filtr" class="mobile__b2b__filter__close">
+            <div id="mobile__filtr__block" class="mobile__filter__block">
+                <div class="mobile__filter__container">
+                    <button id="close__mobile__filtr" class="mobile__filter__close">
                         X
                     </button>
 
-                    <div class="mobile__b2b__filter__name">
-                        Расширенный поиск 
+                    <div class="mobile__filter__name">
+                        Расширенный поиск
                     </div>
-                    <div class="mobile__b2b__filter__category">
+                    <div class="mobile__filter__category">
                         <p>Категория</p>
                     </div>
                 </div>
             </div>
             <script>
                 const open__mobile__filtr = document.getElementById('open__filtr');
-                const mobile__filtr__block =document.getElementById('mobile__filtr__block');
-                const close__mobile__filtr =document.getElementById('close__mobile__filtr');
+                const mobile__filtr__block = document.getElementById('mobile__filtr__block');
+                const close__mobile__filtr = document.getElementById('close__mobile__filtr');
 
-                open__mobile__filtr.addEventListener('click', function(event){
+                open__mobile__filtr.addEventListener('click', function(event) {
                     mobile__filtr__block.classList.add('mobile__filtr__block_opened');
                 });
 
-                close__mobile__filtr.addEventListener('click', function(event){
+                close__mobile__filtr.addEventListener('click', function(event) {
                     mobile__filtr__block.classList.remove('mobile__filtr__block_opened');
                 });
-
             </script>
-
+            <!------ONLY MOBILE------->
+            <!------ONLY MOBILE------->
+            <!------ONLY MOBILE------->
+            <!------ONLY MOBILE------->
+            <!------ONLY MOBILE------->
 
 
             <div class="main__search__wrapper">
-            <div class="main__search__element">
+                <div class="main__search__element">
                     <div class="search__element__logo">
                         <img src="./imgs/6.png" alt="">
                     </div>
@@ -455,7 +464,7 @@
 
 
 
-                
+
             </div>
         </div>
     </div>

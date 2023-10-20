@@ -201,20 +201,17 @@
     font-weight: 400;
     line-height: normal;
 }
-.b2b__mobile__filter{
-    display: none;
-    visibility: hidden;
-}
-.mobile__b2b__filter__block{
-    display: none;
-}
+
+
+
+
 @media only screen and (max-width: 768px) {
     .b2b__main__search{
         position: relative;
     }
 
 
-    .mobile__b2b__filter__block {
+    .mobile__filter__block {
         width: 100%;
         height: 80vh;
         background-color: red;
@@ -226,12 +223,12 @@
     .mobile__filtr__block_opened{
         display: block;
     }
-    .mobile__b2b__filter__container {
+    .mobile__filter__container {
         width: 100%;
         height: 100%;
         position: relative;
     }
-    .mobile__b2b__filter__close {
+    .mobile__filter__close {
         position: absolute;
         left: 5px;
         top: 5px;
@@ -244,7 +241,7 @@
         display: none;
         visibility: hidden;
     }
-    .b2b__mobile__filter{
+    .__mobile__filter{
         visibility: visible;
         display: flex;
         justify-content: space-evenly;
@@ -258,7 +255,7 @@
         visibility: hidden;
     }
 
-    .b2b__mobile__filter__button button {
+    .__mobile__filter__button button {
         width: 25px;
 height: 25px;
 flex-shrink: 0;
@@ -268,7 +265,7 @@ display: flex;
 align-items: center;
 justify-content: center;
     }
-    .b2b__mobile__filter__sort-element{
+    .__mobile__filter__sort-element{
         width: 95.876px;
 height: 22.906px;
 flex-shrink: 0;
@@ -276,14 +273,14 @@ flex-shrink: 0;
 border-radius: 5px;
 background: rgba(217, 217, 217, 0.23);
     }
-.b2b__mobile__filter__sort-element a{
+.__mobile__filter__sort-element a{
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.b2b__mobile__filter__sort-element a p{
+.__mobile__filter__sort-element a p{
     color: #000;
 text-align: center;
 font-size: 9px;
@@ -291,6 +288,14 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+
+/*! ******************/
+/*! ******************/
+/*! ******************/
+/*! ******************/
+/*! ******************/
+/*! ******************/
+
     .b2b__main__search {
         width: 95%;
         margin: 0 auto;
