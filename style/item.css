@@ -51,6 +51,7 @@
     width: 317px;
     margin-bottom: 26px;
     flex-wrap: wrap;
+    height: 131px;
 }
 
 .item__tags a {
@@ -277,7 +278,7 @@
 
 /* This targets the entire pagination container */
 .swiper-pagination {
-    margin-top: 10px;
+    margin-top: 13px;
 }
 
 /* This targets individual pagination bullets */
@@ -294,15 +295,20 @@
     /* Make the bullets circular */
     border: 0.5px solid #0000007e;
 }
-
+.swiper-pagination-bullet{
+    border: 1px solid #000000;
+}
 /* You can also customize the active bullet */
 .swiper-pagination-bullet-active {
     background-color: rgba(217, 217, 217, 0.8);
     /* Change the active bullet color */
-    border: 0.5px solid #00000034;
+    border: 1px solid #00000034;
 }
 
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 7.5px;
 
+}
 
 .item__certificates {
     width: 100%;
@@ -371,6 +377,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    text-align: center;
 }
 
 
@@ -392,6 +399,7 @@
 
 .item__recomendation__container {
     width: 24%;
+    padding-left: 10px;
 
 }
 

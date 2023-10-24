@@ -1,6 +1,5 @@
 <style>
-     <?php include './style/article.css' ?><?php include './style/new_article.css' ?>
-    <?php include './style/goods.css' ?>
+    <?php include './style/article.css' ?><?php include './style/new_article.css' ?><?php include './style/goods.css' ?>
 </style>
 <div class="goods__page__categories">
     <div class="goods__page__categories__container">
@@ -41,7 +40,7 @@
 <div class="goods__page__container">
     <div class="goods__search__block">
         <a href="#">
-        <p>Поиск</p>
+            <p>Поиск</p>
         </a>
         <span>></span>
         <p>Название категории</p>
@@ -66,16 +65,16 @@
                             </div>
                             <div class="dropdown-options3" id="dropdownOptions3">
                                 <div class="dropdown-option3">
-                                   stalker 1
+                                    stalker 1
                                 </div>
                                 <div class="dropdown-option3">
-                                   stalker 2
+                                    stalker 2
                                 </div>
                                 <div class="dropdown-option3">
-                                   stalker 3
+                                    stalker 3
                                 </div>
                                 <div class="dropdown-option3">
-                                   stalker 4
+                                    stalker 4
                                 </div>
                                 <!-- Add more options here -->
                             </div>
@@ -115,7 +114,7 @@
                     <div class="page__element__image">
                         <img src="./imgs/1.jpg" alt="">
                     </div>
-                    <div class="page__element__content">    
+                    <div class="page__element__content">
                         <div class="page__element__name">
                             <p>Товар китай покемон fasfasfasf</p>
                         </div>
@@ -228,7 +227,7 @@
             options.style.display = "none";
             arrow.style.transform = 'rotate(0deg)';
         } else {
-            options.style.display = "block";    
+            options.style.display = "block";
             arrow.style.transform = 'rotate(180deg)';
         }
     }
