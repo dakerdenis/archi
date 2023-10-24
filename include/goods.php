@@ -35,9 +35,17 @@
             <p>Ландшафт</p>
         </a>
     </div>
+
 </div>
 
 <div class="goods__page__container">
+    <div class="goods__search__block">
+        <a href="#">
+        <p>Поиск</p>
+        </a>
+        <span>></span>
+        <p>Название категории</p>
+    </div>
 
     <div class="goods__page__wrapper">
         <!---//?---FILTR---->
@@ -102,12 +110,12 @@
                         </div>
                     </div>
                 </a>
-                <!------------>, <!------------>
+                <!------------><!------------>
                 <a href="./index.php?page=item" class="goods__page__element">
                     <div class="page__element__image">
                         <img src="./imgs/1.jpg" alt="">
                     </div>
-                    <div class="page__element__content">
+                    <div class="page__element__content">    
                         <div class="page__element__name">
                             <p>Товар китай покемон fasfasfasf</p>
                         </div>
@@ -119,7 +127,7 @@
                         </div>
                     </div>
                 </a>
-                <!------------>, <!------------>
+                <!------------> <!------------>
                 <a href="./index.php?page=item" class="goods__page__element">
                     <div class="page__element__image">
                         <img src="./imgs/1.jpg" alt="">

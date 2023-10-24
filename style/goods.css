@@ -34,7 +34,7 @@
 
 
 .goods__page__container {
-    width: 78.9%;
+    width: 1100px;
     margin: 0 auto;
 }
 
@@ -47,7 +47,8 @@
 
 /*********************************/
 .goods__page__filtr {
-    width: 19.5%;
+    width: 220px;
+    border-right: 1px solid rgba(0, 0, 0, 0.144);
 }
 
 .goods__page__filtr__name {
@@ -237,7 +238,6 @@ input[type="number"]::-webkit-outer-spin-button:hover {
 
 .goods__page__content__wrapper {
     width: 79.5%;
-    border-left: 1px solid rgba(0, 0, 0, 0.144);
     min-height: calc(100vh - 100px);
 }
 
