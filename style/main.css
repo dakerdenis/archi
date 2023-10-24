@@ -271,7 +271,7 @@
     }
 
     .main_survey_container {
-        flex-direction: column;
+        flex-direction: column-reverse;
         width: 100%;
         align-items: center;
     }
@@ -287,7 +287,7 @@
     }
 
     .survey__block:nth-child(1) {
-        margin-bottom: 36px;
+        margin-top: 36px;
         width: 90%;
         height: 100%;
         padding: 25px 20px;
@@ -385,5 +385,15 @@ line-height: normal;
         position: absolute;
         top: calc(84px + 5.8px);
         left: 86px;
+     }
+     .advertisement__block__maincontent{
+        background-color: rgba(0, 0, 0, 0);
+     }
+     .advertisement__block__desc{
+        display: none;
+        visibility: hidden;
+     }
+     .advertisement__block__text{
+        padding: 9px 10px;
      }
 }
