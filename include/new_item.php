@@ -8,12 +8,6 @@
         </div>
         <form action="" class="new_buisness__form">
             <div class="new_buisness__form__wrapper">
-                <!----название Товара---->
-                <div class="new_buisness__input__container">
-                    <div class="new_buisness__input__wrapper">
-                        <input type="text" placeholder="Название товара">
-                    </div>
-                </div>
                 <!----Категории подкатегории---->
                 <div class="new_buisness__input__container">
                     <div class="new_buisness__input__wrapper new_buisness__double-input new_buisness__double-input__mobile">
@@ -37,6 +31,9 @@
                             </ul>
                         </div>
                     </div>
+                </div>
+                <div class="new__item__property__desc">
+                    <p>Свойства</p>
                 </div>
                 <!----Производитель + название---->
                 <div class="new_buisness__input__container new_buisness__double-input">
