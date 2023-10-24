@@ -368,10 +368,13 @@ fieldset {
 
 /****************************************/
 
+.article__recomendation___container{
+    width: 85%;
+    margin: 0 auto;
+}
 .article__recomendation {
 
     max-width: 1188px;
-    margin: 0 auto;
     margin-bottom: 80px;
     border-radius: 17px;
     background: #F0F0F0;
@@ -666,5 +669,17 @@ line-height: normal;
     .article__recomendation [class^="swiper-button-prev"]{
         transform: scale(0.7);
         left: 10px;
+    }
+    .article__recomendation___container{
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .article__recomendation{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .article__recom__name p{
+
     }
 }

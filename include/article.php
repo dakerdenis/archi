@@ -243,6 +243,7 @@
     <div class="article__recom__name">
         <p>Вам может быть интересно:</p>
     </div>
+    <div class="article__recomendation___container">
     <div class="article__recomendation">
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
@@ -342,6 +343,7 @@
 
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
+    </div>
     </div>
 </div>
 
