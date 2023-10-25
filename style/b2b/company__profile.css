@@ -445,7 +445,7 @@ line-height: normal;
 
 .profile__categories__wrapper {
     width: 100%;
-    margin-top: 34px;
+
 }
 
 .profile__categories__blockN {
@@ -459,6 +459,7 @@ line-height: normal;
     margin: 0 auto;
     justify-content: space-between;
     margin-bottom: 13px;
+    margin-top: 34px;
 }
 
 .categoriesN__name p {
@@ -577,7 +578,6 @@ line-height: normal;
 
 .categories__swiper__container{
     width: 100%;
-    background-color: red;
     height: 244px;
     position: relative;
 }
@@ -606,6 +606,14 @@ background: #EDEDED;
     height: 173px;
     border-radius: 11px 11px 0px 0px;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .swiper__recomendation__element__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
   .swiper__recomendation__element__desc{
     text-align: left;
@@ -635,8 +643,7 @@ font-weight: 400;
 line-height: normal;
 }
   .mySwiper1{
-    background-color: green;
-    width: 1000px;
+    width: 1033px;
     position: relative;
   }
   .mySwiper1 .swiper-wrapper{
@@ -645,4 +652,19 @@ line-height: normal;
   .mySwiper1 .swiper-button-next-1{
     position: absolute;
     right: -50px;
+  }
+
+  .mySwiper2{
+    width: 1033px;
+    position: relative;
+  }
+  .mySwiper2 .swiper-wrapper{
+
+  }
+  .mySwiper2 .swiper-button-next-2{
+    position: absolute;
+    right: -50px;
+  }
+  .categoriesN__wrapper .categoriesN__name:nth-child(2) {
+    margin-top: 30px;
   }

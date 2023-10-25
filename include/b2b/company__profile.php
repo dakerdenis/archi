@@ -176,28 +176,148 @@
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="swiper__recomendation__element"></div>
+                                <div class="swiper__recomendation__element">
+                                        <div class="swiper__recomendation__element__image">
+                                            <img src="./imgs/1.jpg" alt="">
+                                        </div>
+                                        <div class="swiper__recomendation__element__desc">
+                                            <div class="swiper__recomendation__element__name">
+                                                <p>Пол ламинат</p>
+                                            </div>
+                                            <div class="swiper__recomendation__element__size">
+                                                <p>220 х 60 х 22</p>
+                                            </div>
+                                            <div class="swiper__recomendation__element__material">
+                                                <p>Материал</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="swiper__recomendation__element"></div>
+                                <div class="swiper__recomendation__element">
+                                        <div class="swiper__recomendation__element__image">
+                                            <img src="./imgs/1.jpg" alt="">
+                                        </div>
+                                        <div class="swiper__recomendation__element__desc">
+                                            <div class="swiper__recomendation__element__name">
+                                                <p>Пол ламинат</p>
+                                            </div>
+                                            <div class="swiper__recomendation__element__size">
+                                                <p>220 х 60 х 22</p>
+                                            </div>
+                                            <div class="swiper__recomendation__element__material">
+                                                <p>Материал</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="swiper__recomendation__element"></div>
+                                <div class="swiper__recomendation__element">
+                                        <div class="swiper__recomendation__element__image">
+                                            <img src="./imgs/1.jpg" alt="">
+                                        </div>
+                                        <div class="swiper__recomendation__element__desc">
+                                            <div class="swiper__recomendation__element__name">
+                                                <p>Пол ламинат</p>
+                                            </div>
+                                            <div class="swiper__recomendation__element__size">
+                                                <p>220 х 60 х 22</p>
+                                            </div>
+                                            <div class="swiper__recomendation__element__material">
+                                                <p>Материал</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="swiper__recomendation__element"></div>
+                                <div class="swiper__recomendation__element">
+                                        <div class="swiper__recomendation__element__image">
+                                            <img src="./imgs/1.jpg" alt="">
+                                        </div>
+                                        <div class="swiper__recomendation__element__desc">
+                                            <div class="swiper__recomendation__element__name">
+                                                <p>Пол ламинат</p>
+                                            </div>
+                                            <div class="swiper__recomendation__element__size">
+                                                <p>220 х 60 х 22</p>
+                                            </div>
+                                            <div class="swiper__recomendation__element__material">
+                                                <p>Материал</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="swiper__recomendation__element"></div>
+                                <div class="swiper__recomendation__element">
+                                        <div class="swiper__recomendation__element__image">
+                                            <img src="./imgs/1.jpg" alt="">
+                                        </div>
+                                        <div class="swiper__recomendation__element__desc">
+                                            <div class="swiper__recomendation__element__name">
+                                                <p>Пол ламинат</p>
+                                            </div>
+                                            <div class="swiper__recomendation__element__size">
+                                                <p>220 х 60 х 22</p>
+                                            </div>
+                                            <div class="swiper__recomendation__element__material">
+                                                <p>Материал</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="swiper__recomendation__element"></div>
+                                <div class="swiper__recomendation__element">
+                                        <div class="swiper__recomendation__element__image">
+                                            <img src="./imgs/1.jpg" alt="">
+                                        </div>
+                                        <div class="swiper__recomendation__element__desc">
+                                            <div class="swiper__recomendation__element__name">
+                                                <p>Пол ламинат</p>
+                                            </div>
+                                            <div class="swiper__recomendation__element__size">
+                                                <p>220 х 60 х 22</p>
+                                            </div>
+                                            <div class="swiper__recomendation__element__material">
+                                                <p>Материал</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="swiper__recomendation__element"></div>
+                                <div class="swiper__recomendation__element">
+                                        <div class="swiper__recomendation__element__image">
+                                            <img src="./imgs/1.jpg" alt="">
+                                        </div>
+                                        <div class="swiper__recomendation__element__desc">
+                                            <div class="swiper__recomendation__element__name">
+                                                <p>Пол ламинат</p>
+                                            </div>
+                                            <div class="swiper__recomendation__element__size">
+                                                <p>220 х 60 х 22</p>
+                                            </div>
+                                            <div class="swiper__recomendation__element__material">
+                                                <p>Материал</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="swiper__recomendation__element"></div>
+                                <div class="swiper__recomendation__element">
+                                        <div class="swiper__recomendation__element__image">
+                                            <img src="./imgs/1.jpg" alt="">
+                                        </div>
+                                        <div class="swiper__recomendation__element__desc">
+                                            <div class="swiper__recomendation__element__name">
+                                                <p>Пол ламинат</p>
+                                            </div>
+                                            <div class="swiper__recomendation__element__size">
+                                                <p>220 х 60 х 22</p>
+                                            </div>
+                                            <div class="swiper__recomendation__element__material">
+                                                <p>Материал</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                               </div>
 
@@ -224,20 +344,173 @@
                           <!-- Swiper -->
                             <div class="swiper mySwiper2">
                               <div  class="swiper-wrapper">
-                                <div class="swiper-slide">Slide 1</div>
-                                <div class="swiper-slide">Slide 2</div>
-                                <div class="swiper-slide">Slide 3</div>
-                                <div class="swiper-slide">Slide 4</div>
-                                <div class="swiper-slide">Slide 5</div>
-                                <div class="swiper-slide">Slide 6</div>
-                                <div class="swiper-slide">Slide 7</div>
-                                <div class="swiper-slide">Slide 8</div>
-                                <div class="swiper-slide">Slide 9</div>
+                                <div class="swiper-slide">
+                                                                        <div class="swiper__recomendation__element">
+                                        <div class="swiper__recomendation__element__image">
+                                            <img src="./imgs/1.jpg" alt="">
+                                        </div>
+                                        <div class="swiper__recomendation__element__desc">
+                                            <div class="swiper__recomendation__element__name">
+                                                <p>Пол ламинат</p>
+                                            </div>
+                                            <div class="swiper__recomendation__element__size">
+                                                <p>220 х 60 х 22</p>
+                                            </div>
+                                            <div class="swiper__recomendation__element__material">
+                                                <p>Материал</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                                                        <div class="swiper__recomendation__element">
+                                        <div class="swiper__recomendation__element__image">
+                                            <img src="./imgs/1.jpg" alt="">
+                                        </div>
+                                        <div class="swiper__recomendation__element__desc">
+                                            <div class="swiper__recomendation__element__name">
+                                                <p>Пол ламинат</p>
+                                            </div>
+                                            <div class="swiper__recomendation__element__size">
+                                                <p>220 х 60 х 22</p>
+                                            </div>
+                                            <div class="swiper__recomendation__element__material">
+                                                <p>Материал</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                                                        <div class="swiper__recomendation__element">
+                                        <div class="swiper__recomendation__element__image">
+                                            <img src="./imgs/1.jpg" alt="">
+                                        </div>
+                                        <div class="swiper__recomendation__element__desc">
+                                            <div class="swiper__recomendation__element__name">
+                                                <p>Пол ламинат</p>
+                                            </div>
+                                            <div class="swiper__recomendation__element__size">
+                                                <p>220 х 60 х 22</p>
+                                            </div>
+                                            <div class="swiper__recomendation__element__material">
+                                                <p>Материал</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                                                        <div class="swiper__recomendation__element">
+                                        <div class="swiper__recomendation__element__image">
+                                            <img src="./imgs/1.jpg" alt="">
+                                        </div>
+                                        <div class="swiper__recomendation__element__desc">
+                                            <div class="swiper__recomendation__element__name">
+                                                <p>Пол ламинат</p>
+                                            </div>
+                                            <div class="swiper__recomendation__element__size">
+                                                <p>220 х 60 х 22</p>
+                                            </div>
+                                            <div class="swiper__recomendation__element__material">
+                                                <p>Материал</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                                                        <div class="swiper__recomendation__element">
+                                        <div class="swiper__recomendation__element__image">
+                                            <img src="./imgs/1.jpg" alt="">
+                                        </div>
+                                        <div class="swiper__recomendation__element__desc">
+                                            <div class="swiper__recomendation__element__name">
+                                                <p>Пол ламинат</p>
+                                            </div>
+                                            <div class="swiper__recomendation__element__size">
+                                                <p>220 х 60 х 22</p>
+                                            </div>
+                                            <div class="swiper__recomendation__element__material">
+                                                <p>Материал</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                                                        <div class="swiper__recomendation__element">
+                                        <div class="swiper__recomendation__element__image">
+                                            <img src="./imgs/1.jpg" alt="">
+                                        </div>
+                                        <div class="swiper__recomendation__element__desc">
+                                            <div class="swiper__recomendation__element__name">
+                                                <p>Пол ламинат</p>
+                                            </div>
+                                            <div class="swiper__recomendation__element__size">
+                                                <p>220 х 60 х 22</p>
+                                            </div>
+                                            <div class="swiper__recomendation__element__material">
+                                                <p>Материал</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                                                        <div class="swiper__recomendation__element">
+                                        <div class="swiper__recomendation__element__image">
+                                            <img src="./imgs/1.jpg" alt="">
+                                        </div>
+                                        <div class="swiper__recomendation__element__desc">
+                                            <div class="swiper__recomendation__element__name">
+                                                <p>Пол ламинат</p>
+                                            </div>
+                                            <div class="swiper__recomendation__element__size">
+                                                <p>220 х 60 х 22</p>
+                                            </div>
+                                            <div class="swiper__recomendation__element__material">
+                                                <p>Материал</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                                                        <div class="swiper__recomendation__element">
+                                        <div class="swiper__recomendation__element__image">
+                                            <img src="./imgs/1.jpg" alt="">
+                                        </div>
+                                        <div class="swiper__recomendation__element__desc">
+                                            <div class="swiper__recomendation__element__name">
+                                                <p>Пол ламинат</p>
+                                            </div>
+                                            <div class="swiper__recomendation__element__size">
+                                                <p>220 х 60 х 22</p>
+                                            </div>
+                                            <div class="swiper__recomendation__element__material">
+                                                <p>Материал</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                                                        <div class="swiper__recomendation__element">
+                                        <div class="swiper__recomendation__element__image">
+                                            <img src="./imgs/1.jpg" alt="">
+                                        </div>
+                                        <div class="swiper__recomendation__element__desc">
+                                            <div class="swiper__recomendation__element__name">
+                                                <p>Пол ламинат</p>
+                                            </div>
+                                            <div class="swiper__recomendation__element__size">
+                                                <p>220 х 60 х 22</p>
+                                            </div>
+                                            <div class="swiper__recomendation__element__material">
+                                                <p>Материал</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                               </div>
-                              <div class="swiper-button-next swiper-button-next-2"></div>
-                            <div class="swiper-button-prev swiper-button-prev-2"></div>
-                            </div>
 
+                            </div>
+                            <div class="swiper-button-next swiper-button-next-2"></div>
+                            <div class="swiper-button-prev swiper-button-prev-2"></div>
 
                     </div>
                 </div>
