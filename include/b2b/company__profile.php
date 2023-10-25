@@ -117,7 +117,10 @@
                     </a>
                 </div>
 
-                <div class="profile__settings__sertificates">
+
+
+            </div>
+            <div class="profile__settings__sertificates">
                     <div class="profile__sertificates__appbar">
                         <div class="appbar__name">
                             <p>Сертификаты</p>
@@ -167,8 +170,6 @@
                             </div>
                     </div>
                 </div>
-
-            </div>
         </div>
     </div>
     <div class="company__profile__categories">

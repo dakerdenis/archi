@@ -734,3 +734,101 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
   }
+
+  @media only screen and (max-width: 768px) {
+
+    .company__profile__wrapper{
+        flex-direction: column;
+    }
+    .company__profile__desc{
+        width: 100%;
+    }
+    .profile__desc__fotoviews{
+        width: 120px;
+    }
+    .profile__desc__foto{
+        width: 120px;
+        height: 120px;
+    }
+    .profile__desc{
+        margin-left: 9px;
+    }
+    .profile__desc__name p {
+        color: #000;
+font-size: 11px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    }
+    .profile__desc__location span{
+        font-size: 9px;
+    }
+    .profile__desc__location p{
+        font-size: 9px;
+    }
+    .profile__desc__date{
+        font-size: 8px;
+        margin-top: 7px;
+    }
+    .profile__desc__date__more p{
+        font-size: 8px;
+    }
+    .profile__desc__date__more span{
+        font-size: 8px;
+    }
+    .profile__desc__contacts__name{
+        font-size: 9px;
+    }
+    .profile__desc__contacts__all p{
+        font-size: 8px;
+    }
+    .profile__desc__contacts__represent p{
+        font-size: 8px;
+    }
+    .profile__desc__location{
+        width: 180px;
+    }
+    .profile__desc__date__more{
+        width: 180px;
+    }
+    .profile__desc__date__more p{
+        margin-top: 5px;
+    }
+    .profile__desc__contacts__name{
+        margin-top: 5px;
+    }
+    .profile__desc__contacts{
+        margin-top: 3px;
+    }
+    .profile__desc__contacts__all{
+        width: 170px;
+    }
+    .profile__desc__contacts__represent{
+        width: 170px;
+    }
+    .profile__desc__contacts__all{
+        position: relative;
+        height: 18px;
+    }
+    .profile__desc__contacts__all p:nth-child(3){
+        right: 0;
+        bottom: 0;
+        position: absolute;
+    }.profile__desc__contacts p{
+        width: initial;
+    }
+
+
+
+    .profile__desc__contacts__represent{
+        position: relative;
+        height: 18px;
+    }
+    .profile__desc__contacts__represent p:nth-child(3){
+        right: 0;
+        bottom: 0;
+        position: absolute;
+    }.profile__desc__contacts__represent p{
+        width: initial;
+    }
+  }
