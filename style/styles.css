@@ -1,8 +1,64 @@
 @font-face {
-  font-family: "CenturyGothic";
-  src: url("./fonts/CenturyGothic.ttf") format("ttf"), url("./fonts/gothicb.ttf") format("ttf"), url("./fonts/GOTHICB0.TTF") format("ttf"), url("./fonts/GOTHIC.TTF") format("ttf");
-  /* Add other font properties like font-weight and font-style if needed */
+  font-family: 'Gilroy';
+  src: url('./fonts/Gilroy-Thin.woff2') format('woff2'),
+       url('./fonts/Gilroy-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
 }
+
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./fonts/Gilroy-Light.woff2') format('woff2'),
+       url('./fonts/Gilroy-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./fonts/Gilroy-Regular.otf') format('otf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./fonts/Gilroy-Medium.woff2') format('woff2'),
+       url('./fonts/Gilroy-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./fonts/Gilroy-Semibold.otf') format('otf');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./fonts/Gilroy-Bold.woff2') format('woff2'),
+       url('./fonts/Gilroy-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./fonts/Gilroy-Extrabold.woff2') format('woff2'),
+       url('./fonts/Gilroy-Extrabold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./fonts/Gilroy-Black.woff2') format('woff2'),
+       url('./fonts/Gilroy-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+
 
 * {
   padding: 0;
@@ -43,7 +99,7 @@ body {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font-family: "CenturyGothic", sans-serif;
+  font-family: 'Gilroy', Arial, sans-serif;
   overflow: auto;
 }
 
@@ -637,11 +693,13 @@ h6 {
     width: 172px;
     height: 20px;
   }
-  .custom-dropdown .dropdown-input{
+
+  .custom-dropdown .dropdown-input {
     padding-right: 0;
 
   }
-  .mobile__filter__dropdown input{
+
+  .mobile__filter__dropdown input {
     border-radius: 5px;
     background: rgba(217, 217, 217, 0.75);
     padding: 5px;

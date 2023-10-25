@@ -215,6 +215,14 @@
                 </div>
             </div>
         </div>
+        <p style="font-weight:200; font-size: 20px; margin-bottom: 10px;">ƏdasdƏəü Ü öÖ ğĞ LIı ıI şŞ Cc ÖÖö o oOp ğğĞ Ç Çççç</p>
+        <p style="font-weight:300; font-size: 20px; margin-bottom: 10px;">ƏdasdƏəü Ü öÖ ğĞ LIı ıI şŞ Cc ÖÖö o oOp ğğĞ Ç Çççç</p>
+        <p style="font-weight:400; font-size: 20px; margin-bottom: 10px;">ƏdasdƏəü Ü öÖ ğĞ LIı ıI şŞ Cc ÖÖö o oOp ğğĞ Ç Çççç</p>
+        <p style="font-weight:500; font-size: 20px; margin-bottom: 10px;">ƏdasdƏəü Ü öÖ ğĞ LIı ıI şŞ Cc ÖÖö o oOp ğğĞ Ç Çççç</p>
+        <p style="font-weight:600; font-size: 20px; margin-bottom: 10px;">ƏdasdƏəü Ü öÖ ğĞ LIı ıI şŞ Cc ÖÖö o oOp ğğĞ Ç Çççç</p>
+        <p style="font-weight:700; font-size: 20px; margin-bottom: 10px;">ƏdasdƏəü Ü öÖ ğĞ LIı ıI şŞ Cc ÖÖö o oOp ğğĞ Ç Çççç</p>
+        <p style="font-weight:800; font-size: 20px; margin-bottom: 10px;">ƏdasdƏəü Ü öÖ ğĞ LIı ıI şŞ Cc ÖÖö o oOp ğğĞ Ç Çççç</p>
+        <p style="font-weight:900; font-size: 20px; margin-bottom: 10px;">ƏdasdƏəü Ü öÖ ğĞ LIı ıI şŞ Cc ÖÖö o oOp ğğĞ Ç Çççç</p>
     </div>
     <br><br><br><br><br><br><br><br><br><br>
         <div style="display: flex; flex-direction: column; width:350px; margin: 0 auto; border-radius: 10px; padding: 20px; box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2)">
