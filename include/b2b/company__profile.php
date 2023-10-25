@@ -153,34 +153,77 @@
                 </div>
 
                 <div  class="categoriesN__wrapper">
-                    <div style="position: relative; width: 90%; margin:0 auto;" class="categories__swiper__container">
+                    <div  class="categories__swiper__container">
                           <!-- Swiper -->
                             <div class="swiper mySwiper1">
-                              <div class="swiper-wrapper">
-                                <div class="swiper-slide">Slide 1</div>
-                                <div class="swiper-slide">Slide 2</div>
-                                <div class="swiper-slide">Slide 3</div>
-                                <div class="swiper-slide">Slide 4</div>
-                                <div class="swiper-slide">Slide 5</div>
-                                <div class="swiper-slide">Slide 6</div>
-                                <div class="swiper-slide">Slide 7</div>
-                                <div class="swiper-slide">Slide 8</div>
-                                <div class="swiper-slide">Slide 9</div>
+                              <div  class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="swiper__recomendation__element">
+                                        <div class="swiper__recomendation__element__image">
+                                            <img src="./imgs/1.jpg" alt="">
+                                        </div>
+                                        <div class="swiper__recomendation__element__desc">
+                                            <div class="swiper__recomendation__element__name">
+                                                <p>Пол ламинат</p>
+                                            </div>
+                                            <div class="swiper__recomendation__element__size">
+                                                <p>220 х 60 х 22</p>
+                                            </div>
+                                            <div class="swiper__recomendation__element__material">
+                                                <p>Материал</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper__recomendation__element"></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper__recomendation__element"></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper__recomendation__element"></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper__recomendation__element"></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper__recomendation__element"></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper__recomendation__element"></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper__recomendation__element"></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper__recomendation__element"></div>
+                                </div>
                               </div>
-                              <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                            </div>
 
+                            </div>
+                            <div class="swiper-button-next swiper-button-next-1"></div>
+                            <div class="swiper-button-prev swiper-button-prev-1"></div>
 
                     </div>
                 </div>
-
+                <div class="categoriesN__wrapper_showall">
+                    <a href="#">
+                        <p>Отобразить всё</p>
+                    </a>
+                </div>
+                <div class="categoriesN__name">
+                    <p>Название категории (n)</p>
+                    <a href="#">
+                        <p>Редактировать категорию</p>
+                    </a>
+                </div>
 
                 <div  class="categoriesN__wrapper">
-                    <div style="position: relative; width: 90%; margin:0 auto;" class="categories__swiper__container">
+                    <div class="categories__swiper__container">
                           <!-- Swiper -->
                             <div class="swiper mySwiper2">
-                              <div style="width: 80%; margin: 0 auto;" class="swiper-wrapper">
+                              <div  class="swiper-wrapper">
                                 <div class="swiper-slide">Slide 1</div>
                                 <div class="swiper-slide">Slide 2</div>
                                 <div class="swiper-slide">Slide 3</div>
@@ -191,8 +234,8 @@
                                 <div class="swiper-slide">Slide 8</div>
                                 <div class="swiper-slide">Slide 9</div>
                               </div>
-                              <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
+                              <div class="swiper-button-next swiper-button-next-2"></div>
+                            <div class="swiper-button-prev swiper-button-prev-2"></div>
                             </div>
 
 
@@ -227,56 +270,56 @@ var swiper1 = new Swiper(".mySwiper1", {
     slidesPerView: 5,
     freeMode: true,
     navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev"
-    }
+        nextEl: ".swiper-button-next-1",
+        prevEl: ".swiper-button-prev-1",
+    },
 });
 // Swiper 1
 var swiper2 = new Swiper(".mySwiper2", {
     slidesPerView: 5,
     freeMode: true,
     navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev"
+        nextEl: ".swiper-button-next-2",
+        prevEl: ".swiper-button-prev-2"
     }
 });
 
       // JavaScript
-      var swiper;
-
-      function initSwiper() {
-          if (window.innerWidth < 768) {
-              if (swiper) {
-                  swiper.destroy();
-              }
-              swiper = new Swiper(".mySwiper", {
-                  slidesPerView: 2,
-                  freeMode: true,
-                  navigation: {
-                      nextEl: ".swiper-button-next",
-                      prevEl: ".swiper-button-prev"
-                  }
-              });
-          } else {
-              if (swiper) {
-                  swiper.destroy();
-              }
-              swiper = new Swiper(".mySwiper", {
-                  slidesPerView: 1,
-                  freeMode: true,
-                  navigation: {
-                      nextEl: ".swiper-button-next",
-                      prevEl: ".swiper-button-prev"
-                  }
-              });
-          }
-      }
-
-      // Initialize Swiper on page load
-      initSwiper();
-
-      // Update Swiper configuration when the window is resized
-      window.addEventListener("resize", function() {
-          initSwiper();
-      });
+//      var swiper;
+//
+//      function initSwiper() {
+//          if (window.innerWidth < 768) {
+//              if (swiper) {
+//                  swiper.destroy();
+//              }
+//              swiper = new Swiper(".mySwiper", {
+//                  slidesPerView: 2,
+//                  freeMode: true,
+//                  navigation: {
+//                      nextEl: ".swiper-button-next",
+//                      prevEl: ".swiper-button-prev"
+//                  }
+//              });
+//          } else {
+//              if (swiper) {
+//                  swiper.destroy();
+//              }
+//              swiper = new Swiper(".mySwiper", {
+//                  slidesPerView: 1,
+//                  freeMode: true,
+//                  navigation: {
+//                      nextEl: ".swiper-button-next",
+//                      prevEl: ".swiper-button-prev"
+//                  }
+//              });
+//          }
+//      }
+//
+//      // Initialize Swiper on page load
+//      initSwiper();
+//
+//      // Update Swiper configuration when the window is resized
+//      window.addEventListener("resize", function() {
+//          initSwiper();
+//      });
 </script>
