@@ -184,7 +184,7 @@
                 <div class="categoriesN__name">
                     <p>Название категории (n)</p>
                     <a href="#">
-                        <p>Редактировать категорию</p>
+                        <p>Редактировать <span>категорию</span></p>
                     </a>
                 </div>
 
@@ -371,7 +371,7 @@
                 <div class="categoriesN__name ">
                     <p>Название категории (n)</p>
                     <a href="#">
-                        <p>Редактировать категорию</p>
+                        <p>Редактировать <span>категорию</span></p>
                     </a>
                 </div>
 
@@ -604,6 +604,7 @@
         swiper3 = new Swiper(".mySwiper3", {
           slidesPerView: 2,
           freeMode: true,
+          spaceBetween: 0,
           navigation: {
             nextEl: ".swiper-button-next-3",
             prevEl: ".swiper-button-prev-3",
