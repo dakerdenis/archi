@@ -129,7 +129,42 @@
 
 
                     <div class="profile__sertificates__slider">
-
+                            <div class="swiper mySwiper3">
+                                <div class="swiper-wrapper">
+                                  <div class="swiper-slide">
+                                    <div class="company__profile__sertificate__block">
+                                        <div class="sertificate__image">
+                                            <img src="./imgs/test_cert.jpg" alt="">
+                                        </div>
+                                        <div class="sertificate__name">
+                                            <p>Sertificats</p>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="company__profile__sertificate__block">
+                                        <div class="sertificate__image">
+                                            <img src="./imgs/test_cert.jpg" alt="">
+                                        </div>
+                                        <div class="sertificate__name">
+                                            <p>Sertificats</p>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="company__profile__sertificate__block">
+                                        <div class="sertificate__image">
+                                            <img src="./imgs/test_cert.jpg" alt="">
+                                        </div>
+                                        <div class="sertificate__name">
+                                            <p>Sertificats</p>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              <div class="swiper-button-next swiper-button-next-3"></div>
+                              <div class="swiper-button-prev swiper-button-prev-3"></div>
+                            </div>
                     </div>
                 </div>
 
@@ -332,7 +367,7 @@
                         <p>Отобразить всё</p>
                     </a>
                 </div>
-                <div class="categoriesN__name">
+                <div class="categoriesN__name ">
                     <p>Название категории (n)</p>
                     <a href="#">
                         <p>Редактировать категорию</p>
@@ -536,63 +571,93 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
 
-<!-- Initialize Swiper -->
-<script>
-// Swiper 1
-var swiper1 = new Swiper(".mySwiper1", {
-    slidesPerView: 5,
-    freeMode: true,
-    navigation: {
-        nextEl: ".swiper-button-next-1",
-        prevEl: ".swiper-button-prev-1",
-    },
-});
-// Swiper 1
-var swiper2 = new Swiper(".mySwiper2", {
-    slidesPerView: 5,
-    freeMode: true,
-    navigation: {
-        nextEl: ".swiper-button-next-2",
-        prevEl: ".swiper-button-prev-2"
-    }
-});
+<!-- HTML structure for the Swipers remains the same as in your previous code -->
 
-      // JavaScript
-//      var swiper;
-//
-//      function initSwiper() {
-//          if (window.innerWidth < 768) {
-//              if (swiper) {
-//                  swiper.destroy();
-//              }
-//              swiper = new Swiper(".mySwiper", {
-//                  slidesPerView: 2,
-//                  freeMode: true,
-//                  navigation: {
-//                      nextEl: ".swiper-button-next",
-//                      prevEl: ".swiper-button-prev"
-//                  }
-//              });
-//          } else {
-//              if (swiper) {
-//                  swiper.destroy();
-//              }
-//              swiper = new Swiper(".mySwiper", {
-//                  slidesPerView: 1,
-//                  freeMode: true,
-//                  navigation: {
-//                      nextEl: ".swiper-button-next",
-//                      prevEl: ".swiper-button-prev"
-//                  }
-//              });
-//          }
-//      }
-//
-//      // Initialize Swiper on page load
-//      initSwiper();
-//
-//      // Update Swiper configuration when the window is resized
-//      window.addEventListener("resize", function() {
-//          initSwiper();
-//      });
+<!-- JavaScript to set slidesPerView based on screen resolution -->
+<script>
+  var swiper1, swiper2, swiper3;
+
+  function updateSwipers() {
+    var viewportWidth = window.innerWidth || document.documentElement.clientWidth;
+
+    if (viewportWidth < 768) {
+      // Set slidesPerView to 3 for screens less than 768 pixels wide
+      if (!swiper1 || !swiper2 || !swiper3) {
+        // Initialize Swipers if they haven't been initialized yet
+        swiper1 = new Swiper(".mySwiper1", {
+          slidesPerView: 3,
+          freeMode: true,
+          navigation: {
+            nextEl: ".swiper-button-next-1",
+            prevEl: ".swiper-button-prev-1",
+          },
+        });
+        swiper2 = new Swiper(".mySwiper2", {
+          slidesPerView: 3,
+          freeMode: true,
+          navigation: {
+            nextEl: ".swiper-button-next-2",
+            prevEl: ".swiper-button-prev-2",
+          },
+        });
+        swiper3 = new Swiper(".mySwiper3", {
+          slidesPerView: 2,
+          freeMode: true,
+          navigation: {
+            nextEl: ".swiper-button-next-3",
+            prevEl: ".swiper-button-prev-3",
+          },
+        });
+      } else {
+        // If Swipers are already initialized, just update slidesPerView
+        swiper1.params.slidesPerView = 3;
+        swiper2.params.slidesPerView = 3;
+        swiper3.params.slidesPerView = 2;
+        swiper1.update();
+        swiper2.update();
+        swiper3.update();
+      }
+    } else {
+      // Set slidesPerView to 5 for screens 768 pixels and wider
+      if (!swiper1 || !swiper2 || !swiper3) {
+        // Initialize Swipers if they haven't been initialized yet
+        swiper1 = new Swiper(".mySwiper1", {
+          slidesPerView: 5,
+          freeMode: true,
+          navigation: {
+            nextEl: ".swiper-button-next-1",
+            prevEl: ".swiper-button-prev-1",
+          },
+        });
+        swiper2 = new Swiper(".mySwiper2", {
+          slidesPerView: 5,
+          freeMode: true,
+          navigation: {
+            nextEl: ".swiper-button-next-2",
+            prevEl: ".swiper-button-prev-2",
+          },
+        });
+        swiper3 = new Swiper(".mySwiper3", {
+          slidesPerView: 1,
+          freeMode: true,
+          navigation: {
+            nextEl: ".swiper-button-next-3",
+            prevEl: ".swiper-button-prev-3",
+          },
+        });
+      } else {
+        // If Swipers are already initialized, just update slidesPerView
+        swiper1.params.slidesPerView = 5;
+        swiper2.params.slidesPerView = 5;
+        swiper3.params.slidesPerView = 1;
+        swiper1.update();
+        swiper2.update();
+        swiper3.update();
+      }
+    }
+  }
+
+  // Call the function on page load and when the window is resized
+  window.addEventListener("load", updateSwipers);
+  window.addEventListener("resize", updateSwipers);
 </script>
