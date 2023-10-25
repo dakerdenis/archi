@@ -195,22 +195,22 @@
                 </div>
                 <div class="additional__block__articles__content">
                     <a href="#">
-                        <p>Советы для успешного ремонта ванной комнаты</p>
-                    </a>
-
-                    <a href="#">
                         <p>Как выбрать идеальное покрытие для вашего пола</p>
                     </a>
 
                     <a href="#">
                         <p>Как выбрать идеальное покрытие для вашего пола</p>
                     </a>
+
                     <a href="#">
-                        <p>Выбор паркета и ламината для подогрева пола</p>
+                        <p>Как выбрать идеальное покрытие для вашего пола</p>
+                    </a>
+                    <a href="#">
+                        <p>Как выбрать идеальное покрытие для вашего пола</p>
                     </a>
 
                     <a href="#">
-                        <p>Советы по проведению электромонтажных работ в доме</p>
+                        <p>Как выбрать идеальное покрытие для вашего пола</p>
                     </a>
                 </div>
             </div>
@@ -221,16 +221,16 @@
                 </div>
                 <div class="additional__block__articles__content additional__articles__goods">
                     <a href="#">
-                        <p>Ореховый Орфей</p>
-                    </a>
-                    <a href="#">
                         <p>Дубовый Джентльмен</p>
                     </a>
                     <a href="#">
                         <p>Дубовый Джентльмен</p>
                     </a>
                     <a href="#">
-                        <p>Венге Виктория</p>
+                        <p>Дубовый Джентльмен</p>
+                    </a>
+                    <a href="#">
+                        <p>Дубовый Джентльмен</p>
                     </a>
                     <a href="#">
                         <p>Дубовый Джентльмен</p>
@@ -243,6 +243,7 @@
     <div class="article__recom__name">
         <p>Вам может быть интересно:</p>
     </div>
+    <div class="article__recomendation___container">
     <div class="article__recomendation">
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
@@ -339,9 +340,10 @@
             </div>
 
         </div>
-        
+
         <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
     </div>
 </div>
 
@@ -350,41 +352,41 @@
 
 <!-- Initialize Swiper -->
 <script>
-var swiper;
+    var swiper;
 
-function initSwiper() {
-  if (window.innerWidth < 768) {
-    if (swiper) {
-      swiper.destroy();
+    function initSwiper() {
+        if (window.innerWidth < 768) {
+            if (swiper) {
+                swiper.destroy();
+            }
+            swiper = new Swiper(".mySwiper", {
+                slidesPerView: 3,
+                freeMode: true,
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev"
+                }
+            });
+        } else {
+            if (swiper) {
+                swiper.destroy();
+            }
+            swiper = new Swiper(".mySwiper", {
+                slidesPerView: 5,
+                freeMode: true,
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev"
+                }
+            });
+        }
     }
-    swiper = new Swiper(".mySwiper", {
-      slidesPerView: 3,
-      freeMode: true,
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev"
-      }
-    });
-  } else {
-    if (swiper) {
-      swiper.destroy();
-    }
-    swiper = new Swiper(".mySwiper", {
-      slidesPerView: 5,
-      freeMode: true,
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev"
-      }
-    });
-  }
-}
 
-// Initialize Swiper on page load
-initSwiper();
+    // Initialize Swiper on page load
+    initSwiper();
 
-// Update Swiper configuration when the window is resized
-window.addEventListener("resize", function () {
-  initSwiper();
-});
+    // Update Swiper configuration when the window is resized
+    window.addEventListener("resize", function() {
+        initSwiper();
+    });
 </script>
