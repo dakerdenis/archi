@@ -786,13 +786,14 @@
     height: 40px;
     flex-shrink: 0;
 }
+
 .add__new__category a p {
     color: #000;
-text-align: center;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 @media only screen and (max-width: 768px) {
@@ -1059,7 +1060,7 @@ line-height: normal;
     .profile__categories__nameadd {}
 
     .categoriesN__name {
-        width: 100%;
+        width: 93%;
     }
 
     .categoriesN__name p {
@@ -1096,9 +1097,7 @@ line-height: normal;
         text-decoration: none;
     }
 
-    .company__profile__categories {
-
-    }
+    .company__profile__categories {}
 
     .mySwiper1 {
         width: 100%;
@@ -1137,81 +1136,141 @@ line-height: normal;
         width: 17px;
         height: 17px;
     }
-    .profile__categories__nameadd{
+
+    .profile__categories__nameadd {
         padding: 17px 30px;
         height: initial;
     }
-    .profile__categories__name{
+
+    .profile__categories__name {
         color: #000;
-text-align: center;
-font-size: 13px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+        text-align: center;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
     }
+
     .add__new__category a {
         border-radius: 3px;
-background: #B6DFA2;
-width: 119px;
-height: 17px;
-flex-shrink: 0;
+        background: #B6DFA2;
+        width: 119px;
+        height: 17px;
+        flex-shrink: 0;
     }
+
     .add__new__category a p {
         color: #000;
-text-align: center;
-font-size: 8px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+        text-align: center;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
     }
-    .categoriesN__name{
+
+    .categoriesN__name {
         margin-top: 15px;
     }
-    .categories__swiper__container [class^="swiper-button-next"]{
+
+    .categories__swiper__container [class^="swiper-button-next"] {
         display: none;
         visibility: hidden;
     }
-    .categories__swiper__container [class^="swiper-button-prev"]{
+
+    .categories__swiper__container [class^="swiper-button-prev"] {
         display: none;
         visibility: hidden;
     }
-    .swiper-slide .swiper__recomendation__element{
+
+    .swiper-slide .swiper__recomendation__element {
         height: 102px;
         width: 87px;
+        border-radius: 5px;
+        background: #C4C4C4;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     }
-    .swiper__recomendation__element__desc{
+
+    .swiper__recomendation__element__desc {
         padding: 1px 7px;
     }
-    .swiper__recomendation__element__name{
+
+    .swiper__recomendation__element__name {
         height: 18px;
     }
-    .swiper__recomendation__element__name p{
-        color: #000;
-font-size: 8px;
-font-style: normal;
-font-weight: 700;
-line-height: 9px;
-    }
-    .swiper__recomendation__element__size{
 
+    .swiper__recomendation__element__name p {
+        color: #000;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 9px;
     }
+
+    .swiper__recomendation__element__size {}
+
     .swiper__recomendation__element__size p {
         color: #000;
-font-size: 7px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-top: 1px;
-margin-bottom: 1px;
+        font-size: 7px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 1px;
+        margin-bottom: 1px;
     }
-    .swiper__recomendation__element__material p{
+
+    .swiper__recomendation__element__material p {
         color: #000;
-font-size: 7px;
+        font-size: 7px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .mySwiper1 {
+
+    }
+
+    .mySwiper1 .swiper-slide {
+
+    }
+    .categories__swiper__container{
+        height: 120px;
+    }
+    .categoriesN__wrapper{
+        min-height: initial;
+    }
+    .mySwiper2{
+        width: initial;
+    }
+    .categoriesN__wrapper_showall{
+        width: 93%;
+        margin-top: 10px;
+    }
+    .categoriesN__wrapper_showall a {
+        border-radius: 5px;
+background: #B6DFA2;
+width: 70px;
+height: 17px;
+flex-shrink: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+text-decoration: none;
+    }
+    .categoriesN__wrapper_showall a p {
+        color: #000;
+text-align: center;
+font-family: Gilroy;
+font-size: 8px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+text-decoration: none;
     }
-    .mySwiper1{
-        height: initial;
+    .company__profile__categories{
+        border-radius: 8px 8px 0px 0px;
+    }
+    .profile__categories__nameadd{
+        border-radius: 8px 8px 0px 0px; 
     }
 }
