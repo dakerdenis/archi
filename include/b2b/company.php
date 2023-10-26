@@ -491,17 +491,7 @@
 
 
   <script>
-      const open__mobile__filtr = document.getElementById('open__filtr');
-      const mobile__filtr__block = document.getElementById('mobile__filtr__block');
-      const close__mobile__filtr = document.getElementById('close__mobile__filtr');
 
-      open__mobile__filtr.addEventListener('click', function(event) {
-          mobile__filtr__block.classList.add('mobile__filtr__block_opened');
-      });
-
-      close__mobile__filtr.addEventListener('click', function(event) {
-          mobile__filtr__block.classList.remove('mobile__filtr__block_opened');
-      });
 
       const number = '+994 50 750 69 01';
       const number2 = '+994 55 327 52 69';
@@ -562,6 +552,9 @@
           });
       });
   </script>
+
+
+
   <!-- Initialize Swiper -->
   <script>
       // JavaScript

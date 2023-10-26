@@ -2,10 +2,11 @@
     <div class="header__wrapper">
         <!-------IMAGE-------->
         <div class="header__image header__image_b2b">
-            <a href="./b2b.php">
-                <img src="./imgs/B2B.svg" alt="Archi logo">
+            <a id="b2b__header_link" href="./b2b.php">
+                <img id="b2b__header_image" src="./imgs/B2B.svg" alt="Archi logo">
             </a>
         </div>
+        
         <!-----NAVIGATION------>
         <div class="header__navigation">
             <div class="b2b__header__navigation">
@@ -30,8 +31,8 @@
             </div>
         </div>
         <!-----navigation MOBILE----->
-        <div class="header__navigation__mobile">
-            <p>Книга ремонта</p>
+        <div class="header__navigation__mobile header__navigation__mobile_b2b">
+            <p>Внутренний рынок</p>
         </div>
 
         <!---PROFILE&LANG---->
@@ -80,19 +81,7 @@
                     }
 
                     ?>
-
-
-
-
-
-
-
-
                 </div>
-
-
-
-
             </div>
         </div>
 

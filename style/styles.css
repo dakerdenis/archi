@@ -574,7 +574,6 @@ h6 {
 .mobile__filter__block {
   display: none;
 }
-
 /*! ******************/
 /*! ******************/
 /*! ******************/
@@ -741,6 +740,9 @@ h6 {
     margin-right: 30px;
 
 
+  }
+  .header__navigation__mobile_b2b{
+    width: 120px;
   }
 
   .header__navigation__mobile p {
