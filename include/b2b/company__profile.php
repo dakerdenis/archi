@@ -17,10 +17,6 @@
                         <img src="./imgs/1.jpg" alt="" srcset="">
                     </div>
 
-                    <div class="profile__desc__views">
-                        <img src="./imgs/eye.svg" alt="" srcset="">
-                        <p>1200</p>
-                    </div>
 
                     <div class="profile__desc__social">
                         <div class="profile__desc__social__element">
@@ -51,9 +47,7 @@
                         <p><span>Страна:</span> Скеллиге</p>
                         <p><span>Город:</span> Каэр-Трольде</p>
                     </div>
-                    <div class="profile__desc__date">
-                        <p>Дата основания: 01.02.2023</p>
-                    </div>
+
                     <div class="profile__desc__date__more">
                         <p><span>Добавлено:</span> 01.01.2023</p>
                         <p><span>Обновлено:</span> 15.08.2023</p>
@@ -76,7 +70,7 @@
                 </div>
             </div>
             <div class="company__profile__desc__name">
-                <p>Описание</p>
+                        <p>Дата основания: <span>01.02.2023</span></p>
             </div>
             <div class="company__profile__desc__text">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat possimus, corrupti vel consequuntur, ducimus distinctio, excepturi ratione consectetur saepe quasi eos iure sed earum sequi voluptatum nesciunt quibusdam accusamus ipsa?</p>
