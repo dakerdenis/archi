@@ -319,4 +319,7 @@
     .main__search__element{
         margin-bottom: 13px;
     }
+    .search__element__desc__location div:nth-child(1){
+        margin-right: 10px;
+    }
 }
