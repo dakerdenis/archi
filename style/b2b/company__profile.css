@@ -187,24 +187,27 @@
     margin-top: 12px;
 }
 
-.company__profile__desc__name{
+.company__profile__desc__name {
     margin-top: 34px;
     margin-bottom: 20px;
 }
-.company__profile__desc__name p{
+
+.company__profile__desc__name p {
     color: #000;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
+
 .company__profile__desc__name span {
     color: #000;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
+
 .company__profile__desc__text {
     color: #000;
     font-size: 18px;
@@ -763,7 +766,46 @@ line-height: normal;
     line-height: normal;
 }
 
+.company__profile__content-text_pc {
+    display: block;
+    visibility: visible;
+}
+
+.company__profile__content-text_mobile {
+    display: none;
+    visibility: hidden;
+}
+
+.add__new__category a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: #B6DFA2;
+    width: 227px;
+    height: 40px;
+    flex-shrink: 0;
+}
+.add__new__category a p {
+    color: #000;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
 @media only screen and (max-width: 768px) {
+    .company__profile__content-text_pc {
+        display: none;
+        visibility: hidden;
+    }
+
+    .company__profile__content-text_mobile {
+        display: block;
+        visibility: visible;
+    }
+
     .company__profile__container {
         width: 330px;
     }
@@ -904,6 +946,7 @@ line-height: normal;
         width: initial;
         padding-left: 0;
         border: none;
+        margin-top: 40px;
     }
 
     .profile__sertificates__appbar {
@@ -1013,10 +1056,7 @@ line-height: normal;
         justify-content: space-evenly;
     }
 
-    .profile__categories__nameadd {
-        display: none;
-        visibility: hidden;
-    }
+    .profile__categories__nameadd {}
 
     .categoriesN__name {
         width: 100%;
@@ -1045,27 +1085,133 @@ line-height: normal;
         align-items: center;
         justify-content: center;
     }
+
     .categoriesN__name a p {
+        color: #000;
+        text-align: center;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration: none;
+    }
+
+    .company__profile__categories {
+
+    }
+
+    .mySwiper1 {
+        width: 100%;
+    }
+
+    .swiper__recomendation__element {
+        width: 87px;
+        height: 103px;
+    }
+
+    .swiper__recomendation__element__image {
+        height: 61.2px;
+        width: 87px;
+    }
+
+    .profile__desc__views {
+        display: none;
+        visibility: hidden;
+    }
+
+    .profile__desc__social {
+        width: 150px;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        bottom: -25px;
+        left: 90px;
+    }
+
+    .profile__desc__social__element a {
+        width: 17.6px;
+        height: 17.6px;
+    }
+
+    .profile__desc__social__element img {
+        width: 17px;
+        height: 17px;
+    }
+    .profile__categories__nameadd{
+        padding: 17px 30px;
+        height: initial;
+    }
+    .profile__categories__name{
+        color: #000;
+text-align: center;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    }
+    .add__new__category a {
+        border-radius: 3px;
+background: #B6DFA2;
+width: 119px;
+height: 17px;
+flex-shrink: 0;
+    }
+    .add__new__category a p {
         color: #000;
 text-align: center;
 font-size: 8px;
 font-style: normal;
+font-weight: 700;
+line-height: normal;
+    }
+    .categoriesN__name{
+        margin-top: 15px;
+    }
+    .categories__swiper__container [class^="swiper-button-next"]{
+        display: none;
+        visibility: hidden;
+    }
+    .categories__swiper__container [class^="swiper-button-prev"]{
+        display: none;
+        visibility: hidden;
+    }
+    .swiper-slide .swiper__recomendation__element{
+        height: 102px;
+        width: 87px;
+    }
+    .swiper__recomendation__element__desc{
+        padding: 1px 7px;
+    }
+    .swiper__recomendation__element__name{
+        height: 18px;
+    }
+    .swiper__recomendation__element__name p{
+        color: #000;
+font-size: 8px;
+font-style: normal;
+font-weight: 700;
+line-height: 9px;
+    }
+    .swiper__recomendation__element__size{
+
+    }
+    .swiper__recomendation__element__size p {
+        color: #000;
+font-size: 7px;
+font-style: normal;
 font-weight: 400;
 line-height: normal;
-text-decoration: none;
+margin-top: 1px;
+margin-bottom: 1px;
     }
-    .company__profile__categories{
-        background-color: #d9d9d900;
+    .swiper__recomendation__element__material p{
+        color: #000;
+font-size: 7px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
     }
-    .mySwiper1 {
-        width: 100%;
-    }
-    .swiper__recomendation__element{
-        width: 87px;
-        height: 103px;
-    }
-    .swiper__recomendation__element__image{
-        height: 61.2px;
-        width: 87px;
+    .mySwiper1{
+        height: initial;
     }
 }

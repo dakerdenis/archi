@@ -17,6 +17,10 @@
                         <img src="./imgs/1.jpg" alt="" srcset="">
                     </div>
 
+                    <div class="profile__desc__views">
+                        <img src="./imgs/eye.svg" alt="" srcset="">
+                        <p>1200</p>
+                    </div>
 
                     <div class="profile__desc__social">
                         <div class="profile__desc__social__element">
@@ -47,7 +51,9 @@
                         <p><span>Страна:</span> Скеллиге</p>
                         <p><span>Город:</span> Каэр-Трольде</p>
                     </div>
-
+                    <div class="profile__desc__date">
+                        <p>Дата основания: 01.02.2023</p>
+                    </div>
                     <div class="profile__desc__date__more">
                         <p><span>Добавлено:</span> 01.01.2023</p>
                         <p><span>Обновлено:</span> 15.08.2023</p>
@@ -69,8 +75,9 @@
                     </div>
                 </div>
             </div>
+            <div class="company__profile__content-text_pc">
             <div class="company__profile__desc__name">
-                        <p>Дата основания: <span>01.02.2023</span></p>
+                <p>Описание</p>
             </div>
             <div class="company__profile__desc__text">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat possimus, corrupti vel consequuntur, ducimus distinctio, excepturi ratione consectetur saepe quasi eos iure sed earum sequi voluptatum nesciunt quibusdam accusamus ipsa?</p>
@@ -78,6 +85,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat possimus, corrupti vel consequuntur, ducimus distinctio, excepturi ratione consectetur saepe quasi eos iure sed earum sequi voluptatum nesciunt quibusdam accusamus ipsa?</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat possimus, corrupti vel consequuntur, ducimus distinctio, excepturi ratione consectetur saepe quasi eos iure sed earum sequi voluptatum nesciunt quibusdam accusamus ipsa?</p>
 
+            </div>
             </div>
         </div>
         <!------------->
@@ -164,12 +172,29 @@
                             </div>
                     </div>
                 </div>
+                <div class="company__profile__content-text_mobile">
+            <div class="company__profile__desc__name">
+                <p>Описание</p>
+            </div>
+            <div class="company__profile__desc__text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat possimus, corrupti vel consequuntur, ducimus distinctio, excepturi ratione consectetur saepe quasi eos iure sed earum sequi voluptatum nesciunt quibusdam accusamus ipsa?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat possimus, corrupti vel consequuntur, ducimus distinctio, excepturi ratione consectetur saepe quasi eos iure sed earum sequi voluptatum nesciunt quibusdam accusamus ipsa?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat possimus, corrupti vel consequuntur, ducimus distinctio, excepturi ratione consectetur saepe quasi eos iure sed earum sequi voluptatum nesciunt quibusdam accusamus ipsa?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat possimus, corrupti vel consequuntur, ducimus distinctio, excepturi ratione consectetur saepe quasi eos iure sed earum sequi voluptatum nesciunt quibusdam accusamus ipsa?</p>
+
+            </div>
+            </div>
         </div>
     </div>
     <div class="company__profile__categories">
         <div class="profile__categories__nameadd">
             <div class="profile__categories__name">
                 <p>Ваши Категории</p>
+            </div>
+            <div class="add__new__category">
+                <a href="#">
+                    <p>+ Добавить категории</p>
+                </a>
             </div>
         </div>
 
@@ -194,7 +219,7 @@
                                         </div>
                                         <div class="swiper__recomendation__element__desc">
                                             <div class="swiper__recomendation__element__name">
-                                                <p>Пол ламинат</p>
+                                                <p>Пол ламинат asdasd üüadasd</p>
                                             </div>
                                             <div class="swiper__recomendation__element__size">
                                                 <p>220 х 60 х 22</p>
@@ -565,10 +590,6 @@
 <!-- Initialize Swiper -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
-
-<!-- HTML structure for the Swipers remains the same as in your previous code -->
-
-<!-- JavaScript to set slidesPerView based on screen resolution -->
 <script>
   var swiper1, swiper2, swiper3;
 
@@ -576,12 +597,13 @@
     var viewportWidth = window.innerWidth || document.documentElement.clientWidth;
 
     if (viewportWidth < 768) {
-      // Set slidesPerView to 3 for screens less than 768 pixels wide
+      // Set slidesPerView to 3 and disable navigation for Swiper 1 and Swiper 2
       if (!swiper1 || !swiper2 || !swiper3) {
-        // Initialize Swipers if they haven't been initialized yet
+        // Initialize Swiper 1 and Swiper 2 if they haven't been initialized yet
         swiper1 = new Swiper(".mySwiper1", {
           slidesPerView: 3,
-          freeMode: true,
+          allowSlideNext: false,
+          allowSlidePrev: false,
           navigation: {
             nextEl: ".swiper-button-next-1",
             prevEl: ".swiper-button-prev-1",
@@ -589,32 +611,42 @@
         });
         swiper2 = new Swiper(".mySwiper2", {
           slidesPerView: 3,
-          freeMode: true,
+          allowSlideNext: false,
+          allowSlidePrev: false,
           navigation: {
             nextEl: ".swiper-button-next-2",
             prevEl: ".swiper-button-prev-2",
           },
         });
+
+        // Initialize Swiper 3 with 2 slides per view and enable navigation
         swiper3 = new Swiper(".mySwiper3", {
           slidesPerView: 2,
           freeMode: true,
-          spaceBetween: 0,
           navigation: {
             nextEl: ".swiper-button-next-3",
             prevEl: ".swiper-button-prev-3",
           },
         });
       } else {
-        // If Swipers are already initialized, just update slidesPerView
+        // If Swipers are already initialized, update slidesPerView and disable navigation for Swiper 1 and Swiper 2
         swiper1.params.slidesPerView = 3;
         swiper2.params.slidesPerView = 3;
-        swiper3.params.slidesPerView = 2;
+        swiper1.params.allowSlideNext = false;
+        swiper1.params.allowSlidePrev = false;
+        swiper2.params.allowSlideNext = false;
+        swiper2.params.allowSlidePrev = false;
         swiper1.update();
         swiper2.update();
+
+        // Update Swiper 3 with 2 slides per view and enable navigation
+        swiper3.params.slidesPerView = 2;
+        swiper3.params.navigation.nextEl = ".swiper-button-next-3";
+        swiper3.params.navigation.prevEl = ".swiper-button-prev-3";
         swiper3.update();
       }
     } else {
-      // Set slidesPerView to 5 for screens 768 pixels and wider
+      // Set slidesPerView to 5 for screens 768 pixels and wider and enable navigation
       if (!swiper1 || !swiper2 || !swiper3) {
         // Initialize Swipers if they haven't been initialized yet
         swiper1 = new Swiper(".mySwiper1", {
@@ -633,6 +665,8 @@
             prevEl: ".swiper-button-prev-2",
           },
         });
+
+        // Initialize Swiper 3 with 1 slide per view and enable navigation
         swiper3 = new Swiper(".mySwiper3", {
           slidesPerView: 1,
           freeMode: true,
@@ -642,12 +676,18 @@
           },
         });
       } else {
-        // If Swipers are already initialized, just update slidesPerView
+        // If Swipers are already initialized, update slidesPerView and enable navigation
         swiper1.params.slidesPerView = 5;
         swiper2.params.slidesPerView = 5;
-        swiper3.params.slidesPerView = 1;
+        swiper1.params.allowSlideNext = true;
+        swiper1.params.allowSlidePrev = true;
+        swiper2.params.allowSlideNext = true;
+        swiper2.params.allowSlidePrev = true;
         swiper1.update();
         swiper2.update();
+        swiper3.params.slidesPerView = 1;
+        swiper3.params.allowSlideNext = true;
+        swiper3.params.allowSlidePrev = true;
         swiper3.update();
       }
     }
@@ -657,3 +697,4 @@
   window.addEventListener("load", updateSwipers);
   window.addEventListener("resize", updateSwipers);
 </script>
+
