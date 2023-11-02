@@ -466,7 +466,9 @@ h6 {
 .footer .footer__wrapper .footer__nav .footer__nav__wrapper .footer__nav__block .footer__nav__element a {
   margin-bottom: 6px;
 }
-
+.footer__nav__element{
+  margin-bottom: 7px;
+}
 .footer .footer__wrapper .footer__nav .footer__nav__wrapper .footer__nav__block .footer__nav__element a p {
   color: #ffffff;
   font-size: 18px;
