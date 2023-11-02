@@ -181,7 +181,53 @@
                             <div class="element__name">
                                 <p>Название какой-нибудь компании</p>
                             </div>
-                            
+
+                            <div class="element__location">
+                                <div>
+                                    <p>Страна:</p>
+                                    <p>Туркменистан</p>
+                                </div>
+
+                                <div>
+                                    <p>Город:</p>
+                                    <p>Усть-Новокузнецк малый</p>
+                                </div>
+                            </div>
+
+                            <div class="element__tags">
+                                <p>#pol</p>
+                                <p>#сталкер</p>
+                                <p>#pol</p>
+                                <p>#сталкер</p>
+                                <p>#pol</p>
+                                <p>#сталкер</p>
+                            </div>
+                        </div>
+
+                        <div class="element__more">
+                            <a href="#">
+                                <p>Подробнее</p>
+                            </a>
+                        </div>
+
+
+                    </div>
+                </div>
+                <!------>
+
+                <!------>
+                <div class="profile__buisness__element">
+                    <div class="element__wrapper">
+
+                        <div class="element__foto">
+                            <img src="./imgs/1.jpg" alt="">
+                        </div>
+
+                        <div class="element__desc">
+                            <div class="element__name">
+                                <p>Название какой-нибудь компании</p>
+                            </div>
+
                             <div class="element__location">
                                 <div>
                                     <p>Страна:</p>
