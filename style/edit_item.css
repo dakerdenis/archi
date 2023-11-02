@@ -68,6 +68,8 @@
     font-weight: 700;
     line-height: normal;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .edit__items__sertificates__name {
@@ -189,4 +191,119 @@
     display: none;
     text-align: center;
     cursor: pointer;
+    margin-top: 5px;
 }
+
+
+
+
+
+
+
+
+
+
+
+.edit__items__sertificates__container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.document-input {
+    text-align: center;
+    position: relative;
+}
+
+.document-input input {
+    display: none;
+}
+
+.document-input label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 111px;
+    height: 111px;
+    flex-shrink: 0;
+    border-radius: 11px;
+    background: rgba(196, 196, 196, 0.40);
+    color: #858282;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.file-preview {
+    border-radius: 11px;
+    width: 111px;
+    height: 111px;
+    object-fit: cover;
+    display: none;
+}
+
+.file-info {
+    margin-top: 5px;
+}
+
+.file-name {
+    width: 111px;
+    height: 21px;
+    color: #000;
+text-align: center;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    overflow: hidden;
+}
+
+.file-error {
+    color: red;
+}
+/* Add a class for the hover effect */
+.file-preview:hover::before {
+
+}
+
+/* Hide the "Delete" text by default */
+.file-preview::before {
+    content: '';
+    display: none;
+}
+
+/* Style the placeholder image */
+.file-preview {
+    border-radius: 11px;
+    width: 111px;
+    height: 111px;
+    object-fit: cover;
+    z-index: 100;
+    cursor: pointer;
+}
+.delete__text{
+    display: none;
+    position: absolute;
+    top: 36%;
+    width: 50px;
+    left: calc(50% - 25px);
+    background-color: aliceblue;
+    color: #000;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 5px;
+    z-index: 400;
+}
+.file-preview:hover .delete__text{
+    display: block;
+}
+/* Add more styling as needed */
+
+/* Add more styling as needed */
