@@ -69,7 +69,8 @@
                 </p>
             </div>
 
-            <div class="article__review">
+            <div class="article__reviews__container">
+            <form class="article__review">
                 <div class="article__review__desc">
                     <p>
                         Насколько полезной вы считаете статью о паркете
@@ -98,8 +99,15 @@
                         <span class="custom-radio"></span> Не могу сказать
                     </label>
                 </div>
+            </form>
 
+            <div class="article__review__button">
+                <button>
+                    <p>Проголосовать</p>
+                </button>
             </div>
+            </div>
+
 
             <div class="article__addtitional__desc">
                 <p>

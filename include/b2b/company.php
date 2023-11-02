@@ -113,7 +113,7 @@
                                       <p>Добавлено: 01.01.2023</p>
                                   </div>
                                   <div class="b2b__company__updated">
-                                      <p>Добавлено: 01.01.2023</p>
+                                      <p>Обновлено: 01.01.2023</p>
                                   </div>
                                   <div class="company__desc__contact">
                                       <div class="company__desc__contactbutton">
