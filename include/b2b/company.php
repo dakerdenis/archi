@@ -101,11 +101,11 @@
                                   <div class="b2b__company__country_wrapper">
                                       <div class="b2b__company__city">
                                           <p>Страна:</p>
-                                          <p>Узбекистан</p>
+                                          <p>Азербайджан</p>
                                       </div>
                                       <div class="b2b__company__city">
                                           <p>Город:</p>
-                                          <p>Усть-Новоколамск</p>
+                                          <p>Ağ-Cəbədi</p>
                                       </div>
                                   </div>
 

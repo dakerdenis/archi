@@ -840,4 +840,15 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
     }
+    .b2b__company__certificates .swiper{
+        width: 95%;
+        margin-left: initial;
+        margin-right: initial;
+    }
+    .b2b__company__country_wrapper{
+        justify-content: initial;
+    }
+    .b2b__company__city:nth-child(1){
+        margin-right: 4px;
+    }
 }

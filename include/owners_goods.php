@@ -23,7 +23,7 @@
 <div class="goods__page__container">
     <div class="goods__owner__addgoods">
         <a href="./index.php?page=new_item">
-            <p> + Добавить товар </p>
+            <img src="./imgs/plus_1.jpg" alt="">
         </a>
     </div>
     <div class="goods__page__wrapper">
@@ -75,6 +75,9 @@
                 <!------------>
                 <a href="./index.php?page=item" class="goods__page__element">
                     <div class="page__element__image">
+                        <div class="delete__element_">
+                            <img src="./imgs/x.png" alt="">
+                        </div>
                         <img src="./imgs/1.jpg" alt="">
                     </div>
                     <div class="page__element__content">
@@ -90,108 +93,19 @@
                     </div>
                 </a>
                 <!------------> <!------------>
-                <a href="./index.php?page=item" class="goods__page__element">
-                    <div class="page__element__image">
-                        <img src="./imgs/1.jpg" alt="">
-                    </div>
-                    <div class="page__element__content">
-                        <div class="page__element__name">
-                            <p>Товар китай покемон fasfasfasf</p>
-                        </div>
-                        <div class="page__element__size">
-                            <p>210 x 300 x 69</p>
-                        </div>
-                        <div class="page__element__material">
-                            <p>материал</p>
-                        </div>
-                    </div>
-                </a>
-                <!------------> <!------------>
-                <a href="./index.php?page=item" class="goods__page__element">
-                    <div class="page__element__image">
-                        <img src="./imgs/1.jpg" alt="">
-                    </div>
-                    <div class="page__element__content">
-                        <div class="page__element__name">
-                            <p>Товар китай покемон fasfasfasf</p>
-                        </div>
-                        <div class="page__element__size">
-                            <p>210 x 300 x 69</p>
-                        </div>
-                        <div class="page__element__material">
-                            <p>материал</p>
-                        </div>
-                    </div>
-                </a>
-                <!------------> <!------------>
-                <a href="./index.php?page=item" class="goods__page__element">
-                    <div class="page__element__image">
-                        <img src="./imgs/1.jpg" alt="">
-                    </div>
-                    <div class="page__element__content">
-                        <div class="page__element__name">
-                            <p>Товар китай покемон fasfasfasf</p>
-                        </div>
-                        <div class="page__element__size">
-                            <p>210 x 300 x 69</p>
-                        </div>
-                        <div class="page__element__material">
-                            <p>материал</p>
-                        </div>
-                    </div>
-                </a>
-                <!------------> <!------------>
-                <a href="./index.php?page=item" class="goods__page__element">
-                    <div class="page__element__image">
-                        <img src="./imgs/1.jpg" alt="">
-                    </div>
-                    <div class="page__element__content">
-                        <div class="page__element__name">
-                            <p>Товар китай покемон fasfasfasf</p>
-                        </div>
-                        <div class="page__element__size">
-                            <p>210 x 300 x 69</p>
-                        </div>
-                        <div class="page__element__material">
-                            <p>материал</p>
-                        </div>
-                    </div>
-                </a>
-                <!------------> <!------------>
-                <a href="./index.php?page=item" class="goods__page__element">
-                    <div class="page__element__image">
-                        <img src="./imgs/1.jpg" alt="">
-                    </div>
-                    <div class="page__element__content">
-                        <div class="page__element__name">
-                            <p>Товар китай покемон fasfasfasf</p>
-                        </div>
-                        <div class="page__element__size">
-                            <p>210 x 300 x 69</p>
-                        </div>
-                        <div class="page__element__material">
-                            <p>материал</p>
-                        </div>
-                    </div>
-                </a>
-                <!------------> <!------------>
-                <a href="./index.php?page=item" class="goods__page__element">
-                    <div class="page__element__image">
-                        <img src="./imgs/1.jpg" alt="">
-                    </div>
-                    <div class="page__element__content">
-                        <div class="page__element__name">
-                            <p>Товар китай покемон fasfasfasf</p>
-                        </div>
-                        <div class="page__element__size">
-                            <p>210 x 300 x 69</p>
-                        </div>
-                        <div class="page__element__material">
-                            <p>материал</p>
-                        </div>
-                    </div>
-                </a>
-                <!------------>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
             </div>
         </div>

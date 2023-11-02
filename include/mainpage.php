@@ -246,6 +246,9 @@
             <br>
             
             <a style="color: red; margin-bottom: 10px;" href="./b2b.php?page=company__profile">B2B - Company Profile</a>
+            <br>
+            
+            <a style="color: red; margin-bottom: 10px;" href="./b2b.php?page=owners__goods">B2B - Owner's goods</a>
             
              </div>
 

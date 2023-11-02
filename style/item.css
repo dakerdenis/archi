@@ -503,6 +503,7 @@
     .item__tags {
         width: 146px;
         margin-bottom: 8px;
+        height: initial;
     }
 
     .item__tags p {
@@ -684,5 +685,11 @@ line-height: normal;
     .item__articles__container [class^="swiper-button-prev"]{
         left: -24px;
         transform: scale(0.7);
+    }
+    .item__name{
+        width: 146px;
+    }
+    .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 0 3.5px;
     }
 }
