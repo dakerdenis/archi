@@ -124,7 +124,7 @@
     background: #B6DFA2;
 }
 
-.edit__item__fotography__container{
+.edit__item__fotography__container {
     display: flex;
     justify-content: space-between;
 }
@@ -204,7 +204,7 @@
 
 
 
-.edit__items__sertificates__container{
+.edit__items__sertificates__container {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -253,11 +253,11 @@
     width: 111px;
     height: 21px;
     color: #000;
-text-align: center;
-font-size: 10px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     display: block;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -268,10 +268,9 @@ line-height: normal;
 .file-error {
     color: red;
 }
-/* Add a class for the hover effect */
-.file-preview:hover::before {
 
-}
+/* Add a class for the hover effect */
+.file-preview:hover::before {}
 
 /* Hide the "Delete" text by default */
 .file-preview::before {
@@ -288,7 +287,8 @@ line-height: normal;
     z-index: 100;
     cursor: pointer;
 }
-.delete__text{
+
+.delete__text {
     display: none;
     position: absolute;
     top: 36%;
@@ -301,9 +301,145 @@ line-height: normal;
     border-radius: 5px;
     z-index: 400;
 }
-.file-preview:hover .delete__text{
+
+.file-preview:hover .delete__text {
     display: block;
 }
+
 /* Add more styling as needed */
 
 /* Add more styling as needed */
+.edit__items__delete__save {
+    margin-top: 33px;
+}
+
+.file-error {
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: red;
+}
+
+@media only screen and (max-width: 768px) {
+    .edit__item__name {
+        color: #000;
+        text-align: center;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .edit__item__category {
+        color: #000;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 15px;
+    }
+
+    .edit__item__tags {
+        font-size: 10px;
+    }
+
+    .edit__item__size {
+        font-size: 10px;
+    }
+
+    .edit__item__country_company {
+        color: #000;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .image-input {
+        width: 52px;
+        height: 65px;
+    }
+
+    .image-input label {
+        width: 52px;
+        height: 52px;
+    }
+
+    .edit__item__wrapper {
+        width: 336px;
+    }
+
+    .edit__items__sertificates__name {
+        color: #000;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .edit__item__fotography__name {
+        color: #000;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .image-input img {
+        width: 52px;
+        height: 52px;
+    }
+
+    .document-input label {
+        width: 52px;
+        height: 52px;
+    }
+
+    .document-input {
+        width: 52px;
+        height: 65px;
+    }
+
+    .file-name {
+        width: 50px;
+    }
+
+    .file-preview {
+        width: 52px;
+        height: 52px;
+    }
+
+    .edit__items__delete {
+        width: 114px;
+        height: 24px;
+        flex-shrink: 0;
+        border-radius: 5px;
+    }
+    .edit__items__delete a p{
+        color: #000;
+text-align: center;
+font-size: 8px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    }
+
+
+    .edit__items__save {
+        width: 114px;
+        height: 24px;
+        flex-shrink: 0;
+        border-radius: 5px;
+    }
+    .edit__items__save a p{
+        color: #000;
+text-align: center;
+font-size: 8px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    }
+}

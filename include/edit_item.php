@@ -77,7 +77,6 @@
                 <div class="document-input">
                     <input type="file" accept=".pdf,.doc,.docx,.xls,.xlsx" id="fileInput1" class="file-input">
                     <label for="fileInput1" class="file-button">+</label>
-                    <div class="delete__text">Delete</div>
                     <img src="./imgs/test_cert.jpg" class="file-preview">
                     <div class="file-info">
                         <span class="file-name">No file selected</span>
