@@ -25,8 +25,38 @@
                 <p>Фотографии</p>
             </div>
             <div class="edit__item__fotography__container">
-
+                <div class="image-input">
+                    <input type="file" accept="image/*" id="imageInput1" class="image-file-input">
+                    <label for="imageInput1" class="image-button">+</label>
+                    <img src="" class="image-preview">
+                    <span class="change-image"><p>Delete</p></span>
+                </div>
+                <div class="image-input">
+                    <input type="file" accept="image/*" id="imageInput2" class="image-file-input">
+                    <label for="imageInput2" class="image-button">+</label>
+                    <img src="" class="image-preview">
+                    <span class="change-image"><p>Delete</p></span>
+                </div>
+                <div class="image-input">
+                    <input type="file" accept="image/*" id="imageInput3" class="image-file-input">
+                    <label for="imageInput3" class="image-button">+</label>
+                    <img src="" class="image-preview">
+                    <span class="change-image"><p>Delete</p></span>
+                </div>
+                <div class="image-input">
+                    <input type="file" accept="image/*" id="imageInput4" class="image-file-input">
+                    <label for="imageInput4" class="image-button">+</label>
+                    <img src="" class="image-preview">
+                    <span class="change-image"><p>Delete</p></span>
+                </div>
+                <div class="image-input">
+                    <input type="file" accept="image/*" id="imageInput5" class="image-file-input">
+                    <label for="imageInput5" class="image-button">+</label>
+                    <img src="" class="image-preview">
+                    <span class="change-image"><p>Delete</p></span>
+                </div>
             </div>
+
         </div>
         <div class="edit__items__sertificates">
             <div class="edit__items__sertificates__name">
@@ -52,3 +82,40 @@
 
     </div>
 </div>
+
+<script>
+    // Handle each image input separately
+    $('.image-file-input').on('change', function() {
+        const $input = $(this);
+        const $parent = $input.closest('.image-input');
+        const $preview = $parent.find('.image-preview');
+        const $button = $parent.find('.image-button');
+        const $changeImage = $parent.find('.change-image');
+
+        if ($input[0].files && $input[0].files[0]) {
+            const fileReader = new FileReader();
+            fileReader.onload = function(e) {
+                $preview.attr('src', e.target.result);
+                $button.css('display', 'none');
+                $preview.css('display', 'block');
+                $changeImage.css('display', 'block');
+            };
+            fileReader.readAsDataURL($input[0].files[0]);
+        }
+    });
+
+    // Handle the "Choose different image" action for each input
+    $('.change-image').on('click', function() {
+        const $control = $(this);
+        const $parent = $control.closest('.image-input');
+        const $input = $parent.find('.image-file-input');
+        const $preview = $parent.find('.image-preview');
+        const $button = $parent.find('.image-button');
+
+        $input.val('');
+        $preview.attr('src', '');
+        $preview.css('display', 'none');
+        $control.css('display', 'none');
+        $button.css('display', 'flex');
+    });
+</script>
