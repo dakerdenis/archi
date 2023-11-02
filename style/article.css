@@ -373,7 +373,7 @@ fieldset {
     margin: 0 auto;
 }
 .article__recomendation {
-
+    margin: 0 auto;
     max-width: 1188px;
     margin-bottom: 80px;
     border-radius: 17px;
