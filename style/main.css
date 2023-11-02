@@ -492,5 +492,22 @@ line-height: normal;
         line-height: normal;
         padding-left: 22px;
     }
-    
+    .survey__button__block button{
+        width: 104.257px;
+height: 23.542px;
+flex-shrink: 0;
+border-radius: 5px;
+background: rgba(69, 198, 9, 0.50);
+    }
+    .survey__button__block button p {
+        color: #000;
+text-align: center;
+font-size: 8px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    }
+    .survey__button{
+        margin-top: 33px;
+    }
 }
