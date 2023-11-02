@@ -215,6 +215,14 @@
                 </div>
             </div>
         </div>
+        
+        <div class="survey__button">
+            <div class="survey__button__block">
+                <button>
+                    <p>Проголосовать</p>
+                </button>
+            </div>
+        </div>
 </div>
     <br><br><br><br><br><br><br><br><br><br>
         <div style="display: flex; flex-direction: column; width:350px; margin: 0 auto; border-radius: 10px; padding: 20px; box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2)">
