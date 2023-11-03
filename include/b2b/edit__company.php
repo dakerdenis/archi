@@ -115,26 +115,17 @@
 
         <div class="edit__company__name edit__company__name_sert">
             <p>Редактирование сертификатов</p>
-            <p>
+            <p id="openPopup">
                 <img src="./imgs/plus.png" alt="">
             </p>
         </div>
         <div class="edit__company__wrapper">
-            <div class="edit__company__input">
-                <input type="text" placeholder="Ссылка Whatsapp">
+            <div class="edit__company__certificate">
+                <div class="edit__company__certificate__name">
+                    <p>Название сертификата</p>
+                </div>
             </div>
-            <div class="edit__company__input">
-                <input type="text" placeholder="Ссылка Instagram">
-            </div>
-            <div class="edit__company__input">
-                <input type="text" placeholder="Ссылка Facebook">
-            </div>
-            <div class="edit__company__input">
-                <input type="text" placeholder="Ссылка Linkedin">
-            </div>
-            <div class="edit__company__input">
-                <input type="text" placeholder="Ссылка на сайт">
-            </div>
+
         </div>
 
         <div class="edit__company__submit">
@@ -145,6 +136,24 @@
     </form>
 
 </div>
+
+
+
+
+<div class="popup-overlay" id="popupOverlay">
+        <div class="popup" id="popup">
+            <span class="close" id="closePopup">X</span>
+            <div class="popup__content">
+                <div class="popup__name">
+                *Размер файла не более 5мб
+                </div>
+                <div class="popup__input">
+
+                </div>
+                .popup__
+            </div>
+        </div>
+    </div>
 
 
 <!-- Initialize Swiper -->
@@ -174,4 +183,34 @@
             prevEl: ".swiper-button-prev0"
         }
     });
+
+
+
+
+
+
+
+    const openPopupButton = document.getElementById("openPopup");
+const popupOverlay = document.getElementById("popupOverlay");
+const closePopupButton = document.getElementById("closePopup");
+
+openPopupButton.addEventListener("click", function () {
+    popupOverlay.style.display = "block";
+});
+
+closePopupButton.addEventListener("click", function () {
+    popupOverlay.style.display = "none";
+});
+
+popupOverlay.addEventListener("click", function (event) {
+    if (event.target === popupOverlay) {
+        popupOverlay.style.display = "none";
+    }
+});
+
+document.addEventListener("keydown", function (event) {
+    if (event.key === "Escape") {
+        popupOverlay.style.display = "none";
+    }
+});
 </script>
