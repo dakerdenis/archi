@@ -224,20 +224,20 @@
             <a style="color: red; margin-bottom: 10px;" href="./index.php?page=article">Статья</a>
             <a style="color: red; margin-bottom: 10px;" href="./index.php?page=goods">Все товары</a>
             <a style="color: red; margin-bottom: 10px;" href="./index.php?page=new_buisness">Добавление бизнеса</a>
-            <a style="color: red; margin-bottom: 10px;" href="./index.php?page=new_item">Добавление Товара</a>
-            <a style="color: red; margin-bottom: 10px;" href="./index.php?page=edit_item">Редактирование Товара</a>
+            <a style="color: red; margin-bottom: 10px;" href="./index.php?page=new_item">Добавление Товара (иконки добавления ?)</a>
+            <a style="color: red; margin-bottom: 10px;" href="./index.php?page=edit_item">Редактирование Товара (иконки Редактирования ?)</a>
             <a style="color: red; margin-bottom: 10px;" href="./index.php?page=new_article">Новая статья</a>
             <a style="color: red; margin-bottom: 10px;" href="./index.php?page=edit_article">Редактировать статью</a>
             <br>
             <a style="color: red; margin-bottom: 10px;" href="./index.php?page=my_article">Мои статьи</a>
             <br>
             <a style="color: red; margin-bottom: 10px;" href="./index.php?page=change_status">Смена статуса</a>
-            <a style="color: red; margin-bottom: 10px;" href="./index.php?login=yes">Пользователь вошёл</a>
+            <a style="color: red; margin-bottom: 10px;" href="./index.php?login=yes">Пользователь вошёл (смотреть наверху справа) </a>
             <br>
             <a style="color: red; margin-bottom: 10px;" href="./index.php?page=owners_goods">Список товаров владельца ?</a>
             <br>
             
-            <a style="color: red; margin-bottom: 10px;" href="./b2b.php?page=company__profile">B2B - Company Profile</a>
+            <a style="color: red; margin-bottom: 10px;" href="./b2b.php?page=company__profile">B2B - кабинет личный ? редактирование ? </a>
             
              </div>
 
