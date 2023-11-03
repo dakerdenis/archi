@@ -5,7 +5,6 @@
     <?php include './style/b2b/company__profile.css' ?>
     /********GOES SECOND************/
     <?php include './style/b2b/edit__company.css' ?>
-
 </style>
 <div class="company__profile__container">
     <div class="company__profile__name">
@@ -69,6 +68,9 @@
         <!------------->
     </div>
     <form action="" class="edit__company__form">
+        <div class="edit__company__name">
+            <p>Редактирование данных</p>
+        </div>
         <div class="edit__company__wrapper">
             <div class="edit__company__input">
                 <input type="text" placeholder="Изменить название бизнеса">
@@ -90,6 +92,51 @@
             </div>
         </div>
 
+        <div class="edit__company__name">
+            <p>Редактирование ссылок</p>
+        </div>
+        <div class="edit__company__wrapper">
+            <div class="edit__company__input">
+                <input type="text" placeholder="Ссылка Whatsapp">
+            </div>
+            <div class="edit__company__input">
+                <input type="text" placeholder="Ссылка Instagram">
+            </div>
+            <div class="edit__company__input">
+                <input type="text" placeholder="Ссылка Facebook">
+            </div>
+            <div class="edit__company__input">
+                <input type="text" placeholder="Ссылка Linkedin">
+            </div>
+            <div class="edit__company__input">
+                <input type="text" placeholder="Ссылка на сайт">
+            </div>
+        </div>
+
+        <div class="edit__company__name edit__company__name_sert">
+            <p>Редактирование сертификатов</p>
+            <p>
+                <img src="./imgs/plus.png" alt="">
+            </p>
+        </div>
+        <div class="edit__company__wrapper">
+            <div class="edit__company__input">
+                <input type="text" placeholder="Ссылка Whatsapp">
+            </div>
+            <div class="edit__company__input">
+                <input type="text" placeholder="Ссылка Instagram">
+            </div>
+            <div class="edit__company__input">
+                <input type="text" placeholder="Ссылка Facebook">
+            </div>
+            <div class="edit__company__input">
+                <input type="text" placeholder="Ссылка Linkedin">
+            </div>
+            <div class="edit__company__input">
+                <input type="text" placeholder="Ссылка на сайт">
+            </div>
+        </div>
+
         <div class="edit__company__submit">
             <button>
                 <p>Сохранить изменения</p>
@@ -106,25 +153,25 @@
 
 <!-- Initialize Swiper -->
 <script>
-// Swiper 1
-var swiper1 = new Swiper(".mySwiper1", {
-    slidesPerView: 5,
-    spaceBetween: 35,
-    freeMode: true,
-    navigation: {
-        nextEl: ".swiper-button-next1",
-        prevEl: ".swiper-button-prev1"
-    }
-});
+    // Swiper 1
+    var swiper1 = new Swiper(".mySwiper1", {
+        slidesPerView: 5,
+        spaceBetween: 35,
+        freeMode: true,
+        navigation: {
+            nextEl: ".swiper-button-next1",
+            prevEl: ".swiper-button-prev1"
+        }
+    });
 
-// Swiper 2
-var swiper2 = new Swiper(".mySwiper0", {
-    slidesPerView: 1,
-    spaceBetween: 35,
-    freeMode: false,
-    navigation: {
-        nextEl: ".swiper-button-next0",
-        prevEl: ".swiper-button-prev0"
-    }
-});
+    // Swiper 2
+    var swiper2 = new Swiper(".mySwiper0", {
+        slidesPerView: 1,
+        spaceBetween: 35,
+        freeMode: false,
+        navigation: {
+            nextEl: ".swiper-button-next0",
+            prevEl: ".swiper-button-prev0"
+        }
+    });
 </script>
