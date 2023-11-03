@@ -113,6 +113,11 @@
             </div>
         </div>
 
+
+
+
+
+
         <div class="edit__company__name edit__company__name_sert">
             <p>Редактирование сертификатов</p>
             <p id="openPopup">
@@ -123,6 +128,18 @@
             <div class="edit__company__certificate">
                 <div class="edit__company__certificate__name">
                     <p>Название сертификата</p>
+                    <p>
+                        <img src="./imgs/delete.png" alt="">
+                    </p>
+                </div>
+            </div>
+
+            <div class="edit__company__certificate">
+                <div class="edit__company__certificate__name">
+                    <p>Название сертификата</p>
+                    <p>
+                        <img src="./imgs/delete.png" alt="">
+                    </p>
                 </div>
             </div>
 
@@ -141,19 +158,30 @@
 
 
 <div class="popup-overlay" id="popupOverlay">
-        <div class="popup" id="popup">
-            <span class="close" id="closePopup">X</span>
-            <div class="popup__content">
-                <div class="popup__name">
+    <div class="popup" id="popup">
+        <span class="close" id="closePopup">X</span>
+        <form class="popup__content">
+            <div class="popup__name">
                 *Размер файла не более 5мб
-                </div>
-                <div class="popup__input">
-
-                </div>
-                .popup__
             </div>
-        </div>
+            <div class="popup__input">
+                <div class="file-upload">
+                    <input type="file" id="fileInput" accept=".pdf, .xlsx, .docx" style="display: none;">
+                    <label for="fileInput" class="custom-label">
+                        Загрузите Сертификат
+                    </label>
+                    <p>+</p>
+                </div>
+            </div>
+            <p class="error-message" style="color: red; display: none;">File size exceeds 5MB</p>
+            <div class="popup__upload">
+                <button type="submit">
+                    <p>Загрузить</p>
+                </button>
+            </div>
+        </form>
     </div>
+</div>
 
 
 <!-- Initialize Swiper -->
@@ -191,26 +219,65 @@
 
 
     const openPopupButton = document.getElementById("openPopup");
-const popupOverlay = document.getElementById("popupOverlay");
-const closePopupButton = document.getElementById("closePopup");
+    const popupOverlay = document.getElementById("popupOverlay");
+    const closePopupButton = document.getElementById("closePopup");
 
-openPopupButton.addEventListener("click", function () {
-    popupOverlay.style.display = "block";
-});
+    openPopupButton.addEventListener("click", function() {
+        popupOverlay.style.display = "block";
+    });
 
-closePopupButton.addEventListener("click", function () {
-    popupOverlay.style.display = "none";
-});
-
-popupOverlay.addEventListener("click", function (event) {
-    if (event.target === popupOverlay) {
+    closePopupButton.addEventListener("click", function() {
         popupOverlay.style.display = "none";
-    }
-});
+    });
 
-document.addEventListener("keydown", function (event) {
-    if (event.key === "Escape") {
-        popupOverlay.style.display = "none";
+    popupOverlay.addEventListener("click", function(event) {
+        if (event.target === popupOverlay) {
+            popupOverlay.style.display = "none";
+        }
+    });
+
+    document.addEventListener("keydown", function(event) {
+        if (event.key === "Escape") {
+            popupOverlay.style.display = "none";
+        }
+    });
+
+
+
+
+
+
+
+
+
+
+
+    const fileInput = document.getElementById('fileInput');
+    const fileLabel = document.querySelector('.custom-label');
+    const errorMessage = document.querySelector('.error-message');
+
+    fileInput.addEventListener('change', handleFileSelection);
+
+    function handleFileSelection() {
+        const selectedFile = fileInput.files[0];
+
+        if (selectedFile) {
+            if (selectedFile.size > 1 * 1024 * 1024) {
+                errorMessage.style.display = 'block';
+                fileLabel.innerText = 'Загрузите Сертификат';
+            } else {
+                errorMessage.style.display = 'none';
+                fileLabel.innerText = selectedFile.name;
+            }
+        } else {
+            errorMessage.style.display = 'none';
+            fileLabel.innerText = 'Загрузите Сертификат';
+        }
     }
-});
+
+    fileLabel.addEventListener('click', () => {
+        fileInput.value = null;
+        errorMessage.style.display = 'none';
+        fileLabel.innerText = 'Загрузите Сертификат';
+    });
 </script>
