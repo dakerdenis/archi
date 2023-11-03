@@ -127,9 +127,6 @@
                         <div class="appbar__name">
                             <p>Сертификаты</p>
                         </div>
-                        <div class="appbar__add">
-                            <a href="#">+</a>
-                        </div>
                     </div>
 
 
