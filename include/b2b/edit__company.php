@@ -175,7 +175,7 @@
             </div>
             <p class="error-message" style="color: red; display: none;">File size exceeds 5MB</p>
             <div class="popup__upload">
-                <button type="submit">
+                <button id="upload__okay" type="submit">
                     <p>Загрузить</p>
                 </button>
             </div>
@@ -253,31 +253,31 @@
 
 
     const fileInput = document.getElementById('fileInput');
-    const fileLabel = document.querySelector('.custom-label');
-    const errorMessage = document.querySelector('.error-message');
+const fileLabel = document.querySelector('.custom-label');
 
-    fileInput.addEventListener('change', handleFileSelection);
+fileInput.addEventListener('change', handleFileSelection);
 
-    function handleFileSelection() {
-        const selectedFile = fileInput.files[0];
+function handleFileSelection() {
+    const selectedFile = fileInput.files[0];
 
-        if (selectedFile) {
-            if (selectedFile.size > 1 * 1024 * 1024) {
-                errorMessage.style.display = 'block';
-                fileLabel.innerText = 'Загрузите Сертификат';
-            } else {
-                errorMessage.style.display = 'none';
-                fileLabel.innerText = selectedFile.name;
-            }
+    if (selectedFile) {
+        if (selectedFile.size > 5 * 1024 * 1024) {
+            fileLabel.innerText = 'Файл превышает допустимый размер!';
+            fileLabel.style.color = 'red';
         } else {
-            errorMessage.style.display = 'none';
-            fileLabel.innerText = 'Загрузите Сертификат';
+            fileLabel.innerText = selectedFile.name;
+            fileLabel.style.color = 'initial';
         }
-    }
-
-    fileLabel.addEventListener('click', () => {
-        fileInput.value = null;
-        errorMessage.style.display = 'none';
+    } else {
         fileLabel.innerText = 'Загрузите Сертификат';
-    });
+        fileLabel.style.color = 'initial';
+    }
+}
+
+fileLabel.addEventListener('click', () => {
+    fileInput.value = null;
+    fileLabel.innerText = 'Загрузите Сертификат';
+    fileLabel.style.color = 'initial';
+});
+
 </script>
