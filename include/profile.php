@@ -158,11 +158,114 @@
     </div>
     <div class="profile__buisness_section">
         <div class="profile__buisness_create">
+            <div class="profile__buisness_create__name">
+                <p>Мои бизнесы</p>
+            </div>
             <a href="#">
-                <p>+ создать бизнес</p>
+                <span>+</span>
+                <p>Создать бизнес</p>
             </a>
         </div>
         <!------------>
+        <div class="profile__buisness__wrapper">
+            <div class="profile__buisness__container">
+                <!------>
+                <div class="profile__buisness__element">
+                    <div class="element__wrapper">
+
+                        <div class="element__foto">
+                            <img src="./imgs/1.jpg" alt="">
+                        </div>
+
+                        <div class="element__desc">
+                            <div class="element__name">
+                                <p>Название какой-нибудь компании</p>
+                            </div>
+
+                            <div class="element__location">
+                                <div>
+                                    <p>Страна:</p>
+                                    <p>Туркменистан</p>
+                                </div>
+
+                                <div>
+                                    <p>Город:</p>
+                                    <p>Усть-Новокузнецк малый</p>
+                                </div>
+                            </div>
+
+                            <div class="element__tags">
+                                <p>#pol</p>
+                                <p>#сталкер</p>
+                                <p>#pol</p>
+                                <p>#сталкер</p>
+                                <p>#pol</p>
+                                <p>#сталкер</p>
+                            </div>
+                        </div>
+
+                        <div class="element__more">
+                            <a href="#">
+                                <p>Подробнее</p>
+                            </a>
+                        </div>
+
+
+                    </div>
+                </div>
+                <!------>
+
+                <!------>
+                <div class="profile__buisness__element">
+                    <div class="element__wrapper">
+
+                        <div class="element__foto">
+                            <img src="./imgs/1.jpg" alt="">
+                        </div>
+
+                        <div class="element__desc">
+                            <div class="element__name">
+                                <p>Название какой-нибудь компании</p>
+                            </div>
+
+                            <div class="element__location">
+                                <div>
+                                    <p>Страна:</p>
+                                    <p>Туркменистан</p>
+                                </div>
+
+                                <div>
+                                    <p>Город:</p>
+                                    <p>Усть-Новокузнецк малый</p>
+                                </div>
+                            </div>
+
+                            <div class="element__tags">
+                                <p>#pol</p>
+                                <p>#сталкер</p>
+                                <p>#pol</p>
+                                <p>#сталкер</p>
+                                <p>#pol</p>
+                                <p>#сталкер</p>
+                            </div>
+                        </div>
+
+                        <div class="element__more">
+                            <a href="#">
+                                <p>Подробнее</p>
+                            </a>
+                        </div>
+
+
+                    </div>
+                </div>
+                <!------>
+
+
+
+
+            </div>
+        </div>
     </div>
 </div>
 
@@ -172,6 +275,7 @@
         document.getElementById("myDropdown2").classList.toggle("show2");
         console.log('clicked');
     }
+
     function open_list2() {
         document.getElementById("myDropdown3").classList.toggle("show3");
         console.log('clicked');

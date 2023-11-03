@@ -11,7 +11,6 @@
 
 .edit__company__wrapper {
     width: 100%;
-
 }
 
 .edit__company__input {
@@ -30,8 +29,7 @@
     height: 88.337px;
     flex-shrink: 0;
     border-radius: 10px;
-    background: rgba(217, 217, 217, 0.20);
-    ;
+    background: rgba(217, 217, 217, 0.2);
     color: #858282;
     font-size: 20px;
     font-style: normal;
@@ -55,7 +53,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .edit__company__submit button {
@@ -63,10 +60,7 @@
     height: 56px;
     flex-shrink: 0;
     border-radius: 11px;
-    background: rgba(69, 198, 9, 0.50);
-
-
-
+    background: rgba(69, 198, 9, 0.5);
 }
 
 .edit__company__submit button p {
@@ -78,14 +72,194 @@
     line-height: normal;
 }
 
+.edit__company__name {
+    color: #000;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 52px;
+    margin-left: 51px;
+}
+
+.edit__company__name_sert {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 43px;
+}
+
+.edit__company__name_sert img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.edit__company__certificate {
+    width: 100%;
+    height: 88.337px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(217, 217, 217, 0.2);
+    display: flex;
+    align-items: center;
+    padding: 0px 44px;
+    margin-bottom: 25px;
+}
+
+.edit__company__certificate__name {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    color: #858282;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.edit__company__certificate__name img {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    text-align: center;
+}
+
+.popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 663px;
+    height: 192px;
+    flex-shrink: 0;
+    border-radius: 11px;
+    background: #ededed;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+/* Add your desired CSS styles here */
+.popup__input {
+    width: 509px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+}
 
 
 
+.file-upload {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 0px 27px 0px 15px;
+}
+
+.custom-label {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    text-align: left;
+    display: flex;
+    align-items: center;
+
+
+    color: #858282;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: left;
+}
+
+.error-message {
+    display: none;
+}
+
+.file-upload p {}
 
 
 
+.popup__content {
 
+    width: 509px;
+    margin: 0 auto;
+    text-align: left;
+}
 
+.popup__name {
+    color: #606060;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 9px;
+    margin-top: 45px;
+}
+
+.popup__upload {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18px;
+}
+
+.popup__upload button {
+    width: 143px;
+    height: 25px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #DCD9D9;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.popup__upload button p {
+    padding-top: 4px;
+    color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+
+}
+
+.file-upload p {
+    font-size: 24px;
+}
+
+.error-message {
+    margin-top: 5px;
+}
 
 @media only screen and (max-width: 768px) {
     .company__profile__container {
@@ -183,7 +357,6 @@
         bottom: 0;
     }
 
-
     .company__profile__desc {
         width: 100%;
         padding-right: 0;
@@ -199,7 +372,6 @@
 
     .profile__desc__contacts__all p:nth-child(3) {}
 
-
     .profile__desc__contacts__represent {
         font-size: 7.5px;
         position: relative;
@@ -212,7 +384,6 @@
         right: 0;
         bottom: 0;
     }
-
 
     .company__profile__desc {
         width: 100%;
@@ -229,25 +400,6 @@
 
     .profile__desc__contacts__represent p:nth-child(3) {}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     .profile__desc__change__foto a p {
         color: #000;
         text-align: center;
@@ -260,11 +412,6 @@
         width: 110%;
         transform: translateX(-5px);
     }
-
-
-
-
-
 
     .edit__company__input input {
         height: 39px;
@@ -292,7 +439,7 @@
         height: 39px;
         flex-shrink: 0;
         border-radius: 3px;
-        background: #B6DFA2;
+        background: #b6dfa2;
     }
 
     .edit__company__submit button p {
@@ -301,6 +448,93 @@
         font-size: 12px;
         font-style: normal;
         font-weight: 700;
+        line-height: normal;
+    }
+
+    .edit__company__name {
+        margin-left: 0px;
+        color: #000;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 23px;
+    }
+
+    .edit__company__name_sert img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .edit__company__certificate {
+        padding: 0px 20px;
+        height: 39px;
+        margin-bottom: 11px;
+    }
+
+    .edit__company__certificate p {
+        color: #858282;
+        font-family: Gilroy;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .edit__company__certificate img {
+        width: 20px;
+        height: 20px;
+    }
+    .edit__company__name_sert{
+        margin-right: 23px;
+    }
+    .popup {
+        width: 356px;
+height: 176.382px;
+border-radius: 11px;
+background: #EDEDED;
+    }
+    .popup__content{
+        width: 275px;
+    }
+    .popup__input{
+        width: 274.552px;
+height: 24.812px;
+flex-shrink: 0;
+border-radius: 3px;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    }
+    .popup__name{
+        color: #606060;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    }
+    .custom-label{
+        color: #858282;
+font-size: 11px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    }
+    .file-upload {
+        padding-right: 9px;
+    }
+    .popup__upload button{
+        width: 108.958px;
+height: 25.352px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #DCD9D9;
+    }
+    .popup__upload button  p {
+        color: rgba(0, 0, 0, 0.50);
+        text-align: center;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 600;
         line-height: normal;
     }
 }

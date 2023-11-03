@@ -201,96 +201,30 @@
     font-weight: 400;
     line-height: normal;
 }
-.b2b__mobile__filter{
-    display: none;
-    visibility: hidden;
-}
-.mobile__b2b__filter__block{
-    display: none;
-}
+
+
+
+
 @media only screen and (max-width: 768px) {
     .b2b__main__search{
         position: relative;
-    }
-
-
-    .mobile__b2b__filter__block {
-        width: 100%;
-        height: 80vh;
-        background-color: red;
-        position: absolute;
-        top: 0;
-        z-index: 200;
-        padding: 18px;
-    }
-    .mobile__filtr__block_opened{
-        display: block;
-    }
-    .mobile__b2b__filter__container {
-        width: 100%;
-        height: 100%;
-        position: relative;
-    }
-    .mobile__b2b__filter__close {
-        position: absolute;
-        left: 5px;
-        top: 5px;
-        width: 30px;
-        height: 30px;
-        background-color: #06F;
-        font-size: 20px;
-    }
-    .main__search__name{
-        display: none;
-        visibility: hidden;
-    }
-    .b2b__mobile__filter{
-        visibility: visible;
-        display: flex;
-        justify-content: space-evenly;
-        width: 100%;
-        margin: 0 auto;
-        margin-bottom: 20px;
-        align-items: center;
     }
     .b2b__main__categories {
         display: none;
         visibility: hidden;
     }
-
-    .b2b__mobile__filter__button button {
-        width: 25px;
-height: 25px;
-flex-shrink: 0;
-border-radius: 5px;
-background: rgba(217, 217, 217, 0.23);
-display: flex;
-align-items: center;
-justify-content: center;
+    .main__search__name{
+        display: none;
+        visibility: hidden;
     }
-    .b2b__mobile__filter__sort-element{
-        width: 95.876px;
-height: 22.906px;
-flex-shrink: 0;
 
-border-radius: 5px;
-background: rgba(217, 217, 217, 0.23);
-    }
-.b2b__mobile__filter__sort-element a{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.b2b__mobile__filter__sort-element a p{
-    color: #000;
-text-align: center;
-font-size: 9px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
+/*! ******************/
+/*! ******************/
+/*! ******************/
+/*! ******************/
+/*! ******************/
+/*! ******************/
+
     .b2b__main__search {
         width: 95%;
         margin: 0 auto;
@@ -384,5 +318,8 @@ line-height: normal;
     }
     .main__search__element{
         margin-bottom: 13px;
+    }
+    .search__element__desc__location div:nth-child(1){
+        margin-right: 10px;
     }
 }

@@ -291,7 +291,27 @@
     font-weight: 700;
     line-height: normal;
 }
+@media only screen and (max-width: 1380px) {
+    #popupContent {
+        position: absolute;
+        top: 15%;
+        left: calc(50% - 439px);
+        transform: translate(-50%, -50%);
+        background: #fff;
+        padding: 20px;
+        width: 878px;
+        height: 572px;
+    
+        border-radius: 10px;
+        background: #EDEDED;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    
+        padding: 64px 30px 41px 30px;
 
+        transform: scale(0.8);
+    }
+    
+}
 @media only screen and (max-width: 768px) {
     .change__status__main {
         width: 300px;

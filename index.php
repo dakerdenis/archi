@@ -34,6 +34,9 @@
                 case "profile":
                     include './include/profile.php';
                     break;
+                    case "user_agreement":
+                        include './include/user_agreement.php';
+                        break;
                 case "under_construction":
                     include './include/under_construction.php';
                     break;

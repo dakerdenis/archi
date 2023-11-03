@@ -69,37 +69,46 @@
                 </p>
             </div>
 
-            <div class="article__review">
-                <div class="article__review__desc">
-                    <p>
-                        Насколько полезной вы считаете статью о паркете
-                        для получения знаний и понимания о данном материале?
-                    </p>
-                </div>
-                <div class="article__review__radio">
-                    <label>
-                        <input type="radio" name="custom-radio" value="option1">
-                        <span class="custom-radio"></span> Очень полезная
-                    </label>
-                    <label>
-                        <input type="radio" name="custom-radio" checked value="option2">
-                        <span class="custom-radio"></span> Достаточно полезная
-                    </label>
-                    <label>
-                        <input type="radio" name="custom-radio" value="option3">
-                        <span class="custom-radio"></span> Умеренно полезная
-                    </label>
-                    <label>
-                        <input type="radio" name="custom-radio" value="option4">
-                        <span class="custom-radio"></span> Мало полезная
-                    </label>
-                    <label>
-                        <input type="radio" name="custom-radio" value="option5">
-                        <span class="custom-radio"></span> Не могу сказать
-                    </label>
+            <div class="article__reviews__container">
+                <form class="article__review">
+                    <div class="article__review__desc">
+                        <p>
+                            Насколько полезной вы считаете статью о паркете
+                            для получения знаний и понимания о данном материале?
+                        </p>
+                    </div>
+                    <div class="article__review__radio">
+                        <label>
+                            <input type="radio" name="custom-radio" value="option1">
+                            <span class="custom-radio"></span> Очень полезная
+                        </label>
+                        <label>
+                            <input type="radio" name="custom-radio" checked value="option2">
+                            <span class="custom-radio"></span> Достаточно полезная
+                        </label>
+                        <label>
+                            <input type="radio" name="custom-radio" value="option3">
+                            <span class="custom-radio"></span> Умеренно полезная
+                        </label>
+                        <label>
+                            <input type="radio" name="custom-radio" value="option4">
+                            <span class="custom-radio"></span> Мало полезная
+                        </label>
+                        <label>
+                            <input type="radio" name="custom-radio" value="option5">
+                            <span class="custom-radio"></span> Не могу сказать
+                        </label>
+                    </div>
+                </form>
+
+                <div class="article__review__button">
+                    <button>
+                        <p>Проголосовать</p>
+                    </button>
                 </div>
 
             </div>
+
 
             <div class="article__addtitional__desc">
                 <p>
@@ -243,105 +252,107 @@
     <div class="article__recom__name">
         <p>Вам может быть интересно:</p>
     </div>
-    <div class="article__recomendation">
-        <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <a href="#" class="swiper__article__recomendation__block">
-                        <div class="article__recomendation__image">
-                            <img src="./imgs/1.jpg" alt="">
-                        </div>
-                        <div class="article__recomendation__name">
-                            <p>Название статьи</p>
-                        </div>
-                    </a>
+    <div class="article__recomendation___container">
+        <div class="article__recomendation">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#" class="swiper__article__recomendation__block">
+                            <div class="article__recomendation__image">
+                                <img src="./imgs/1.jpg" alt="">
+                            </div>
+                            <div class="article__recomendation__name">
+                                <p>Название статьи</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="swiper__article__recomendation__block">
+                            <div class="article__recomendation__image">
+                                <img src="./imgs/1.jpg" alt="">
+                            </div>
+                            <div class="article__recomendation__name">
+                                <p>Название статьи</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="swiper__article__recomendation__block">
+                            <div class="article__recomendation__image">
+                                <img src="./imgs/1.jpg" alt="">
+                            </div>
+                            <div class="article__recomendation__name">
+                                <p>Название статьи</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="swiper__article__recomendation__block">
+                            <div class="article__recomendation__image">
+                                <img src="./imgs/1.jpg" alt="">
+                            </div>
+                            <div class="article__recomendation__name">
+                                <p>Название статьи</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="swiper__article__recomendation__block">
+                            <div class="article__recomendation__image">
+                                <img src="./imgs/1.jpg" alt="">
+                            </div>
+                            <div class="article__recomendation__name">
+                                <p>Название статьи</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="swiper__article__recomendation__block">
+                            <div class="article__recomendation__image">
+                                <img src="./imgs/1.jpg" alt="">
+                            </div>
+                            <div class="article__recomendation__name">
+                                <p>Название статьи</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="swiper__article__recomendation__block">
+                            <div class="article__recomendation__image">
+                                <img src="./imgs/1.jpg" alt="">
+                            </div>
+                            <div class="article__recomendation__name">
+                                <p>Название статьи</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="swiper__article__recomendation__block">
+                            <div class="article__recomendation__image">
+                                <img src="./imgs/1.jpg" alt="">
+                            </div>
+                            <div class="article__recomendation__name">
+                                <p>Название статьи</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="swiper__article__recomendation__block">
+                            <div class="article__recomendation__image">
+                                <img src="./imgs/1.jpg" alt="">
+                            </div>
+                            <div class="article__recomendation__name">
+                                <p>Название статьи</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-                <div class="swiper-slide">
-                    <a href="#" class="swiper__article__recomendation__block">
-                        <div class="article__recomendation__image">
-                            <img src="./imgs/1.jpg" alt="">
-                        </div>
-                        <div class="article__recomendation__name">
-                            <p>Название статьи</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="#" class="swiper__article__recomendation__block">
-                        <div class="article__recomendation__image">
-                            <img src="./imgs/1.jpg" alt="">
-                        </div>
-                        <div class="article__recomendation__name">
-                            <p>Название статьи</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="#" class="swiper__article__recomendation__block">
-                        <div class="article__recomendation__image">
-                            <img src="./imgs/1.jpg" alt="">
-                        </div>
-                        <div class="article__recomendation__name">
-                            <p>Название статьи</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="#" class="swiper__article__recomendation__block">
-                        <div class="article__recomendation__image">
-                            <img src="./imgs/1.jpg" alt="">
-                        </div>
-                        <div class="article__recomendation__name">
-                            <p>Название статьи</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="#" class="swiper__article__recomendation__block">
-                        <div class="article__recomendation__image">
-                            <img src="./imgs/1.jpg" alt="">
-                        </div>
-                        <div class="article__recomendation__name">
-                            <p>Название статьи</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="#" class="swiper__article__recomendation__block">
-                        <div class="article__recomendation__image">
-                            <img src="./imgs/1.jpg" alt="">
-                        </div>
-                        <div class="article__recomendation__name">
-                            <p>Название статьи</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="#" class="swiper__article__recomendation__block">
-                        <div class="article__recomendation__image">
-                            <img src="./imgs/1.jpg" alt="">
-                        </div>
-                        <div class="article__recomendation__name">
-                            <p>Название статьи</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="#" class="swiper__article__recomendation__block">
-                        <div class="article__recomendation__image">
-                            <img src="./imgs/1.jpg" alt="">
-                        </div>
-                        <div class="article__recomendation__name">
-                            <p>Название статьи</p>
-                        </div>
-                    </a>
-                </div>
+
             </div>
 
-        </div>
-        
-        <div class="swiper-button-next"></div>
+            <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
+        </div>
     </div>
 </div>
 
@@ -350,41 +361,41 @@
 
 <!-- Initialize Swiper -->
 <script>
-var swiper;
+    var swiper;
 
-function initSwiper() {
-  if (window.innerWidth < 768) {
-    if (swiper) {
-      swiper.destroy();
+    function initSwiper() {
+        if (window.innerWidth < 768) {
+            if (swiper) {
+                swiper.destroy();
+            }
+            swiper = new Swiper(".mySwiper", {
+                slidesPerView: 3,
+                freeMode: true,
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev"
+                }
+            });
+        } else {
+            if (swiper) {
+                swiper.destroy();
+            }
+            swiper = new Swiper(".mySwiper", {
+                slidesPerView: 5,
+                freeMode: true,
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev"
+                }
+            });
+        }
     }
-    swiper = new Swiper(".mySwiper", {
-      slidesPerView: 3,
-      freeMode: true,
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev"
-      }
-    });
-  } else {
-    if (swiper) {
-      swiper.destroy();
-    }
-    swiper = new Swiper(".mySwiper", {
-      slidesPerView: 5,
-      freeMode: true,
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev"
-      }
-    });
-  }
-}
 
-// Initialize Swiper on page load
-initSwiper();
+    // Initialize Swiper on page load
+    initSwiper();
 
-// Update Swiper configuration when the window is resized
-window.addEventListener("resize", function () {
-  initSwiper();
-});
+    // Update Swiper configuration when the window is resized
+    window.addEventListener("resize", function() {
+        initSwiper();
+    });
 </script>

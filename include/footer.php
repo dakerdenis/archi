@@ -32,7 +32,7 @@
 
                         <div class="footer__nav__block">
                             <div class="footer__nav__element">
-                                <a href="#">
+                                <a href="./index.php?page=user_agreement">
                                     <p>Пользовательское соглашение</p>
                                 </a>
                             </div>

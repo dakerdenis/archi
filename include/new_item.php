@@ -8,12 +8,6 @@
         </div>
         <form action="" class="new_buisness__form">
             <div class="new_buisness__form__wrapper">
-                <!----название Товара---->
-                <div class="new_buisness__input__container">
-                    <div class="new_buisness__input__wrapper">
-                        <input type="text" placeholder="Название товара">
-                    </div>
-                </div>
                 <!----Категории подкатегории---->
                 <div class="new_buisness__input__container">
                     <div class="new_buisness__input__wrapper new_buisness__double-input new_buisness__double-input__mobile">
@@ -38,6 +32,9 @@
                         </div>
                     </div>
                 </div>
+                <div class="new__item__property__desc">
+                    <p>Свойства</p>
+                </div>
                 <!----Производитель + название---->
                 <div class="new_buisness__input__container new_buisness__double-input">
                     <div class="new_buisness__input__name">
@@ -56,7 +53,53 @@
                         <input type="text" class="company__name__input" placeholder="Название компании">
                     </div>                    
                 </div>
-                
+                <div class="new_buisness__input__container new_buisness__double-input">
+                    <div class="new_buisness__input__name">
+                        <p>Параметры</p>
+                    </div>
+                    <div class="new_buisness__input__wrapper new_buisness__double-input new_buisness__double-input__mobile">
+                        <div class="custom-dropdown" id="dropdown4">
+                            <input type="text" class=" dropdown-input" placeholder="Тип" readonly>
+                            <div class="arrow"></div>
+                            <ul class="dropdown-list">
+                                <li data-value="Стадкер 1">Стадкер 1</li>
+                                <li data-value="Стадкер 2">Стадкер 2</li>
+                                <li data-value="Стадкер 3">Стадкер 3</li>
+                            </ul>
+                        </div>
+                        <div class="custom-dropdown" id="dropdown5">
+                            <input type="text" class=" dropdown-input" placeholder="Морозостойкость" readonly>
+                            <div class="arrow"></div>
+                            <ul class="dropdown-list">
+                                <li data-value="Стадкер 1">Стадкер 1</li>
+                                <li data-value="Стадкер 2">Стадкер 2</li>
+                                <li data-value="Стадкер 3">Стадкер 3</li>
+                            </ul>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="new_buisness__input__container new_buisness__double-input">
+                    <div class="new_buisness__input__wrapper new_buisness__double-input new_buisness__double-input__mobile">
+                        <div class="custom-dropdown" id="dropdown6">
+                            <input type="text" class=" dropdown-input" placeholder="Размер" readonly>
+                            <div class="arrow"></div>
+                            <ul class="dropdown-list">
+                                <li data-value="Стадкер 1">Стадкер 1</li>
+                                <li data-value="Стадкер 2">Стадкер 2</li>
+                                <li data-value="Стадкер 3">Стадкер 3</li>
+                            </ul>
+                        </div>
+                        <div class="custom-dropdown" id="dropdown7">
+                            <input type="text" class=" dropdown-input" placeholder="Масса" readonly>
+                            <div class="arrow"></div>
+                            <ul class="dropdown-list">
+                                <li data-value="Стадкер 1">Стадкер 1</li>
+                                <li data-value="Стадкер 2">Стадкер 2</li>
+                                <li data-value="Стадкер 3">Стадкер 3</li>
+                            </ul>
+                        </div>
+                    </div>                    
+                </div>
 
                 <!----Добавление медиафайлов---->
                 <div class="new_buisness__input__container">

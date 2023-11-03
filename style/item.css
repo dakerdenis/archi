@@ -51,6 +51,7 @@
     width: 317px;
     margin-bottom: 26px;
     flex-wrap: wrap;
+    height: 131px;
 }
 
 .item__tags a {
@@ -107,7 +108,7 @@
 }
 
 .item__description {
-    margin-top: 77px;
+    margin-top: 40px;
 }
 
 .item__description__country {
@@ -118,9 +119,15 @@
     font-weight: 700;
     line-height: normal;
 
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+}
+.item__description__country p:nth-child(1){
+    margin-bottom: 5px;
 }
 
+.item__description__color p:nth-child(1){
+    margin-bottom: 5px;
+}
 .item__description__color {
 
     color: #000;
@@ -277,7 +284,7 @@
 
 /* This targets the entire pagination container */
 .swiper-pagination {
-    margin-top: 10px;
+    margin-top: 13px;
 }
 
 /* This targets individual pagination bullets */
@@ -294,19 +301,24 @@
     /* Make the bullets circular */
     border: 0.5px solid #0000007e;
 }
-
+.swiper-pagination-bullet{
+    border: 1px solid #000000;
+}
 /* You can also customize the active bullet */
 .swiper-pagination-bullet-active {
     background-color: rgba(217, 217, 217, 0.8);
     /* Change the active bullet color */
-    border: 0.5px solid #00000034;
+    border: 1px solid #00000034;
 }
 
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 7.5px;
 
+}
 
 .item__certificates {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 35px;
 }
 
 .item__certificates__name {
@@ -371,6 +383,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    text-align: center;
 }
 
 
@@ -392,6 +405,7 @@
 
 .item__recomendation__container {
     width: 24%;
+    padding-left: 10px;
 
 }
 
@@ -489,6 +503,7 @@
     .item__tags {
         width: 146px;
         margin-bottom: 8px;
+        height: initial;
     }
 
     .item__tags p {
@@ -670,5 +685,11 @@ line-height: normal;
     .item__articles__container [class^="swiper-button-prev"]{
         left: -24px;
         transform: scale(0.7);
+    }
+    .item__name{
+        width: 146px;
+    }
+    .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 0 3.5px;
     }
 }

@@ -215,7 +215,15 @@
                 </div>
             </div>
         </div>
-    </div>
+        
+        <div class="survey__button">
+            <div class="survey__button__block">
+                <button>
+                    <p>Проголосовать</p>
+                </button>
+            </div>
+        </div>
+</div>
     <br><br><br><br><br><br><br><br><br><br>
         <div style="display: flex; flex-direction: column; width:350px; margin: 0 auto; border-radius: 10px; padding: 20px; box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2)">
             <a style="color: red; margin-bottom: 10px;" href="./index.php?page=under_construction">Находится а разработке страница</a>
@@ -237,7 +245,10 @@
             <a style="color: red; margin-bottom: 10px;" href="./index.php?page=owners_goods">Список товаров владельца ?</a>
             <br>
             
-            <a style="color: red; margin-bottom: 10px;" href="./b2b.php?page=company__profile">B2B - кабинет личный ? редактирование ? </a>
+            <a style="color: red; margin-bottom: 10px;" href="./b2b.php?page=company__profile">B2B - Company Profile</a>
+            <br>
+            
+            <a style="color: red; margin-bottom: 10px;" href="./b2b.php?page=owners__goods">B2B - Owner's goods</a>
             
              </div>
 

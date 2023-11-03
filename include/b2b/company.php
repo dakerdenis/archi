@@ -49,44 +49,6 @@
                       <p>Название компании</p>
                   </a>
               </div>
-              <!------ONLY MOBILE------->
-              <div class="b2b__mobile__filter">
-                  <div class="b2b__mobile__filter__button">
-                      <button id="open__filtr">
-                          <img src="./imgs/filter.png" alt="">
-                      </button>
-                  </div>
-                  <div class="b2b__mobile__filter__sort-element">
-                      <a href="#">
-                          <p>Год производства</p>
-                      </a>
-                  </div>
-                  <div class="b2b__mobile__filter__sort-element">
-                      <a href="#">
-                          <p>Дерево</p>
-                      </a>
-                  </div>
-                  <div class="b2b__mobile__filter__sort-element">
-                      <a href="#">
-                          <p>Электрика</p>
-                      </a>
-                  </div>
-              </div>
-              <!------>
-              <div id="mobile__filtr__block" class="mobile__b2b__filter__block">
-                  <div class="mobile__b2b__filter__container">
-                      <button id="close__mobile__filtr" class="mobile__b2b__filter__close">
-                          X
-                      </button>
-
-                      <div class="mobile__b2b__filter__name">
-                          Расширенный поиск
-                      </div>
-                      <div class="mobile__b2b__filter__category">
-                          <p>Категория</p>
-                      </div>
-                  </div>
-              </div>
 
 
 
@@ -139,11 +101,11 @@
                                   <div class="b2b__company__country_wrapper">
                                       <div class="b2b__company__city">
                                           <p>Страна:</p>
-                                          <p>Узбекистан</p>
+                                          <p>Азербайджан</p>
                                       </div>
                                       <div class="b2b__company__city">
                                           <p>Город:</p>
-                                          <p>Усть-Новоколамск</p>
+                                          <p>Ağ-Cəbədi</p>
                                       </div>
                                   </div>
 
@@ -151,7 +113,7 @@
                                       <p>Добавлено: 01.01.2023</p>
                                   </div>
                                   <div class="b2b__company__updated">
-                                      <p>Добавлено: 01.01.2023</p>
+                                      <p>Обновлено: 01.01.2023</p>
                                   </div>
                                   <div class="company__desc__contact">
                                       <div class="company__desc__contactbutton">
@@ -529,17 +491,7 @@
 
 
   <script>
-      const open__mobile__filtr = document.getElementById('open__filtr');
-      const mobile__filtr__block = document.getElementById('mobile__filtr__block');
-      const close__mobile__filtr = document.getElementById('close__mobile__filtr');
 
-      open__mobile__filtr.addEventListener('click', function(event) {
-          mobile__filtr__block.classList.add('mobile__filtr__block_opened');
-      });
-
-      close__mobile__filtr.addEventListener('click', function(event) {
-          mobile__filtr__block.classList.remove('mobile__filtr__block_opened');
-      });
 
       const number = '+994 50 750 69 01';
       const number2 = '+994 55 327 52 69';
@@ -600,6 +552,9 @@
           });
       });
   </script>
+
+
+
   <!-- Initialize Swiper -->
   <script>
       // JavaScript

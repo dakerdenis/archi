@@ -52,8 +52,8 @@
             </div>
         </div>
 
-                <!-------->
-                <div class="pages__page_element">
+        <!-------->
+        <div class="pages__page_element">
             <div class="pages__page__element__wrapper">
                 <div class="__page__element__image">
 
@@ -101,8 +101,8 @@
         </div>
 
 
-                <!-------->
-                <div class="pages__page_element">
+        <!-------->
+        <div class="pages__page_element">
             <div class="pages__page__element__wrapper">
                 <div class="__page__element__image">
 
@@ -149,8 +149,8 @@
             </div>
         </div>
 
-                <!-------->
-                <div class="pages__page_element">
+        <!-------->
+        <div class="pages__page_element">
             <div class="pages__page__element__wrapper">
                 <div class="__page__element__image">
 
@@ -197,8 +197,8 @@
             </div>
         </div>
 
-                <!-------->
-                <div class="pages__page_element">
+        <!-------->
+        <div class="pages__page_element">
             <div class="pages__page__element__wrapper">
                 <div class="__page__element__image">
 
@@ -245,8 +245,8 @@
             </div>
         </div>
 
-                <!-------->
-                <div class="pages__page_element">
+        <!-------->
+        <div class="pages__page_element">
             <div class="pages__page__element__wrapper">
                 <div class="__page__element__image">
 
@@ -294,8 +294,13 @@
         </div>
 
 
-        
-             
 
+
+
+    </div>
+    <div class="pages__show__more">
+        <button>
+            <p>Показать ещё</p>
+        </button>
     </div>
 </div>

@@ -698,4 +698,11 @@ input[type="number"]::-webkit-outer-spin-button {
         width: 240px;
         margin: 0 auto;
     }
+    .advertisement__block:nth-child(1){
+        display: block;
+        visibility: visible;
+    }
+    .login__page__advertisement{
+        width: 336px;
+    }
 }

@@ -1,43 +1,50 @@
 <style>
-     <?php include './style/article.css' ?><?php include './style/new_article.css' ?>
-    <?php include './style/goods.css' ?>
+    <?php include './style/article.css' ?><?php include './style/new_article.css' ?><?php include './style/goods.css' ?>
 </style>
 <div class="goods__page__categories">
     <div class="goods__page__categories__container">
-        <div class="element">
-            <a href="#">Стены</a>
-        </div>
-        <div class="element">
-            <a href="#">Пол</a>
-        </div>
-        <div class="element">
-            <a href="#">Потолок</a>
-        </div>
-        <div class="element element_active">
-            <a href="#">Сантехника\Электрика</a>
-        </div>
-        <div class="element">
-            <a href="#">Отопление\вентиляция</a>
-        </div>
-        <div class="element">
-            <a href="#">Двери\Окна</a>
-        </div>
-        <div class="element">
-            <a href="#">Крыша\Фасад</a>
-        </div>
-        <div class="element">
-            <a href="#">Мебель</a>
-        </div>
-        <div class="element">
-            <a href="#">Строительные материалы</a>
-        </div>
-        <div class="element">
-            <a href="#">Ландшафт</a>
-        </div>
+        <a href="#" class="element">
+            <p>Стены</p>
+        </a>
+        <a href="#" class="element">
+            <p>Пол</p>
+        </a>
+        <a href="#" class="element element__active">
+            <p>Потолок</p>
+        </a>
+        <a href="#" class="element">
+            <p>Сантехника\Электрика</p>
+        </a>
+        <a href="#" class="element">
+            <p>Отопление\вентиляция</p>
+        </a>
+        <a href="#" class="element">
+            <p>Двери\Окна</p>
+        </a>
+        <a href="#" class="element">
+            <p>Крыша\Фасад</p>
+        </a>
+        <a href="#" class="element">
+            <p>Мебель</p>
+        </a>
+        <a href="#" class="element">
+            <p>Строительные материалы</p>
+        </a>
+        <a href="#" class="element">
+            <p>Ландшафт</p>
+        </a>
     </div>
+
 </div>
 
 <div class="goods__page__container">
+    <div class="goods__search__block">
+        <a href="#">
+            <p>Поиск</p>
+        </a>
+        <span>></span>
+        <p>Название категории</p>
+    </div>
 
     <div class="goods__page__wrapper">
         <!---//?---FILTR---->
@@ -58,16 +65,16 @@
                             </div>
                             <div class="dropdown-options3" id="dropdownOptions3">
                                 <div class="dropdown-option3">
-                                   stalker 1
+                                    stalker 1
                                 </div>
                                 <div class="dropdown-option3">
-                                   stalker 2
+                                    stalker 2
                                 </div>
                                 <div class="dropdown-option3">
-                                   stalker 3
+                                    stalker 3
                                 </div>
                                 <div class="dropdown-option3">
-                                   stalker 4
+                                    stalker 4
                                 </div>
                                 <!-- Add more options here -->
                             </div>
@@ -102,7 +109,7 @@
                         </div>
                     </div>
                 </a>
-                <!------------>, <!------------>
+                <!------------><!------------>
                 <a href="./index.php?page=item" class="goods__page__element">
                     <div class="page__element__image">
                         <img src="./imgs/1.jpg" alt="">
@@ -119,7 +126,7 @@
                         </div>
                     </div>
                 </a>
-                <!------------>, <!------------>
+                <!------------> <!------------>
                 <a href="./index.php?page=item" class="goods__page__element">
                     <div class="page__element__image">
                         <img src="./imgs/1.jpg" alt="">
@@ -220,7 +227,7 @@
             options.style.display = "none";
             arrow.style.transform = 'rotate(0deg)';
         } else {
-            options.style.display = "block";    
+            options.style.display = "block";
             arrow.style.transform = 'rotate(180deg)';
         }
     }
