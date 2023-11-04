@@ -151,7 +151,7 @@
                     <div class="page__element__content">
                         <div class="page__element__name">
                             <a href="./index.php?page=item">
-                                <p>Товар китай покемон fasfasfasf</p>
+                                <p>Товар китай покемон fasfasfasf asdasdasda asdasddas</p>
                             </a>
                         </div>
                         <div class="page__element__size">
