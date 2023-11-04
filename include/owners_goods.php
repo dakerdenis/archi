@@ -24,6 +24,9 @@
         <a href="./index.php?page=new_item">
             <img src="./imgs/plus_1.jpg" alt="">
         </a>
+        <button>
+            <img src="./imgs/delete.png" alt="">
+        </button>
     </div>
     <div class="goods__page__wrapper">
         <!---//?---FILTR---->

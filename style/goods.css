@@ -1,7 +1,6 @@
 .goods__page__categories {
     width: 100%;
     border: 1px solid rgba(0, 0, 0, 0.4);
-
 }
 
 .goods__page__categories__container {
@@ -12,14 +11,12 @@
     justify-content: space-between;
 }
 
-
 .goods__page__categories__container .element {
     color: #000;
 
     font-size: 16px;
     font-weight: 400;
     line-height: normal;
-
 }
 
 .goods__page__categories__container .element:hover {
@@ -30,9 +27,6 @@
     font-weight: 700;
     text-decoration: underline;
 }
-
-
-
 
 .goods__page__container {
     width: 1100px;
@@ -56,7 +50,7 @@
 }
 
 .goods__search__block a p {
-    color: #06F;
+    color: #06f;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -87,7 +81,6 @@
 }
 
 .goods__page__filtr__name {
-
     color: #000;
     font-size: 25px;
     font-style: normal;
@@ -96,7 +89,6 @@
     text-decoration-line: underline;
 
     margin-bottom: 18px;
-
 }
 
 .goods__page__filtr__categories__block-name {
@@ -113,25 +105,14 @@
     height: 34px;
     flex-shrink: 0;
     border-radius: 10px;
-    background: #EDEDED;
+    background: #ededed;
 }
-
-
-
-
-
-
-
-
-
-
 
 .goods__page__filtr__categories__submit {
     width: 188px;
     text-align: right;
     margin-top: 39px;
 }
-
 
 .goods__page__filtr__categories__submit button {
     width: 113px;
@@ -144,28 +125,8 @@
     font-weight: 400;
     line-height: normal;
     border-radius: 5px;
-    background: #EDEDED;
+    background: #ededed;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .goods__page__filtr__categories {
     display: flex;
@@ -203,7 +164,7 @@
     height: 21px;
     flex-shrink: 0;
     border-radius: 5px;
-    background: #D9D9D9;
+    background: #d9d9d9;
     margin-left: 5px;
     margin-right: 10px;
     padding: 2px 5px;
@@ -248,14 +209,13 @@ input[type="number"]::-webkit-outer-spin-button:hover {
     height: 21px;
     flex-shrink: 0;
     border-radius: 5px;
-    background: #D9D9D9;
+    background: #d9d9d9;
     margin-left: 5px;
     margin-right: 10px;
     padding: 2px 5px;
 }
 
 .goods__filtr__element {
-
     margin-top: 16px;
 }
 
@@ -268,8 +228,6 @@ input[type="number"]::-webkit-outer-spin-button:hover {
 }
 
 /*********************************/
-
-
 
 .goods__page__content__wrapper {
     width: 76.5%;
@@ -302,7 +260,7 @@ input[type="number"]::-webkit-outer-spin-button:hover {
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
 
 .delete__element_ {
@@ -363,7 +321,6 @@ input[type="number"]::-webkit-outer-spin-button:hover {
     overflow: hidden;
 }
 
-
 .page__element__size {
     color: #000;
     font-size: 11px;
@@ -419,15 +376,14 @@ input[type="number"]::-webkit-outer-spin-button:hover {
 }
 
 .goods__owner__link_blue p {
-    color: #06F;
+    color: #06f;
 }
 
 .goods__owner__addgoods {
-    width: 100%;
+    width: 98.5%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-
 }
 
 .goods__owner__addgoods a {
@@ -436,7 +392,7 @@ input[type="number"]::-webkit-outer-spin-button:hover {
     height: 32px;
     flex-shrink: 0;
     border-radius: 7px;
-    background: #B6DFA2;
+    background: #b6dfa2;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -447,8 +403,19 @@ input[type="number"]::-webkit-outer-spin-button:hover {
     height: 20px;
 }
 
+.goods__owner__addgoods button {
+    width: 47px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: #f66;
+}
 
-
+.goods__owner__addgoods button img {
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+}
 
 .popup-overlay {
     display: none;
@@ -482,14 +449,12 @@ input[type="number"]::-webkit-outer-spin-button:hover {
     cursor: pointer;
 }
 
-
-
 .popup__delete__element {
     width: 660px;
     height: 200px;
     flex-shrink: 0;
     border-radius: 11px;
-    background: #EDEDED;
+    background: #ededed;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
@@ -497,7 +462,6 @@ input[type="number"]::-webkit-outer-spin-button:hover {
     width: 400px;
     margin: 0 auto;
     text-align: center;
-
 }
 
 .popup__eleement__delete__name {
@@ -524,7 +488,7 @@ input[type="number"]::-webkit-outer-spin-button:hover {
     width: 190.136px;
     height: 44.444px;
     border-radius: 10px;
-    background: #DFA2A2;
+    background: #dfa2a2;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -537,6 +501,14 @@ input[type="number"]::-webkit-outer-spin-button:hover {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.page__element__name {
+    color: #000;
+}
+
+.page__element__name p {
+    color: #000;
 }
 
 @media only screen and (max-width: 768px) {
@@ -561,7 +533,6 @@ input[type="number"]::-webkit-outer-spin-button:hover {
         width: 90%;
         margin: 0 auto;
         border-left: none;
-
     }
 
     .goods__page__element {
@@ -612,20 +583,100 @@ input[type="number"]::-webkit-outer-spin-button:hover {
         width: 304px;
     }
 
+    .goods__owner__addgoods {
+        width: 304px;
+        margin: 0 auto;
+    }
+
     .goods__page__categories_owner__block {
         margin-left: 0;
     }
-    .goods__owner__links p{
-font-size: 10px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-    }
-    .goods__owner__link_blue p{
 
+    .goods__owner__links p {
         font-size: 10px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
+    }
+
+    .goods__owner__link_blue p {
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .goods__owner__addgoods {
+        width: 304px;
+    }
+
+    .goods__owner__addgoods a {
+        width: 29.375px;
+        height: 20px;
+        flex-shrink: 0;
+        border-radius: 3px;
+        background: #b6dfa2;
+        margin-right: 13px;
+    }
+
+    .goods__owner__addgoods a img {
+        width: 12.5px;
+        height: 12.5px;
+        flex-shrink: 0;
+    }
+
+    .goods__owner__addgoods button {
+        width: 29.375px;
+        height: 20px;
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 3px;
+        background: #F66;
+    }
+
+    .goods__owner__addgoods button img {
+        width: 12.5px;
+        height: 12.5px;
+        flex-shrink: 0;
+    }
+
+    .popup__delete__element {
+        width: 307px;
+        height: 110px;
+        flex-shrink: 0;
+    }
+
+    .popup__eleement__delete__name {
+        color: #000;
+        text-align: center;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 22px;
+    }
+
+    .popup__element__delete__button button {
+        width: 108.958px;
+        height: 22.187px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        background: #DFA2A2;
+    }
+    .popup__content__delete {
+        width: 242px;
+    }
+    .popup__element__delete__button{
+        margin-top: 15px;
+    }
+    .popup__element__delete__button button p{
+        color: #000;
+text-align: center;
+font-size: 13px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
     }
 }
