@@ -24,7 +24,7 @@
         <a href="./index.php?page=new_item">
             <img src="./imgs/plus_1.jpg" alt="">
         </a>
-        <button>
+        <button id="toggleButtonDelete">
             <img src="./imgs/delete.png" alt="">
         </button>
     </div>
@@ -317,4 +317,24 @@ document.addEventListener("keydown", function (event) {
     }
 });
 
+const toggleButton = document.getElementById("toggleButtonDelete");
+const deleteElements = document.querySelectorAll(".delete__element_");
+
+let visible = false; // Initially, the divs are hidden
+
+toggleButton.addEventListener("click", () => {
+    visible = !visible; // Toggle the visibility flag
+
+    if (visible) {
+        // Show the small divs
+        deleteElements.forEach(element => {
+            element.style.display = "flex";
+        });
+    } else {
+        // Hide the small divs
+        deleteElements.forEach(element => {
+            element.style.display = "none";
+        });
+    }
+});
 </script>
