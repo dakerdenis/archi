@@ -76,16 +76,16 @@
                 </div>
             </div>
             <div class="company__profile__content-text_pc">
-            <div class="company__profile__desc__name">
-                <p>Описание</p>
-            </div>
-            <div class="company__profile__desc__text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat possimus, corrupti vel consequuntur, ducimus distinctio, excepturi ratione consectetur saepe quasi eos iure sed earum sequi voluptatum nesciunt quibusdam accusamus ipsa?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat possimus, corrupti vel consequuntur, ducimus distinctio, excepturi ratione consectetur saepe quasi eos iure sed earum sequi voluptatum nesciunt quibusdam accusamus ipsa?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat possimus, corrupti vel consequuntur, ducimus distinctio, excepturi ratione consectetur saepe quasi eos iure sed earum sequi voluptatum nesciunt quibusdam accusamus ipsa?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat possimus, corrupti vel consequuntur, ducimus distinctio, excepturi ratione consectetur saepe quasi eos iure sed earum sequi voluptatum nesciunt quibusdam accusamus ipsa?</p>
+                <div class="company__profile__desc__name">
+                    <p>Описание</p>
+                </div>
+                <div class="company__profile__desc__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat possimus, corrupti vel consequuntur, ducimus distinctio, excepturi ratione consectetur saepe quasi eos iure sed earum sequi voluptatum nesciunt quibusdam accusamus ipsa?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat possimus, corrupti vel consequuntur, ducimus distinctio, excepturi ratione consectetur saepe quasi eos iure sed earum sequi voluptatum nesciunt quibusdam accusamus ipsa?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat possimus, corrupti vel consequuntur, ducimus distinctio, excepturi ratione consectetur saepe quasi eos iure sed earum sequi voluptatum nesciunt quibusdam accusamus ipsa?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat possimus, corrupti vel consequuntur, ducimus distinctio, excepturi ratione consectetur saepe quasi eos iure sed earum sequi voluptatum nesciunt quibusdam accusamus ipsa?</p>
 
-            </div>
+                </div>
             </div>
         </div>
         <!------------->
@@ -123,63 +123,63 @@
 
             </div>
             <div class="profile__settings__sertificates">
-                    <div class="profile__sertificates__appbar">
-                        <div class="appbar__name">
-                            <p>Сертификаты</p>
-                        </div>
-                    </div>
-
-
-                    <div class="profile__sertificates__slider">
-                            <div class="swiper mySwiper3">
-                                <div class="swiper-wrapper">
-                                  <div class="swiper-slide">
-                                    <div class="company__profile__sertificate__block">
-                                        <div class="sertificate__image">
-                                            <img src="./imgs/test_cert.jpg" alt="">
-                                        </div>
-                                        <div class="sertificate__name">
-                                            <p>Sertificats</p>
-                                        </div>
-                                    </div>
-                                  </div>
-                                  <div class="swiper-slide">
-                                    <div class="company__profile__sertificate__block">
-                                        <div class="sertificate__image">
-                                            <img src="./imgs/test_cert.jpg" alt="">
-                                        </div>
-                                        <div class="sertificate__name">
-                                            <p>Sertificats</p>
-                                        </div>
-                                    </div>
-                                  </div>
-                                  <div class="swiper-slide">
-                                    <div class="company__profile__sertificate__block">
-                                        <div class="sertificate__image">
-                                            <img src="./imgs/test_cert.jpg" alt="">
-                                        </div>
-                                        <div class="sertificate__name">
-                                            <p>Sertificats</p>
-                                        </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              <div class="swiper-button-next swiper-button-next-3"></div>
-                              <div class="swiper-button-prev swiper-button-prev-3"></div>
-                            </div>
+                <div class="profile__sertificates__appbar">
+                    <div class="appbar__name">
+                        <p>Сертификаты</p>
                     </div>
                 </div>
-                <div class="company__profile__content-text_mobile">
-            <div class="company__profile__desc__name">
-                <p>Описание</p>
-            </div>
-            <div class="company__profile__desc__text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat possimus, corrupti vel consequuntur, ducimus distinctio, excepturi ratione consectetur saepe quasi eos iure sed earum sequi voluptatum nesciunt quibusdam accusamus ipsa?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat possimus, corrupti vel consequuntur, ducimus distinctio, excepturi ratione consectetur saepe quasi eos iure sed earum sequi voluptatum nesciunt quibusdam accusamus ipsa?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat possimus, corrupti vel consequuntur, ducimus distinctio, excepturi ratione consectetur saepe quasi eos iure sed earum sequi voluptatum nesciunt quibusdam accusamus ipsa?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat possimus, corrupti vel consequuntur, ducimus distinctio, excepturi ratione consectetur saepe quasi eos iure sed earum sequi voluptatum nesciunt quibusdam accusamus ipsa?</p>
 
+
+                <div class="profile__sertificates__slider">
+                    <div class="swiper mySwiper3">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="company__profile__sertificate__block">
+                                    <div class="sertificate__image">
+                                        <img src="./imgs/test_cert.jpg" alt="">
+                                    </div>
+                                    <div class="sertificate__name">
+                                        <p>Sertificats</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="company__profile__sertificate__block">
+                                    <div class="sertificate__image">
+                                        <img src="./imgs/test_cert.jpg" alt="">
+                                    </div>
+                                    <div class="sertificate__name">
+                                        <p>Sertificats</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="company__profile__sertificate__block">
+                                    <div class="sertificate__image">
+                                        <img src="./imgs/test_cert.jpg" alt="">
+                                    </div>
+                                    <div class="sertificate__name">
+                                        <p>Sertificats</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next swiper-button-next-3"></div>
+                        <div class="swiper-button-prev swiper-button-prev-3"></div>
+                    </div>
+                </div>
             </div>
+            <div class="company__profile__content-text_mobile">
+                <div class="company__profile__desc__name">
+                    <p>Описание</p>
+                </div>
+                <div class="company__profile__desc__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat possimus, corrupti vel consequuntur, ducimus distinctio, excepturi ratione consectetur saepe quasi eos iure sed earum sequi voluptatum nesciunt quibusdam accusamus ipsa?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat possimus, corrupti vel consequuntur, ducimus distinctio, excepturi ratione consectetur saepe quasi eos iure sed earum sequi voluptatum nesciunt quibusdam accusamus ipsa?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat possimus, corrupti vel consequuntur, ducimus distinctio, excepturi ratione consectetur saepe quasi eos iure sed earum sequi voluptatum nesciunt quibusdam accusamus ipsa?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat possimus, corrupti vel consequuntur, ducimus distinctio, excepturi ratione consectetur saepe quasi eos iure sed earum sequi voluptatum nesciunt quibusdam accusamus ipsa?</p>
+
+                </div>
             </div>
         </div>
     </div>
@@ -189,9 +189,9 @@
                 <p>Ваши Категории</p>
             </div>
             <div class="add__new__category">
-                <a href="#">
+                <button id="openPopup">
                     <p>+ Добавить категории</p>
-                </a>
+                </button>
             </div>
         </div>
 
@@ -199,16 +199,16 @@
             <div class="profile__categories__blockN">
                 <div class="categoriesN__name">
                     <p>Название категории (n)</p>
-                    <a href="#">
+                    <a href="./index.php?page=owners_goods">
                         <p>Редактировать <span>категорию</span></p>
                     </a>
                 </div>
 
-                <div  class="categoriesN__wrapper">
-                    <div  class="categories__swiper__container">
-                          <!-- Swiper -->
-                            <div class="swiper mySwiper1">
-                              <div  class="swiper-wrapper">
+                <div class="categoriesN__wrapper">
+                    <div class="categories__swiper__container">
+                        <!-- Swiper -->
+                        <div class="swiper mySwiper1">
+                            <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="swiper__recomendation__element">
                                         <div class="swiper__recomendation__element__image">
@@ -228,7 +228,7 @@
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                <div class="swiper__recomendation__element">
+                                    <div class="swiper__recomendation__element">
                                         <div class="swiper__recomendation__element__image">
                                             <img src="./imgs/1.jpg" alt="">
                                         </div>
@@ -246,7 +246,7 @@
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                <div class="swiper__recomendation__element">
+                                    <div class="swiper__recomendation__element">
                                         <div class="swiper__recomendation__element__image">
                                             <img src="./imgs/1.jpg" alt="">
                                         </div>
@@ -264,7 +264,7 @@
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                <div class="swiper__recomendation__element">
+                                    <div class="swiper__recomendation__element">
                                         <div class="swiper__recomendation__element__image">
                                             <img src="./imgs/1.jpg" alt="">
                                         </div>
@@ -282,7 +282,7 @@
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                <div class="swiper__recomendation__element">
+                                    <div class="swiper__recomendation__element">
                                         <div class="swiper__recomendation__element__image">
                                             <img src="./imgs/1.jpg" alt="">
                                         </div>
@@ -300,7 +300,7 @@
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                <div class="swiper__recomendation__element">
+                                    <div class="swiper__recomendation__element">
                                         <div class="swiper__recomendation__element__image">
                                             <img src="./imgs/1.jpg" alt="">
                                         </div>
@@ -318,7 +318,7 @@
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                <div class="swiper__recomendation__element">
+                                    <div class="swiper__recomendation__element">
                                         <div class="swiper__recomendation__element__image">
                                             <img src="./imgs/1.jpg" alt="">
                                         </div>
@@ -336,7 +336,7 @@
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                <div class="swiper__recomendation__element">
+                                    <div class="swiper__recomendation__element">
                                         <div class="swiper__recomendation__element__image">
                                             <img src="./imgs/1.jpg" alt="">
                                         </div>
@@ -354,7 +354,7 @@
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                <div class="swiper__recomendation__element">
+                                    <div class="swiper__recomendation__element">
                                         <div class="swiper__recomendation__element__image">
                                             <img src="./imgs/1.jpg" alt="">
                                         </div>
@@ -371,29 +371,29 @@
                                         </div>
                                     </div>
                                 </div>
-                              </div>
-
                             </div>
-                            <div class="swiper-button-next swiper-button-next-1"></div>
-                            <div class="swiper-button-prev swiper-button-prev-1"></div>
+
+                        </div>
+                        <div class="swiper-button-next swiper-button-next-1"></div>
+                        <div class="swiper-button-prev swiper-button-prev-1"></div>
 
                     </div>
                 </div>
 
                 <div class="categoriesN__name ">
                     <p>Название категории (n)</p>
-                    <a href="#">
+                    <a href="./index.php?page=owners_goods">
                         <p>Редактировать <span>категорию</span></p>
                     </a>
                 </div>
 
-                <div  class="categoriesN__wrapper">
+                <div class="categoriesN__wrapper">
                     <div class="categories__swiper__container">
-                          <!-- Swiper -->
-                            <div class="swiper mySwiper2">
-                              <div  class="swiper-wrapper">
+                        <!-- Swiper -->
+                        <div class="swiper mySwiper2">
+                            <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                                                        <div class="swiper__recomendation__element">
+                                    <div class="swiper__recomendation__element">
                                         <div class="swiper__recomendation__element__image">
                                             <img src="./imgs/1.jpg" alt="">
                                         </div>
@@ -411,7 +411,7 @@
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                                                        <div class="swiper__recomendation__element">
+                                    <div class="swiper__recomendation__element">
                                         <div class="swiper__recomendation__element__image">
                                             <img src="./imgs/1.jpg" alt="">
                                         </div>
@@ -429,7 +429,7 @@
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                                                        <div class="swiper__recomendation__element">
+                                    <div class="swiper__recomendation__element">
                                         <div class="swiper__recomendation__element__image">
                                             <img src="./imgs/1.jpg" alt="">
                                         </div>
@@ -447,7 +447,7 @@
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                                                        <div class="swiper__recomendation__element">
+                                    <div class="swiper__recomendation__element">
                                         <div class="swiper__recomendation__element__image">
                                             <img src="./imgs/1.jpg" alt="">
                                         </div>
@@ -465,7 +465,7 @@
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                                                        <div class="swiper__recomendation__element">
+                                    <div class="swiper__recomendation__element">
                                         <div class="swiper__recomendation__element__image">
                                             <img src="./imgs/1.jpg" alt="">
                                         </div>
@@ -483,7 +483,7 @@
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                                                        <div class="swiper__recomendation__element">
+                                    <div class="swiper__recomendation__element">
                                         <div class="swiper__recomendation__element__image">
                                             <img src="./imgs/1.jpg" alt="">
                                         </div>
@@ -501,7 +501,7 @@
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                                                        <div class="swiper__recomendation__element">
+                                    <div class="swiper__recomendation__element">
                                         <div class="swiper__recomendation__element__image">
                                             <img src="./imgs/1.jpg" alt="">
                                         </div>
@@ -519,7 +519,7 @@
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                                                        <div class="swiper__recomendation__element">
+                                    <div class="swiper__recomendation__element">
                                         <div class="swiper__recomendation__element__image">
                                             <img src="./imgs/1.jpg" alt="">
                                         </div>
@@ -537,7 +537,7 @@
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                                                        <div class="swiper__recomendation__element">
+                                    <div class="swiper__recomendation__element">
                                         <div class="swiper__recomendation__element__image">
                                             <img src="./imgs/1.jpg" alt="">
                                         </div>
@@ -554,24 +554,29 @@
                                         </div>
                                     </div>
                                 </div>
-                              </div>
-
                             </div>
-                            <div class="swiper-button-next swiper-button-next-2"></div>
-                            <div class="swiper-button-prev swiper-button-prev-2"></div>
+
+                        </div>
+                        <div class="swiper-button-next swiper-button-next-2"></div>
+                        <div class="swiper-button-prev swiper-button-prev-2"></div>
 
                     </div>
                 </div>
 
 
             </div>
-
-
-
-            
         </div>
 
     </div>
+
+
+    <div class="popup-overlay" id="popupOverlay">
+        <div class="popup" id="popup">
+            <span class="close" id="closePopup">X</span>
+
+        </div>
+    </div>
+
 
 </div>
 
@@ -580,110 +585,140 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
 <script>
-  var swiper1, swiper2, swiper3;
+    var swiper1, swiper2, swiper3;
 
-  function updateSwipers() {
-    var viewportWidth = window.innerWidth || document.documentElement.clientWidth;
+    function updateSwipers() {
+        var viewportWidth = window.innerWidth || document.documentElement.clientWidth;
 
-    if (viewportWidth < 768) {
-      // Set slidesPerView to 3 and disable navigation for Swiper 1 and Swiper 2
-      if (!swiper1 || !swiper2 || !swiper3) {
-        // Initialize Swiper 1 and Swiper 2 if they haven't been initialized yet
-        swiper1 = new Swiper(".mySwiper1", {
-          slidesPerView: 3,
-          allowSlideNext: false,
-          allowSlidePrev: false,
-          navigation: {
-            nextEl: ".swiper-button-next-1",
-            prevEl: ".swiper-button-prev-1",
-          },
-        });
-        swiper2 = new Swiper(".mySwiper2", {
-          slidesPerView: 3,
-          allowSlideNext: false,
-          allowSlidePrev: false,
-          navigation: {
-            nextEl: ".swiper-button-next-2",
-            prevEl: ".swiper-button-prev-2",
-          },
-        });
+        if (viewportWidth < 768) {
+            // Set slidesPerView to 3 and disable navigation for Swiper 1 and Swiper 2
+            if (!swiper1 || !swiper2 || !swiper3) {
+                // Initialize Swiper 1 and Swiper 2 if they haven't been initialized yet
+                swiper1 = new Swiper(".mySwiper1", {
+                    slidesPerView: 3,
+                    allowSlideNext: false,
+                    allowSlidePrev: false,
+                    navigation: {
+                        nextEl: ".swiper-button-next-1",
+                        prevEl: ".swiper-button-prev-1",
+                    },
+                });
+                swiper2 = new Swiper(".mySwiper2", {
+                    slidesPerView: 3,
+                    allowSlideNext: false,
+                    allowSlidePrev: false,
+                    navigation: {
+                        nextEl: ".swiper-button-next-2",
+                        prevEl: ".swiper-button-prev-2",
+                    },
+                });
 
-        // Initialize Swiper 3 with 2 slides per view and enable navigation
-        swiper3 = new Swiper(".mySwiper3", {
-          slidesPerView: 2,
-          freeMode: true,
-          navigation: {
-            nextEl: ".swiper-button-next-3",
-            prevEl: ".swiper-button-prev-3",
-          },
-        });
-      } else {
-        // If Swipers are already initialized, update slidesPerView and disable navigation for Swiper 1 and Swiper 2
-        swiper1.params.slidesPerView = 3;
-        swiper2.params.slidesPerView = 3;
-        swiper1.params.allowSlideNext = false;
-        swiper1.params.allowSlidePrev = false;
-        swiper2.params.allowSlideNext = false;
-        swiper2.params.allowSlidePrev = false;
-        swiper1.update();
-        swiper2.update();
+                // Initialize Swiper 3 with 2 slides per view and enable navigation
+                swiper3 = new Swiper(".mySwiper3", {
+                    slidesPerView: 2,
+                    freeMode: true,
+                    navigation: {
+                        nextEl: ".swiper-button-next-3",
+                        prevEl: ".swiper-button-prev-3",
+                    },
+                });
+            } else {
+                // If Swipers are already initialized, update slidesPerView and disable navigation for Swiper 1 and Swiper 2
+                swiper1.params.slidesPerView = 3;
+                swiper2.params.slidesPerView = 3;
+                swiper1.params.allowSlideNext = false;
+                swiper1.params.allowSlidePrev = false;
+                swiper2.params.allowSlideNext = false;
+                swiper2.params.allowSlidePrev = false;
+                swiper1.update();
+                swiper2.update();
 
-        // Update Swiper 3 with 2 slides per view and enable navigation
-        swiper3.params.slidesPerView = 2;
-        swiper3.params.navigation.nextEl = ".swiper-button-next-3";
-        swiper3.params.navigation.prevEl = ".swiper-button-prev-3";
-        swiper3.update();
-      }
-    } else {
-      // Set slidesPerView to 5 for screens 768 pixels and wider and enable navigation
-      if (!swiper1 || !swiper2 || !swiper3) {
-        // Initialize Swipers if they haven't been initialized yet
-        swiper1 = new Swiper(".mySwiper1", {
-          slidesPerView: 5,
-          freeMode: true,
-          navigation: {
-            nextEl: ".swiper-button-next-1",
-            prevEl: ".swiper-button-prev-1",
-          },
-        });
-        swiper2 = new Swiper(".mySwiper2", {
-          slidesPerView: 5,
-          freeMode: true,
-          navigation: {
-            nextEl: ".swiper-button-next-2",
-            prevEl: ".swiper-button-prev-2",
-          },
-        });
+                // Update Swiper 3 with 2 slides per view and enable navigation
+                swiper3.params.slidesPerView = 2;
+                swiper3.params.navigation.nextEl = ".swiper-button-next-3";
+                swiper3.params.navigation.prevEl = ".swiper-button-prev-3";
+                swiper3.update();
+            }
+        } else {
+            // Set slidesPerView to 5 for screens 768 pixels and wider and enable navigation
+            if (!swiper1 || !swiper2 || !swiper3) {
+                // Initialize Swipers if they haven't been initialized yet
+                swiper1 = new Swiper(".mySwiper1", {
+                    slidesPerView: 5,
+                    freeMode: true,
+                    navigation: {
+                        nextEl: ".swiper-button-next-1",
+                        prevEl: ".swiper-button-prev-1",
+                    },
+                });
+                swiper2 = new Swiper(".mySwiper2", {
+                    slidesPerView: 5,
+                    freeMode: true,
+                    navigation: {
+                        nextEl: ".swiper-button-next-2",
+                        prevEl: ".swiper-button-prev-2",
+                    },
+                });
 
-        // Initialize Swiper 3 with 1 slide per view and enable navigation
-        swiper3 = new Swiper(".mySwiper3", {
-          slidesPerView: 1,
-          freeMode: true,
-          navigation: {
-            nextEl: ".swiper-button-next-3",
-            prevEl: ".swiper-button-prev-3",
-          },
-        });
-      } else {
-        // If Swipers are already initialized, update slidesPerView and enable navigation
-        swiper1.params.slidesPerView = 5;
-        swiper2.params.slidesPerView = 5;
-        swiper1.params.allowSlideNext = true;
-        swiper1.params.allowSlidePrev = true;
-        swiper2.params.allowSlideNext = true;
-        swiper2.params.allowSlidePrev = true;
-        swiper1.update();
-        swiper2.update();
-        swiper3.params.slidesPerView = 1;
-        swiper3.params.allowSlideNext = true;
-        swiper3.params.allowSlidePrev = true;
-        swiper3.update();
-      }
+                // Initialize Swiper 3 with 1 slide per view and enable navigation
+                swiper3 = new Swiper(".mySwiper3", {
+                    slidesPerView: 1,
+                    freeMode: true,
+                    navigation: {
+                        nextEl: ".swiper-button-next-3",
+                        prevEl: ".swiper-button-prev-3",
+                    },
+                });
+            } else {
+                // If Swipers are already initialized, update slidesPerView and enable navigation
+                swiper1.params.slidesPerView = 5;
+                swiper2.params.slidesPerView = 5;
+                swiper1.params.allowSlideNext = true;
+                swiper1.params.allowSlidePrev = true;
+                swiper2.params.allowSlideNext = true;
+                swiper2.params.allowSlidePrev = true;
+                swiper1.update();
+                swiper2.update();
+                swiper3.params.slidesPerView = 1;
+                swiper3.params.allowSlideNext = true;
+                swiper3.params.allowSlidePrev = true;
+                swiper3.update();
+            }
+        }
     }
-  }
 
-  // Call the function on page load and when the window is resized
-  window.addEventListener("load", updateSwipers);
-  window.addEventListener("resize", updateSwipers);
+    // Call the function on page load and when the window is resized
+    window.addEventListener("load", updateSwipers);
+    window.addEventListener("resize", updateSwipers);
+
+
+
+
+
+
+
+    const openPopupButton = document.getElementById("openPopup");
+const popupOverlay = document.getElementById("popupOverlay");
+const closePopupButton = document.getElementById("closePopup");
+
+openPopupButton.addEventListener("click", function () {
+    popupOverlay.style.display = "block";
+});
+
+closePopupButton.addEventListener("click", function () {
+    popupOverlay.style.display = "none";
+});
+
+popupOverlay.addEventListener("click", function (event) {
+    if (event.target === popupOverlay) {
+        popupOverlay.style.display = "none";
+    }
+});
+
+document.addEventListener("keydown", function (event) {
+    if (event.key === "Escape") {
+        popupOverlay.style.display = "none";
+    }
+});
+
 </script>
-

@@ -638,7 +638,7 @@
 
 .swiper__recomendation__element__desc {
     text-align: left;
-    padding: 9px 10px;
+    padding: 1px 10px;
 }
 
 .swiper__recomendation__element__name p {
@@ -647,6 +647,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    height: 32px;
 }
 
 .swiper__recomendation__element__size p {
@@ -655,7 +656,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 7.5px;
+    margin-top: 0.5px;
     margin-bottom: 4px;
 }
 
@@ -776,7 +777,7 @@
     visibility: hidden;
 }
 
-.add__new__category a {
+.add__new__category button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -787,7 +788,7 @@
     flex-shrink: 0;
 }
 
-.add__new__category a p {
+.add__new__category button p {
     color: #000;
     text-align: center;
     font-size: 18px;
@@ -796,6 +797,37 @@
     line-height: normal;
 }
 
+
+.popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    text-align: center;
+}
+
+.popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 660px;
+    height: 1066px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
 @media only screen and (max-width: 768px) {
     .company__profile__content-text_pc {
         display: none;
@@ -1214,7 +1246,7 @@
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        margin-top: 1px;
+        margin-top: 0,5px;
         margin-bottom: 1px;
     }
 
@@ -1272,5 +1304,20 @@ text-decoration: none;
     }
     .profile__categories__nameadd{
         border-radius: 8px 8px 0px 0px; 
+    }
+    .add__new__category button{
+        width: 119px;
+height: 17px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #B6DFA2;
+    }
+    .add__new__category button p {
+        color: #000;
+text-align: center;
+font-size: 8px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
     }
 }
