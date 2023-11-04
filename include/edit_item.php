@@ -200,7 +200,13 @@ $('.file-input').on('change', function() {
             $error.text('');
             $label.hide(); // Hide the label
             $preview.show(); // Show the placeholder image
-            const fileName = file.name.length > 20 ? file.name.substring(0, 20) + '...' : file.name;
+            
+            // Get the file name and modify it if it's longer than 16 characters
+            let fileName = file.name;
+            if (fileName.length > 15) {
+                fileName = fileName.substring(0, 13) + '...' + fileName.substring(fileName.length - 7);
+            }
+            
             $name.text(fileName);
             
             // Allow the user to change the uploaded file by clicking the preview
@@ -225,6 +231,16 @@ $('.file-input').on('change', function() {
         $name.text('No file selected');
     }
 });
+
+
+
+
+
+
+
+
+
+
 
 // Handle the "Choose different file" action for each input
 $('.file-button').on('click', function() {
