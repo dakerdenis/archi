@@ -379,11 +379,7 @@
 
                     </div>
                 </div>
-                <div class="categoriesN__wrapper_showall">
-                    <a href="#">
-                        <p>Отобразить всё</p>
-                    </a>
-                </div>
+
                 <div class="categoriesN__name ">
                     <p>Название категории (n)</p>
                     <a href="#">
@@ -567,11 +563,7 @@
                     </div>
                 </div>
 
-                <div class="categoriesN__wrapper_showall">
-                    <a href="#">
-                        <p>Отобразить всё</p>
-                    </a>
-                </div>
+
             </div>
 
 
