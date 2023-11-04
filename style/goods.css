@@ -686,7 +686,9 @@ input[type="number"]::-webkit-outer-spin-button:hover {
     .goods__owner__links span{
         font-size: 10px;
     }
+    .goods__owner__addgoods{
         margin-top: 15px;
+        margin-bottom: 0;
     }
 
 }
