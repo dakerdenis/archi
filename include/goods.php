@@ -1,5 +1,7 @@
 <style>
-    <?php include './style/article.css' ?><?php include './style/new_article.css' ?><?php include './style/goods.css' ?>
+    <?php include './style/article.css' ?>
+    <?php include './style/new_article.css' ?>
+    <?php include './style/goods.css' ?>
 </style>
 <div class="goods__page__categories">
     <div class="goods__page__categories__container">
