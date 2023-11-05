@@ -408,4 +408,13 @@ flex-shrink: 0;
     .company__name__input{
         margin-top: 15px;
     }
+    .new_buisness__input__wrapper{
+        flex-direction: column;
+    }
+    .new_buisness__input__wrapper .custom-dropdown:nth-child(2){
+        margin-top: 11px;
+    }
+    .new_buisness__double-input input:nth-child(2){
+        margin-top: 11px;
+    }
 }
