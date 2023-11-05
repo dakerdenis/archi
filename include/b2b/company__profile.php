@@ -189,9 +189,9 @@
                 <p>Ваши Категории</p>
             </div>
             <div class="add__new__category">
-                <button id="openPopup">
+                <a href="./b2b.php?page=change_category">
                     <p>+ Добавить категории</p>
-                </button>
+                </a>
             </div>
         </div>
 
@@ -570,13 +570,6 @@
     </div>
 
 
-    <div class="popup-overlay" id="popupOverlay">
-        <div class="popup" id="popup">
-            <span class="close" id="closePopup">X</span>
-
-        </div>
-    </div>
-
 
 </div>
 
@@ -695,30 +688,5 @@
 
 
 
-
-
-    const openPopupButton = document.getElementById("openPopup");
-const popupOverlay = document.getElementById("popupOverlay");
-const closePopupButton = document.getElementById("closePopup");
-
-openPopupButton.addEventListener("click", function () {
-    popupOverlay.style.display = "block";
-});
-
-closePopupButton.addEventListener("click", function () {
-    popupOverlay.style.display = "none";
-});
-
-popupOverlay.addEventListener("click", function (event) {
-    if (event.target === popupOverlay) {
-        popupOverlay.style.display = "none";
-    }
-});
-
-document.addEventListener("keydown", function (event) {
-    if (event.key === "Escape") {
-        popupOverlay.style.display = "none";
-    }
-});
 
 </script>

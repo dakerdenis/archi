@@ -777,7 +777,7 @@
     visibility: hidden;
 }
 
-.add__new__category button {
+.add__new__category a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -788,7 +788,7 @@
     flex-shrink: 0;
 }
 
-.add__new__category button p {
+.add__new__category a p {
     color: #000;
     text-align: center;
     font-size: 18px;

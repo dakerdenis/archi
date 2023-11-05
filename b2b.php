@@ -33,6 +33,9 @@
                     case "company_category":
                         include './include/b2b/company_category.php';
                         break;
+                        case "change_category":
+                            include './include/b2b/change_category.php';
+                            break;
                     case "company__profile":
                         include './include/b2b/company__profile.php';
                         break;
