@@ -66,3 +66,5 @@ window.addEventListener('load', updateImageAndLink);
 window.addEventListener('resize', updateImageAndLink);
 
 
+/****************************************************/
+

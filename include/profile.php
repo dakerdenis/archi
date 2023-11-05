@@ -161,7 +161,7 @@
             <div class="profile__buisness_create__name">
                 <p>Мои бизнесы</p>
             </div>
-            <a href="#">
+            <a href="./index.php?page=new_buisness">
                 <span>+</span>
                 <p>Создать бизнес</p>
             </a>

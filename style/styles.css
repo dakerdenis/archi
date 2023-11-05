@@ -563,155 +563,62 @@ h6 {
   color: #000;
   overflow: visible;
 }
+/**! *****FILTR STYLES FOR ALL PAGES*************/
+/**! *****FILTR STYLES FOR ALL PAGES*************/
+/**! *****FILTR STYLES FOR ALL PAGES*************/
+/* Add your CSS styles here */
 
-/*! *********MOBILE SEARCH AND FILTER FOR b2b MAIN PAGE AND GOODS PAGE-ARCHI*****************/
-/*! ******************/
-/*! ******************/
-/*! ******************/
-.__mobile__filter {
-  display: none;
-  visibility: hidden;
+.dropdown__main {
+  position: relative;
+  display: inline-block;
 }
 
-.mobile__filter__block {
-  display: none;
+#dropdown__input {
+  width: 150px; /* Adjust the width as needed */
 }
-/*! ******************/
-/*! ******************/
-/*! ******************/
+
+.dropdown__arrow {
+  display: inline-block;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.dropdown__options {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #ccc;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.dropdown__options li {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.dropdown__options li:hover {
+  background-color: #f0f0f0;
+}
+
+/* Rotate arrow when dropdown is open */
+.dropdown__main.open .dropdown__arrow {
+  transform: rotate(180deg);
+}
+
+/**! *****FILTR STYLES FOR ALL PAGES*************/
+/**! *****FILTR STYLES FOR ALL PAGES*************/
+/**! *****FILTR STYLES FOR ALL PAGES*************/
+
 /************************************/
 @media only screen and (max-width: 768px) {
 
-  /*! *********MOBILE SEARCH AND FILTER FOR b2b MAIN PAGE AND GOODS PAGE-ARCHI*****************/
-  /*! ******************/
-  .mobile__filter__block {
-    width: 100%;
-    height: 80vh;
-    background-color: #fff;
-    position: absolute;
-    top: 0;
-    z-index: 200;
-    padding: 18px;
-    border-top: 1px solid #e3e3e3;
-  }
-
-  .mobile__filtr__block_opened {
-    display: block;
-  }
-
-  .mobile__filter__container {
-    width: 100%;
-    height: 100%;
-    position: relative;
-  }
-
-  .mobile__filter__close {
-
-    left: 5px;
-    top: 5px;
-    width: 30px;
-    height: 30px;
-    font-size: 20px;
-  }
-
-  .main__search__name {
-    display: none;
-    visibility: hidden;
-  }
-
-  .__mobile__filter__content__ {
-    width: 100%;
-    height: 100%;
-    padding-left: 20px;
-  }
-
-  .__mobile__filter {
-    visibility: visible;
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    align-items: center;
-  }
-
-  .__mobile__filter__button button {
-    width: 25px;
-    height: 25px;
-    flex-shrink: 0;
-    border-radius: 5px;
-    background: rgba(217, 217, 217, 0.23);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .__mobile__filter__sort-element {
-    width: 95.876px;
-    height: 22.906px;
-    flex-shrink: 0;
-
-    border-radius: 5px;
-    background: rgba(217, 217, 217, 0.23);
-  }
-
-  .__mobile__filter__sort-element a {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .__mobile__filter__sort-element a p {
-    color: #000;
-    text-align: center;
-    font-size: 9px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-  }
-
-  .mobile__filter__name {
-    margin-top: 15px;
-    color: #000;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }
-
-  .mobile__filter__category {
-    margin-top: 24px;
-    color: #000;
-    font-size: 11px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }
-
-  .mobile__filter__dropdown {
-    width: 172px;
-    height: 20px;
-  }
-
-  .custom-dropdown .dropdown-input {
-    padding-right: 0;
-
-  }
-
-  .mobile__filter__dropdown input {
-    border-radius: 5px;
-    background: rgba(217, 217, 217, 0.75);
-    padding: 5px;
-  }
-
-  /*! ******************/
-  /*! ******************/
-  /*! ******************/
-  /*! ******************/
-  /*! ******************/
-  /*! ******************/
 
   html {
     overflow: hidden;

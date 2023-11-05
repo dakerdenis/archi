@@ -1,5 +1,6 @@
 <style>
-    <?php include './style/article.css' ?><?php include './style/new_article.css' ?><?php include './style/goods.css' ?>
+    <?php include './style/goods.css' ?>
+    html {}
 </style>
 <div class="goods__page__categories goods__page__categories_owner">
     <div class="goods__page__categories_owner__block">
@@ -29,53 +30,53 @@
         </button>
     </div>
     <div class="goods__page__wrapper">
-        <!---//?---FILTR---->
+        <!---//!---FILTR---->
+        <!---//!---FILTR---->
+        <!---//!---FILTR---->
         <div class="goods__page__filtr">
-            <div class="goods__page__filtr__name">
-                <p>Фильтр</p>
-            </div>
-            <div class="goods__page__filtr__categories">
-                <div class="goods__page__filtr__categories__block">
-                    <div class="goods__page__filtr__categories__block-name">
-                        <p>Подкатегория</p>
-                    </div>
-                    <div class="goods__page__filtr__categories__block-input">
-                        <div class="dropdown3">
-                            <div class="dropdown-select3" onclick="toggleOptions()">
-                                <p>Добавьте теги</p>
-                                <span class="dropdown-arrow3">&#9660;</span>
-                            </div>
-                            <div class="dropdown-options3" id="dropdownOptions3">
-                                <div class="dropdown-option3">
-                                    stalker 1
-                                </div>
-                                <div class="dropdown-option3">
-                                    stalker 2
-                                </div>
-                                <div class="dropdown-option3">
-                                    stalker 3
-                                </div>
-                                <div class="dropdown-option3">
-                                    stalker 4
-                                </div>
-                                <!-- Add more options here -->
-                            </div>
-                        </div>
-                    </div>
+            <div class="main__filter__container">
+                <div class="main__filter__name">
+                    <p>Фильтр</p>
                 </div>
-                <div class="goods__page__filtr__categories__submit">
-                    <button>
-                        <p>Применить</p>
-                    </button>
-                </div>
-            </div>
 
+                <div class="main__filter__description">
+                    <p>Подкатегория</p>
+                </div>
+
+                <div class="main__filter__dropdown__container">
+                    <div class="dropdown__main">
+                        <input type="text" id="dropdown__input" placeholder="Select an option" readonly>
+                        <span class="dropdown__arrow">&#9660;</span>
+                        <ul class="dropdown__options">
+                            <li>Option 1</li>
+                            <li>Option 2</li>
+                            <li>Option 3</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="additional__container">
+                        <div class="additional__container__block">
+                            
+                        </div>    
+
+
+                </div>
+            
+                <div class="main__filter__search">
+                    <button>Применить</button>
+                </div>
+            </div>
         </div>
+
+
+
+
         <!---//?---CONTENT WRAPPER---->
         <div class="goods__page__content__wrapper">
             <div class="goods__page__content__wrapper_">
                 <!------------>
-                <div class="goods__page__element" >
+                <div class="goods__page__element">
                     <div class="page__element__image">
                         <div class="delete__element_" data-id="1">
                             <p class="openPopup" id="openPopup">x</p>
@@ -96,9 +97,10 @@
                         </div>
                     </div>
                 </div>
-                <!------------> <!------------>
-                                <!------------>
-                                <div class="goods__page__element" >
+                <!------------>
+                <!------------>
+                <!------------>
+                <div class="goods__page__element">
                     <div class="page__element__image">
                         <div class="delete__element_" data-id="2">
                             <p class="openPopup" id="openPopup">x</p>
@@ -119,9 +121,10 @@
                         </div>
                     </div>
                 </div>
-                <!------------> <!------------>
-                                <!------------>
-                                <div class="goods__page__element" >
+                <!------------>
+                <!------------>
+                <!------------>
+                <div class="goods__page__element">
                     <div class="page__element__image">
                         <div class="delete__element_" data-id="3">
                             <p class="openPopup" id="openPopup">x</p>
@@ -142,9 +145,10 @@
                         </div>
                     </div>
                 </div>
-                <!------------> <!------------>
-                                <!------------>
-                                <div class="goods__page__element" >
+                <!------------>
+                <!------------>
+                <!------------>
+                <div class="goods__page__element">
                     <div class="page__element__image">
                         <div class="delete__element_" data-id="4">
                             <p class="openPopup" id="openPopup">x</p>
@@ -165,9 +169,10 @@
                         </div>
                     </div>
                 </div>
-                <!------------> <!------------>
-                                <!------------>
-                                <div class="goods__page__element" >
+                <!------------>
+                <!------------>
+                <!------------>
+                <div class="goods__page__element">
                     <div class="page__element__image">
                         <div class="delete__element_" data-id="5">
                             <p class="openPopup" id="openPopup">x</p>
@@ -188,7 +193,8 @@
                         </div>
                     </div>
                 </div>
-                <!------------> <!------------>
+                <!------------>
+                <!------------>
 
 
 
@@ -229,112 +235,88 @@
 </div>
 
 
-
-
-
-
-
-
-
-
-
 <script>
-    function toggleOptions() {
-        const options = document.getElementById("dropdownOptions3");
-        const arrow = document.querySelector('.dropdown-arrow3');
-        if (options.style.display === "block") {
-            options.style.display = "none";
-            arrow.style.transform = 'rotate(0deg)';
-        } else {
-            options.style.display = "block";
-            arrow.style.transform = 'rotate(180deg)';
-        }
-    }
-
-    function toggleSelectedOption(checkbox) {
-        const selectedOptions = document.getElementById("selectedOptions3");
-        if (checkbox.checked) {
-            const option = document.createElement("div");
-            option.className = "selected-option3";
-            option.textContent = checkbox.value;
-            selectedOptions.appendChild(option);
-        } else {
-            const options = selectedOptions.getElementsByClassName("selected-option3");
-            for (let i = 0; i < options.length; i++) {
-                if (options[i].textContent === checkbox.value) {
-                    selectedOptions.removeChild(options[i]);
-                    break;
-                }
-            }
-        }
-    }
-
-    // Close the dropdown when clicking anywhere else on the page
-    document.addEventListener('click', function(event) {
-        const dropdown = document.querySelector('.dropdown3');
-        if (!dropdown.contains(event.target)) {
-            document.getElementById("dropdownOptions3").style.display = "none";
-            document.querySelector('.dropdown-arrow3').style.transform = 'rotate(0deg)';
-        }
-    });
-
-
-
-
-
-
-
-
-
-
     const openPopupButtons = document.querySelectorAll(".openPopup");
-const popupOverlay = document.getElementById("popupOverlay");
-const closePopupButton = document.getElementById("closePopup");
-const blockIdInput = document.getElementById("blockIdInput");
+    const popupOverlay = document.getElementById("popupOverlay");
+    const closePopupButton = document.getElementById("closePopup");
+    const blockIdInput = document.getElementById("blockIdInput");
 
-openPopupButtons.forEach(button => {
-    button.addEventListener("click", function () {
-        const block = this.closest(".delete__element_");
-        const blockId = block.getAttribute("data-id");
-        blockIdInput.value = blockId;
-        popupOverlay.style.display = "block";
+    openPopupButtons.forEach(button => {
+        button.addEventListener("click", function () {
+            const block = this.closest(".delete__element_");
+            const blockId = block.getAttribute("data-id");
+            blockIdInput.value = blockId;
+            popupOverlay.style.display = "block";
+        });
     });
-});
 
-closePopupButton.addEventListener("click", function () {
-    popupOverlay.style.display = "none";
-});
-
-popupOverlay.addEventListener("click", function (event) {
-    if (event.target === popupOverlay) {
+    closePopupButton.addEventListener("click", function () {
         popupOverlay.style.display = "none";
-    }
-});
+    });
 
-document.addEventListener("keydown", function (event) {
-    if (event.key === "Escape") {
-        popupOverlay.style.display = "none";
-    }
-});
+    popupOverlay.addEventListener("click", function (event) {
+        if (event.target === popupOverlay) {
+            popupOverlay.style.display = "none";
+        }
+    });
 
-const toggleButton = document.getElementById("toggleButtonDelete");
-const deleteElements = document.querySelectorAll(".delete__element_");
+    document.addEventListener("keydown", function (event) {
+        if (event.key === "Escape") {
+            popupOverlay.style.display = "none";
+        }
+    });
 
-let visible = false; // Initially, the divs are hidden
+    const toggleButton = document.getElementById("toggleButtonDelete");
+    const deleteElements = document.querySelectorAll(".delete__element_");
 
-toggleButton.addEventListener("click", () => {
-    visible = !visible; // Toggle the visibility flag
+    let visible = false; // Initially, the divs are hidden
 
-    if (visible) {
-        // Show the small divs
-        deleteElements.forEach(element => {
-            element.style.display = "flex";
-        });
-    } else {
-        // Hide the small divs
-        deleteElements.forEach(element => {
-            element.style.display = "none";
-        });
-    }
-});
+    toggleButton.addEventListener("click", () => {
+        visible = !visible; // Toggle the visibility flag
+
+        if (visible) {
+            // Show the small divs
+            deleteElements.forEach(element => {
+                element.style.display = "flex";
+            });
+        } else {
+            // Hide the small divs
+            deleteElements.forEach(element => {
+                element.style.display = "none";
+            });
+        }
+    });
+
+
+
+
+
+
+    // JavaScript to toggle the dropdown and select an option
+    const dropdown = document.querySelector('.dropdown__main');
+    const inputField = dropdown.querySelector('#dropdown__input');
+    const optionsList = dropdown.querySelector('.dropdown__options');
+
+    dropdown.addEventListener('click', (e) => {
+        e.stopPropagation();
+        dropdown.classList.toggle('open');
+        optionsList.style.display = optionsList.style.display === 'block' ? 'none' : 'block';
+    });
+
+    optionsList.addEventListener('click', (e) => {
+        if (e.target.tagName === 'LI') {
+            inputField.value = e.target.textContent;
+            dropdown.classList.remove('open');
+            optionsList.style.display = 'none';
+        }
+    });
+
+    document.addEventListener('click', (e) => {
+        if (!dropdown.contains(e.target)) {
+            dropdown.classList.remove('open');
+            optionsList.style.display = 'none';
+        }
+    });
+
+
 </script>

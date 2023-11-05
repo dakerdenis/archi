@@ -1,396 +1,342 @@
-  <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+<style>
+    <?php include './style/article.css' ?>
+    <?php include './style/new_article.css' ?>
+    <?php include './style/goods.css' ?>
+</style>
+<div class="goods__page__categories goods__page__categories_owner">
+    <div class="goods__page__categories_owner__block">
+        <div class="goods__owner__links">
+            <a class="goods__owner__link_blue" href="#">
+                <p>Личный Кабинет</p>
+            </a>
+            <span> > </span>
+            <a class="goods__owner__link_blue" href="#">
+                <p>Мои Товары</p>
+            </a>
+            <span> > </span>
+            <a class="" href="#">
+                <p>Название категории</p>
+            </a>
+        </div>
+    </div>
+</div>
 
+<div class="goods__page__container">
+    <div class="goods__owner__addgoods">
+        <a href="./index.php?page=new_item">
+            <img src="./imgs/plus_1.jpg" alt="">
+        </a>
+        <button id="toggleButtonDelete">
+            <img src="./imgs/delete.png" alt="">
+        </button>
+    </div>
+    <div class="goods__page__wrapper">
+        <!---//?---FILTR---->
+        <div class="goods__page__filtr">
+            <div class="goods__page__filtr__name">
+                <p>Фильтр</p>
+            </div>
+            <div class="goods__page__filtr__categories">
+                <div class="goods__page__filtr__categories__block">
+                    <div class="goods__page__filtr__categories__block-name">
+                        <p>Подкатегория</p>
+                    </div>
+                    <div class="goods__page__filtr__categories__block-input">
+                        <div class="dropdown3">
+                            <div class="dropdown-select3" onclick="toggleOptions()">
+                                <p>Добавьте теги</p>
+                                <span class="dropdown-arrow3">&#9660;</span>
+                            </div>
+                            <div class="dropdown-options3" id="dropdownOptions3">
+                                <div class="dropdown-option3">
+                                    stalker 1
+                                </div>
+                                <div class="dropdown-option3">
+                                    stalker 2
+                                </div>
+                                <div class="dropdown-option3">
+                                    stalker 3
+                                </div>
+                                <div class="dropdown-option3">
+                                    stalker 4
+                                </div>
+                                <!-- Add more options here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods__page__filtr__categories__submit">
+                    <button>
+                        <p>Применить</p>
+                    </button>
+                </div>
+            </div>
 
-  <style>
-      /*******FIRST !!!!!!!!!!!!!***************/
-      <?php include './style/b2b/mainpage.css' ?>
-      /*******SECONG !!!!!!!!!!!!!***************/
-      <?php include './style/b2b/company.css' ?>
-  </style>
-
-  <div class="b2b__main__page">
-      <div class="b2b__main__wrapper">
-          <!----->
-          <div class="b2b__main__categories">
-              <div class="b2b__categories__name">
-                  <p>Категории</p>
-              </div>
-              <div class="b2b__categories__list">
-                  <a href="#">
-                      <p>Aktivləşdirilmiş kömür</p>
-                  </a>
-                  <a href="#">
-                      <p>Категория</p>
-                  </a>
-                  <a href="#">
-                      <p>Сьолы сьулья</p>
-                  </a>
-                  <a href="#">
-                      <p>Отопление / Вентиляция</p>
-                  </a>
-                  <a href="#">
-                      <p>Kor olmaq üçün su</p>
-                  </a>
-                  <a href="#">
-                      <p>GöranBoy next door</p>
-                  </a>
-              </div>
-          </div>
-
-          <!------------->
-          <div class="b2b__main__search b2b__main__search__company">
-              <div class="main__search__name">
-                  <a class="active__link" href="./b2b.php">
-                      <p>Личный Кабинет</p>
-                  </a>
-                  <span>></span>
-                  <a class="active__link"  href="./b2b.php?page=company">
-                      <p>Мои Товары</p>
-                  </a>
-                  <span>></span>
-                  <a href="./b2b.php?page=company_category">
-                      <p>Название Категорий</p>
-                  </a>
-              </div>
-              <!------ONLY MOBILE------->
-              <div class="b2b__mobile__filter">
-                  <div class="b2b__mobile__filter__button">
-                      <button id="open__filtr">
-                          <img src="./imgs/filter.png" alt="">
-                      </button>
-                  </div>
-                  <div class="b2b__mobile__filter__sort-element">
-                      <a href="#">
-                          <p>Год производства</p>
-                      </a>
-                  </div>
-                  <div class="b2b__mobile__filter__sort-element">
-                      <a href="#">
-                          <p>Дерево</p>
-                      </a>
-                  </div>
-                  <div class="b2b__mobile__filter__sort-element">
-                      <a href="#">
-                          <p>Электрика</p>
-                      </a>
-                  </div>
-              </div>
-              <!------>
-              <div id="mobile__filtr__block" class="mobile__b2b__filter__block">
-                  <div class="mobile__b2b__filter__container">
-                      <button id="close__mobile__filtr" class="mobile__b2b__filter__close">
-                          X
-                      </button>
-
-                      <div class="mobile__b2b__filter__name">
-                          Расширенный поиск
-                      </div>
-                      <div class="mobile__b2b__filter__category">
-                          <p>Категория</p>
-                      </div>
-                  </div>
-              </div>
-
-
-
-
-              <div class="main__search__wrapper b2b__company__page">
-                  <div class="b2b__company__wrapper">
-
-                      <div class="b2b__company__categories">
-                          <div class="b2b__company__categories__wrapper b2b__company__categories__wrapper__all">
-
-
-                              <a href="./b2b.php?page=item" class="b2b__company__categories__element">
-                                  <div class="element__wrapper">
-                                      <div class="element__image">
-                                          <img src="./imgs/1.jpg" alt="">
-                                      </div>
-                                      <div class="element__content">
-                                          <div class="element__name">
-                                              <p>Пол ламинат</p>
-                                          </div>
-                                          <div class="element__size">
-                                              <p>220 х 60 х 22</p>
-                                          </div>
-                                          <div class="element__material">
-                                              <p>материал</p>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </a>
-
-                              <a href="./b2b.php?page=item" class="b2b__company__categories__element">
-                                  <div class="element__wrapper">
-                                      <div class="element__image">
-                                          <img src="./imgs/1.jpg" alt="">
-                                      </div>
-                                      <div class="element__content">
-                                          <div class="element__name">
-                                              <p>Пол ламинат</p>
-                                          </div>
-                                          <div class="element__size">
-                                              <p>220 х 60 х 22</p>
-                                          </div>
-                                          <div class="element__material">
-                                              <p>материал</p>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </a>
-
-
-                              <a href="./b2b.php?page=item" class="b2b__company__categories__element">
-                                  <div class="element__wrapper">
-                                      <div class="element__image">
-                                          <img src="./imgs/1.jpg" alt="">
-                                      </div>
-                                      <div class="element__content">
-                                          <div class="element__name">
-                                              <p>Пол ламинат</p>
-                                          </div>
-                                          <div class="element__size">
-                                              <p>220 х 60 х 22</p>
-                                          </div>
-                                          <div class="element__material">
-                                              <p>материал</p>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </a>
-
-                              <a href="./b2b.php?page=item" class="b2b__company__categories__element">
-                                  <div class="element__wrapper">
-                                      <div class="element__image">
-                                          <img src="./imgs/1.jpg" alt="">
-                                      </div>
-                                      <div class="element__content">
-                                          <div class="element__name">
-                                              <p>Пол ламинат</p>
-                                          </div>
-                                          <div class="element__size">
-                                              <p>220 х 60 х 22</p>
-                                          </div>
-                                          <div class="element__material">
-                                              <p>материал</p>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </a>
-
-
-                              
-                              <a href="./b2b.php?page=item" class="b2b__company__categories__element">
-                                  <div class="element__wrapper">
-                                      <div class="element__image">
-                                          <img src="./imgs/1.jpg" alt="">
-                                      </div>
-                                      <div class="element__content">
-                                          <div class="element__name">
-                                              <p>Пол ламинат</p>
-                                          </div>
-                                          <div class="element__size">
-                                              <p>220 х 60 х 22</p>
-                                          </div>
-                                          <div class="element__material">
-                                              <p>материал</p>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </a>
-
-                              
-                              <a href="./b2b.php?page=item" class="b2b__company__categories__element">
-                                  <div class="element__wrapper">
-                                      <div class="element__image">
-                                          <img src="./imgs/1.jpg" alt="">
-                                      </div>
-                                      <div class="element__content">
-                                          <div class="element__name">
-                                              <p>Пол ламинат</p>
-                                          </div>
-                                          <div class="element__size">
-                                              <p>220 х 60 х 22</p>
-                                          </div>
-                                          <div class="element__material">
-                                              <p>материал</p>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </a>
-
-                              
-                              <a href="./b2b.php?page=item" class="b2b__company__categories__element">
-                                  <div class="element__wrapper">
-                                      <div class="element__image">
-                                          <img src="./imgs/1.jpg" alt="">
-                                      </div>
-                                      <div class="element__content">
-                                          <div class="element__name">
-                                              <p>Пол ламинат</p>
-                                          </div>
-                                          <div class="element__size">
-                                              <p>220 х 60 х 22</p>
-                                          </div>
-                                          <div class="element__material">
-                                              <p>материал</p>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </a>
-                              
-                              <a href="./b2b.php?page=item" class="b2b__company__categories__element">
-                                  <div class="element__wrapper">
-                                      <div class="element__image">
-                                          <img src="./imgs/1.jpg" alt="">
-                                      </div>
-                                      <div class="element__content">
-                                          <div class="element__name">
-                                              <p>Пол ламинат</p>
-                                          </div>
-                                          <div class="element__size">
-                                              <p>220 х 60 х 22</p>
-                                          </div>
-                                          <div class="element__material">
-                                              <p>материал</p>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </a>
-                              
-                              <a href="./b2b.php?page=item" class="b2b__company__categories__element">
-                                  <div class="element__wrapper">
-                                      <div class="element__image">
-                                          <img src="./imgs/1.jpg" alt="">
-                                      </div>
-                                      <div class="element__content">
-                                          <div class="element__name">
-                                              <p>Пол ламинат</p>
-                                          </div>
-                                          <div class="element__size">
-                                              <p>220 х 60 х 22</p>
-                                          </div>
-                                          <div class="element__material">
-                                              <p>материал</p>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </a>
-                              
-                              <a href="./b2b.php?page=item" class="b2b__company__categories__element">
-                                  <div class="element__wrapper">
-                                      <div class="element__image">
-                                          <img src="./imgs/1.jpg" alt="">
-                                      </div>
-                                      <div class="element__content">
-                                          <div class="element__name">
-                                              <p>Пол ламинат</p>
-                                          </div>
-                                          <div class="element__size">
-                                              <p>220 х 60 х 22</p>
-                                          </div>
-                                          <div class="element__material">
-                                              <p>материал</p>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </a>
-                              
-                              <a href="./b2b.php?page=item" class="b2b__company__categories__element">
-                                  <div class="element__wrapper">
-                                      <div class="element__image">
-                                          <img src="./imgs/1.jpg" alt="">
-                                      </div>
-                                      <div class="element__content">
-                                          <div class="element__name">
-                                              <p>Пол ламинат</p>
-                                          </div>
-                                          <div class="element__size">
-                                              <p>220 х 60 х 22</p>
-                                          </div>
-                                          <div class="element__material">
-                                              <p>материал</p>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </a>
-                              
-                              <a href="./b2b.php?page=item" class="b2b__company__categories__element">
-                                  <div class="element__wrapper">
-                                      <div class="element__image">
-                                          <img src="./imgs/1.jpg" alt="">
-                                      </div>
-                                      <div class="element__content">
-                                          <div class="element__name">
-                                              <p>Пол ламинат</p>
-                                          </div>
-                                          <div class="element__size">
-                                              <p>220 х 60 х 22</p>
-                                          </div>
-                                          <div class="element__material">
-                                              <p>материал</p>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </a>
-                              
-                              <a href="./b2b.php?page=item" class="b2b__company__categories__element">
-                                  <div class="element__wrapper">
-                                      <div class="element__image">
-                                          <img src="./imgs/1.jpg" alt="">
-                                      </div>
-                                      <div class="element__content">
-                                          <div class="element__name">
-                                              <p>Пол ламинат</p>
-                                          </div>
-                                          <div class="element__size">
-                                              <p>220 х 60 х 22</p>
-                                          </div>
-                                          <div class="element__material">
-                                              <p>материал</p>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </a>
-
-
-                          </div>
-                          <div class="b2b__company__category__all">
-                                <a href="#">
-                                    <p>Отобразить все</p>
-                                </a>
-                          </div>
-                      </div>
+        </div>
+        <!---//?---CONTENT WRAPPER---->
+        <div class="goods__page__content__wrapper">
+            <div class="goods__page__content__wrapper_">
+                <!------------>
+                <div class="goods__page__element" >
+                    <div class="page__element__image">
+                        <div class="delete__element_" data-id="1">
+                            <p class="openPopup" id="openPopup">x</p>
+                        </div>
+                        <img src="./imgs/1.jpg" alt="">
+                    </div>
+                    <div class="page__element__content">
+                        <div class="page__element__name">
+                            <a href="./index.php?page=item">
+                                <p>Товар китай покемон fasfasfasf</p>
+                            </a>
+                        </div>
+                        <div class="page__element__size">
+                            <p>210 x 300 x 69</p>
+                        </div>
+                        <div class="page__element__material">
+                            <p>материал</p>
+                        </div>
+                    </div>
+                </div>
+                <!------------> <!------------>
+                                <!------------>
+                                <div class="goods__page__element" >
+                    <div class="page__element__image">
+                        <div class="delete__element_" data-id="2">
+                            <p class="openPopup" id="openPopup">x</p>
+                        </div>
+                        <img src="./imgs/1.jpg" alt="">
+                    </div>
+                    <div class="page__element__content">
+                        <div class="page__element__name">
+                            <a href="./index.php?page=item">
+                                <p>Товар китай покемон fasfasfasf</p>
+                            </a>
+                        </div>
+                        <div class="page__element__size">
+                            <p>210 x 300 x 69</p>
+                        </div>
+                        <div class="page__element__material">
+                            <p>материал</p>
+                        </div>
+                    </div>
+                </div>
+                <!------------> <!------------>
+                                <!------------>
+                                <div class="goods__page__element" >
+                    <div class="page__element__image">
+                        <div class="delete__element_" data-id="3">
+                            <p class="openPopup" id="openPopup">x</p>
+                        </div>
+                        <img src="./imgs/1.jpg" alt="">
+                    </div>
+                    <div class="page__element__content">
+                        <div class="page__element__name">
+                            <a href="./index.php?page=item">
+                                <p>Товар китай покемон fasfasfasf</p>
+                            </a>
+                        </div>
+                        <div class="page__element__size">
+                            <p>210 x 300 x 69</p>
+                        </div>
+                        <div class="page__element__material">
+                            <p>материал</p>
+                        </div>
+                    </div>
+                </div>
+                <!------------> <!------------>
+                                <!------------>
+                                <div class="goods__page__element" >
+                    <div class="page__element__image">
+                        <div class="delete__element_" data-id="4">
+                            <p class="openPopup" id="openPopup">x</p>
+                        </div>
+                        <img src="./imgs/1.jpg" alt="">
+                    </div>
+                    <div class="page__element__content">
+                        <div class="page__element__name">
+                            <a href="./index.php?page=item">
+                                <p>Товар китай покемон fasfasfasf asdasdasda asdasddas</p>
+                            </a>
+                        </div>
+                        <div class="page__element__size">
+                            <p>210 x 300 x 69</p>
+                        </div>
+                        <div class="page__element__material">
+                            <p>материал</p>
+                        </div>
+                    </div>
+                </div>
+                <!------------> <!------------>
+                                <!------------>
+                                <div class="goods__page__element" >
+                    <div class="page__element__image">
+                        <div class="delete__element_" data-id="5">
+                            <p class="openPopup" id="openPopup">x</p>
+                        </div>
+                        <img src="./imgs/1.jpg" alt="">
+                    </div>
+                    <div class="page__element__content">
+                        <div class="page__element__name">
+                            <a href="./index.php?page=item">
+                                <p>Товар китай покемон fasfasfasf</p>
+                            </a>
+                        </div>
+                        <div class="page__element__size">
+                            <p>210 x 300 x 69</p>
+                        </div>
+                        <div class="page__element__material">
+                            <p>материал</p>
+                        </div>
+                    </div>
+                </div>
+                <!------------> <!------------>
 
 
 
 
 
-                  </div>
 
 
 
-              </div>
-          </div>
-      </div>
-  </div>
-
-  <!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
 
-  <script>
-      const open__mobile__filtr = document.getElementById('open__filtr');
-      const mobile__filtr__block = document.getElementById('mobile__filtr__block');
-      const close__mobile__filtr = document.getElementById('close__mobile__filtr');
 
-      open__mobile__filtr.addEventListener('click', function(event) {
-          mobile__filtr__block.classList.add('mobile__filtr__block_opened');
-      });
 
-      close__mobile__filtr.addEventListener('click', function(event) {
-          mobile__filtr__block.classList.remove('mobile__filtr__block_opened');
-      });
 
-  </script>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+<div class="popup-overlay" id="popupOverlay">
+    <form class="popup popup__delete__element" id="popup">
+        <span class="close" id="closePopup">X</span>
+        <div class="popup__content__delete">
+            <div class="popup__eleement__delete__name">
+                <p>Удалить объявление?</p>
+            </div>
+            <input type="text" id="blockIdInput" readonly>
+            <div class="popup__element__delete__button">
+                <button>
+                    <p>Удалить</p>
+                </button>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    function toggleOptions() {
+        const options = document.getElementById("dropdownOptions3");
+        const arrow = document.querySelector('.dropdown-arrow3');
+        if (options.style.display === "block") {
+            options.style.display = "none";
+            arrow.style.transform = 'rotate(0deg)';
+        } else {
+            options.style.display = "block";
+            arrow.style.transform = 'rotate(180deg)';
+        }
+    }
+
+    function toggleSelectedOption(checkbox) {
+        const selectedOptions = document.getElementById("selectedOptions3");
+        if (checkbox.checked) {
+            const option = document.createElement("div");
+            option.className = "selected-option3";
+            option.textContent = checkbox.value;
+            selectedOptions.appendChild(option);
+        } else {
+            const options = selectedOptions.getElementsByClassName("selected-option3");
+            for (let i = 0; i < options.length; i++) {
+                if (options[i].textContent === checkbox.value) {
+                    selectedOptions.removeChild(options[i]);
+                    break;
+                }
+            }
+        }
+    }
+
+    // Close the dropdown when clicking anywhere else on the page
+    document.addEventListener('click', function(event) {
+        const dropdown = document.querySelector('.dropdown3');
+        if (!dropdown.contains(event.target)) {
+            document.getElementById("dropdownOptions3").style.display = "none";
+            document.querySelector('.dropdown-arrow3').style.transform = 'rotate(0deg)';
+        }
+    });
+
+
+
+
+
+
+
+
+
+
+    const openPopupButtons = document.querySelectorAll(".openPopup");
+const popupOverlay = document.getElementById("popupOverlay");
+const closePopupButton = document.getElementById("closePopup");
+const blockIdInput = document.getElementById("blockIdInput");
+
+openPopupButtons.forEach(button => {
+    button.addEventListener("click", function () {
+        const block = this.closest(".delete__element_");
+        const blockId = block.getAttribute("data-id");
+        blockIdInput.value = blockId;
+        popupOverlay.style.display = "block";
+    });
+});
+
+closePopupButton.addEventListener("click", function () {
+    popupOverlay.style.display = "none";
+});
+
+popupOverlay.addEventListener("click", function (event) {
+    if (event.target === popupOverlay) {
+        popupOverlay.style.display = "none";
+    }
+});
+
+document.addEventListener("keydown", function (event) {
+    if (event.key === "Escape") {
+        popupOverlay.style.display = "none";
+    }
+});
+
+const toggleButton = document.getElementById("toggleButtonDelete");
+const deleteElements = document.querySelectorAll(".delete__element_");
+
+let visible = false; // Initially, the divs are hidden
+
+toggleButton.addEventListener("click", () => {
+    visible = !visible; // Toggle the visibility flag
+
+    if (visible) {
+        // Show the small divs
+        deleteElements.forEach(element => {
+            element.style.display = "flex";
+        });
+    } else {
+        // Hide the small divs
+        deleteElements.forEach(element => {
+            element.style.display = "none";
+        });
+    }
+});
+</script>
