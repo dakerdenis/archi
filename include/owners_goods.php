@@ -44,44 +44,38 @@
                 </div>
 
 
+
+
+
+
+
+
+
+
                 <div class="additional__container">
                     <div class="additional__container__block">
-
-
-
-                        Subjects: <select name="subject" id="subject">
+                        Categories:
+                        <select name="subject" id="subject">
                             <option value="" selected="selected">Select subject</option>
                         </select>
                         <br><br>
-                        Topics: <select name="topic" id="topic">
+                        <span id="topicsLabel" style="display: none;">Subcategories:</span>
+                        <select name="topic" id="topic" style="display: none;">
                             <option value="" selected="selected">Please select subject first</option>
                         </select>
                         <br><br>
-                        Chapters: <select name="chapter" id="chapter">
+                        <span id="chaptersLabel" style="display: none;">Properties:</span>
+                        <select name="chapter" id="chapter" style="display: none;">
                             <option value="" selected="selected">Please select topic first</option>
                         </select>
                         <br><br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                     </div>
                 </div>
+
+
+
+
+
 
                 <div class="main__filter__search">
                     <button>
@@ -317,8 +311,6 @@
 
 
 
-
-
     var subjectObject = {
         "Front-end": {
             "HTML": ["Links", "Images", "Tables", "Lists"],
@@ -329,31 +321,66 @@
             "PHP": ["Variables", "Strings", "Arrays"],
             "SQL": ["SELECT", "UPDATE", "DELETE"]
         }
-    }
+    };
+
     window.onload = function() {
-        var subjectSel = document.getElementById("subject");
-        var topicSel = document.getElementById("topic");
-        var chapterSel = document.getElementById("chapter");
-        for (var x in subjectObject) {
-            subjectSel.options[subjectSel.options.length] = new Option(x, x);
-        }
-        subjectSel.onchange = function() {
-            //empty Chapters- and Topics- dropdowns
-            chapterSel.length = 1;
-            topicSel.length = 1;
-            //display correct values
-            for (var y in subjectObject[this.value]) {
-                topicSel.options[topicSel.options.length] = new Option(y, y);
-            }
-        }
-        topicSel.onchange = function() {
-            //empty Chapters dropdown
-            chapterSel.length = 1;
-            //display correct values
-            var z = subjectObject[subjectSel.value][this.value];
-            for (var i = 0; i < z.length; i++) {
-                chapterSel.options[chapterSel.options.length] = new Option(z[i], z[i]);
-            }
-        }
+  var subjectSel = document.getElementById("subject");
+  var topicSel = document.getElementById("topic");
+  var chapterSel = document.getElementById("chapter");
+  var topicsLabel = document.getElementById("topicsLabel");
+  var chaptersLabel = document.getElementById("chaptersLabel");
+
+  // Populate the subjects dropdown
+  for (var x in subjectObject) {
+    subjectSel.options[subjectSel.options.length] = new Option(x, x);
+  }
+
+  // Event handler for subject selection
+  subjectSel.onchange = function() {
+    // Hide topics and chapters, and their respective labels
+    topicsLabel.style.display = "none";
+    topicSel.style.display = "none";
+    chaptersLabel.style.display = "none";
+    chapterSel.style.display = "none";
+
+    // Clear the topics and chapters dropdowns
+    topicSel.length = 1;
+    chapterSel.length = 1;
+
+    // Check if a subject is selected
+    if (this.value !== "") {
+      // Display topics and their label
+      topicsLabel.style.display = "inline";
+      topicSel.style.display = "inline";
+
+      // Populate the topics dropdown based on the selected subject
+      for (var y in subjectObject[this.value]) {
+        topicSel.options[topicSel.options.length] = new Option(y, y);
+      }
     }
+  };
+
+  // Event handler for topic selection
+  topicSel.onchange = function() {
+    // Hide chapters and their label
+    chaptersLabel.style.display = "none";
+    chapterSel.style.display = "none";
+
+    // Clear the chapters dropdown
+    chapterSel.length = 1;
+
+    // Check if a topic is selected
+    if (this.value !== "") {
+      // Display chapters and their label
+      chaptersLabel.style.display = "inline";
+      chapterSel.style.display = "inline";
+
+      // Populate the chapters dropdown based on the selected subject and topic
+      var z = subjectObject[subjectSel.value][this.value];
+      for (var i = 0; i < z.length; i++) {
+        chapterSel.options[chapterSel.options.length] = new Option(z[i], z[i]);
+      }
+    }
+}
+  };
 </script>
