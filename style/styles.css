@@ -602,6 +602,8 @@ h6 {
 }
 .main__filter__search{
   margin-top: 30px;
+  width: 188px;
+  text-align: right;
 }
 .main__filter__search button {
   width: 113px;
@@ -632,29 +634,39 @@ h6 {
 }
 /***? ***********Стили выпадающих списков******************/
 .custom-select {
-  width: 100%;
+  width: 188px;
   position: relative;
   display: inline-block;
   margin-bottom: 10px;
+  height: 34px;
 }
 
 .select-box {
   display: flex;
   align-items: center;
   cursor: pointer;
-  border: 1px solid #ccc;
+
   padding: 5px;
   user-select: none;
-  width: 100%;
-  background-color: #fff;
+  width: 188px;
+  height: 34px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #EDEDED;
   z-index: 100;
+  padding-left: 10px;
 }
 .selected-option{
   width: 100%;
+  
 }
 .arrow {
   margin-left: auto;
   transition: transform 0.2s;
+  margin-right: 5px;
+  color: #858282;
+
+
 }
 
 .options {
@@ -662,22 +674,56 @@ h6 {
   list-style: none;
   margin: 0;
   padding: 0;
-  border: 1px solid #ccc;
+
   display: none;
-  width: 100%;
-  background-color: #fff;
+
+  background-color: #EDEDED;
   z-index: 300;
+
+  width: 188px;
+
+  border-radius: 5px 5px 10px 10px;
 }
 
 .option {
   padding: 5px;
   cursor: pointer;
+  padding-left: 10px;
+  height: 34px;
+}
+.option:first-child{
+  border-radius: 5px 5px 0px 0px;
+}
+.option:last-child{
+  border-radius: 0px 0px 10px 10px;
 }
 
 .option:hover {
-  background-color: #f0f0f0;
+  background-color: #c7c7c7;
 }
+.custom-select-container{
+  margin-top: 30px;
+}
+.custom__select__additionalname{
+  color: #000;
+font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 
+}
+.custom_select_name{
+  margin-top: 21px;
+  color: #000;
+font-family: Gilroy;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 4px;
+padding-left: 10px;
+}
 
 /**! *****FILTR STYLES FOR ALL PAGES*************/
 /**! *****FILTR STYLES FOR ALL PAGES*************/

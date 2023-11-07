@@ -94,7 +94,12 @@
 
 
                         <div class="custom-select-container" id="custom-select-container" style="display: none;">
+                            <div class="custom__select__additionalname">
+                                <p>Свойства</p>
+                            </div>
+
                             <div class="custom-select">
+                                <p class="custom_select_name"> Страна производитель</p>
                                 <div class="select-box">
                                     <span class="selected-option">Option 1</span>
                                     <div class="arrow">&#9660;</div>
@@ -105,7 +110,9 @@
                                     <li class="option">Option 1.3</li>
                                 </ul>
                             </div>
+
                             <div class="custom-select">
+                                <p class="custom_select_name">Класс</p>
                                 <div class="select-box">
                                     <span class="selected-option">Option 2</span>
                                     <div class="arrow">&#9660;</div>
@@ -432,36 +439,36 @@
 
 
     subcategoryOptions.addEventListener("click", (event) => {
-  event.stopPropagation();
-  subcategorySelect.querySelector(".options").style.display = "none";
-  subcategorySelect.querySelector(".arrow").style.transform = "rotate(0deg)";
+        event.stopPropagation();
+        subcategorySelect.querySelector(".options").style.display = "none";
+        subcategorySelect.querySelector(".arrow").style.transform = "rotate(0deg)";
 
-  // Display the custom-select container when a subcategory is selected
-  const customSelectContainer = document.getElementById("custom-select-container");
-  customSelectContainer.style.display = "block";
-  
-  // Add event listeners for each custom-select inside the container
-  const customSelects = customSelectContainer.querySelectorAll(".custom-select");
-  customSelects.forEach((customSelect) => {
-    const selectBox = customSelect.querySelector(".select-box");
-    const options = customSelect.querySelector(".options");
-    const arrow = customSelect.querySelector(".arrow");
+        // Display the custom-select container when a subcategory is selected
+        const customSelectContainer = document.getElementById("custom-select-container");
+        customSelectContainer.style.display = "block";
 
-    selectBox.addEventListener("click", () => {
-      options.style.display = options.style.display === "none" ? "block" : "none";
-      arrow.style.transform = options.style.display === "none" ? "rotate(0deg)" : "rotate(180deg)";
+        // Add event listeners for each custom-select inside the container
+        const customSelects = customSelectContainer.querySelectorAll(".custom-select");
+        customSelects.forEach((customSelect) => {
+            const selectBox = customSelect.querySelector(".select-box");
+            const options = customSelect.querySelector(".options");
+            const arrow = customSelect.querySelector(".arrow");
+
+            selectBox.addEventListener("click", () => {
+                options.style.display = options.style.display === "none" ? "block" : "none";
+                arrow.style.transform = options.style.display === "none" ? "rotate(0deg)" : "rotate(180deg)";
+            });
+
+            const optionItems = customSelect.querySelectorAll(".option");
+            optionItems.forEach((item) => {
+                item.addEventListener("click", () => {
+                    selectBox.querySelector(".selected-option").textContent = item.textContent;
+                    options.style.display = "none";
+                    arrow.style.transform = "rotate(0deg)";
+                });
+            });
+        });
     });
-
-    const optionItems = customSelect.querySelectorAll(".option");
-    optionItems.forEach((item) => {
-      item.addEventListener("click", () => {
-        selectBox.querySelector(".selected-option").textContent = item.textContent;
-        options.style.display = "none";
-        arrow.style.transform = "rotate(0deg)";
-      });
-    });
-  });
-});
 
     function clearSubcategoryOptions() {
         subcategoryOptions.innerHTML = "";
