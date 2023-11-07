@@ -660,6 +660,7 @@ line-height: normal;
   background-color: #EDEDED;
   padding: 10px;
   border-radius: 10px;
+  z-index: 50;
 }
 
 /* Style the options container */
@@ -676,6 +677,7 @@ line-height: normal;
 
   border-top: none;
   border-radius: 5px 5px 10px 10px;
+  z-index: 150;
 }
 
 /* Style individual options */
