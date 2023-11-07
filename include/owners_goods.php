@@ -43,26 +43,8 @@
                 <div class="main__filter__description">
                     <p>Подкатегория</p>
                 </div>
-
-
-
-
-
-
-
-
-
-
                 <div class="additional__container">
                     <div class="additional__container__block">
-
-
-
-
-
-
-
-
                         <div class="custom-select" id="category-select">
                             <div class="select-box">
                                 <span class="selected-option">Select a category</span>
@@ -84,21 +66,12 @@
                                 <!-- Subcategory options will be added dynamically based on the selected category -->
                             </ul>
                         </div>
-
-
-
-
-
-
-
-
-
                         <div class="custom-select-container" id="custom-select-container" style="display: none;">
                             <div class="custom__select__additionalname">
                                 <p>Свойства</p>
                             </div>
 
-                            <div class="custom-select">
+                            <div class="custom-select ">
                                 <p class="custom_select_name"> Страна производитель</p>
                                 <div class="select-box">
                                     <span class="selected-option">Option 1</span>
@@ -125,27 +98,8 @@
                             </div>
                             <!-- Add more custom-select elements as needed -->
                         </div>
-
-
-
-
-
-
-
-
-
-
-
                     </div>
                 </div>
-
-
-
-
-
-
-
-
                 <div class="main__filter__search">
                     <button>
                         <p>Применить</p>
