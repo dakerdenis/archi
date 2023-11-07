@@ -1,5 +1,6 @@
 <style>
-    <?php include './style/goods.css' ?>html {}
+    <?php include './style/goods.css' ?>
+    html {}
 </style>
 <div class="goods__page__categories goods__page__categories_owner">
     <div class="goods__page__categories_owner__block">
@@ -54,23 +55,54 @@
 
                 <div class="additional__container">
                     <div class="additional__container__block">
-                        Categories:
-                        <select name="subject" id="subject">
-                            <option value="" selected="selected">Select subject</option>
-                        </select>
-                        <br><br>
-                        <span id="topicsLabel" style="display: none;">Subcategories:</span>
-                        <select name="topic" id="topic" style="display: none;">
-                            <option value="" selected="selected">Please select subject first</option>
-                        </select>
-                        <br><br>
-                        <span id="chaptersLabel" style="display: none;">Properties:</span>
-                        <select name="chapter" id="chapter" style="display: none;">
-                            <option value="" selected="selected">Please select topic first</option>
-                        </select>
-                        <br><br>
+
+
+                    <select id="categories" name="categories">
+        <option value="" selected disabled>Select Category</option>
+        <option value="cars">Cars</option>
+        <option value="planes">Planes</option>
+        <option value="helicopters">Helicopters</option>
+    </select>
+
+    <div id="subcategories">
+        <select id="subcategories-select" name="subcategories">
+            <option value="" selected disabled>Select Subcategory</option>
+        </select>
+    </div>
+
+    <div id="properties">
+        <select id="properties-select" name="properties">
+            <option value="" selected disabled>Select Property</option>
+        </select>
+    </div>
+
+
+
+    <div id="property-container">
+    <!-- Individual property selects will be added dynamically here -->
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                     </div>
                 </div>
+
+
 
 
 
@@ -263,7 +295,7 @@
     const blockIdInput = document.getElementById("blockIdInput");
 
     openPopupButtons.forEach(button => {
-        button.addEventListener("click", function() {
+        button.addEventListener("click", function () {
             const block = this.closest(".delete__element_");
             const blockId = block.getAttribute("data-id");
             blockIdInput.value = blockId;
@@ -271,17 +303,17 @@
         });
     });
 
-    closePopupButton.addEventListener("click", function() {
+    closePopupButton.addEventListener("click", function () {
         popupOverlay.style.display = "none";
     });
 
-    popupOverlay.addEventListener("click", function(event) {
+    popupOverlay.addEventListener("click", function (event) {
         if (event.target === popupOverlay) {
             popupOverlay.style.display = "none";
         }
     });
 
-    document.addEventListener("keydown", function(event) {
+    document.addEventListener("keydown", function (event) {
         if (event.key === "Escape") {
             popupOverlay.style.display = "none";
         }
@@ -311,76 +343,107 @@
 
 
 
-    var subjectObject = {
-        "Front-end": {
-            "HTML": ["Links", "Images", "Tables", "Lists"],
-            "CSS": ["Borders", "Margins", "Backgrounds", "Float"],
-            "JavaScript": ["Variables", "Operators", "Functions", "Conditions"]
+    document.addEventListener("DOMContentLoaded", function() {
+    const categoriesSelect = document.getElementById("categories");
+    const subcategoriesSelect = document.getElementById("subcategories-select");
+    const propertyContainer = document.getElementById("property-container");
+
+    // Define the data structure
+    const data = {
+        cars: {
+            subcategories: ["SUV", "Crossover"],
+            properties: {
+                SUV: {
+                    Color: ["Red", "Blue", "Pink"],
+                    Price: ["Low", "Average", "High"],
+                    Weight: ["2", "2.2", "3"],
+                },
+                Crossover: {
+                    Color: ["Red", "Blue", "Pink"],
+                    Price: ["Low", "Average", "High"],
+                    Weight: ["2", "2.2", "3"],
+                    Wheels: ["2", "3", "4"],
+                },
+            },
         },
-        "Back-end": {
-            "PHP": ["Variables", "Strings", "Arrays"],
-            "SQL": ["SELECT", "UPDATE", "DELETE"]
-        }
+        planes: {
+            subcategories: ["Military", "Average"],
+            properties: {
+                Military: {
+                    Color: ["Red", "Blue", "Pink"],
+                    Price: ["Low", "Average", "High"],
+                    Weight: ["2", "2.2", "3"],
+                },
+                Average: {
+                    Color: ["Red", "Blue", "Pink"],
+                    Price: ["Low", "Average", "High"],
+                    Wingspan: ["2", "2.2", "3"],
+                    Wheels: ["2", "3", "4"],
+                },
+            },
+        },
+        helicopters: {
+            subcategories: ["Homemade", "Stalkers"],
+            properties: {
+                Homemade: {
+                    Color: ["Red", "Blue", "Pink"],
+                    Price: ["Low", "Average", "High"],
+                    Weight: ["2", "2.2", "3"],
+                },
+                Stalkers: {
+                    Color: ["Red", "Blue", "Pink"],
+                    Price: ["Low", "Average", "High"],
+                    Wingspan: ["2", "2.2", "3"],
+                    Wheels: ["2", "3", "4"],
+                },
+            },
+        },
     };
 
-    window.onload = function() {
-  var subjectSel = document.getElementById("subject");
-  var topicSel = document.getElementById("topic");
-  var chapterSel = document.getElementById("chapter");
-  var topicsLabel = document.getElementById("topicsLabel");
-  var chaptersLabel = document.getElementById("chaptersLabel");
+    categoriesSelect.addEventListener("change", function() {
+        subcategoriesSelect.innerHTML = '<option value="" selected disabled>Select Subcategory</option>';
+        propertyContainer.innerHTML = ""; // Clear existing properties
 
-  // Populate the subjects dropdown
-  for (var x in subjectObject) {
-    subjectSel.options[subjectSel.options.length] = new Option(x, x);
-  }
+        const selectedCategory = categoriesSelect.value;
 
-  // Event handler for subject selection
-  subjectSel.onchange = function() {
-    // Hide topics and chapters, and their respective labels
-    topicsLabel.style.display = "none";
-    topicSel.style.display = "none";
-    chaptersLabel.style.display = "none";
-    chapterSel.style.display = "none";
+        if (selectedCategory) {
+            const subcategories = data[selectedCategory].subcategories;
+            subcategories.forEach((subcategory) => {
+                const option = document.createElement("option");
+                option.value = subcategory;
+                option.textContent = subcategory;
+                subcategoriesSelect.appendChild(option);
+            });
+        }
+    });
 
-    // Clear the topics and chapters dropdowns
-    topicSel.length = 1;
-    chapterSel.length = 1;
+    subcategoriesSelect.addEventListener("change", function() {
+        propertyContainer.innerHTML = ""; // Clear existing properties
 
-    // Check if a subject is selected
-    if (this.value !== "") {
-      // Display topics and their label
-      topicsLabel.style.display = "inline";
-      topicSel.style.display = "inline";
+        const selectedCategory = categoriesSelect.value;
+        const selectedSubcategory = subcategoriesSelect.value;
 
-      // Populate the topics dropdown based on the selected subject
-      for (var y in subjectObject[this.value]) {
-        topicSel.options[topicSel.options.length] = new Option(y, y);
-      }
-    }
-  };
+        if (selectedCategory && selectedSubcategory) {
+            const properties = data[selectedCategory].properties[selectedSubcategory];
+            properties.forEach((options, propertyName) => {
+                const propertySelect = document.createElement("select");
+                propertySelect.name = propertyName;
+                propertySelect.innerHTML = '<option value="" selected disabled>Select ' + propertyName + '</option>';
+                options.forEach((option) => {
+                    const optionElement = document.createElement("option");
+                    optionElement.value = option;
+                    optionElement.textContent = option;
+                    propertySelect.appendChild(optionElement);
+                });
+                propertyContainer.appendChild(propertySelect);
+            });
+        }
+    });
 
-  // Event handler for topic selection
-  topicSel.onchange = function() {
-    // Hide chapters and their label
-    chaptersLabel.style.display = "none";
-    chapterSel.style.display = "none";
+    // Hide subcategories and property selects initially
+    subcategoriesSelect.style.display = "none";
+    propertyContainer.style.display = "none";
+});
 
-    // Clear the chapters dropdown
-    chapterSel.length = 1;
 
-    // Check if a topic is selected
-    if (this.value !== "") {
-      // Display chapters and their label
-      chaptersLabel.style.display = "inline";
-      chapterSel.style.display = "inline";
-
-      // Populate the chapters dropdown based on the selected subject and topic
-      var z = subjectObject[subjectSel.value][this.value];
-      for (var i = 0; i < z.length; i++) {
-        chapterSel.options[chapterSel.options.length] = new Option(z[i], z[i]);
-      }
-    }
-}
-  };
 </script>

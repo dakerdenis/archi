@@ -631,6 +631,18 @@ h6 {
   height: 100%;
 }
 /***? ***********Стили выпадающих списков******************/
+/* CSS for the rotating arrow */
+.arrow {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 14px;
+  transition: transform 0.2s ease;
+}
+
+/* CSS to rotate the arrow when dropdown is open */
+.dropdown-open .arrow {
+  transform: rotate(180deg);
+}
 
 
 /**! *****FILTR STYLES FOR ALL PAGES*************/
