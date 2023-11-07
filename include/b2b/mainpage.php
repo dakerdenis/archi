@@ -1,5 +1,4 @@
 <style>
-    <?php include './style/new_buisness.css' ?>
     <?php include './style/b2b/mainpage.css' ?>
 </style>
 
@@ -39,77 +38,8 @@
                     <p>Поиск</p>
                 </a>
             </div>
-            <!------ONLY MOBILE------->
-            <!------ONLY MOBILE------->
-            <!------ONLY MOBILE------->
-            <!------ONLY MOBILE------->
-            <!------ONLY MOBILE------->
-            <div class="__mobile__filter">
-                <div class="__mobile__filter__button">
-                    <button id="open__filtr">
-                        <img src="./imgs/filter.png" alt="">
-                    </button>
-                </div>
-                <div class="__mobile__filter__sort-element">
-                    <a href="#">
-                        <p>Год производства</p>
-                    </a>
-                </div>
-                <div class="__mobile__filter__sort-element">
-                    <a href="#">
-                        <p>Дерево</p>
-                    </a>
-                </div>
-                <div class="__mobile__filter__sort-element">
-                    <a href="#">
-                        <p>Электрика</p>
-                    </a>
-                </div>
-            </div>
-            <!------>
-            <div id="mobile__filtr__block" class="mobile__filter__block">
-                <div class="mobile__filter__container">
-                    <button id="close__mobile__filtr" class="mobile__filter__close">
-                        X
-                    </button>
 
-                    <div class="__mobile__filter__content__">
-                        <div class="mobile__filter__name">
-                            Расширенный поиск
-                        </div>
-                        <div class="mobile__filter__category">
-                            <p>Категория</p>
-                        </div>
 
-                        <div class="mobile__filter__dropdown">
-                            <div class="custom-dropdown" id="dropdown1">
-                                <input type="text" class=" dropdown-input" placeholder="Выбрать категорию" readonly>
-                                <div class="arrow"></div>
-                                <ul class="dropdown-list">
-                                    <li data-value="Электрика">Электрика </li>
-                                    <li data-value="Сантехника">Сантехника</li>
-                                    <li data-value="Мебель">Мебель</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="mobile__filter__category">
-                            <p>Категория</p>
-                        </div>
-                        <div class="mobile__filter__dropdown">
-                            <div class="custom-dropdown" id="dropdown1">
-                                <input type="text" class=" dropdown-input" placeholder="Выбрать подкатегорию" readonly>
-                                <div class="arrow"></div>
-                                <ul class="dropdown-list">
-                                    <li data-value="Электрика">Электрика </li>
-                                    <li data-value="Сантехника">Сантехника</li>
-                                    <li data-value="Мебель">Мебель</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
             <script>
                 const open__mobile__filtr = document.getElementById('open__filtr');
                 const mobile__filtr__block = document.getElementById('mobile__filtr__block');

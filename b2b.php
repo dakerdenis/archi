@@ -76,6 +76,6 @@
 
 
     <script src="./scripts/index.js"></script>
-</body>
+</body> 
 
 </html>

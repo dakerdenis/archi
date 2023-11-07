@@ -562,4 +562,10 @@
         right: 0;
         bottom: 32px;
     }
+    #popupContent{
+        left: calc(50% - 158px);
+    }
+    .popup__wrapper {
+        height: 82%;
+    }
 }
