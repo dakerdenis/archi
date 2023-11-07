@@ -48,11 +48,14 @@
                     <div class="additional__container__block">
 
 
-
                         <div class="custom-select" id="selectContainer1">
                             <div class="select-box">
                                 <div class="select-value">Categories</div>
-                                <ul class="select-options"></ul>
+                                <ul class="select-options">
+                                    <li data-value="cats">Cats</li>
+                                    <li data-value="dogs">Dogs</li>
+                                    <li data-value="birds">Birds</li>
+                                </ul>
                             </div>
                             <div class="arrow"></div>
                         </div>
@@ -65,7 +68,7 @@
                             <div class="arrow"></div>
                         </div>
 
-                        <!-- Properties will be added dynamically -->
+
 
 
 
@@ -319,7 +322,6 @@
 
 
 
-
     const selectContainer1 = document.getElementById('selectContainer1');
 const selectContainer2 = document.getElementById('selectContainer2');
 const arrow1 = selectContainer1.querySelector('.arrow');
@@ -327,56 +329,10 @@ const arrow2 = selectContainer2.querySelector('.arrow');
 const optionsList1 = selectContainer1.querySelector('.select-options');
 const optionsList2 = selectContainer2.querySelector('.select-options');
 
-const data = {
-  categories: [
-    {
-      name: 'Cars',
-      subcategories: [
-        {
-          name: 'Car 1',
-          properties: ['Color', 'Weight', 'Price'],
-        },
-        {
-          name: 'Car 2',
-          properties: ['Color', 'Weight', 'Price'],
-        },
-        {
-          name: 'Car 3',
-          properties: ['Color', 'Weight', 'Price'],
-        },
-      ],
-    },
-    {
-      name: 'Planes',
-      subcategories: [
-        {
-          name: 'Plane 1',
-          properties: ['Color', 'Weight', 'Price', 'Wingspan'],
-        },
-        {
-          name: 'Plane 2',
-          properties: ['Color', 'Weight', 'Price', 'Wingspan'],
-        },
-      ],
-    },
-    {
-      name: 'Helicopters',
-      subcategories: [
-        {
-          name: 'Helicopter 1',
-          properties: ['Color', 'Weight'],
-        },
-        {
-          name: 'Helicopter 2',
-          properties: ['Color', 'Weight'],
-        },
-        {
-          name: 'Helicopter 3',
-          properties: ['Color', 'Weight'],
-        },
-      ],
-    },
-  ],
+const categories = {
+  cats: ['Siamese', 'Persian', 'Maine Coon', 'Ragdoll', 'Bengal', 'Sphynx'],
+  dogs: ['Golden Retriever', 'Labrador Retriever', 'German Shepherd'],
+  birds: ['Parakeet', 'Canary', 'Cockatiel', 'Budgerigar', 'Lovebird', 'Cockatoo', 'African Grey'],
 };
 
 // Function to close the dropdown
@@ -385,72 +341,16 @@ function closeDropdown(container, arrow) {
   arrow.style.transform = 'translateY(-50%) rotate(0deg)';
 }
 
-// Create options for the first container based on the dynamic data
-function createCategories() {
-  optionsList1.innerHTML = '';
-  data.categories.forEach((category) => {
-    const option = document.createElement('li');
-    option.textContent = category.name;
-    option.setAttribute('data-value', category.name);
-    optionsList1.appendChild(option);
-  });
-}
-
-// Create subcategories for the second container based on the selected category
+// Create subcategories for the second container based on the selected category in the first container
 function createSubcategories(selectedCategory) {
   optionsList2.innerHTML = '';
-  const selectedCategoryData = data.categories.find((category) => category.name === selectedCategory);
-
-  if (selectedCategoryData) {
-    selectedCategoryData.subcategories.forEach((subcategory) => {
+  const subcategories = categories[selectedCategory];
+  if (subcategories) {
+    subcategories.forEach((subcategory) => {
       const option = document.createElement('li');
-      option.textContent = subcategory.name;
-      option.setAttribute('data-value', subcategory.name);
+      option.textContent = subcategory;
+      option.setAttribute('data-value', subcategory);
       optionsList2.appendChild(option);
-    });
-  }
-}
-
-// Create property containers and options based on the selected subcategory
-function createPropertyContainersAndOptions(selectedSubcategory) {
-  // Close any open property containers
-  document.querySelectorAll('.property-container').forEach((container) => {
-    closeDropdown(container.querySelector('.select-options'), container.querySelector('.arrow'));
-  });
-
-  // Get the selected subcategory data
-  const selectedCategoryData = data.categories.find((category) => category.name === selectContainer1.querySelector('.select-value').textContent);
-  if (!selectedCategoryData) return;
-
-  const selectedSubcategoryData = selectedCategoryData.subcategories.find((subcategory) => subcategory.name === selectedSubcategory);
-  if (!selectedSubcategoryData) return;
-
-  // Create property containers and options
-  selectedSubcategoryData.properties.forEach((property, index) => {
-    const propertyContainer = document.createElement('div');
-    propertyContainer.classList.add('custom-select', 'property-container');
-    propertyContainer.style.display = 'none';
-
-    propertyContainer.innerHTML = `
-      <div class="select-box">
-        <div class="select-value">${property}</div>
-        <ul class="select-options"></ul>
-      </div>
-      <div class="arrow"></div>
-    `;
-
-    document.body.appendChild(propertyContainer);
-
-    const optionsListProperty = propertyContainer.querySelector('.select-options');
-
-    // Generate unique property values (for demonstration, we use index as a suffix)
-    const propertyValues = Array.from({ length: 5 }, (_, i) => `${property} ${i + 1}`);
-
-    propertyValues.forEach((value) => {
-      const option = document.createElement('li');
-      option.textContent = value;
-      option.setAttribute('data-value', value);
-      optionsListProperty.appendChild(option);
     });
   }
 }
@@ -466,40 +366,24 @@ selectContainer2.addEventListener('click', (event) => {
   event.stopPropagation(); // Prevent the click event from propagating
 });
 
-document.addEventListener('click', (event) => {
-  if (
-    !selectContainer1.contains(event.target) &&
-    !selectContainer2.contains(event.target)
-  ) {
-    closeDropdown(optionsList1, arrow1);
-    closeDropdown(optionsList2, arrow2);
-  }
-});
-
 optionsList1.addEventListener('click', (event) => {
   const selectedCategory = event.target.getAttribute('data-value');
   selectContainer1.querySelector('.select-value').textContent = event.target.textContent;
   createSubcategories(selectedCategory);
   selectContainer2.style.display = 'block';
   selectContainer2.querySelector('.select-value').textContent = 'Subcategories';
-
-  // Close any open property containers
-  document.querySelectorAll('.property-container').forEach((container) => {
-    closeDropdown(container.querySelector('.select-options'), container.querySelector('.arrow'));
-    container.style.display = 'none';
-  });
 });
 
 optionsList2.addEventListener('click', (event) => {
   selectContainer2.querySelector('.select-value').textContent = event.target.textContent;
-  const selectedSubcategory = event.target.getAttribute('data-value');
-  createPropertyContainersAndOptions(selectedSubcategory);
+});
 
-  // Close any open property containers
-  document.querySelectorAll('.property-container').forEach((container) => {
-    closeDropdown(container.querySelector('.select-options'), container.querySelector('.arrow'));
-    container.style.display = 'none';
-  });
+// Close the dropdown when clicking anywhere outside of both containers
+document.addEventListener('click', (event) => {
+  if (!selectContainer1.contains(event.target) && !selectContainer2.contains(event.target)) {
+    closeDropdown(optionsList1, arrow1);
+    closeDropdown(optionsList2, arrow2);
+  }
 });
 
 </script>
