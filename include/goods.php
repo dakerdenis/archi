@@ -50,89 +50,109 @@
     <!---//!---FILTR MOBILE---->
     <!---//!---FILTR MOBILE---->
     <div class="main__filtr__mobile">
-        <button id="openPopupFilterButton">Open Popup AAAAAAAa</button>
 
+        <div class="main__filtr__mobile__wrapper">
+            <button id="openPopupFilterButton">A</button>
+
+            <div class="main__filtr__mobile__element">
+                <a href="#">
+                    <p>Стены</p>
+                </a>
+            </div>
+            <div class="main__filtr__mobile__element">
+                <a href="#">
+                    <p>Потолок</p>
+                </a>
+            </div>
+            <div class="main__filtr__mobile__element">
+                <a href="#">
+                    <p>Сантехника/Электрика</p>
+                </a>
+            </div>
+
+        </div>
 
 
 
         <div id="popup_filter" class="popup_filter">
-        <div class="popup_filter-content">
-            <span class="close_filter" id="closePopupFilterButton">&times;</span>
-            <div class="popup__filter__container">
-            <div class="main__filter__container">
-                <div class="main__filter__name">
-                    <p>Фильтр</p>
-                </div>
-
-                <div class="main__filter__description">
-                    <p>Подкатегория</p>
-                </div>
-                <div class="additional__container">
-                    <div class="additional__container__block">
-                        <div class="custom-select" id="category-select">
-                            <div class="select-box">
-                                <span class="selected-option">Select a category</span>
-                                <div class="arrow">&#9660;</div>
-                            </div>
-                            <ul class="options">
-                                <li class="option" data-value="cars">Cars</li>
-                                <li class="option" data-value="planes">Planes</li>
-                                <li class="option" data-value="boats">Boats</li>
-                            </ul>
+            <div class="popup_filter-content">
+                <span class="close_filter" id="closePopupFilterButton">&times;</span>
+                <div class="popup__filter__container">
+                    <div class="main__filter__container">
+                        <div class="main__filter__name">
+                            <p>Фильтр</p>
                         </div>
 
-                        <div class="custom-select" id="subcategory-select" style="display: none;">
-                            <div class="select-box">
-                                <span class="selected-option">Select a subcategory</span>
-                                <div class="arrow">&#9660;</div>
-                            </div>
-                            <ul class="options">
-                                <!-- Subcategory options will be added dynamically based on the selected category -->
-                            </ul>
+                        <div class="main__filter__description">
+                            <p>Подкатегория</p>
                         </div>
-                        <div class="custom-select-container" id="custom-select-container" style="display: none;">
-                            <div class="custom__select__additionalname">
-                                <p>Свойства</p>
-                            </div>
-
-                            <div class="custom-select ">
-                                <p class="custom_select_name"> Страна производитель</p>
-                                <div class="select-box">
-                                    <span class="selected-option">Option 1</span>
-                                    <div class="arrow">&#9660;</div>
+                        <div class="additional__container">
+                            <div class="additional__container__block">
+                                <div class="custom-select" id="category-select">
+                                    <div class="select-box">
+                                        <span class="selected-option">Select a category</span>
+                                        <div class="arrow">&#9660;</div>
+                                    </div>
+                                    <ul class="options">
+                                        <li class="option" data-value="cars">Cars</li>
+                                        <li class="option" data-value="planes">Planes</li>
+                                        <li class="option" data-value="boats">Boats</li>
+                                    </ul>
                                 </div>
-                                <ul class="options">
-                                    <li class="option">Option 1.1</li>
-                                    <li class="option">Option 1.2</li>
-                                    <li class="option">Option 1.3</li>
-                                </ul>
-                            </div>
 
-                            <div class="custom-select">
-                                <p class="custom_select_name">Класс</p>
-                                <div class="select-box">
-                                    <span class="selected-option">Option 2</span>
-                                    <div class="arrow">&#9660;</div>
+                                <div class="custom-select" id="subcategory-select" style="display: none;">
+                                    <div class="select-box">
+                                        <span class="selected-option">Select a subcategory</span>
+                                        <div class="arrow">&#9660;</div>
+                                    </div>
+                                    <ul class="options">
+                                        <!-- Subcategory options will be added dynamically based on the selected category -->
+                                    </ul>
                                 </div>
-                                <ul class="options">
-                                    <li class="option">Option 2.1</li>
-                                    <li class="option">Option 2.2</li>
-                                    <li class="option">Option 2.3</li>
-                                </ul>
+                                <div class="custom-select-container" id="custom-select-container"
+                                    style="display: none;">
+                                    <div class="custom__select__additionalname">
+                                        <p>Свойства</p>
+                                    </div>
+
+                                    <div class="custom-select ">
+                                        <p class="custom_select_name"> Страна производитель</p>
+                                        <div class="select-box">
+                                            <span class="selected-option">Option 1</span>
+                                            <div class="arrow">&#9660;</div>
+                                        </div>
+                                        <ul class="options">
+                                            <li class="option">Option 1.1</li>
+                                            <li class="option">Option 1.2</li>
+                                            <li class="option">Option 1.3</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="custom-select">
+                                        <p class="custom_select_name">Класс</p>
+                                        <div class="select-box">
+                                            <span class="selected-option">Option 2</span>
+                                            <div class="arrow">&#9660;</div>
+                                        </div>
+                                        <ul class="options">
+                                            <li class="option">Option 2.1</li>
+                                            <li class="option">Option 2.2</li>
+                                            <li class="option">Option 2.3</li>
+                                        </ul>
+                                    </div>
+                                    <!-- Add more custom-select elements as needed -->
+                                </div>
                             </div>
-                            <!-- Add more custom-select elements as needed -->
+                        </div>
+                        <div class="main__filter__search">
+                            <button>
+                                <p>Применить</p>
+                            </button>
                         </div>
                     </div>
                 </div>
-                <div class="main__filter__search">
-                    <button>
-                        <p>Применить</p>
-                    </button>
-                </div>
-            </div>
             </div>
         </div>
-    </div>
     </div>
 
 
@@ -416,9 +436,9 @@
 
 
 
-/***/// !  ****FILTER JS CODE*************** */
-/***/// !  ****FILTER JS CODE*************** */
-/***/// !  ****FILTER JS CODE*************** */
+    /***/// !  ****FILTER JS CODE*************** */
+    /***/// !  ****FILTER JS CODE*************** */
+    /***/// !  ****FILTER JS CODE*************** */
 
     const categorySelect = document.getElementById("category-select");
     const subcategorySelect = document.getElementById("subcategory-select");
@@ -541,21 +561,21 @@
 
 
     var openPopupFilterButton = document.getElementById("openPopupFilterButton");
-var closePopupFilterButton = document.getElementById("closePopupFilterButton");
-var popup_filter = document.getElementById("popup_filter");
+    var closePopupFilterButton = document.getElementById("closePopupFilterButton");
+    var popup_filter = document.getElementById("popup_filter");
 
-openPopupFilterButton.addEventListener("click", function() {
-    popup_filter.style.display = "block";
-});
+    openPopupFilterButton.addEventListener("click", function () {
+        popup_filter.style.display = "block";
+    });
 
-closePopupFilterButton.addEventListener("click", function() {
-    popup_filter.style.display = "none";
-});
-
-window.addEventListener("click", function(event) {
-    if (event.target == popup_filter) {
+    closePopupFilterButton.addEventListener("click", function () {
         popup_filter.style.display = "none";
-    }
-});
+    });
+
+    window.addEventListener("click", function (event) {
+        if (event.target == popup_filter) {
+            popup_filter.style.display = "none";
+        }
+    });
 
 </script>
