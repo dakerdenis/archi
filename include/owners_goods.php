@@ -1,6 +1,5 @@
 <style>
-    <?php include './style/goods.css' ?>
-    html {}
+    <?php include './style/goods.css' ?>html {}
 </style>
 <div class="goods__page__categories goods__page__categories_owner">
     <div class="goods__page__categories_owner__block">
@@ -30,10 +29,11 @@
         </button>
     </div>
     <div class="goods__page__wrapper">
-        <!---//!---FILTR---->
-        <!---//!---FILTR---->
-        <!---//!---FILTR---->
+
         <div class="goods__page__filtr">
+            <!---//!---FILTR---->
+            <!---//!---FILTR---->
+            <!---//!---FILTR---->
             <div class="main__filter__container">
                 <div class="main__filter__name">
                     <p>Фильтр</p>
@@ -43,30 +43,43 @@
                     <p>Подкатегория</p>
                 </div>
 
-                <div class="main__filter__dropdown__container">
-                    <div class="dropdown__main">
-                        <input type="text" id="dropdown__input" placeholder="Select an option" readonly>
-                        <span class="dropdown__arrow">&#9660;</span>
-                        <ul class="dropdown__options">
-                            <li>Option 1</li>
-                            <li>Option 2</li>
-                            <li>Option 3</li>
-                        </ul>
+
+                <div class="additional__container">
+                    <div class="additional__container__block">
+
+
+
+                        <div class="custom-select">
+                            <div id="mainFilterOption" class="select-box">
+                                <div class="select-value">Categories</div>
+                                <ul class="select-options">
+                                    <li data-value="option1">Option 1</li>
+                                    <li data-value="option2">Option 2</li>
+                                    <li data-value="option3">Option 3</li>
+                                </ul>
+                            </div>
+                            <div class="arrow"></div>
+                        </div>
+
+
+
+
+
+
                     </div>
                 </div>
-                
-                <div class="additional__container">
-                        <div class="additional__container__block">
-                            
-                        </div>    
 
-
-                </div>
-            
                 <div class="main__filter__search">
-                    <button>Применить</button>
+                    <button>
+                        <p>Применить</p>
+                    </button>
                 </div>
             </div>
+            <!---//!---FILTR---->
+            <!---//!---FILTR---->
+            <!---//!---FILTR---->
+
+
         </div>
 
 
@@ -242,7 +255,7 @@
     const blockIdInput = document.getElementById("blockIdInput");
 
     openPopupButtons.forEach(button => {
-        button.addEventListener("click", function () {
+        button.addEventListener("click", function() {
             const block = this.closest(".delete__element_");
             const blockId = block.getAttribute("data-id");
             blockIdInput.value = blockId;
@@ -250,17 +263,17 @@
         });
     });
 
-    closePopupButton.addEventListener("click", function () {
+    closePopupButton.addEventListener("click", function() {
         popupOverlay.style.display = "none";
     });
 
-    popupOverlay.addEventListener("click", function (event) {
+    popupOverlay.addEventListener("click", function(event) {
         if (event.target === popupOverlay) {
             popupOverlay.style.display = "none";
         }
     });
 
-    document.addEventListener("keydown", function (event) {
+    document.addEventListener("keydown", function(event) {
         if (event.key === "Escape") {
             popupOverlay.style.display = "none";
         }
@@ -291,32 +304,41 @@
 
 
 
+    const selectBox = document.querySelector('.select-box');
+const arrow = document.querySelector('.arrow');
+const optionsList = selectBox.querySelector('.select-options');
 
-    // JavaScript to toggle the dropdown and select an option
-    const dropdown = document.querySelector('.dropdown__main');
-    const inputField = dropdown.querySelector('#dropdown__input');
-    const optionsList = dropdown.querySelector('.dropdown__options');
+// Function to close the dropdown
+function closeDropdown() {
+  optionsList.style.display = 'none';
+  arrow.style.transform = 'translateY(-50%) rotate(0deg)';
+}
 
-    dropdown.addEventListener('click', (e) => {
-        e.stopPropagation();
-        dropdown.classList.toggle('open');
-        optionsList.style.display = optionsList.style.display === 'block' ? 'none' : 'block';
-    });
+selectBox.addEventListener('click', (event) => {
+  optionsList.style.display = optionsList.style.display === 'block' ? 'none' : 'block';
+  arrow.style.transform = optionsList.style.display === 'block' ? 'translateY(-50%) rotate(180deg)' : 'translateY(-50%) rotate(0deg)';
+  event.stopPropagation(); // Prevent the click event from propagating
+});
 
-    optionsList.addEventListener('click', (e) => {
-        if (e.target.tagName === 'LI') {
-            inputField.value = e.target.textContent;
-            dropdown.classList.remove('open');
-            optionsList.style.display = 'none';
-        }
-    });
+const options = selectBox.querySelectorAll('.select-options li');
 
-    document.addEventListener('click', (e) => {
-        if (!dropdown.contains(e.target)) {
-            dropdown.classList.remove('open');
-            optionsList.style.display = 'none';
-        }
-    });
+options.forEach((option) => {
+  option.addEventListener('click', (event) => {
+    event.stopPropagation(); // Prevent the click event from propagating
+    const selectedValue = option.getAttribute('data-value');
+    selectBox.querySelector('.select-value').textContent = option.textContent;
+    closeDropdown();
+  });
+});
 
+// Close the dropdown when clicking anywhere outside of it
+document.addEventListener('click', () => {
+  closeDropdown();
+});
+
+// Prevent the document click event from propagating to the select box
+selectBox.addEventListener('click', (event) => {
+  event.stopPropagation();
+});
 
 </script>

@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Gilroy';
   src: url('./fonts/Gilroy-Thin.woff2') format('woff2'),
-       url('./fonts/Gilroy-Thin.woff') format('woff');
+    url('./fonts/Gilroy-Thin.woff') format('woff');
   font-weight: 100;
   font-style: normal;
 }
@@ -10,7 +10,7 @@
 @font-face {
   font-family: 'Gilroy';
   src: url('./fonts/Gilroy-Light.woff2') format('woff2'),
-       url('./fonts/Gilroy-Light.woff') format('woff');
+    url('./fonts/Gilroy-Light.woff') format('woff');
   font-weight: 300;
   font-style: normal;
 }
@@ -25,34 +25,38 @@
 @font-face {
   font-family: 'Gilroy';
   src: url('./fonts/Gilroy-Medium.woff2') format('woff2'),
-       url('./fonts/Gilroy-Medium.woff') format('woff');
+    url('./fonts/Gilroy-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'Gilroy';
   src: url('./fonts/Gilroy-Semibold.otf') format('otf');
   font-weight: 600;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'Gilroy';
   src: url('./fonts/Gilroy-Bold.woff2') format('woff2'),
-       url('./fonts/Gilroy-Bold.woff') format('woff');
+    url('./fonts/Gilroy-Bold.woff') format('woff');
   font-weight: 700;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'Gilroy';
   src: url('./fonts/Gilroy-Extrabold.woff2') format('woff2'),
-       url('./fonts/Gilroy-Extrabold.woff') format('woff');
+    url('./fonts/Gilroy-Extrabold.woff') format('woff');
   font-weight: 800;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'Gilroy';
   src: url('./fonts/Gilroy-Black.woff2') format('woff2'),
-       url('./fonts/Gilroy-Black.woff') format('woff');
+    url('./fonts/Gilroy-Black.woff') format('woff');
   font-weight: 900;
   font-style: normal;
 }
@@ -466,9 +470,11 @@ h6 {
 .footer .footer__wrapper .footer__nav .footer__nav__wrapper .footer__nav__block .footer__nav__element a {
   margin-bottom: 6px;
 }
-.footer__nav__element{
+
+.footer__nav__element {
   margin-bottom: 7px;
 }
+
 .footer .footer__wrapper .footer__nav .footer__nav__wrapper .footer__nav__block .footer__nav__element a p {
   color: #ffffff;
   font-size: 18px;
@@ -563,54 +569,150 @@ h6 {
   color: #000;
   overflow: visible;
 }
+
 /**! *****FILTR STYLES FOR ALL PAGES*************/
 /**! *****FILTR STYLES FOR ALL PAGES*************/
 /**! *****FILTR STYLES FOR ALL PAGES*************/
+
+/**? *****Стили контейнера и названий*************/
 /* Add your CSS styles here */
+.main__filter__container {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+}
 
-.dropdown__main {
+.main__filter__name {
+  color: #000;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.main__filter__description {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 30px;
+  margin-bottom: 11px;
+}
+.main__filter__search{
+  margin-top: 30px;
+}
+.main__filter__search button {
+  width: 113px;
+  height: 20px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #EDEDED;
+}
+
+.main__filter__search button p {
+  color: #000;
+  text-align: center;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.additional__container{
+    width: 100%;
+    min-height: 50px;
+
+}
+.additional__container__block{
+  width: 100%;
+  height: 100%;
+}
+/***? ***********Стили выпадающих списков******************/
+.custom-select {
   position: relative;
-  display: inline-block;
+width: 100%;
 }
-
-#dropdown__input {
-  width: 150px; /* Adjust the width as needed */
-}
-
-.dropdown__arrow {
-  display: inline-block;
-  margin-left: 10px;
+/* Style the select container */
+.select-box {
+  position: relative;
+  width: 188px;
+  height: 34px;
+  flex-shrink: 0; /* Adjust as needed */
+  border-radius: 10px;
+background-color: #EDEDED;
   cursor: pointer;
-  transition: transform 0.2s;
+
+
+  color: #000;
+
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
 }
 
-.dropdown__options {
+/* Style the selected value */
+.select-value {
+  background-color: #EDEDED;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* Style the options container */
+.select-options {
+  display: none;
+  position: absolute;
+
+  top: 100%;
+  left: 0;
+  background-color: #EDEDED;
   list-style: none;
   margin: 0;
   padding: 0;
-  border: 1px solid #ccc;
-  display: none;
+
+  border-top: none;
+  border-radius: 5px 5px 10px 10px;
+}
+
+/* Style individual options */
+.select-options li {
+  width: 188px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+
+}
+.select-options li:first-child{
+  border-radius: 5px 5px 0px 0px;
+}
+.select-options li:last-child{
+  border-radius: 0px 0px 10px 10px;
+}
+/* Apply a hover effect on options */
+.select-options li:hover {
+  background-color: #ccc; /* Grey background on hover */
+}
+
+/* Style the dropdown arrow */
+.arrow {
   position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  background-color: #fff;
-  z-index: 1;
+  top: 50%;
+  right: 45px;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 12px solid #555; /* Arrow color */
+  transition: transform 0.3s;
 }
 
-.dropdown__options li {
-  padding: 5px;
-  cursor: pointer;
-}
 
-.dropdown__options li:hover {
-  background-color: #f0f0f0;
-}
-
-/* Rotate arrow when dropdown is open */
-.dropdown__main.open .dropdown__arrow {
-  transform: rotate(180deg);
-}
 
 /**! *****FILTR STYLES FOR ALL PAGES*************/
 /**! *****FILTR STYLES FOR ALL PAGES*************/
@@ -650,7 +752,8 @@ h6 {
 
 
   }
-  .header__navigation__mobile_b2b{
+
+  .header__navigation__mobile_b2b {
     width: 120px;
   }
 
