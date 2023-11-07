@@ -52,7 +52,9 @@
     <div class="main__filtr__mobile">
 
         <div class="main__filtr__mobile__wrapper">
-            <button id="openPopupFilterButton">A</button>
+            <button id="openPopupFilterButton">
+                <img src="./imgs/filtr_logo.png" alt="">
+            </button>
 
             <div class="main__filtr__mobile__element">
                 <a href="#">

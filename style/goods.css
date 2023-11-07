@@ -385,7 +385,7 @@ input[type="number"]::-webkit-outer-spin-button:hover {
 
 @media only screen and (max-width: 768px) {
     .goods__page__content__wrapper_ {
-        width: 304px;
+        width: 310px;
         margin: 0 auto;
         justify-content: space-between;
     }
@@ -568,6 +568,11 @@ input[type="number"]::-webkit-outer-spin-button:hover {
     .goods__search__block{
         display: none;
         visibility: hidden;
+    }
+    .page__element__content{
+        border-radius: 0px 0px 5px 5px;
+background: #C4C4C4;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     }
 
 }
