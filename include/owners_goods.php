@@ -48,25 +48,40 @@
                     <div class="additional__container__block">
 
 
-                        <div class="custom-select" id="selectContainer1">
-                            <div class="select-box">
-                                <div class="select-value">Categories</div>
-                                <ul class="select-options">
-                                    <li data-value="cats">Cats</li>
-                                    <li data-value="dogs">Dogs</li>
-                                    <li data-value="birds">Birds</li>
-                                </ul>
-                            </div>
-                            <div class="arrow"></div>
-                        </div>
 
-                        <div class="custom-select" id="selectContainer2" style="display: none;">
-                            <div class="select-box">
-                                <div class="select-value">Subcategories</div>
-                                <ul class="select-options"></ul>
-                            </div>
-                            <div class="arrow"></div>
-                        </div>
+
+                    <div class="container">
+  <div class="custom-select" id="selectContainer1">
+    <div class="select-box">
+      <div class="select-value">Categories</div>
+      <ul class="select-options">
+        <li data-value="cats">Cats</li>
+        <li data-value="dogs">Dogs</li>
+        <li data-value="birds">Birds</li>
+      </ul>
+    </div>
+    <div class="arrow"></div>
+  </div>
+
+  <div class="custom-select" id="selectContainer2" style="display: none;">
+    <div class="select-box">
+      <div class="select-value">Subcategories</div>
+      <ul class="select-options"></ul>
+    </div>
+    <div class="arrow"></div>
+  </div>
+
+  <div class="custom-select" id="selectContainer3" style="display: none;">
+    <div class="select-box">
+      <div class="select-value">Properties</div>
+      <ul class="select-options"></ul>
+    </div>
+    <div class="arrow"></div>
+  </div>
+</div>
+
+
+
 
 
 
@@ -320,70 +335,116 @@
 
 
 
-
-
     const selectContainer1 = document.getElementById('selectContainer1');
-const selectContainer2 = document.getElementById('selectContainer2');
-const arrow1 = selectContainer1.querySelector('.arrow');
-const arrow2 = selectContainer2.querySelector('.arrow');
-const optionsList1 = selectContainer1.querySelector('.select-options');
-const optionsList2 = selectContainer2.querySelector('.select-options');
+    const selectContainer2 = document.getElementById('selectContainer2');
+    const selectContainer3 = document.getElementById('selectContainer3');
+    const arrow1 = selectContainer1.querySelector('.arrow');
+    const arrow2 = selectContainer2.querySelector('.arrow');
+    const arrow3 = selectContainer3.querySelector('.arrow');
+    const optionsList1 = selectContainer1.querySelector('.select-options');
+    const optionsList2 = selectContainer2.querySelector('.select-options');
+    const optionsList3 = selectContainer3.querySelector('.select-options');
 
-const categories = {
-  cats: ['Siamese', 'Persian', 'Maine Coon', 'Ragdoll', 'Bengal', 'Sphynx'],
-  dogs: ['Golden Retriever', 'Labrador Retriever', 'German Shepherd'],
-  birds: ['Parakeet', 'Canary', 'Cockatiel', 'Budgerigar', 'Lovebird', 'Cockatoo', 'African Grey'],
-};
+    const categories = {
+        cats: ['Siamese', 'Persian', 'Maine Coon', 'Ragdoll', 'Bengal'],
+        dogs: ['Golden Retriever', 'Labrador Retriever', 'German Shepherd', 'Poodle', 'Beagle'],
+        birds: ['Parakeet', 'Canary', 'Cockatiel', 'Budgerigar', 'Lovebird'],
+    };
 
-// Function to close the dropdown
-function closeDropdown(container, arrow) {
-  container.style.display = 'none';
-  arrow.style.transform = 'translateY(-50%) rotate(0deg)';
-}
+    const subcategories = {
+        Siamese: ['Blue Point', 'Chocolate Point', 'Seal Point', 'Lilac Point', 'Flame Point'],
+        Persian: ['Himalayan', 'Chinchilla Silver', 'Calico', 'Bi-color', 'Solid'],
+        MaineCoon: ['Classic Tabby', 'Mackerel Tabby', 'Ticked Tabby', 'Solid', 'Smoke'],
+        GoldenRetriever: ['Light Golden', 'Dark Golden', 'Cream', 'Red', 'White'],
+        LabradorRetriever: ['Yellow', 'Black', 'Chocolate', 'Silver', 'Red'],
+        Parakeet: ['Budgerigar', 'Monk Parakeet', 'Quaker Parrot', 'Ring-necked Parakeet', 'Alexandrine Parakeet'],
+    };
 
-// Create subcategories for the second container based on the selected category in the first container
-function createSubcategories(selectedCategory) {
-  optionsList2.innerHTML = '';
-  const subcategories = categories[selectedCategory];
-  if (subcategories) {
-    subcategories.forEach((subcategory) => {
-      const option = document.createElement('li');
-      option.textContent = subcategory;
-      option.setAttribute('data-value', subcategory);
-      optionsList2.appendChild(option);
+    const properties = {
+        'Blue Point': ['Size: Medium', 'Color: Blue', 'Personality: Friendly', 'Coat: Short', 'Eyes: Blue'],
+        'Chocolate Point': ['Size: Medium', 'Color: Chocolate', 'Personality: Playful', 'Coat: Short', 'Eyes: Blue'],
+        'Yellow': ['Size: Medium', 'Color: Yellow', 'Personality: Energetic', 'Coat: Short', 'Eyes: Brown'],
+        'Black': ['Size: Medium', 'Color: Black', 'Personality: Loyal', 'Coat: Short', 'Eyes: Brown'],
+    };
+
+    // Function to close the dropdown
+    function closeDropdown(container, arrow) {
+        container.style.display = 'none';
+        arrow.style.transform = 'translateY(-50%) rotate(0deg)';
+    }
+
+    // Create subcategories for the second container based on the selected category in the first container
+    function createSubcategories(selectedCategory) {
+        optionsList2.innerHTML = '';
+        const subcategoriesList = subcategories[selectedCategory];
+        if (subcategoriesList) {
+            subcategoriesList.forEach((subcategory) => {
+                const option = document.createElement('li');
+                option.textContent = subcategory;
+                option.setAttribute('data-value', subcategory);
+                optionsList2.appendChild(option);
+            });
+        }
+        selectContainer2.style.display = 'block';
+        selectContainer2.querySelector('.select-value').textContent = 'Subcategories';
+        optionsList3.innerHTML = '';
+    }
+
+    // Create properties for the third container based on the selected subcategory in the second container
+    function createProperties(selectedSubcategory) {
+        optionsList3.innerHTML = '';
+        const propertyList = properties[selectedSubcategory];
+        if (propertyList) {
+            propertyList.forEach((property) => {
+                const option = document.createElement('li');
+                option.textContent = property;
+                option.setAttribute('data-value', property);
+                optionsList3.appendChild(option);
+            });
+        }
+        selectContainer3.style.display = 'block';
+        selectContainer3.querySelector('.select-value').textContent = 'Properties';
+    }
+
+    selectContainer1.addEventListener('click', () => {
+        optionsList1.style.display = optionsList1.style.display === 'block' ? 'none' : 'block';
+        arrow1.style.transform = optionsList1.style.display === 'block' ? 'translateY(-50%) rotate(180deg)' : 'translateY(-50%) rotate(0deg)';
     });
-  }
-}
 
-selectContainer1.addEventListener('click', () => {
-  optionsList1.style.display = optionsList1.style.display === 'block' ? 'none' : 'block';
-  arrow1.style.transform = optionsList1.style.display === 'block' ? 'translateY(-50%) rotate(180deg)' : 'translateY(-50%) rotate(0deg)';
-});
+    selectContainer2.addEventListener('click', (event) => {
+        optionsList2.style.display = optionsList2.style.display === 'block' ? 'none' : 'block';
+        arrow2.style.transform = optionsList2.style.display === 'block' ? 'translateY(-50%) rotate(180deg)' : 'translateY(-50%) rotate(0deg)';
+        event.stopPropagation(); // Prevent the click event from propagating
+    });
 
-selectContainer2.addEventListener('click', (event) => {
-  optionsList2.style.display = optionsList2.style.display === 'block' ? 'none' : 'block';
-  arrow2.style.transform = optionsList2.style.display === 'block' ? 'translateY(-50%) rotate(180deg)' : 'translateY(-50%) rotate(0deg)';
-  event.stopPropagation(); // Prevent the click event from propagating
-});
+    selectContainer3.addEventListener('click', (event) => {
+        optionsList3.style.display = optionsList3.style.display === 'block' ? 'none' : 'block';
+        arrow3.style.transform = optionsList3.style.display === 'block' ? 'translateY(-50%) rotate(180deg)' : 'translateY(-50%) rotate(0deg)';
+        event.stopPropagation(); // Prevent the click event from propagating
+    });
 
-optionsList1.addEventListener('click', (event) => {
-  const selectedCategory = event.target.getAttribute('data-value');
-  selectContainer1.querySelector('.select-value').textContent = event.target.textContent;
-  createSubcategories(selectedCategory);
-  selectContainer2.style.display = 'block';
-  selectContainer2.querySelector('.select-value').textContent = 'Subcategories';
-});
+    optionsList1.addEventListener('click', (event) => {
+        const selectedCategory = event.target.getAttribute('data-value');
+        selectContainer1.querySelector('.select-value').textContent = event.target.textContent;
+        createSubcategories(selectedCategory);
+    });
 
-optionsList2.addEventListener('click', (event) => {
-  selectContainer2.querySelector('.select-value').textContent = event.target.textContent;
-});
+    optionsList2.addEventListener('click', (event) => {
+        const selectedSubcategory = event.target.getAttribute('data-value');
+        selectContainer2.querySelector('.select-value').textContent = event.target.textContent;
+        createProperties(selectedSubcategory);
+    });
 
-// Close the dropdown when clicking anywhere outside of both containers
-document.addEventListener('click', (event) => {
-  if (!selectContainer1.contains(event.target) && !selectContainer2.contains(event.target)) {
-    closeDropdown(optionsList1, arrow1);
-    closeDropdown(optionsList2, arrow2);
-  }
-});
+    optionsList3.addEventListener('click', (event) => {
+        selectContainer3.querySelector('.select-value').textContent = event.target.textContent;
+    });
 
+    // Close the dropdown when clicking anywhere outside of all containers
+    document.addEventListener('click', (event) => {
+        if (!selectContainer1.contains(event.target) && !selectContainer2.contains(event.target) && !selectContainer3.contains(event.target)) {
+            closeDropdown(optionsList1, arrow1);
+            closeDropdown(optionsList2, arrow2);
+            closeDropdown(optionsList3, arrow3);
+        }
+    });
 </script>
