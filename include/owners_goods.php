@@ -57,37 +57,67 @@
                     <div class="additional__container__block">
 
 
-                    <select id="categories" name="categories">
-        <option value="" selected disabled>Select Category</option>
-        <option value="cars">Cars</option>
-        <option value="planes">Planes</option>
-        <option value="helicopters">Helicopters</option>
-    </select>
-
-    <div id="subcategories">
-        <select id="subcategories-select" name="subcategories">
-            <option value="" selected disabled>Select Subcategory</option>
-        </select>
-    </div>
-
-    <div id="properties">
-        <select id="properties-select" name="properties">
-            <option value="" selected disabled>Select Property</option>
-        </select>
-    </div>
-
-
-
-    <div id="property-container">
-    <!-- Individual property selects will be added dynamically here -->
-</div>
 
 
 
 
 
 
+                        <div class="custom-select" id="category-select">
+                            <div class="select-box">
+                                <span class="selected-option">Select a category</span>
+                                <div class="arrow">&#9660;</div>
+                            </div>
+                            <ul class="options">
+                                <li class="option" data-value="cars">Cars</li>
+                                <li class="option" data-value="planes">Planes</li>
+                                <li class="option" data-value="boats">Boats</li>
+                            </ul>
+                        </div>
 
+                        <div class="custom-select" id="subcategory-select" style="display: none;">
+                            <div class="select-box">
+                                <span class="selected-option">Select a subcategory</span>
+                                <div class="arrow">&#9660;</div>
+                            </div>
+                            <ul class="options">
+                                <!-- Subcategory options will be added dynamically based on the selected category -->
+                            </ul>
+                        </div>
+
+
+
+
+
+
+
+
+
+                        <div class="custom-select-container" id="custom-select-container" style="display: none;">
+                            <div class="custom-select">
+                                <div class="select-box">
+                                    <span class="selected-option">Option 1</span>
+                                    <div class="arrow">&#9660;</div>
+                                </div>
+                                <ul class="options">
+                                    <li class="option">Option 1.1</li>
+                                    <li class="option">Option 1.2</li>
+                                    <li class="option">Option 1.3</li>
+                                </ul>
+                            </div>
+                            <div class="custom-select">
+                                <div class="select-box">
+                                    <span class="selected-option">Option 2</span>
+                                    <div class="arrow">&#9660;</div>
+                                </div>
+                                <ul class="options">
+                                    <li class="option">Option 2.1</li>
+                                    <li class="option">Option 2.2</li>
+                                    <li class="option">Option 2.3</li>
+                                </ul>
+                            </div>
+                            <!-- Add more custom-select elements as needed -->
+                        </div>
 
 
 
@@ -343,107 +373,120 @@
 
 
 
-    document.addEventListener("DOMContentLoaded", function() {
-    const categoriesSelect = document.getElementById("categories");
-    const subcategoriesSelect = document.getElementById("subcategories-select");
-    const propertyContainer = document.getElementById("property-container");
 
-    // Define the data structure
-    const data = {
-        cars: {
-            subcategories: ["SUV", "Crossover"],
-            properties: {
-                SUV: {
-                    Color: ["Red", "Blue", "Pink"],
-                    Price: ["Low", "Average", "High"],
-                    Weight: ["2", "2.2", "3"],
-                },
-                Crossover: {
-                    Color: ["Red", "Blue", "Pink"],
-                    Price: ["Low", "Average", "High"],
-                    Weight: ["2", "2.2", "3"],
-                    Wheels: ["2", "3", "4"],
-                },
-            },
-        },
-        planes: {
-            subcategories: ["Military", "Average"],
-            properties: {
-                Military: {
-                    Color: ["Red", "Blue", "Pink"],
-                    Price: ["Low", "Average", "High"],
-                    Weight: ["2", "2.2", "3"],
-                },
-                Average: {
-                    Color: ["Red", "Blue", "Pink"],
-                    Price: ["Low", "Average", "High"],
-                    Wingspan: ["2", "2.2", "3"],
-                    Wheels: ["2", "3", "4"],
-                },
-            },
-        },
-        helicopters: {
-            subcategories: ["Homemade", "Stalkers"],
-            properties: {
-                Homemade: {
-                    Color: ["Red", "Blue", "Pink"],
-                    Price: ["Low", "Average", "High"],
-                    Weight: ["2", "2.2", "3"],
-                },
-                Stalkers: {
-                    Color: ["Red", "Blue", "Pink"],
-                    Price: ["Low", "Average", "High"],
-                    Wingspan: ["2", "2.2", "3"],
-                    Wheels: ["2", "3", "4"],
-                },
-            },
-        },
-    };
 
-    categoriesSelect.addEventListener("change", function() {
-        subcategoriesSelect.innerHTML = '<option value="" selected disabled>Select Subcategory</option>';
-        propertyContainer.innerHTML = ""; // Clear existing properties
 
-        const selectedCategory = categoriesSelect.value;
+    const categorySelect = document.getElementById("category-select");
+    const subcategorySelect = document.getElementById("subcategory-select");
+    const categoryOptions = categorySelect.querySelectorAll(".option");
+    const subcategoryOptions = subcategorySelect.querySelector(".options");
 
-        if (selectedCategory) {
-            const subcategories = data[selectedCategory].subcategories;
+    categorySelect.addEventListener("click", (event) => {
+        event.stopPropagation();
+        categorySelect.querySelector(".options").style.display =
+            categorySelect.querySelector(".options").style.display === "none" ? "block" : "none";
+        categorySelect.querySelector(".arrow").style.transform =
+            categorySelect.querySelector(".options").style.display === "none" ? "rotate(0deg)" : "rotate(180deg)";
+    });
+
+    categoryOptions.forEach((categoryOption) => {
+        categoryOption.addEventListener("click", () => {
+            const selectedCategory = categoryOption.dataset.value;
+            categorySelect.querySelector(".selected-option").textContent = categoryOption.textContent;
+
+            // Reset the subcategory select when a new category is selected
+            subcategorySelect.querySelector(".selected-option").textContent = "Select a subcategory";
+            subcategorySelect.querySelector(".options").style.display = "none";
+            subcategorySelect.querySelector(".arrow").style.transform = "rotate(0deg)";
+
+            // Update subcategory options based on the selected category
+            clearSubcategoryOptions();
+            const subcategories = getSubcategories(selectedCategory);
             subcategories.forEach((subcategory) => {
-                const option = document.createElement("option");
-                option.value = subcategory;
-                option.textContent = subcategory;
-                subcategoriesSelect.appendChild(option);
+                addSubcategoryOption(subcategory);
             });
+
+            subcategorySelect.style.display = "block";
+        });
+    });
+
+    subcategorySelect.addEventListener("click", (event) => {
+        event.stopPropagation();
+        subcategorySelect.querySelector(".options").style.display =
+            subcategorySelect.querySelector(".options").style.display === "none" ? "block" : "none";
+        subcategorySelect.querySelector(".arrow").style.transform =
+            subcategorySelect.querySelector(".options").style.display === "none" ? "rotate(0deg)" : "rotate(180deg)";
+    });
+
+    document.addEventListener("click", (event) => {
+        if (!categorySelect.contains(event.target)) {
+            categorySelect.querySelector(".options").style.display = "none";
+            categorySelect.querySelector(".arrow").style.transform = "rotate(0deg)";
+        }
+
+        if (!subcategorySelect.contains(event.target)) {
+            subcategorySelect.querySelector(".options").style.display = "none";
+            subcategorySelect.querySelector(".arrow").style.transform = "rotate(0deg)";
         }
     });
 
-    subcategoriesSelect.addEventListener("change", function() {
-        propertyContainer.innerHTML = ""; // Clear existing properties
 
-        const selectedCategory = categoriesSelect.value;
-        const selectedSubcategory = subcategoriesSelect.value;
+    subcategoryOptions.addEventListener("click", (event) => {
+  event.stopPropagation();
+  subcategorySelect.querySelector(".options").style.display = "none";
+  subcategorySelect.querySelector(".arrow").style.transform = "rotate(0deg)";
 
-        if (selectedCategory && selectedSubcategory) {
-            const properties = data[selectedCategory].properties[selectedSubcategory];
-            properties.forEach((options, propertyName) => {
-                const propertySelect = document.createElement("select");
-                propertySelect.name = propertyName;
-                propertySelect.innerHTML = '<option value="" selected disabled>Select ' + propertyName + '</option>';
-                options.forEach((option) => {
-                    const optionElement = document.createElement("option");
-                    optionElement.value = option;
-                    optionElement.textContent = option;
-                    propertySelect.appendChild(optionElement);
-                });
-                propertyContainer.appendChild(propertySelect);
-            });
-        }
+  // Display the custom-select container when a subcategory is selected
+  const customSelectContainer = document.getElementById("custom-select-container");
+  customSelectContainer.style.display = "block";
+  
+  // Add event listeners for each custom-select inside the container
+  const customSelects = customSelectContainer.querySelectorAll(".custom-select");
+  customSelects.forEach((customSelect) => {
+    const selectBox = customSelect.querySelector(".select-box");
+    const options = customSelect.querySelector(".options");
+    const arrow = customSelect.querySelector(".arrow");
+
+    selectBox.addEventListener("click", () => {
+      options.style.display = options.style.display === "none" ? "block" : "none";
+      arrow.style.transform = options.style.display === "none" ? "rotate(0deg)" : "rotate(180deg)";
     });
 
-    // Hide subcategories and property selects initially
-    subcategoriesSelect.style.display = "none";
-    propertyContainer.style.display = "none";
+    const optionItems = customSelect.querySelectorAll(".option");
+    optionItems.forEach((item) => {
+      item.addEventListener("click", () => {
+        selectBox.querySelector(".selected-option").textContent = item.textContent;
+        options.style.display = "none";
+        arrow.style.transform = "rotate(0deg)";
+      });
+    });
+  });
 });
 
+    function clearSubcategoryOptions() {
+        subcategoryOptions.innerHTML = "";
+    }
+
+    function addSubcategoryOption(subcategory) {
+        const option = document.createElement("li");
+        option.classList.add("option");
+        option.textContent = subcategory;
+        option.addEventListener("click", () => {
+            subcategorySelect.querySelector(".selected-option").textContent = subcategory;
+            subcategorySelect.querySelector(".options").style.display = "none";
+            subcategorySelect.querySelector(".arrow").style.transform = "rotate(0deg)";
+        });
+        subcategoryOptions.appendChild(option);
+    }
+
+    function getSubcategories(category) {
+        const subcategories = {
+            cars: ["Sedan", "SUV", "Sports Car", "Truck"],
+            planes: ["Commercial", "Private", "Military"],
+            boats: ["Sailboat", "Yacht", "Fishing Boat", "Speedboat", "Canoe"],
+        };
+
+        return subcategories[category] || [];
+    }
 
 </script>
