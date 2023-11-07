@@ -725,6 +725,48 @@ margin-bottom: 4px;
 padding-left: 10px;
 }
 
+
+/****? ******FILTR STYLES MOBILE***********/
+.main__filtr__mobile{
+  display: none;
+  visibility: hidden;
+}
+.popup_filter {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.popup_filter-content {
+  position: absolute;
+  top: 102px;
+  left: 0;
+  width: 344px;
+  height: 80vh;
+
+  border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.popup__filter__container{
+  width: 260px;
+  height: auto;
+  background-color: red;
+  margin-left: 45px;
+  margin-top: 41px;
+}
+.close_filter {
+  position: absolute;
+  top: 10px;
+  left: 18px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
 /**! *****FILTR STYLES FOR ALL PAGES*************/
 /**! *****FILTR STYLES FOR ALL PAGES*************/
 /**! *****FILTR STYLES FOR ALL PAGES*************/
@@ -1023,5 +1065,15 @@ padding-left: 10px;
     color: #000;
     overflow: visible;
   }
+  /**! *****FILTR STYLES FOR ALL PAGES*************/
+/**! *****FILTR STYLES FOR ALL PAGES*************/
+/**! *****FILTR STYLES FOR ALL PAGES*************/
+/**! *****FILTR STYLES FOR ALL PAGES*************/
+  .main__filtr__mobile{
+    display: block;
+    visibility: visible;
+  }
+  /**! *****FILTR STYLES FOR ALL PAGES*************/
+/**! *****FILTR STYLES FOR ALL PAGES*************/
 
 }
