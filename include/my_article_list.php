@@ -26,7 +26,7 @@
                 </div>
                 <div class="my__article__edit-delete">
                     <div class="my__article__element__edit">
-                        <a href="#">
+                        <a href="./index.php?page=edit_article">
                             <img src="./imgs/edit.png" alt="">
                         </a>
                     </div>
@@ -44,7 +44,7 @@
                 </div>
                 <div class="my__article__edit-delete">
                     <div class="my__article__element__edit">
-                        <a href="#">
+                        <a href="./index.php?page=edit_article">
                             <img src="./imgs/edit.png" alt="">
                         </a>
                     </div>
@@ -63,7 +63,7 @@
                 </div>
                 <div class="my__article__edit-delete">
                     <div class="my__article__element__edit">
-                        <a href="#">
+                        <a href="./index.php?page=edit_article">
                             <img src="./imgs/edit.png" alt="">
                         </a>
                     </div>
