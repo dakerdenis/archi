@@ -1,6 +1,11 @@
+<link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 <style>
     <?php include './style/goods.css' ?>
 </style>
+
 <div class="goods__page__categories">
     <div class="goods__page__categories__container">
         <a href="#" class="element">
@@ -56,21 +61,90 @@
                 <img src="./imgs/filtr_logo.png" alt="">
             </button>
 
-            <div class="main__filtr__mobile__element">
-                <a href="#">
-                    <p>Стены</p>
-                </a>
+
+            <div class="main__filtr__mobile__swiper">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="main__filtr__mobile__element">
+                                <a href="#">
+                                    <p>Стены</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="main__filtr__mobile__element">
+                                <a href="#">
+                                    <p>Потолок</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="main__filtr__mobile__element">
+                                <a href="#">
+                                    <p>Сантехника/Электрика</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="main__filtr__mobile__element">
+                                <a href="#">
+                                    <p>Сантехника/Электрика</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="main__filtr__mobile__element">
+                                <a href="#">
+                                    <p>Сантехника/Электрика</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="main__filtr__mobile__element">
+                                <a href="#">
+                                    <p>Сантехника/Электрика</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="main__filtr__mobile__element">
+                                <a href="#">
+                                    <p>Сантехника/Электрика</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="main__filtr__mobile__element">
+                                <a href="#">
+                                    <p>Сантехника/Электрика</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="main__filtr__mobile__element">
+                                <a href="#">
+                                    <p>Сантехника/Электрика</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="main__filtr__mobile__element">
+                                <a href="#">
+                                    <p>Сантехника/Электрика</p>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
-            <div class="main__filtr__mobile__element">
-                <a href="#">
-                    <p>Потолок</p>
-                </a>
-            </div>
-            <div class="main__filtr__mobile__element">
-                <a href="#">
-                    <p>Сантехника/Электрика</p>
-                </a>
-            </div>
+
+
+
+
+
+
 
         </div>
 
@@ -111,8 +185,7 @@
                                         <!-- Subcategory options will be added dynamically based on the selected category -->
                                     </ul>
                                 </div>
-                                <div class="custom-select-container" id="custom-select-container"
-                                    style="display: none;">
+                                <div class="custom-select-container" id="custom-select-container" style="display: none;">
                                     <div class="custom__select__additionalname">
                                         <p>Свойства</p>
                                     </div>
@@ -380,6 +453,7 @@
 
     </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 <script>
     function toggleOptions() {
@@ -413,7 +487,7 @@
     }
 
     // Close the dropdown when clicking anywhere else on the page
-    document.addEventListener('click', function (event) {
+    document.addEventListener('click', function(event) {
         const dropdown = document.querySelector('.dropdown3');
         if (!dropdown.contains(event.target)) {
             document.getElementById("dropdownOptions3").style.display = "none";
@@ -438,9 +512,9 @@
 
 
 
-    /***/// !  ****FILTER JS CODE*************** */
-    /***/// !  ****FILTER JS CODE*************** */
-    /***/// !  ****FILTER JS CODE*************** */
+    /***/ // !  ****FILTER JS CODE*************** */
+    /***/ // !  ****FILTER JS CODE*************** */
+    /***/ // !  ****FILTER JS CODE*************** */
 
     const categorySelect = document.getElementById("category-select");
     const subcategorySelect = document.getElementById("subcategory-select");
@@ -557,7 +631,11 @@
 
 
 
-
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 10,
+        freeMode: true
+    });
 
 
 
@@ -566,18 +644,17 @@
     var closePopupFilterButton = document.getElementById("closePopupFilterButton");
     var popup_filter = document.getElementById("popup_filter");
 
-    openPopupFilterButton.addEventListener("click", function () {
+    openPopupFilterButton.addEventListener("click", function() {
         popup_filter.style.display = "block";
     });
 
-    closePopupFilterButton.addEventListener("click", function () {
+    closePopupFilterButton.addEventListener("click", function() {
         popup_filter.style.display = "none";
     });
 
-    window.addEventListener("click", function (event) {
+    window.addEventListener("click", function(event) {
         if (event.target == popup_filter) {
             popup_filter.style.display = "none";
         }
     });
-
 </script>

@@ -162,8 +162,7 @@
                 <p>Мои бизнесы</p>
             </div>
             <a href="./index.php?page=new_buisness">
-                <span>+</span>
-                <p>Создать бизнес</p>
+                <p>+ Создать бизнес</p>
             </a>
         </div>
         <!------------>
@@ -205,7 +204,7 @@
                         </div>
 
                         <div class="element__more">
-                            <a href="#">
+                            <a href="./b2b.php?page=company__profile">
                                 <p>Подробнее</p>
                             </a>
                         </div>
@@ -251,7 +250,7 @@
                         </div>
 
                         <div class="element__more">
-                            <a href="#">
+                            <a href="./b2b.php?page=company__profile">
                                 <p>Подробнее</p>
                             </a>
                         </div>
