@@ -1,6 +1,4 @@
 <style>
-    <?php include './style/article.css' ?>
-    <?php include './style/new_article.css' ?>
     <?php include './style/goods.css' ?>
 </style>
 <div class="goods__page__categories goods__page__categories_owner">
@@ -33,51 +31,16 @@
     <div class="goods__page__wrapper">
         <!---//?---FILTR---->
         <div class="goods__page__filtr">
-            <div class="goods__page__filtr__name">
-                <p>Фильтр</p>
-            </div>
-            <div class="goods__page__filtr__categories">
-                <div class="goods__page__filtr__categories__block">
-                    <div class="goods__page__filtr__categories__block-name">
-                        <p>Подкатегория</p>
-                    </div>
-                    <div class="goods__page__filtr__categories__block-input">
-                        <div class="dropdown3">
-                            <div class="dropdown-select3" onclick="toggleOptions()">
-                                <p>Добавьте теги</p>
-                                <span class="dropdown-arrow3">&#9660;</span>
-                            </div>
-                            <div class="dropdown-options3" id="dropdownOptions3">
-                                <div class="dropdown-option3">
-                                    stalker 1
-                                </div>
-                                <div class="dropdown-option3">
-                                    stalker 2
-                                </div>
-                                <div class="dropdown-option3">
-                                    stalker 3
-                                </div>
-                                <div class="dropdown-option3">
-                                    stalker 4
-                                </div>
-                                <!-- Add more options here -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="goods__page__filtr__categories__submit">
-                    <button>
-                        <p>Применить</p>
-                    </button>
-                </div>
-            </div>
+            фыыфа
+
+
 
         </div>
         <!---//?---CONTENT WRAPPER---->
         <div class="goods__page__content__wrapper">
             <div class="goods__page__content__wrapper_">
                 <!------------>
-                <div class="goods__page__element" >
+                <div class="goods__page__element">
                     <div class="page__element__image">
                         <div class="delete__element_" data-id="1">
                             <p class="openPopup" id="openPopup">x</p>
@@ -99,8 +62,8 @@
                     </div>
                 </div>
                 <!------------> <!------------>
-                                <!------------>
-                                <div class="goods__page__element" >
+                <!------------>
+                <div class="goods__page__element">
                     <div class="page__element__image">
                         <div class="delete__element_" data-id="2">
                             <p class="openPopup" id="openPopup">x</p>
@@ -122,8 +85,8 @@
                     </div>
                 </div>
                 <!------------> <!------------>
-                                <!------------>
-                                <div class="goods__page__element" >
+                <!------------>
+                <div class="goods__page__element">
                     <div class="page__element__image">
                         <div class="delete__element_" data-id="3">
                             <p class="openPopup" id="openPopup">x</p>
@@ -145,8 +108,8 @@
                     </div>
                 </div>
                 <!------------> <!------------>
-                                <!------------>
-                                <div class="goods__page__element" >
+                <!------------>
+                <div class="goods__page__element">
                     <div class="page__element__image">
                         <div class="delete__element_" data-id="4">
                             <p class="openPopup" id="openPopup">x</p>
@@ -168,8 +131,8 @@
                     </div>
                 </div>
                 <!------------> <!------------>
-                                <!------------>
-                                <div class="goods__page__element" >
+                <!------------>
+                <div class="goods__page__element">
                     <div class="page__element__image">
                         <div class="delete__element_" data-id="5">
                             <p class="openPopup" id="openPopup">x</p>
@@ -290,53 +253,53 @@
 
 
     const openPopupButtons = document.querySelectorAll(".openPopup");
-const popupOverlay = document.getElementById("popupOverlay");
-const closePopupButton = document.getElementById("closePopup");
-const blockIdInput = document.getElementById("blockIdInput");
+    const popupOverlay = document.getElementById("popupOverlay");
+    const closePopupButton = document.getElementById("closePopup");
+    const blockIdInput = document.getElementById("blockIdInput");
 
-openPopupButtons.forEach(button => {
-    button.addEventListener("click", function () {
-        const block = this.closest(".delete__element_");
-        const blockId = block.getAttribute("data-id");
-        blockIdInput.value = blockId;
-        popupOverlay.style.display = "block";
+    openPopupButtons.forEach(button => {
+        button.addEventListener("click", function() {
+            const block = this.closest(".delete__element_");
+            const blockId = block.getAttribute("data-id");
+            blockIdInput.value = blockId;
+            popupOverlay.style.display = "block";
+        });
     });
-});
 
-closePopupButton.addEventListener("click", function () {
-    popupOverlay.style.display = "none";
-});
-
-popupOverlay.addEventListener("click", function (event) {
-    if (event.target === popupOverlay) {
+    closePopupButton.addEventListener("click", function() {
         popupOverlay.style.display = "none";
-    }
-});
+    });
 
-document.addEventListener("keydown", function (event) {
-    if (event.key === "Escape") {
-        popupOverlay.style.display = "none";
-    }
-});
+    popupOverlay.addEventListener("click", function(event) {
+        if (event.target === popupOverlay) {
+            popupOverlay.style.display = "none";
+        }
+    });
 
-const toggleButton = document.getElementById("toggleButtonDelete");
-const deleteElements = document.querySelectorAll(".delete__element_");
+    document.addEventListener("keydown", function(event) {
+        if (event.key === "Escape") {
+            popupOverlay.style.display = "none";
+        }
+    });
 
-let visible = false; // Initially, the divs are hidden
+    const toggleButton = document.getElementById("toggleButtonDelete");
+    const deleteElements = document.querySelectorAll(".delete__element_");
 
-toggleButton.addEventListener("click", () => {
-    visible = !visible; // Toggle the visibility flag
+    let visible = false; // Initially, the divs are hidden
 
-    if (visible) {
-        // Show the small divs
-        deleteElements.forEach(element => {
-            element.style.display = "flex";
-        });
-    } else {
-        // Hide the small divs
-        deleteElements.forEach(element => {
-            element.style.display = "none";
-        });
-    }
-});
+    toggleButton.addEventListener("click", () => {
+        visible = !visible; // Toggle the visibility flag
+
+        if (visible) {
+            // Show the small divs
+            deleteElements.forEach(element => {
+                element.style.display = "flex";
+            });
+        } else {
+            // Hide the small divs
+            deleteElements.forEach(element => {
+                element.style.display = "none";
+            });
+        }
+    });
 </script>
