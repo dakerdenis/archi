@@ -32,14 +32,13 @@
     <div class="goods__page__wrapper">
 
         <div class="goods__page__filtr">
-            <!---//!---FILTR---->
+             <!---//!---FILTR---->
             <!---//!---FILTR---->
             <!---//!---FILTR---->
             <div class="main__filter__container">
                 <div class="main__filter__name">
                     <p>Фильтр</p>
                 </div>
-
                 <div class="main__filter__description">
                     <p>Подкатегория</p>
                 </div>
@@ -109,7 +108,6 @@
             <!---//!---FILTR---->
             <!---//!---FILTR---->
             <!---//!---FILTR---->
-
 
         </div>
 
