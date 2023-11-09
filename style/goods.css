@@ -381,9 +381,18 @@ input[type="number"]::-webkit-outer-spin-button:hover {
 
 
 
-
-
+.b2b__ownwers__mobile_filter{
+    display: none;
+    visibility: hidden;
+}
+.b2b__owners__goods__add_delete{
+    display: flex;
+}
 @media only screen and (max-width: 768px) {
+    .b2b__ownwers__mobile_filter{
+        display: block;
+        visibility: visible;
+    }
     .goods__page__content__wrapper_ {
         width: 310px;
         margin: 0 auto;
@@ -578,5 +587,20 @@ input[type="number"]::-webkit-outer-spin-button:hover {
 background: #C4C4C4;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     }
-
+    .b2b__owners__goods__add_delete__filtr{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .b2b__ownwers__mobile_filter button{
+        width: 25px;
+height: 23px;
+flex-shrink: 0;
+border-radius: 5px;
+background: rgba(217, 217, 217, 0.23);
+    }
+    .b2b__owners__goods__add_delete{
+        display: flex;
+    }
 }
