@@ -322,4 +322,7 @@
     .search__element__desc__location div:nth-child(1){
         margin-right: 10px;
     }
+    .main__search__wrapper{
+        margin-top: 15px;
+    }
 }

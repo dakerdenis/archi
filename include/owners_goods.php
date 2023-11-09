@@ -363,6 +363,7 @@
 
 
 <script>
+    
     const openPopupButtons = document.querySelectorAll(".openPopup");
     const popupOverlay = document.getElementById("popupOverlay");
     const closePopupButton = document.getElementById("closePopup");
