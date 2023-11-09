@@ -1,0 +1,27 @@
+.owners__goods__delete__add{
+    display: flex;
+}
+
+.goods__owner__addgoods__mobile__filter{
+    display: none;
+    visibility: hidden;
+}
+.goods__owner__addgoods__mobile__filter button{
+    width: 25px;
+height: 23px;
+flex-shrink: 0;
+border-radius: 5px;
+background: rgba(217, 217, 217, 0.23);
+}
+
+
+@media only screen and (max-width: 768px) {
+    .goods__owner__addgoods{
+        display: flex;
+        justify-content: space-between;
+    }
+    .goods__owner__addgoods__mobile__filter{
+        display: block;
+        visibility: visible;
+    }
+}

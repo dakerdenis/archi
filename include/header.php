@@ -66,18 +66,18 @@
                 </div>
 
                 <div class="burger__menu__content" id="burger-menu-content">
-                <?php
-                if (isset($_GET['login'])) {
-                    if ($_GET['login'] == 'yes') {
-                        include './include/burger_mobile__loggedin.php';
+                    <?php
+                    if (isset($_GET['login'])) {
+                        if ($_GET['login'] == 'yes') {
+                            include './include/burger_mobile__loggedin.php';
+                        } else {
+                            include './include/burger_mobile.php';
+                        }
                     } else {
                         include './include/burger_mobile.php';
                     }
-                } else {
-                    include './include/burger_mobile.php';
-                }
 
-                ?>
+                    ?>
 
 
 

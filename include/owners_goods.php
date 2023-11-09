@@ -1,6 +1,6 @@
 <style>
     <?php include './style/goods.css' ?>
-    html {}
+    <?php include './style/owners_goods_archi.css' ?>
 </style>
 <div class="goods__page__categories goods__page__categories_owner">
     <div class="goods__page__categories_owner__block">
@@ -22,17 +22,102 @@
 
 <div class="goods__page__container">
     <div class="goods__owner__addgoods">
-        <a href="./index.php?page=new_item">
-            <img src="./imgs/plus_1.jpg" alt="">
-        </a>
-        <button id="toggleButtonDelete">
-            <img src="./imgs/delete.png" alt="">
-        </button>
+        <div class="goods__owner__addgoods__mobile__filter">
+            <button id="openPopupFilterButton">
+                <img src="./imgs/filtr_logo.png" alt="">
+            </button>
+        </div>
+        <div class="owners__goods__delete__add">
+            <a href="./index.php?page=new_item">
+                <img src="./imgs/plus_1.jpg" alt="">
+            </a>
+            <button id="toggleButtonDelete">
+                <img src="./imgs/delete.png" alt="">
+            </button>
+        </div>
     </div>
+    <div id="popup_filter" class="popup_filter">
+            <div class="popup_filter-content">
+                <span class="close_filter" id="closePopupFilterButton">×</span>
+                <div class="popup__filter__container">
+                    <div class="main__filter__container">
+                        <div class="main__filter__name">
+                            <p>Фильтр</p>
+                        </div>
+
+                        <div class="main__filter__description">
+                            <p>Подкатегория</p>
+                        </div>
+                        <div class="additional__container">
+                            <div class="additional__container__block">
+                                <div class="custom-select" id="category-select">
+                                    <div class="select-box">
+                                        <span class="selected-option">Select a category</span>
+                                        <div class="arrow" style="transform: rotate(0deg);">▼</div>
+                                    </div>
+                                    <ul class="options" style="display: none;">
+                                        <li class="option" data-value="cars">Cars</li>
+                                        <li class="option" data-value="planes">Planes</li>
+                                        <li class="option" data-value="boats">Boats</li>
+                                    </ul>
+                                </div>
+
+                                <div class="custom-select" id="subcategory-select" style="display: none;">
+                                    <div class="select-box">
+                                        <span class="selected-option">Select a subcategory</span>
+                                        <div class="arrow" style="transform: rotate(0deg);">▼</div>
+                                    </div>
+                                    <ul class="options" style="display: none;">
+                                        <!-- Subcategory options will be added dynamically based on the selected category -->
+                                    </ul>
+                                </div>
+                                <div class="custom-select-container" id="custom-select-container" style="display: none;">
+                                    <div class="custom__select__additionalname">
+                                        <p>Свойства</p>
+                                    </div>
+
+                                    <div class="custom-select ">
+                                        <p class="custom_select_name"> Страна производитель</p>
+                                        <div class="select-box">
+                                            <span class="selected-option">Option 1</span>
+                                            <div class="arrow">▼</div>
+                                        </div>
+                                        <ul class="options">
+                                            <li class="option">Option 1.1</li>
+                                            <li class="option">Option 1.2</li>
+                                            <li class="option">Option 1.3</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="custom-select">
+                                        <p class="custom_select_name">Класс</p>
+                                        <div class="select-box">
+                                            <span class="selected-option">Option 2</span>
+                                            <div class="arrow">▼</div>
+                                        </div>
+                                        <ul class="options">
+                                            <li class="option">Option 2.1</li>
+                                            <li class="option">Option 2.2</li>
+                                            <li class="option">Option 2.3</li>
+                                        </ul>
+                                    </div>
+                                    <!-- Add more custom-select elements as needed -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__filter__search">
+                            <button>
+                                <p>Применить</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     <div class="goods__page__wrapper">
 
         <div class="goods__page__filtr">
-             <!---//!---FILTR---->
+            <!---//!---FILTR---->
             <!---//!---FILTR---->
             <!---//!---FILTR---->
             <div class="main__filter__container">
@@ -447,5 +532,26 @@
 
         return subcategories[category] || [];
     }
+
+    var openPopupFilterButton = document.getElementById("openPopupFilterButton");
+    var closePopupFilterButton = document.getElementById("closePopupFilterButton");
+    var popup_filter = document.getElementById("popup_filter");
+
+    openPopupFilterButton.addEventListener("click", function() {
+        popup_filter.style.display = "block";
+    });
+
+    closePopupFilterButton.addEventListener("click", function() {
+        popup_filter.style.display = "none";
+    });
+
+    window.addEventListener("click", function(event) {
+        if (event.target == popup_filter) {
+            popup_filter.style.display = "none";
+        }
+    });
+
+
+
 
 </script>

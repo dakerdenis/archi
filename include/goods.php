@@ -456,46 +456,6 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 <script>
-    function toggleOptions() {
-        const options = document.getElementById("dropdownOptions3");
-        const arrow = document.querySelector('.dropdown-arrow3');
-        if (options.style.display === "block") {
-            options.style.display = "none";
-            arrow.style.transform = 'rotate(0deg)';
-        } else {
-            options.style.display = "block";
-            arrow.style.transform = 'rotate(180deg)';
-        }
-    }
-
-    function toggleSelectedOption(checkbox) {
-        const selectedOptions = document.getElementById("selectedOptions3");
-        if (checkbox.checked) {
-            const option = document.createElement("div");
-            option.className = "selected-option3";
-            option.textContent = checkbox.value;
-            selectedOptions.appendChild(option);
-        } else {
-            const options = selectedOptions.getElementsByClassName("selected-option3");
-            for (let i = 0; i < options.length; i++) {
-                if (options[i].textContent === checkbox.value) {
-                    selectedOptions.removeChild(options[i]);
-                    break;
-                }
-            }
-        }
-    }
-
-    // Close the dropdown when clicking anywhere else on the page
-    document.addEventListener('click', function(event) {
-        const dropdown = document.querySelector('.dropdown3');
-        if (!dropdown.contains(event.target)) {
-            document.getElementById("dropdownOptions3").style.display = "none";
-            document.querySelector('.dropdown-arrow3').style.transform = 'rotate(0deg)';
-        }
-    });
-
-
 
 
 

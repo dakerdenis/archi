@@ -43,28 +43,4 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-// Function to update image and link based on screen resolution
-function updateImageAndLink() {
-    const screenWidth = window.innerWidth; // Get the current screen width
-
-    const b2b__header_image = document.getElementById('b2b__header_image');
-    const b2b__header_link = document.getElementById('b2b__header_link');
-
-    if (screenWidth < 768) {
-        // Update the image source and link href for smaller screens
-        b2b__header_image.src = './imgs/logo.png'; // New image source
-        b2b__header_link.href = './index.php'; // New link href
-    } else {
-        // Revert to the original image and link for larger screens
-        b2b__header_image.src = './imgs/B2B.svg'; // Original image source
-        b2b__header_link.href = './b2b.php'; // Original link href
-    }
-}
-
-// Call the update function when the page loads and when the window is resized
-window.addEventListener('load', updateImageAndLink);
-window.addEventListener('resize', updateImageAndLink);
-
-
-/****************************************************/
-
+    
