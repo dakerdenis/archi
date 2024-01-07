@@ -249,6 +249,12 @@
             <br>
             
             <a style="color: red; margin-bottom: 10px;" href="./b2b.php?page=owners__goods">B2B - Owner's goods</a>
+
+
+            <br>
+            
+            <a style="color: red; margin-bottom: 10px;" href="./index.php?page=404">404</a>
+            
             
              </div>
 

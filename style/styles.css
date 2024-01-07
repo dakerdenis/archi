@@ -600,11 +600,13 @@ h6 {
   margin-top: 30px;
   margin-bottom: 11px;
 }
-.main__filter__search{
+
+.main__filter__search {
   margin-top: 30px;
   width: 188px;
   text-align: right;
 }
+
 .main__filter__search button {
   width: 113px;
   height: 20px;
@@ -623,15 +625,17 @@ h6 {
 }
 
 
-.additional__container{
-    width: 100%;
-    min-height: 50px;
+.additional__container {
+  width: 100%;
+  min-height: 50px;
 
 }
-.additional__container__block{
+
+.additional__container__block {
   width: 100%;
   height: 100%;
 }
+
 /***? ***********Стили выпадающих списков******************/
 .custom-select {
   width: 188px;
@@ -656,10 +660,12 @@ h6 {
   z-index: 100;
   padding-left: 10px;
 }
-.selected-option{
+
+.selected-option {
   width: 100%;
-  
+
 }
+
 .arrow {
   margin-left: auto;
   transition: transform 0.2s;
@@ -691,46 +697,52 @@ h6 {
   padding-left: 10px;
   height: 34px;
 }
-.option:first-child{
+
+.option:first-child {
   border-radius: 5px 5px 0px 0px;
 }
-.option:last-child{
+
+.option:last-child {
   border-radius: 0px 0px 10px 10px;
 }
 
 .option:hover {
   background-color: #c7c7c7;
 }
-.custom-select-container{
+
+.custom-select-container {
   margin-top: 30px;
 }
-.custom__select__additionalname{
+
+.custom__select__additionalname {
   color: #000;
-font-family: Gilroy;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 
 }
-.custom_select_name{
+
+.custom_select_name {
   margin-top: 21px;
   color: #000;
-font-family: Gilroy;
-font-size: 12px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-bottom: 4px;
-padding-left: 10px;
+  font-family: Gilroy;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 4px;
+  padding-left: 10px;
 }
 
 
 /****? ******FILTR STYLES MOBILE***********/
-.main__filtr__mobile{
+.main__filtr__mobile {
   display: none;
   visibility: hidden;
 }
+
 .popup_filter {
   display: none;
   position: fixed;
@@ -749,16 +761,18 @@ padding-left: 10px;
   height: 80vh;
 
   border-radius: 5px;
-background: #FFF;
-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  background: #FFF;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
 }
-.popup__filter__container{
+
+.popup__filter__container {
   width: 260px;
   height: auto;
   background-color: red;
   margin-left: 45px;
   margin-top: 41px;
 }
+
 .close_filter {
   position: absolute;
   top: 10px;
@@ -766,6 +780,7 @@ box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
   font-size: 24px;
   cursor: pointer;
 }
+
 .swiper {
   width: 100%;
   height: 100%;
@@ -786,14 +801,89 @@ box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
   height: 100%;
   object-fit: cover;
 }
+
 /**! *****FILTR STYLES FOR ALL PAGES*************/
 /**! *****FILTR STYLES FOR ALL PAGES*************/
 /**! *****FILTR STYLES FOR ALL PAGES*************/
+
+
+
+
+
+
+/***********404 page**************/
+.main__404__wrapper_ {
+  width: 100%;
+  height: 100vh;
+
+  background-image: url('../imgs/404.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main__404__wrapper__container {
+  width: 450px;
+  margin: 0 auto;
+
+  margin-top: 240px;
+
+  text-align: center;
+}
+
+.__404__name {
+  font-size: 250px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+
+  color: #000;
+
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.__404__name__desc p:nth-child(1) {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.__404__name__desc p:nth-child(2) {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+
 
 /************************************/
 @media only screen and (max-width: 768px) {
 
+  .main__404__wrapper_ {
+    height: 90vh;
+  }
+.__404__name{
+  font-size: 100px;
+}
+.__404__name__desc p:nth-child(1) {
+  font-size: 16px;
+}
 
+.__404__name__desc p:nth-child(2) {
+  font-size: 11px;
+}
+.main__404__wrapper__container{
+  width: 220px;
+}
+  
   html {
     overflow: hidden;
   }
@@ -1084,15 +1174,17 @@ box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
     color: #000;
     overflow: visible;
   }
+
   /**! *****FILTR STYLES FOR ALL PAGES*************/
-/**! *****FILTR STYLES FOR ALL PAGES*************/
-/**! *****FILTR STYLES FOR ALL PAGES*************/
-/**! *****FILTR STYLES FOR ALL PAGES*************/
-  .main__filtr__mobile{
+  /**! *****FILTR STYLES FOR ALL PAGES*************/
+  /**! *****FILTR STYLES FOR ALL PAGES*************/
+  /**! *****FILTR STYLES FOR ALL PAGES*************/
+  .main__filtr__mobile {
     display: block;
     visibility: visible;
   }
-  .main__filtr__mobile__wrapper{
+
+  .main__filtr__mobile__wrapper {
     width: 100%;
     height: 22px;
     display: flex;
@@ -1100,6 +1192,7 @@ box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
     align-items: center;
 
   }
+
   .main__filtr__mobile__wrapper button {
     height: 25px;
     width: 25px;
@@ -1108,15 +1201,17 @@ box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
     justify-content: center;
 
     border-radius: 5px;
-background: rgba(217, 217, 217, 0.23);
+    background: rgba(217, 217, 217, 0.23);
   }
+
   .main__filtr__mobile__wrapper button img {
     height: 16px;
     width: 16px;
   }
-.main__filtr__mobile__swiper{
-  width: 320px;
-}
+
+  .main__filtr__mobile__swiper {
+    width: 320px;
+  }
 
 
 
@@ -1125,28 +1220,29 @@ background: rgba(217, 217, 217, 0.23);
 
   .main__filtr__mobile__element {
     width: 95.876px;
-height: 22.906px;
-flex-shrink: 0;
-border-radius: 5px;
-background: rgba(217, 217, 217, 0.23);
-display: flex;
-align-items: center;
-justify-content: center;
+    height: 22.906px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: rgba(217, 217, 217, 0.23);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 
   }
+
   .main__filtr__mobile__element a p {
     color: #000;
-text-align: center;
-font-size: 8px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    text-align: center;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
   }
-  .burger__profile__imageandname{
-    
-  }
+
+  .burger__profile__imageandname {}
+
   /**! *****FILTR STYLES FOR ALL PAGES*************/
-/**! *****FILTR STYLES FOR ALL PAGES*************/
+  /**! *****FILTR STYLES FOR ALL PAGES*************/
 
 }

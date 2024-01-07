@@ -55,6 +55,10 @@
                 case "goods":
                     include './include/goods.php';
                     break;
+
+                    case "404":
+                        include './include/404.php';
+                        break;
                 case "item":
                     include './include/item.php';
                     break;
