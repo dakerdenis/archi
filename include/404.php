@@ -1,4 +1,9 @@
 <div class="main__404__wrapper_">
+
+    <div class="main__404__wrapper_placeholder">
+        <img src="./imgs/404.png" alt="">
+    </div>
+
     <div class="main__404__wrapper__container">
         <div class="__404__name">
             <p>404</p>

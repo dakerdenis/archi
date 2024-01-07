@@ -814,19 +814,36 @@ h6 {
 /***********404 page**************/
 .main__404__wrapper_ {
   width: 100%;
-  height: 100vh;
+  height: 90vh;
 
-  background-image: url('../imgs/404.png');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  position: relative;
+
+  display: flex;
+
+  justify-content: center;
+  overflow: hidden;
 }
 
+.main__404__wrapper_placeholder{
+  z-index: 300;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.main__404__wrapper_placeholder img{
+  width: 100%;
+  height: 100%;
+}
+
+
+
 .main__404__wrapper__container {
+  z-index: 400;
+  position: absolute;
   width: 450px;
   margin: 0 auto;
 
-  margin-top: 240px;
+  margin-top: 110px;
 
   text-align: center;
 }
@@ -882,6 +899,14 @@ h6 {
 }
 .main__404__wrapper__container{
   width: 220px;
+}
+
+.main__404__wrapper_placeholder{
+  left: -325px;
+}
+
+.main__404__wrapper_placeholder img{
+  width: initial;
 }
   
   html {
