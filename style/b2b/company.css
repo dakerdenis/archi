@@ -483,6 +483,16 @@ line-height: normal;
     display: none;
     visibility: hidden;
 }
+.certificate__swiper__wrapper{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.swiper-slide img {
+    max-width: 150px;
+    width: initial;
+}
 @media only screen and (max-width: 768px) {
     .b2b__company__page {
         width: 320px;
