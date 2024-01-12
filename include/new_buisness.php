@@ -35,6 +35,15 @@
                                 <li data-value="Oksenfurt">Oksenfurt</li>
                                 <li data-value="Redaniya North">Redaniya North</li>
                                 <li data-value="Ümlereich Süd">Ümlereich Süd</li>
+                                <li data-value="Oksenfurt">Oksenfurt</li>
+                                <li data-value="Redaniya North">Redaniya North</li>
+                                <li data-value="Ümlereich Süd">Ümlereich Süd</li>
+                                <li data-value="Oksenfurt">Oksenfurt</li>
+                                <li data-value="Redaniya North">Redaniya North</li>
+                                <li data-value="Ümlereich Süd">Ümlereich Süd</li>
+                                <li data-value="Oksenfurt">Oksenfurt</li>
+                                <li data-value="Redaniya North">Redaniya North</li>
+                                <li data-value="Ümlereich Süd">Ümlereich Süd</li>
                                 <!-- Add more cities as needed -->
                             </ul>
                         </div>
