@@ -33,6 +33,12 @@
     width: 183px;
     height: 183px;
     border-radius: 5px;
+    overflow: hidden;
+}
+.b2b__company__logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .b2b__company__social {
