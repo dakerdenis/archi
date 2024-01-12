@@ -488,6 +488,11 @@ line-height: normal;
     display: flex;
     align-items: center;
     flex-direction: column;
+    position: relative;
+}
+.swiper-slide p{
+    position: absolute;
+    bottom: -37px;
 }
 .swiper-slide img {
     max-width: 150px;
