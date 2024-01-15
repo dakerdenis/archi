@@ -76,7 +76,7 @@
                     <div class="item__date">
                         <p>Добавлено: 01.04.2023</p>
                     </div>
-                    <div class="item__number">
+                    <div id="showFullNumber" class="item__number">
                         <p id="phoneNumber"></p>
                     </div>
                     <div class="item__number__desc">
