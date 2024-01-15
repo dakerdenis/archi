@@ -117,18 +117,18 @@
                                   </div>
                                   <div class="company__desc__contact">
                                       <div class="company__desc__contactbutton">
-                                          <div class="company__desc__contact-button company__active">
+                                          <div id="show__contacts" class="company__desc__contact-button company__active">
                                               <a class="" href="#">
                                                   <p id="showedContacts">Контакты</p>
                                               </a>
-                                              <p id="show__contacts">Нажмите для отображения</p>
+                                              <p >Нажмите для отображения</p>
                                           </div>
 
-                                          <div class="company__desc__contact-person">
+                                          <div  id="show_representative" class="company__desc__contact-person">
                                               <a class="" href="#">
                                                   <p id="showedRepresentative">Представитель</p>
                                               </a>
-                                              <p id="show_representative">Нажмите для отображения</p>
+                                              <p>Нажмите для отображения</p>
                                           </div>
 
 
