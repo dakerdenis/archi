@@ -1,7 +1,8 @@
 <!-- Link Swiper's CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 <style>
-    <?php include './style/article.css' ?><?php include './style/new_article.css' ?>
+    <?php include './style/article.css' ?>
+    <?php include './style/new_article.css' ?>
 </style>
 
 
@@ -25,30 +26,76 @@
                             <div class="dropdown3">
                                 <div class="dropdown-select3" onclick="toggleOptions()">
                                     <p>Добавьте теги</p>
-                                    <span class="dropdown-arrow3">&#9660;</span>
+                                    <span class="dropdown-arrow3">
+                                        <img src="./imgs/arrow_new_article.svg" alt="">
+                                    </span>
                                 </div>
                                 <div class="dropdown-options3" id="dropdownOptions3">
+
                                     <div class="dropdown-option3">
-                                        <input type="checkbox" value="#Тег 1" onclick="toggleSelectedOption(this)"> #Тег 1
+                                        <label class="container">Стены
+                                            <input type="checkbox" value="#Тег сичси1" onclick="toggleSelectedOption(this)" >
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+
+
+
+                                    <div class="dropdown-option3">
+                                        <label class="container">Пол
+                                            <input type="checkbox" value="#Тег 1исч" onclick="toggleSelectedOption(this)" >
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                    
+                                    <div class="dropdown-option3">
+                                        <label class="container">Потолок
+                                            <input type="checkbox" value="#Тег 132" onclick="toggleSelectedOption(this)" ">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                    
+                                    <div class="dropdown-option3">
+                                        <label class="container">Веранда
+                                            <input type="checkbox" value="#Тег 1фыв" onclick="toggleSelectedOption(this)" >
+                                            <span class="checkmark"></span>
+                                        </label>
                                     </div>
                                     <div class="dropdown-option3">
-                                        <input type="checkbox" value="#Тег 2" onclick="toggleSelectedOption(this)"> #Тег 2
+                                        <label class="container">Крыша
+                                            <input type="checkbox" value="#Тег 1фы" onclick="toggleSelectedOption(this)" >
+                                            <span class="checkmark"></span>
+                                        </label>
                                     </div>
                                     <div class="dropdown-option3">
-                                        <input type="checkbox" value="#Тег 3" onclick="toggleSelectedOption(this)"> #Тег 3
+                                        <label class="container">Сантехника/Канализация
+                                            <input type="checkbox" value="#Тег кткт1" onclick="toggleSelectedOption(this)" >
+                                            <span class="checkmark"></span>
+                                        </label>
                                     </div>
                                     <div class="dropdown-option3">
-                                        <input type="checkbox" value="#Тег 3" onclick="toggleSelectedOption(this)"> #Тег 3
+                                        <label class="container">Двери/Окна
+                                            <input type="checkbox" value="#Тег кнте1" onclick="toggleSelectedOption(this)" >
+                                            <span class="checkmark"></span>
+                                        </label>
                                     </div>
+
                                     <div class="dropdown-option3">
-                                        <input type="checkbox" value="#Тег 3" onclick="toggleSelectedOption(this)"> #Тег 3
+                                        <label class="container">Двери/ФВфыв
+                                            <input type="checkbox" value="#Тег ФАФпт" onclick="toggleSelectedOption(this)" >
+                                            <span class="checkmark"></span>
+                                        </label>
                                     </div>
+
+
                                     <div class="dropdown-option3">
-                                        <input type="checkbox" value="#Тег 3" onclick="toggleSelectedOption(this)"> #Тег 3
+                                        <label class="container">иавиав/АФфФ
+                                            <input type="checkbox" value="#Тег ФАФпт" onclick="toggleSelectedOption(this)" >
+                                            <span class="checkmark"></span>
+                                        </label>
                                     </div>
-                                    <div class="dropdown-option3">
-                                        <input type="checkbox" value="#Тег 3" onclick="toggleSelectedOption(this)"> #Тег 3
-                                    </div>
+
+
                                     <!-- Add more options here -->
                                 </div>
                             </div>
@@ -184,7 +231,7 @@
     }
 
     // Close the dropdown when clicking anywhere else on the page
-    document.addEventListener('click', function(event) {
+    document.addEventListener('click', function (event) {
         const dropdown = document.querySelector('.dropdown3');
         if (!dropdown.contains(event.target)) {
             document.getElementById("dropdownOptions3").style.display = "none";
